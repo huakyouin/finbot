@@ -15,7 +15,7 @@ source activate $ENV_NAME
 # 安装 Python 包
 echo "Installing Python packages..."
 export PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
-pip install vllm modelscope hf_transfer
+pip install vllm modelscope hf_transfer matplotlib
 
 # 下载开源模型
 echo "Downloading models"
