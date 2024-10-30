@@ -3,24 +3,9 @@
 # 设置脚本为严格模式，遇到错误时立即退出, 打印错误信息
 set -ex
 
-# 定义环境名称和 Python 版本
-ENV_NAME="finbot"
-PYTHON_VERSION="3.10"
-
-# 创建并激活环境
-echo "Creating Conda environment '$ENV_NAME' with Python $PYTHON_VERSION..."
-conda create -n $ENV_NAME python=$PYTHON_VERSION notebook -y
-source activate $ENV_NAME
-
-# 安装 Python 包
-echo "Installing Python packages..."
-export PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
-pip install vllm modelscope hf_transfer matplotlib
-
 # 下载开源模型
 echo "Downloading models"
 mkdir -p models
-
 
 download_model() {
     local source="$1" 
@@ -48,6 +33,3 @@ download_model modelscope qolaris/FinBert FinBert
 ## huggingface容易下载慢/卡住, 可以清楚缓存再单独跑
 download_model hf ProsusAI/finbert FinBert
 download_model hf openbmb/MiniCPM3-4B MiniCPM3-4B
-
-
-echo "Setup complete!"
