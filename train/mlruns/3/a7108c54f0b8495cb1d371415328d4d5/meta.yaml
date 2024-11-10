@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/disk1/JXH/02_workspace/毕设_量化智能助手/train/mlruns/3/a7108c54f0b8495cb1d371415328d4d5/artifacts
+end_time: 1731233898133
+entry_point_name: ''
+experiment_id: '3'
+lifecycle_stage: active
+run_id: a7108c54f0b8495cb1d371415328d4d5
+run_name: mlflow_recorder
+run_uuid: a7108c54f0b8495cb1d371415328d4d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731233897791
+status: 4
+tags: []
+user_id: xinghua.jia

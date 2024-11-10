@@ -1,0 +1,106 @@
+diff --git "a/train/\350\202\241\344\273\267\351\242\204\346\265\213.ipynb" "b/train/\350\202\241\344\273\267\351\242\204\346\265\213.ipynb"
+index 2443519..0aa281b 100644
+--- "a/train/\350\202\241\344\273\267\351\242\204\346\265\213.ipynb"
++++ "b/train/\350\202\241\344\273\267\351\242\204\346\265\213.ipynb"
+@@ -1,5 +1,41 @@
+ {
+  "cells": [
++  {
++   "cell_type": "code",
++   "execution_count": 8,
++   "metadata": {},
++   "outputs": [],
++   "source": [
++    "import qlib\n",
++    "from qlib.data import D\n",
++    "# 初始化 Qlib 的数据存储\n",
++    "qlib.init(provider_uri = \"../data/raw/qlib_data/cn_data\")\n",
++    "fields = ['$open', '$high', '$low', '$close', '$volume', '$amount', '$vwap']\n",
++    "df = D.features(D.instruments(market='csi300'), fields, start_time='20160101', end_time='20201231', freq='day')\n",
++    "# 显示获取到的数据表\n",
++    "print(df)"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": 10,
++   "metadata": {},
++   "outputs": [],
++   "source": [
++    "D.features(instruments='csi300',fields='close')"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": 16,
++   "metadata": {},
++   "outputs": [],
++   "source": [
++    "fields = ['$close', '$volume', 'Ref($close, 1)', 'Mean($close, 3)', '$high-$low']\n",
++    "aa = .head()\n",
++    "print(aa)\n"
++   ]
++  },
+   {
+    "cell_type": "code",
+    "execution_count": 2,
+@@ -52,7 +88,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 12,
++   "execution_count": 15,
+    "metadata": {},
+    "outputs": [],
+    "source": [
+@@ -67,27 +103,18 @@
+     "feature_config = Alpha158.parse_config_to_fields(dict(price={\"windows\": [0],\"feature\": [\"OPEN\", \"HIGH\", \"LOW\", \"VWAP\"]},rolling={},kbar={}))\n",
+     "label_config = ([\"Ref($close, -1)/$close-1\"],['LABEL0']) \n",
+     "\n",
+-    "\n",
+     "## 加载数据\n",
+-    "# qlib.init(provider_uri = \"../data/raw/qlib_data/cn_data\")\n",
+-    "# dl = QlibDataLoader(config = {\"feature\":feature_config, \"label\":label_config})\n",
+-    "df = pd.read_csv('../data/cleaned/csi300_stock_feats.csv', index_col=[\"datetime\"])\n",
+-    "instruments = df.groupby(by='instrument')\n",
++    "qlib.init(provider_uri = \"../data/raw/qlib_data/cn_data\")\n",
++    "dl = QlibDataLoader(config = {\"feature\":feature_config, \"label\":label_config})\n",
++    "# df = pd.read_csv('../data/cleaned/csi300_stock_feats.csv', index_col=[\"datetime\"])\n",
++    "# instruments = df.groupby(by='instrument')\n",
+     "# for name, instrument in instruments:\n",
+     "#     print(name)\n",
+     "#     df2=compute_features(instrument, *feature_config)\n",
+-    "df = df.loc[df['instrument'] == 'SH600005']\n",
+-    "df2=compute_features(df, *feature_config)"
+-   ]
+-  },
+-  {
+-   "cell_type": "code",
+-   "execution_count": null,
+-   "metadata": {},
+-   "outputs": [],
+-   "source": [
+-    "df = compute_features(df, *label_config)\n",
+-    "dl = StaticDataLoader(config=df)\n",
++    "# df = df.loc[df['instrument'] == 'SH600005']\n",
++    "# df2=compute_features(df, *feature_config)\n",
++    "# df = compute_features(df, *label_config)\n",
++    "# dl = StaticDataLoader(config=df)\n",
+     "\n",
+     "## 创建数据处理器\n",
+     "dh = DataHandlerLP(\n",
+@@ -103,12 +130,11 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": null,
++   "execution_count": 19,
+    "metadata": {},
+    "outputs": [],
+    "source": [
+-    "test = instruments.get_group('SH600000')\n",
+-    "print(compute_features(test, *feature_config))"
++    "dh.fetch"
+    ]
+   },
+   {
