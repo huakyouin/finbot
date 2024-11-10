@@ -1,0 +1,6 @@
+artifact_location: file:///mnt/disk1/JXH/02_workspace/毕设_量化智能助手/train/mlruns/2
+creation_time: 1730275436996
+experiment_id: '2'
+last_update_time: 1730275436996
+lifecycle_stage: active
+name: backtest_analysis

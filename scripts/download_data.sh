@@ -3,9 +3,12 @@
 # 设置脚本为严格模式，遇到错误时立即退出, 打印错误信息
 set -ex
 
+ENV_NAME="finbot"
+
 echo "开启代理, 如果没有需手动下载"
 source /etc/profile.d/clash.sh
 proxy_on
+conda acitvate $ENV_NAME
 
 echo "股价数据"
 wget https://github.com/chenditc/investment_data/releases/download/2024-08-09/qlib_bin.tar.gz
@@ -21,3 +24,8 @@ cd ./data/raw/Dataset-of-financial-news-sentiment-classification
 wget https://github.com/wwwxmu/Dataset-of-financial-news-sentiment-classification/blob/master/train_data.csv
 wget https://github.com/wwwxmu/Dataset-of-financial-news-sentiment-classification/blob/master/test_data.csv
 cd -
+
+echo "金融新闻多任务数据集FinCUGE"
+export HF_ENDPOINT=https://hf-mirror.com
+export HF_HUB_ENABLE_HF_TRANSFER=1  # 激活huggingface-cli加速模块, 网络不好可关掉
+huggingface-cli download --resume-download --local-dir-use-symlinks False Maciel/FinCUGE-Instruction --local-dir ./data/raw/FinCUGE

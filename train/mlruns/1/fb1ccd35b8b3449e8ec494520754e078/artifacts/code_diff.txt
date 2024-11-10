@@ -1,0 +1,537 @@
+diff --git a/README.md b/README.md
+index 9815505..05c5c7f 100644
+--- a/README.md
++++ b/README.md
+@@ -2,15 +2,15 @@
+ 
+ 1. 运行 `setup_environment.sh` 以配置环境：
+    ```bash
+-   sh scripts/setup_environment.sh
++   source scripts/setup_environment.sh
+    ```
+ 
+ 2. 运行 `download_model.sh` 下载模型文件：
+     ```bash
+-    sh scripts/download_model.sh
++    source scripts/download_model.sh
+     ```
+     
+ 3. 运行 `download_data.sh` 下载数据文件：
+     ```bash
+-    sh scripts/download_data.sh
++    source scripts/download_data.sh
+     ```
+\ No newline at end of file
+diff --git a/scripts/download_data.sh b/scripts/download_data.sh
+index 53ea345..db92c3b 100644
+--- a/scripts/download_data.sh
++++ b/scripts/download_data.sh
+@@ -3,9 +3,12 @@
+ # 设置脚本为严格模式，遇到错误时立即退出, 打印错误信息
+ set -ex
+ 
++ENV_NAME="finbot"
++
+ echo "开启代理, 如果没有需手动下载"
+ source /etc/profile.d/clash.sh
+ proxy_on
++conda acitvate $ENV_NAME
+ 
+ echo "股价数据"
+ wget https://github.com/chenditc/investment_data/releases/download/2024-08-09/qlib_bin.tar.gz
+diff --git a/scripts/download_model.sh b/scripts/download_model.sh
+index e6264b1..bfdb736 100644
+--- a/scripts/download_model.sh
++++ b/scripts/download_model.sh
+@@ -3,9 +3,12 @@
+ # 设置脚本为严格模式，遇到错误时立即退出, 打印错误信息
+ set -ex
+ 
++ENV_NAME="finbot"
++
+ # 下载开源模型
+ echo "Downloading models"
+ mkdir -p models
++conda acitvate $ENV_NAME
+ 
+ download_model() {
+     local source="$1" 
+diff --git a/scripts/setup_environment.sh b/scripts/setup_environment.sh
+index ec30ec1..01c32f8 100644
+--- a/scripts/setup_environment.sh
++++ b/scripts/setup_environment.sh
+@@ -5,48 +5,16 @@ set -ex
+ 
+ # 定义环境名称和 Python 版本
+ ENV_NAME="finbot"
+-PYTHON_VERSION="3.10"
++PYTHON_VERSION="3.8"
+ 
+-# 创建并激活环境
++# 创建环境并激活
+ echo "Creating Conda environment '$ENV_NAME' with Python $PYTHON_VERSION..."
+ conda create -n $ENV_NAME python=$PYTHON_VERSION notebook -y
+-source activate $ENV_NAME
++conda activate $ENV_NAME
+ 
+-# 安装 Python 包
++# 在环境中安装 Python 包
+ echo "Installing Python packages..."
+ export PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
+-pip install vllm modelscope hf_transfer matplotlib
+-
+-# 下载开源模型
+-echo "Downloading models"
+-mkdir -p models
+-
+-download_model() {
+-    local source="$1" 
+-    local model_name="$2"
+-    local model_dir="$3"
+-    echo "Downloading $model_name from $source to ./models/$model_dir..."
+-    if [ "$source" = "modelscope" ]; then
+-        modelscope download --model "$model_name" --local_dir "./models/$model_dir"
+-    elif [ "$source" = "hf" ]; then
+-        export HF_ENDPOINT=https://hf-mirror.com
+-        export HF_HUB_ENABLE_HF_TRANSFER=1  # 激活huggingface-cli加速模块, 网络不好可关掉
+-        huggingface-cli download --resume-download --local-dir-use-symlinks False \
+-        "$model_name" --local-dir "./models/$model_dir"
+-    else
+-        echo "Error: Unsupported model source '$source'."
+-        echo " Please use 'modelscope' or 'hf'."
+-        return 1  # 返回非零值表示出错
+-    fi
+-}
+-
+-download_model modelscope BAAI/bge-large-zh-v1.5 bge-large-zh-v1.5
+-download_model modelscope Qwen/Qwen2.5-3B-Instruct Qwen2.5-3B-Instruct
+-download_model modelscope qolaris/FinBert FinBert
+-
+-## huggingface容易下载慢/卡住, 可以清楚缓存再单独跑
+-download_model hf ProsusAI/finbert FinBert
+-download_model hf openbmb/MiniCPM3-4B MiniCPM3-4B
+-
++pip install vllm modelscope hf_transfer matplotlib pyqlib  ## pyqlib在3.8下才能成功
+ 
+ echo "Setup complete!"
+diff --git "a/train/\346\203\205\346\204\237\346\217\220\345\217\226.ipynb" "b/train/\346\203\205\346\204\237\346\217\220\345\217\226.ipynb"
+index 3543c89..2abbf5c 100644
+--- "a/train/\346\203\205\346\204\237\346\217\220\345\217\226.ipynb"
++++ "b/train/\346\203\205\346\204\237\346\217\220\345\217\226.ipynb"
+@@ -2,7 +2,7 @@
+  "cells": [
+   {
+    "cell_type": "code",
+-   "execution_count": 1,
++   "execution_count": 11,
+    "metadata": {},
+    "outputs": [
+     {
+@@ -27,7 +27,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 5,
++   "execution_count": 12,
+    "metadata": {},
+    "outputs": [],
+    "source": [
+@@ -175,7 +175,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 7,
++   "execution_count": 13,
+    "metadata": {},
+    "outputs": [],
+    "source": [
+@@ -193,7 +193,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 10,
++   "execution_count": 14,
+    "metadata": {},
+    "outputs": [],
+    "source": [
+@@ -241,7 +241,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 9,
++   "execution_count": 15,
+    "metadata": {},
+    "outputs": [
+     {
+@@ -439,7 +439,7 @@
+    "name": "python",
+    "nbconvert_exporter": "python",
+    "pygments_lexer": "ipython3",
+-   "version": "3.10.15"
++   "version": "3.8.20"
+   }
+  },
+  "nbformat": 4,
+diff --git "a/train/\350\202\241\344\273\267\351\242\204\346\265\213.ipynb" "b/train/\350\202\241\344\273\267\351\242\204\346\265\213.ipynb"
+index 0afe809..8cc97c2 100644
+--- "a/train/\350\202\241\344\273\267\351\242\204\346\265\213.ipynb"
++++ "b/train/\350\202\241\344\273\267\351\242\204\346\265\213.ipynb"
+@@ -1,5 +1,348 @@
+ {
+- "cells": [],
++ "cells": [
++  {
++   "cell_type": "code",
++   "execution_count": null,
++   "metadata": {},
++   "outputs": [
++    {
++     "name": "stderr",
++     "output_type": "stream",
++     "text": [
++      "[2745242:MainThread](2024-10-30 07:37:54,750) INFO - qlib.Initialization - [config.py:416] - default_conf: client.\n",
++      "[2745242:MainThread](2024-10-30 07:37:55,119) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.\n",
++      "[2745242:MainThread](2024-10-30 07:37:55,121) INFO - qlib.Initialization - [__init__.py:76] - data_path={'__DEFAULT_FREQ': PosixPath('/mnt/disk1/JXH/02_workspace/毕设_量化智能助手/data/raw/qlib_data/cn_data')}\n"
++     ]
++    }
++   ],
++   "source": [
++    "import qlib\n",
++    "from qlib.workflow import R\n",
++    "qlib.init(provider_uri = \"../data/raw/qlib_data/cn_data\", region = \"cn\")\n",
++    "R.set_uri(None) ## 关闭qlib的实验管理记录"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": 2,
++   "metadata": {},
++   "outputs": [
++    {
++     "data": {
++      "text/html": [
++       "<div>\n",
++       "<style scoped>\n",
++       "    .dataframe tbody tr th:only-of-type {\n",
++       "        vertical-align: middle;\n",
++       "    }\n",
++       "\n",
++       "    .dataframe tbody tr th {\n",
++       "        vertical-align: top;\n",
++       "    }\n",
++       "\n",
++       "    .dataframe thead th {\n",
++       "        text-align: right;\n",
++       "    }\n",
++       "</style>\n",
++       "<table border=\"1\" class=\"dataframe\">\n",
++       "  <thead>\n",
++       "    <tr style=\"text-align: right;\">\n",
++       "      <th></th>\n",
++       "      <th></th>\n",
++       "      <th>$close</th>\n",
++       "      <th>$change</th>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>instrument</th>\n",
++       "      <th>datetime</th>\n",
++       "      <th></th>\n",
++       "      <th></th>\n",
++       "    </tr>\n",
++       "  </thead>\n",
++       "  <tbody>\n",
++       "    <tr>\n",
++       "      <th rowspan=\"10\" valign=\"top\">SH600000</th>\n",
++       "      <th>2005-04-08</th>\n",
++       "      <td>1.093284</td>\n",
++       "      <td>0.016216</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>2005-04-11</th>\n",
++       "      <td>1.088619</td>\n",
++       "      <td>-0.003989</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>2005-04-12</th>\n",
++       "      <td>1.072761</td>\n",
++       "      <td>-0.014686</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>2005-04-13</th>\n",
++       "      <td>1.086754</td>\n",
++       "      <td>0.013550</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>2005-04-14</th>\n",
++       "      <td>1.068097</td>\n",
++       "      <td>-0.017380</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>2005-04-15</th>\n",
++       "      <td>1.055037</td>\n",
++       "      <td>-0.012245</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>2005-04-18</th>\n",
++       "      <td>1.038246</td>\n",
++       "      <td>-0.016529</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>2005-04-19</th>\n",
++       "      <td>1.047575</td>\n",
++       "      <td>0.009804</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>2005-04-20</th>\n",
++       "      <td>1.004664</td>\n",
++       "      <td>-0.041609</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>2005-04-21</th>\n",
++       "      <td>1.005597</td>\n",
++       "      <td>0.001447</td>\n",
++       "    </tr>\n",
++       "  </tbody>\n",
++       "</table>\n",
++       "</div>"
++      ],
++      "text/plain": [
++       "                         $close   $change\n",
++       "instrument datetime                      \n",
++       "SH600000   2005-04-08  1.093284  0.016216\n",
++       "           2005-04-11  1.088619 -0.003989\n",
++       "           2005-04-12  1.072761 -0.014686\n",
++       "           2005-04-13  1.086754  0.013550\n",
++       "           2005-04-14  1.068097 -0.017380\n",
++       "           2005-04-15  1.055037 -0.012245\n",
++       "           2005-04-18  1.038246 -0.016529\n",
++       "           2005-04-19  1.047575  0.009804\n",
++       "           2005-04-20  1.004664 -0.041609\n",
++       "           2005-04-21  1.005597  0.001447"
++      ]
++     },
++     "execution_count": 2,
++     "metadata": {},
++     "output_type": "execute_result"
++    }
++   ],
++   "source": [
++    "from qlib.data import D\n",
++    "D.features(D.instruments(\"csi300\"),fields=['$close','$change']).head(10)"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": null,
++   "metadata": {},
++   "outputs": [
++    {
++     "name": "stderr",
++     "output_type": "stream",
++     "text": [
++      "[2745242:MainThread](2024-10-30 07:38:15,413) INFO - qlib.timer - [log.py:127] - Time cost: 15.155s | Loading data Done\n",
++      "[2745242:MainThread](2024-10-30 07:38:16,392) INFO - qlib.timer - [log.py:127] - Time cost: 0.296s | DropnaLabel Done\n",
++      "[2745242:MainThread](2024-10-30 07:38:21,852) INFO - qlib.timer - [log.py:127] - Time cost: 5.458s | CSZScoreNorm Done\n",
++      "[2745242:MainThread](2024-10-30 07:38:21,856) INFO - qlib.timer - [log.py:127] - Time cost: 6.441s | fit & process data Done\n",
++      "[2745242:MainThread](2024-10-30 07:38:21,858) INFO - qlib.timer - [log.py:127] - Time cost: 21.601s | Init data Done\n"
++     ]
++    }
++   ],
++   "source": [
++    "from qlib.contrib.data.handler import Alpha158\n",
++    "from qlib.data.dataset import DatasetH\n",
++    "# 配置数据集\n",
++    "data_handler_config = {\n",
++    "    \"start_time\": \"2008-01-01\",\n",
++    "    \"end_time\": \"2020-08-01\",\n",
++    "    \"fit_start_time\": \"2008-01-01\",\n",
++    "    \"fit_end_time\": \"2014-12-31\",\n",
++    "    \"instruments\": \"csi300\",\n",
++    "}\n",
++    "handler = Alpha158(**data_handler_config)\n",
++    "# 实例化数据集\n",
++    "dataset = DatasetH(\n",
++    "    handler=handler,\n",
++    "    segments={\n",
++    "        \"train\": (\"2008-01-01\", \"2014-12-31\"),\n",
++    "        \"valid\": (\"2015-01-01\", \"2016-12-31\"),\n",
++    "        \"test\": (\"2017-01-01\", \"2020-08-01\"),\n",
++    "    },\n",
++    ")"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": 4,
++   "metadata": {},
++   "outputs": [
++    {
++     "name": "stdout",
++     "output_type": "stream",
++     "text": [
++      "ModuleNotFoundError. CatBoostModel are skipped. (optional: maybe installing CatBoostModel can fix it.)\n",
++      "ModuleNotFoundError. XGBModel is skipped(optional: maybe installing xgboost can fix it).\n"
++     ]
++    },
++    {
++     "name": "stderr",
++     "output_type": "stream",
++     "text": [
++      "/mnt/disk1/JXH/01_apps/miniforge3/envs/finbot/lib/python3.8/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html\n",
++      "  from .autonotebook import tqdm as notebook_tqdm\n"
++     ]
++    }
++   ],
++   "source": [
++    "from qlib.contrib.model.gbdt import LGBModel\n",
++    "model = LGBModel(\n",
++    "    loss=\"mse\",\n",
++    "    colsample_bytree=0.8879,\n",
++    "    learning_rate=0.0421,\n",
++    "    subsample=0.8789,\n",
++    "    lambda_l1=205.6999,\n",
++    "    lambda_l2=580.9768,\n",
++    "    max_depth=8,\n",
++    "    num_leaves=210,\n",
++    "    num_threads=20,\n",
++    ")\n"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": null,
++   "metadata": {},
++   "outputs": [
++    {
++     "name": "stdout",
++     "output_type": "stream",
++     "text": [
++      "Training until validation scores don't improve for 50 rounds\n",
++      "[20]\ttrain's l2: 0.990381\tvalid's l2: 0.994272\n",
++      "[40]\ttrain's l2: 0.986526\tvalid's l2: 0.993659\n",
++      "[60]\ttrain's l2: 0.983906\tvalid's l2: 0.993279\n",
++      "[80]\ttrain's l2: 0.981749\tvalid's l2: 0.993145\n",
++      "[100]\ttrain's l2: 0.979705\tvalid's l2: 0.993059\n",
++      "[120]\ttrain's l2: 0.977879\tvalid's l2: 0.992961\n",
++      "[140]\ttrain's l2: 0.976231\tvalid's l2: 0.992916\n",
++      "[160]\ttrain's l2: 0.974658\tvalid's l2: 0.99289\n",
++      "[180]\ttrain's l2: 0.973062\tvalid's l2: 0.992851\n",
++      "[200]\ttrain's l2: 0.971588\tvalid's l2: 0.992862\n",
++      "[220]\ttrain's l2: 0.970134\tvalid's l2: 0.992935\n",
++      "Early stopping, best iteration is:\n",
++      "[173]\ttrain's l2: 0.973667\tvalid's l2: 0.992834\n"
++     ]
++    }
++   ],
++   "source": [
++    "# 训练模型\n",
++    "model.fit(dataset)"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": 9,
++   "metadata": {},
++   "outputs": [],
++   "source": [
++    "# 预测\n",
++    "pred_scores = model.predict(dataset=dataset)"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": null,
++   "metadata": {},
++   "outputs": [],
++   "source": [
++    "###################################\n",
++    "# prediction, backtest & analysis\n",
++    "###################################\n",
++    "from qlib.workflow.record_temp import SignalRecord, PortAnaRecord\n",
++    "port_analysis_config = {\n",
++    "    \"executor\": {\n",
++    "        \"class\": \"SimulatorExecutor\",\n",
++    "        \"module_path\": \"qlib.backtest.executor\",\n",
++    "        \"kwargs\": {\n",
++    "            \"time_per_step\": \"day\",\n",
++    "            \"generate_portfolio_metrics\": True,\n",
++    "        },\n",
++    "    },\n",
++    "    \"strategy\": {\n",
++    "        \"class\": \"TopkDropoutStrategy\",\n",
++    "        \"module_path\": \"qlib.contrib.strategy.signal_strategy\",\n",
++    "        \"kwargs\": {\n",
++    "            \"model\": model,\n",
++    "            \"dataset\": dataset,\n",
++    "            \"topk\": 50,\n",
++    "            \"n_drop\": 5,\n",
++    "        },\n",
++    "    },\n",
++    "    \"backtest\": {\n",
++    "        \"start_time\": \"2017-01-01\",\n",
++    "        \"end_time\": \"2020-08-01\",\n",
++    "        \"account\": 100000000,\n",
++    "        \"benchmark\": \"SH000300\",\n",
++    "        \"exchange_kwargs\": {\n",
++    "            \"freq\": \"day\",\n",
++    "            \"limit_threshold\": 0.095,\n",
++    "            \"deal_price\": \"close\",\n",
++    "            \"open_cost\": 0.0005,\n",
++    "            \"close_cost\": 0.0015,\n",
++    "            \"min_cost\": 5,\n",
++    "        },\n",
++    "    },\n",
++    "}\n",
++    "\n",
++    "# backtest and analysis\n",
++    "\n",
++    "# prediction\n",
++    "sr = SignalRecord(model, dataset)\n",
++    "sr.generate()\n",
++    "\n",
++    "# backtest & analysis\n",
++    "par = PortAnaRecord(recorder, port_analysis_config, \"day\")\n",
++    "par.generate()"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": null,
++   "metadata": {},
++   "outputs": [],
++   "source": [
++    "from qlib.contrib.report import analysis_position, analysis_model\n",
++    "\n",
++    "# 预测标签和实际标签的DataFrame\n",
++    "pred_label = pd.concat([dataset.handler.get_label(), pred_scores], axis=1)\n",
++    "pred_label.columns = ['label', 'score']\n",
++    "\n",
++    "# 位置分析报告\n",
++    "report_df = analysis_position.report_graph(pred_label)\n",
++    "\n",
++    "# 信息系数图\n",
++    "ic_df = analysis_position.score_ic_graph(pred_label)\n",
++    "\n",
++    "# 累积收益图\n",
++    "cumulative_return_df = analysis_position.cumulative_return_graph(pred_label)\n",
++    "\n",
++    "# 风险分析图\n",
++    "risk_df = analysis_position.risk_analysis_graph(pred_label)\n",
++    "\n",
++    "# 模型表现图\n",
++    "model_performance_df = analysis_model.model_performance_graph(pred_label)"
++   ]
++  }
++ ],
+  "metadata": {
+   "kernelspec": {
+    "display_name": "finbot",
+@@ -16,7 +359,7 @@
+    "name": "python",
+    "nbconvert_exporter": "python",
+    "pygments_lexer": "ipython3",
+-   "version": "3.10.15"
++   "version": "3.8.20"
+   }
+  },
+  "nbformat": 4,

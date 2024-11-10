@@ -1,0 +1,19 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../README.md
+	modified:   ../scripts/download_data.sh
+	modified:   ../scripts/download_model.sh
+	modified:   ../scripts/setup_environment.sh
+	modified:   "\346\203\205\346\204\237\346\217\220\345\217\226.ipynb"
+	modified:   "\350\202\241\344\273\267\351\242\204\346\265\213.ipynb"
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	mlruns/
+	workflow_by_code.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
