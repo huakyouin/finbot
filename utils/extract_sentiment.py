@@ -18,7 +18,7 @@ class BertBinaryClassifier(nn.Module):
         # 获取 BERT 的输出
         outputs = self.bert(input_ids=input_ids, attention_mask=attention_mask)
         # 使用 [CLS] token 的输出
-        cls_output = outputs.last_hidden_state[:, 0, :]  # (batch_size, hidden_size)
+        cls_output = outputs.last_hidden_state[:, 0, :]  # (batch_size, hidden_size[0], num_labels)
         # 通过分类头
         logits = self.classifier(cls_output)  # (batch_size, num_labels)
         return logits

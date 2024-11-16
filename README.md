@@ -10,7 +10,7 @@ conda activate $ENV_NAME
 
 echo "Installing Python packages..."
 export PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
-pip install vllm modelscope hf_transfer matplotlib catboost xgboost openpyxl polars_ta peft bitsandbytes jinjia2
+pip install vllm modelscope hf_transfer matplotlib catboost xgboost openpyxl polars_ta peft bitsandbytes jinjia2 FlagEmbedding
 
 ```
 
