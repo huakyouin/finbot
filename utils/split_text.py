@@ -21,8 +21,9 @@ class BaseSpliter():
     
     def split_text_to_sentences(self, text, split_chars="?!。！…？\n", buffer_size=1):
         """按分割符切割文本成句子，返回包含句子及位置信息的DataFrame。"""
+        if pd.isna(text): return pd.DataFrame(columns=['sentence',"start_idx","end_idx",'buffered_sentence']) ## 入参检查
         pattern = re.compile(
-            rf"[^{''.join(split_chars)}]+?((?<!\d)\.|\.(?!\d)|[{split_chars}]|$)"  # 跳过小数点+捕获字符串的结尾
+            rf"[^{''.join(split_chars)}]+?(\.(?!\d|\w)|[{split_chars}]|$|(?<=。)[\"”])"  # 跳过小数点+捕获字符串的结尾+捕获句号后的引号
         )
         matches = [
             {"sentence": match.group(0), "start_idx": match.start(), "end_idx": match.end()}
@@ -44,6 +45,7 @@ class DocSegModelSpliter(BaseSpliter):
     def __init__(self, model, tokenizer):
         self.model = model
         self.tokenizer = tokenizer
+        self.max_input_len = model.bert.embeddings.position_embeddings.num_embeddings
     
     def pred_word_in_text(self, text, word = '[EOS]'):
         inputs = self.tokenizer(text, return_tensors="pt", truncation=True, padding=True, max_length=512)
@@ -64,12 +66,19 @@ class DocSegModelSpliter(BaseSpliter):
         result = []
         
         while cut_idx < len(s):
-            text = ''.join(s.iloc[cut_idx:cut_idx+max_sent_num].tolist())
-            eos_pred = self.pred_word_in_text(text, word= '[EOS]')
-            first_cut_idx = next((idx for idx, pred in enumerate(eos_pred) if pred == 0 and idx > 0), len(eos_pred))
-            cut_idx += first_cut_idx
+            est_len = sentence_df.iloc[cut_idx:cut_idx+max_sent_num]['end_idx'] - sentence_df.iloc[cut_idx]['start_idx']
+            i = len(est_len[est_len < self.max_input_len])
+
+            if i==0 or i==1:  ## 只有一句，不用再切了
+                cut_idx += 1
+            else:
+                ss = "".join(s.iloc[cut_idx:cut_idx+i])
+                eos_pred = self.pred_word_in_text(ss, word= '[EOS]')
+                first_cut_idx = next((idx for idx, pred in enumerate(eos_pred) if pred == 0 and idx > 0), len(eos_pred))
+                cut_idx += first_cut_idx
+
             result.append({
-                "sentence": ''.join(sentence_df['sentence'].iloc[cut_ids[-1]:cut_idx].tolist()),
+                "chunk": ''.join(sentence_df['sentence'].iloc[cut_ids[-1]:cut_idx].tolist()),
                 "start_idx": sentence_df.iloc[cut_ids[-1]]['start_idx'],
                 "end_idx": sentence_df.iloc[cut_idx-1]['end_idx']
             })
@@ -126,7 +135,7 @@ class CosineSimilaritySpliter(BaseSpliter):
             if cos_dist > threshold or i==len(cosine_distances)-1:
                 cut_idx = i+1  # dist(v1,v2)的v2索引
                 result.append({
-                    "sentence": ''.join(sentence_df['sentence'].iloc[cut_ids[-1]:cut_idx].tolist()),
+                    "chunk": ''.join(sentence_df['sentence'].iloc[cut_ids[-1]:cut_idx].tolist()),
                     "start_idx": sentence_df.iloc[cut_ids[-1]]['start_idx'],
                     "end_idx": sentence_df.iloc[cut_idx-1]['end_idx']
                 })

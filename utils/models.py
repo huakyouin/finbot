@@ -132,8 +132,8 @@ class LGBModel(BaseModel):
             colsample_bytree=0.8879,
             learning_rate=0.0421,
             subsample=0.8789,
-            lambda_l1=205.6999,
-            lambda_l2=580.9768, # 正则超重
+            lambda_l1=2,  # 205.6999
+            lambda_l2=5, # 正则超重 580.9768
             max_depth=8,
             num_leaves=210,
             num_threads=20,

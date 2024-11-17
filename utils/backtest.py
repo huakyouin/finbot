@@ -60,7 +60,7 @@ class MyStrategy(bt.Strategy):
         if flag:
             slope_period = sorted(slope_period, key=lambda x: x[1])
             slope_period = slope_period[::-1]
-            print(slope_period)
+            # print(slope_period)
             trade_codes = [x[0] for x in slope_period[:int(len(slope_period)*0.6)]]
         else:
             trade_codes = self.getdatanames()

@@ -21,7 +21,6 @@ def fast_linregress(x, y):
             return slope, intercept, r2, resd
 
 def build_alpha158(df: pl.DataFrame) -> pl.DataFrame:
-    print(df['instrument'][0])
     df = df.sort(by=['datetime'])
     df = df.with_columns([
         ((CLOSE - OPEN) / OPEN).alias('KMID'),
@@ -80,6 +79,11 @@ def build_alpha158(df: pl.DataFrame) -> pl.DataFrame:
             pl.Series(f'RSQR{i}', rsqr[:row_n]),
             pl.Series(f'RESI{i}', resi[:row_n]),
         ])
+    
+    return df
+
+def build_label(df: pl.DataFrame) -> pl.DataFrame:
+    df = df.sort(by=['datetime'])
     df = df.with_columns([
         (CLOSE.shift(-1) / CLOSE - 1).alias("LABEL0")
     ])
