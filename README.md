@@ -10,8 +10,9 @@ conda activate $ENV_NAME
 
 echo "Installing Python packages..."
 export PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
-pip install vllm modelscope hf_transfer matplotlib catboost xgboost openpyxl polars_ta peft bitsandbytes jinjia2 FlagEmbedding
-
+pip install vllm peft jinjia2 FlagEmbedding bitsandbytes
+pip install hf_transfer matplotlib catboost xgboost openpyxl polars_ta
+pip install modelscope addict simplejson simplejson sortedcontainers
 ```
 
 ### 数据来源
@@ -25,9 +26,10 @@ pip install vllm modelscope hf_transfer matplotlib catboost xgboost openpyxl pol
 ### 模型来源
 
 - modelscope
-    - [BAAI/bge-large-zh-v1.5]()
+    - [BAAI/bge-large-zh-v1.5](https://modelscope.cn/models/AI-ModelScope/bge-large-zh-v1.5)
     - [Qwen/Qwen2.5-3B-Instruct]()
     - [qolaris/FinBert]()
+    - [iic/nlp_bert_document-segmentation_chinese-base](https://modelscope.cn/models/iic/nlp_bert_document-segmentation_chinese-base/summary)
 终端下载指令：
 ```bash
 MODEL=

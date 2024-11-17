@@ -20,7 +20,7 @@ def fast_linregress(x, y):
             resd = np.sum(y - y_pred)
             return slope, intercept, r2, resd
 
-def func_ts_date(df: pl.DataFrame) -> pl.DataFrame:
+def build_alpha158(df: pl.DataFrame) -> pl.DataFrame:
     print(df['instrument'][0])
     df = df.sort(by=['datetime'])
     df = df.with_columns([

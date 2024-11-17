@@ -15,9 +15,9 @@ class BaseModel():
         return decorator
     
     @classmethod
-    def from_name(cls, model_name,):
-        subclass = cls._registry.get(model_name)
-        assert subclass, f"No subclass registered for '{model_name}"
+    def use_subclass(cls, name,):
+        subclass = cls._registry.get(name)
+        assert subclass, f"No subclass registered for '{name}"
         return subclass
 
     def train(self,):
