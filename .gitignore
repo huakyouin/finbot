@@ -1,2 +1,3 @@
-models/
-data/
+resources/open_models/
+resources/data/raw/
+resources/ckpts/
