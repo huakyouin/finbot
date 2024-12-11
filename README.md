@@ -29,7 +29,8 @@ pip install modelscope addict simplejson simplejson sortedcontainers
     - [BAAI/bge-large-zh-v1.5](https://modelscope.cn/models/AI-ModelScope/bge-large-zh-v1.5)
     - [Qwen/Qwen2.5-3B-Instruct]()
     - [qolaris/FinBert]()
-    - [iic/nlp_bert_document-segmentation_chinese-base](https://modelscope.cn/models/iic/nlp_bert_document-segmentation_chinese-base/summary)
+    - [iic/nlp_bert_document-segmentation_chinese-base](https://modelscope.cn/models/iic/nlp_bert_document-segmentation_chinese-base/summary)  
+
 终端下载指令：
 ```bash
 MODEL=
@@ -39,7 +40,8 @@ modelscope download --model $MODEL --local_dir $LOCAL_PATH
 
 - huggingface
     - [openbmb/MiniCPM3-4B]()
-    - [ProsusAI/finbert]()
+    - [ProsusAI/finbert]()  
+
 终端下载指令：
 ```bash
 MODEL=

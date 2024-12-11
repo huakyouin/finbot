@@ -20,8 +20,8 @@ class MyPandasData(bt.feeds.PandasData):
 class MyStrategy(bt.Strategy):
     '''
     根据过去20日的收盘价斜率来选择股票。
-    如果持仓少于2个股票，且预测值为正，则买入斜率最高的60%的股票，并设置止盈止损。
-    如果持仓超过2个股票，且预测值为负，则卖出股票。
+    如果持仓少于2个股票，且信号为正，则买入斜率最高的60%的股票，并设置止盈止损。
+    如果持仓超过2个股票，且信号为负，则卖出股票。
     '''
     params=(
             ('stopup', 0.22), 
@@ -35,6 +35,7 @@ class MyStrategy(bt.Strategy):
         # 初始化交易指令、买卖价格和手续费
         self.order = None
         self.buy_list = []
+        self.portfolio_values = []  # 用于记录组合净值
 
     def downcast(self, amount, lot):
         return abs(amount//lot*lot)
@@ -42,7 +43,8 @@ class MyStrategy(bt.Strategy):
 
     #策略核心，根据条件执行买卖交易指令（必选）
     def next(self):
-        # 记录收盘价
+        # 每个时间点记录当前组合价值
+        self.portfolio_values.append(self.broker.getvalue())
         if self.order: # 检查是否有指令等待执行, 
             return
         ### 计算股票池的动量（过去20日收盘价斜率）
@@ -55,9 +57,11 @@ class MyStrategy(bt.Strategy):
                 flag = True
                 slope = np.polyfit(range(len(closes_period)), closes_period, 1)[0]
             else:
-                slope = float('inf')
+                # 若数据不足，赋值为无效斜率
+                slope = -np.inf
             slope_period.append((code, slope))
         if flag:
+            slope_period = [x for x in slope_period if x[1] != -np.inf]
             slope_period = sorted(slope_period, key=lambda x: x[1])
             slope_period = slope_period[::-1]
             # print(slope_period)
