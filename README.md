@@ -12,7 +12,8 @@ echo "Installing Python packages..."
 export PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
 pip install vllm peft jinjia2 FlagEmbedding bitsandbytes
 pip install hf_transfer matplotlib catboost xgboost openpyxl polars_ta
-pip install modelscope addict simplejson simplejson sortedcontainers
+pip install modelscope addict simplejson sortedcontainers
+pip install segeval backtrader
 ```
 
 ### 数据来源

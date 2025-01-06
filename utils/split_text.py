@@ -19,9 +19,9 @@ class BaseSpliter():
         assert subclass, f"No subclass registered for '{name}"
         return subclass
     
-    def split_text_to_sentences(self, text, split_chars="?!。！…？\n", buffer_size=1):
+    def split_text_to_sentences(self, text, split_chars="?!。！…？\n"):
         """按分割符切割文本成句子，返回包含句子及位置信息的DataFrame。"""
-        if pd.isna(text): return pd.DataFrame(columns=['sentence',"start_idx","end_idx",'buffered_sentence']) ## 入参检查
+        if pd.isna(text): return pd.DataFrame(columns=['sentence',"start_idx","end_idx"]) ## 入参检查
         pattern = re.compile(
             rf"[^{''.join(split_chars)}]+?(\.(?!\d|\w)|[{split_chars}]|$|(?<=。)[\"”])"  # 跳过小数点+捕获字符串的结尾+捕获句号后的引号
         )
@@ -29,15 +29,17 @@ class BaseSpliter():
             {"sentence": match.group(0), "start_idx": match.start(), "end_idx": match.end()}
             for i, match in enumerate(pattern.finditer(text))
         ]
-        df = pd.DataFrame(matches)
-        ## 添加带缓冲句子列
-        df['buffered_sentence'] = df['sentence']
+        return pd.DataFrame(matches)
+    
+    def add_buffered_sentences(self, sentence_df, buffer_size=1):
+        "为句子DataFrame添加缓冲列，缓冲长度为buffer_size，新列名为buffered_sentence"
+        sentence_df['buffered_sentence'] = sentence_df['sentence']
         for i in range(1,buffer_size+1):
-            df['buffered_sentence'] = df['sentence'].shift(i).fillna('') + df['buffered_sentence']
-        return df
+            sentence_df['buffered_sentence'] = sentence_df['sentence'].shift(i).fillna('') + sentence_df['buffered_sentence']
+        return sentence_df
     
     
-    def split(text,):
+    def cluster(sentence_df,):
         raise NotImplementedError
     
 @BaseSpliter.register("doc_seg_model_spliter")    
@@ -47,7 +49,7 @@ class DocSegModelSpliter(BaseSpliter):
         self.tokenizer = tokenizer
         self.max_input_len = model.bert.embeddings.position_embeddings.num_embeddings
     
-    def pred_word_in_text(self, text, word = '[EOS]'):
+    def get_word_prediction(self, text, word = '[EOS]'):
         inputs = self.tokenizer(text, return_tensors="pt", truncation=True, padding=True, max_length=512)
         word_id = self.tokenizer.encode(word)[1]  # [[CLS] id,word id,[SEP] id]
         word_indices = [i for i, token_id in enumerate(inputs['input_ids'][0]) if token_id==word_id] 
@@ -57,8 +59,7 @@ class DocSegModelSpliter(BaseSpliter):
         return preds[0, word_indices]
         
 
-    def split(self, text, max_sent_num = 5):
-        sentence_df = self.split_text_to_sentences(text)
+    def cluster(self, sentence_df, max_sent_num = 5):
         s = sentence_df['sentence'] + '[EOS]'     # 加上分割标识
         
         cut_idx = 0
@@ -73,14 +74,15 @@ class DocSegModelSpliter(BaseSpliter):
                 cut_idx += 1
             else:
                 ss = "".join(s.iloc[cut_idx:cut_idx+i])
-                eos_pred = self.pred_word_in_text(ss, word= '[EOS]')
+                eos_pred = self.get_word_prediction(ss, word= '[EOS]')
                 first_cut_idx = next((idx for idx, pred in enumerate(eos_pred) if pred == 0 and idx > 0), len(eos_pred))
                 cut_idx += first_cut_idx
 
             result.append({
                 "chunk": ''.join(sentence_df['sentence'].iloc[cut_ids[-1]:cut_idx].tolist()),
                 "start_idx": sentence_df.iloc[cut_ids[-1]]['start_idx'],
-                "end_idx": sentence_df.iloc[cut_idx-1]['end_idx']
+                "end_idx": sentence_df.iloc[cut_idx-1]['end_idx'],
+                "sentence_count": cut_idx-cut_ids[-1]
             })
             cut_ids.append(cut_idx)
 
@@ -120,11 +122,10 @@ class CosineSimilaritySpliter(BaseSpliter):
             distances.append(distance)
         return distances
 
-    def split(self, text, breakpoint_percentile_threshold=80):
-        sentence_df = self.split_text_to_sentences(text)
+    def cluster(self, sentence_df, breakpoint_percentile_threshold=80):
+        sentence_df = self.add_buffered_sentences(sentence_df)
         text_vecs = self.vectorizer.encode(sentence_df['buffered_sentence'].tolist())
-        
-        cosine_distances = self.calculate_cosine_distances(text_vecs[:-1], text_vecs[1:])
+        cosine_distances = self.calculate_cosine_distances(text_vecs[:-1], text_vecs[1:]) + [1] # 末句终止
         threshold = np.percentile(cosine_distances, breakpoint_percentile_threshold) 
 
         cut_idx = 0
@@ -137,13 +138,13 @@ class CosineSimilaritySpliter(BaseSpliter):
                 result.append({
                     "chunk": ''.join(sentence_df['sentence'].iloc[cut_ids[-1]:cut_idx].tolist()),
                     "start_idx": sentence_df.iloc[cut_ids[-1]]['start_idx'],
-                    "end_idx": sentence_df.iloc[cut_idx-1]['end_idx']
+                    "end_idx": sentence_df.iloc[cut_idx-1]['end_idx'],
+                    "sentence_count": cut_idx-cut_ids[-1]
                 })
                 cut_ids.append(cut_idx)
+        
             
         return pd.DataFrame(result)
-
-
 
 
 
