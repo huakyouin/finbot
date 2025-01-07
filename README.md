@@ -52,6 +52,7 @@ huggingface-cli download --resume-download --local-dir-use-symlinks False $MODEL
 git clone --depth 1 https://github.com/hiyouga/LLaMA-Factory.git
 cd LLaMA-Factory
 pip install -e ".[torch,metrics]"
+pip install deepspeed=0.15.4 # 此处版本号重要! 高版本有坑
 llamafactory-cli version
 ```
 
@@ -78,8 +79,9 @@ llamafactory-cli version
 
 ```bash
 # 确保当前目录是 $project-root
-MODEL_SETTINGS="\
---model_name_or_path resources/open_models/Qwen2.5-3B-Instruct \
+MODEL_SETTINGS="--model_name_or_path resources/open_models/Qwen2.5-3B-Instruct"
+
+METHOD_SETTINGS="\
 --stage sft \
 --do_train \
 --finetuning_type lora \
@@ -87,6 +89,7 @@ MODEL_SETTINGS="\
 --lora_rank 16 \
 --lora_alpha 16 \
 --lora_dropout 0.05 \
+--deepspeed tools/deepspeed_z2.json \
 "
 
 DATA_SETTINGS="
@@ -94,12 +97,12 @@ DATA_SETTINGS="
 --dataset FinCUGE_FINNA_train \
 --template qwen \
 --cutoff_len 3072 \
---overwrite_cache \
---overwrite_output_dir \
 --preprocessing_num_workers 16 \
 "
 
 OUTPUT_SETTINGS="
+--overwrite_cache \
+--overwrite_output_dir \
 --output_dir resources/ckpts/qwen2.5-3B-Instruct/lora_adapter \
 --logging_steps 100 \
 --save_steps 100 \
@@ -126,7 +129,7 @@ EVAL_SETTINGS="\
 
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
 llamafactory-cli train \
-$MODEL_SETTINGS $DATA_SETTINGS $OUTPUT_SETTINGS $TRAIN_SETTINGS $EVAL_SETTINGS
+$MODEL_SETTINGS $METHOD_SETTINGS $DATA_SETTINGS $OUTPUT_SETTINGS $TRAIN_SETTINGS $EVAL_SETTINGS
 ```
 
 4. 合并权重
