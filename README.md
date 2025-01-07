@@ -78,75 +78,13 @@ llamafactory-cli version
 3. 终端通过以下命令启动训练
 
 ```bash
-# 确保当前目录是 $project-root
-MODEL_SETTINGS="--model_name_or_path resources/open_models/Qwen2.5-3B-Instruct"
-
-METHOD_SETTINGS="\
---stage sft \
---do_train \
---finetuning_type lora \
---lora_target all \
---lora_rank 16 \
---lora_alpha 16 \
---lora_dropout 0.05 \
---deepspeed tools/deepspeed_z2.json \
-"
-
-DATA_SETTINGS="
---dataset_dir tools/LLaMA-Factory/data \
---dataset FinCUGE_FINNA_train \
---template qwen \
---cutoff_len 3072 \
---preprocessing_num_workers 16 \
-"
-
-OUTPUT_SETTINGS="
---overwrite_cache \
---overwrite_output_dir \
---output_dir resources/ckpts/qwen2.5-3B-Instruct/lora_adapter \
---logging_steps 100 \
---save_steps 100 \
---plot_loss \
-"
-
-TRAIN_SETTINGS="\
---per_device_train_batch_size 1 \
---gradient_accumulation_steps 16 \
---learning_rate 1.0e-4 \
---num_train_epochs 0.1 \
---lr_scheduler_type cosine \
---warmup_ratio 0.1 \
---bf16 \
---ddp_timeout 180000000 \
-"
-
-EVAL_SETTINGS="\
---val_size 0.1 \
---per_device_eval_batch_size 1 \
---eval_strategy steps \
---eval_steps 500 \
-"
-
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
-llamafactory-cli train \
-$MODEL_SETTINGS $METHOD_SETTINGS $DATA_SETTINGS $OUTPUT_SETTINGS $TRAIN_SETTINGS $EVAL_SETTINGS
+# 确保当前目录是项目根目录
+source dev/sft_qwen2_5_3B_for_FINNA.sh
 ```
 
 4. 合并权重
 
 ```bash
-MODEL_SETTINGS="\
---model_name_or_path Qwen/Qwen2-7B-Instruct \
---adapter_name_or_path PATH-TO-LORA \
---template qwen \
---finetuning_type lora \
-"
-
-EXPORT_SETTINGS="\
---export_dir models/qwen2-7b-sft-lora-merged \
---export_size 2 \
---export_device cpu \
---export_legacy_format false \
-"
-llamafactory-cli export $MODEL_SETTINGS $EXPORT_SETTINGS
+# 确保当前目录是项目根目录
+source dev/merge_lora_adapter.sh
 ```
