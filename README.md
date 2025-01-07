@@ -74,7 +74,7 @@ llamafactory-cli version
   }
 ```
 
-3. 修改启动配置并运行
+3. 终端通过以下命令启动训练
 
 ```bash
 # 确保当前目录是 $project-root
@@ -127,4 +127,23 @@ EVAL_SETTINGS="\
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
 llamafactory-cli train \
 $MODEL_SETTINGS $DATA_SETTINGS $OUTPUT_SETTINGS $TRAIN_SETTINGS $EVAL_SETTINGS
+```
+
+4. 合并权重
+
+```bash
+MODEL_SETTINGS="\
+--model_name_or_path Qwen/Qwen2-7B-Instruct \
+--adapter_name_or_path PATH-TO-LORA \
+--template qwen \
+--finetuning_type lora \
+"
+
+EXPORT_SETTINGS="\
+--export_dir models/qwen2-7b-sft-lora-merged \
+--export_size 2 \
+--export_device cpu \
+--export_legacy_format false \
+"
+llamafactory-cli export $MODEL_SETTINGS $EXPORT_SETTINGS
 ```
