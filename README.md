@@ -10,10 +10,11 @@ conda activate $ENV_NAME
 
 echo "Installing Python packages..."
 export PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
-pip install vllm peft FlagEmbedding bitsandbytes
-pip install hf_transfer matplotlib catboost xgboost openpyxl polars_ta
-pip install modelscope addict simplejson sortedcontainers
-pip install segeval backtrader
+pip install \
+  vllm peft FlagEmbedding bitsandbytes \
+  catboost xgboost  polars_ta \
+  modelscope hf_transfer addict simplejson sortedcontainers openpyxl matplotlib \
+  segeval backtrader deepeval
 ```
 
 
@@ -23,7 +24,8 @@ pip install segeval backtrader
     - [BAAI/bge-large-zh-v1.5](https://modelscope.cn/models/AI-ModelScope/bge-large-zh-v1.5)
     - [Qwen/Qwen2.5-3B-Instruct](https://modelscope.cn/models/Qwen/Qwen2.5-3B-Instruct)
     - [qolaris/FinBert](https://modelscope.cn/models/qolaris/FinBert)
-    - [iic/nlp_bert_document-segmentation_chinese-base](https://modelscope.cn/models/iic/nlp_bert_document-segmentation_chinese-base/summary)  
+    - [iic/nlp_bert_document-segmentation_chinese-base](https://modelscope.cn/models/iic/nlp_bert_document-segmentation_chinese-base/summary) 
+    - [Qwen/Qwen2.5-14B-Instruct](https://modelscope.cn/models/Qwen/Qwen2.5-14B-Instruct)
 
 终端下载指令：
 ```bash
@@ -33,8 +35,8 @@ modelscope download --model $MODEL --local_dir $LOCAL_PATH
 ```
 
 - huggingface
-    - [openbmb/MiniCPM3-4B]()
-    - [ProsusAI/finbert]()  
+    - [openbmb/MiniCPM3-4B](https://huggingface.co/openbmb/MiniCPM3-4B)
+    - [ProsusAI/finbert](https://huggingface.co/ProsusAI/finbert)  
 
 终端下载指令：
 ```bash
