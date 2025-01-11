@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# 说明：此脚本假定在项目的根目录中运行
+# 说明：此脚本中相对路径是相对于终端工作目录而言的。
+# reference：https://github.com/QwenLM/Qwen2.5/blob/main/examples/llama-factory/finetune-zh.md
 
 MODEL_SETTINGS="--model_name_or_path resources/open_models/Qwen2.5-3B-Instruct"
 

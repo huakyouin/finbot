@@ -83,10 +83,3 @@ llamafactory-cli version
 # 确保当前目录是项目根目录
 source dev/sft_qwen2_5_3B_for_FINNA.sh
 ```
-
-4. 合并权重
-
-```bash
-# 确保当前目录是项目根目录
-source dev/merge_lora_adapter.sh
-```
