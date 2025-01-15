@@ -27,7 +27,7 @@ DATA_SETTINGS="\
 OUTPUT_SETTINGS="\
 --overwrite_cache \
 --overwrite_output_dir \
---output_dir resources/ckpts/qwen2.5-3B-Instruct/lora_adapter \
+--output_dir resources/ckpts/qwen2.5-3B-Instruct/lora_adapter_dsz3 \
 --logging_steps 100 \
 --save_steps 100 \
 --plot_loss \

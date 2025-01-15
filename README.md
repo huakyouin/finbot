@@ -14,8 +14,11 @@ pip install \
   vllm peft FlagEmbedding bitsandbytes \
   catboost xgboost  polars_ta \
   modelscope hf_transfer addict simplejson sortedcontainers openpyxl matplotlib \
-  segeval backtrader deepeval
+  segeval backtrader deepeval air-benchmark
 ```
+
+Note: 
+- air-benchmark: RAG相关评测库, 其依赖的pytrec-eval包的下载会走https, 需要保证github认证过
 
 
 ### 模型下载
@@ -26,11 +29,13 @@ pip install \
     - [qolaris/FinBert](https://modelscope.cn/models/qolaris/FinBert)
     - [iic/nlp_bert_document-segmentation_chinese-base](https://modelscope.cn/models/iic/nlp_bert_document-segmentation_chinese-base/summary) 
     - [Qwen/Qwen2.5-14B-Instruct](https://modelscope.cn/models/Qwen/Qwen2.5-14B-Instruct)
+    - [LLM-Research/Llama-3.2-3B-Instruct](https://modelscope.cn/models/LLM-Research/Llama-3.2-3B-Instruct)
 
 终端下载指令：
 ```bash
 MODEL=
 LOCAL_PATH=
+# 注意本地路径最后一级会直接作为模型文件夹
 modelscope download --model $MODEL --local_dir $LOCAL_PATH
 ```
 
@@ -42,10 +47,13 @@ modelscope download --model $MODEL --local_dir $LOCAL_PATH
 ```bash
 MODEL=
 LOCAL_PATH=
+# 注意本地路径最后一级会直接作为模型文件夹
 huggingface-cli download --resume-download --local-dir-use-symlinks False $MODEL --local-dir $LOCAL_PATH
 ```
 
 ### LLM微调(可选)
+
+这一部分主要根据[qwen2.5训练文档](https://github.com/QwenLM/Qwen2.5/blob/main/examples/llama-factory/finetune-zh.md)改写而来。
 
 1. 安装LLaMA-Factory
 
