@@ -4,17 +4,21 @@
 ENV_NAME="finbot"
 PYTHON_VERSION="3.10"
 
-echo "Creating Conda environment '$ENV_NAME' with Python $PYTHON_VERSION..."
+## 创建虚拟环境并激活
 conda create -n $ENV_NAME python=$PYTHON_VERSION notebook -y
 conda activate $ENV_NAME
 
-echo "Installing Python packages..."
+## 设置pip国内源
 export PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
+
+## 开发依赖
 pip install \
   vllm peft FlagEmbedding bitsandbytes \
-  catboost xgboost  polars_ta \
-  modelscope hf_transfer addict simplejson sortedcontainers openpyxl matplotlib \
-  segeval backtrader deepeval air-benchmark
+  catboost xgboost polars_ta \
+  modelscope hf_transfer addict simplejson sortedcontainers openpyxl matplotlib 
+
+## 评测依赖
+pip install segeval backtrader deepeval air-benchmark
 ```
 
 Note: 
