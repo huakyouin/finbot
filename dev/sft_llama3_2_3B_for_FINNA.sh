@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # 说明：此脚本中相对路径是相对于终端工作目录而言的。
-# reference：https://github.com/QwenLM/Qwen2.5/blob/main/examples/llama-factory/finetune-zh.md
+# ：https://github.com/QwenLM/Qwen2.5/blob/main/examples/llama-factory/finetune-zh.md
 
-MODEL_SETTINGS="--model_name_or_path /mnt/disk2/peiling.chen/model"
+MODEL_SETTINGS="--model_name_or_path resources/open_models/Llama-3.2-3B-Instruct"
 
 METHOD_SETTINGS="\
 --stage sft \
@@ -16,10 +16,12 @@ METHOD_SETTINGS="\
 --deepspeed tools/deepspeed_z2.json \
 "
 
+# 注意template参数,
+# https://github.com/hiyouga/LLaMA-Factory?tab=readme-ov-file#supported-models
 DATA_SETTINGS="\
 --dataset_dir tools/LLaMA-Factory/data \
 --dataset FinCUGE_FINNA_train \
---template qwen \
+--template llama3 \
 --cutoff_len 3072 \
 --preprocessing_num_workers 16 \
 "

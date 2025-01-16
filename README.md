@@ -18,11 +18,11 @@ pip install \
   modelscope hf_transfer addict simplejson sortedcontainers openpyxl matplotlib 
 
 ## 评测依赖
-pip install segeval backtrader deepeval air-benchmark
+pip install segeval backtrader deepeval air-benchmark mteb
 ```
 
 Note: 
-- air-benchmark: RAG相关评测库, 其依赖的pytrec-eval包的下载会走https, 需要保证github认证过
+- air-benchmark安装涉及到github clone, 报错的话请开代理 or 跳过.
 
 
 ### 模型下载
@@ -70,11 +70,63 @@ pip install deepspeed=0.15.4 # 此处版本号重要! 高版本有坑
 llamafactory-cli version
 ```
 
-2. 在`$LLaMA-Factory/data/dataset_info.json`中注册数据集
+2. 数据准备
+
+按照`alpaca`或`sharegpt`格式之一准备和注册数据集:
+
+- alpaca格式:
+
+  - 单条数据形式
+```json
+[
+  {
+    "instruction": "user instruction (required)",
+    "input": "user input (optional)",
+    "output": "model response (required)",
+    "system": "system prompt (optional)",
+    "history": [
+      ["user instruction in the first round (optional)", "model response in the first round (optional)"],
+      ["user instruction in the second round (optional)", "model response in the second round (optional)"]
+    ]
+  }
+]
+```
+  - 在`$LLaMA-Factory/data/dataset_info.json`中注册
 
 ```json
-"FinCUGE_FINNA_train": {
-      "file_name": "../../../resources/data/cleaned/FinCUGE_FINNA_train.jsonl",
+"dataset_name": {
+  "file_name": "path/to/dataset",
+  "columns": {
+    "prompt": "instruction",
+    "query": "input",
+    "response": "output",
+    "system": "system",
+    "history": "history"
+  }
+}
+```
+
+- sharegpt:
+
+  - 单条数据形式
+```json
+[
+  {
+    "messages": [
+      {"from": "user", "value": "user instruction"},
+      {"from": "assistant", "value": "model response"}
+    ],
+    "system": "system prompt (optional)",
+    "tools": "tool description (optional)"
+  }
+]
+```
+
+  - 在`$LLaMA-Factory/data/dataset_info.json`中添加
+
+```json
+"dataset_name": {
+      "file_name": "path/to/dataset",
       "formatting": "sharegpt",
       "columns": {
         "messages": "messages"
@@ -89,9 +141,16 @@ llamafactory-cli version
   }
 ```
 
-3. 终端通过以下命令启动训练
+
+1. 启动训练
+
+训练脚本存放为$project-root/dev/sft_*.sh的形式
+
+调整好其中的参数后从本项目根目录通过以下命令启动:
 
 ```bash
-# 确保当前目录是项目根目录
 source dev/sft_qwen2_5_3B_for_FINNA.sh
 ```
+
+Note: 注意DATA_SETTINGS中`template`参数与所选模型匹配,详见https://github.com/hiyouga/LLaMA-Factory?tab=readme-ov-file#supported-models
+
