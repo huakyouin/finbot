@@ -1,0 +1,154 @@
+2025-01-22 16:30:16,288 - minirag - INFO - Logger initialized for working directory: ./rag_ouputs
+2025-01-22 16:30:16,291 - minirag - INFO - Load KV llm_response_cache with 18 data
+2025-01-22 16:30:16,293 - minirag - INFO - Load KV full_docs with 7 data
+2025-01-22 16:30:16,294 - minirag - INFO - Load KV text_chunks with 7 data
+2025-01-22 16:30:16,298 - minirag - INFO - Loaded graph from ./rag_ouputs/graph_chunk_entity_relation.graphml with 32 nodes, 20 edges
+2025-01-22 16:30:16,327 - minirag - WARNING - All docs are already in the storage
+2025-01-22 16:30:16,329 - minirag - WARNING - All docs are already in the storage
+2025-01-22 16:30:16,330 - minirag - WARNING - All docs are already in the storage
+2025-01-22 16:30:16,332 - minirag - WARNING - All docs are already in the storage
+2025-01-22 16:30:16,333 - minirag - WARNING - All docs are already in the storage
+2025-01-22 16:30:16,334 - minirag - INFO - [New Docs] inserting 1 docs
+2025-01-22 16:30:17,347 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-01-22 16:30:17,349 - minirag - INFO - Inserting 1 vectors to chunks
+2025-01-22 16:30:17,390 - minirag - INFO - Writing graph with 32 nodes, 20 edges
+2025-01-22 16:36:24,069 - minirag - INFO - Logger initialized for working directory: ./rag_ouputs2
+2025-01-22 16:36:24,071 - minirag - INFO - Load KV llm_response_cache with 0 data
+2025-01-22 16:36:24,072 - minirag - INFO - Load KV full_docs with 0 data
+2025-01-22 16:36:24,073 - minirag - INFO - Load KV text_chunks with 0 data
+2025-01-22 16:36:24,089 - minirag - INFO - [New Docs] inserting 1 docs
+2025-01-22 16:36:24,092 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-01-22 16:36:24,093 - minirag - INFO - Inserting 1 vectors to chunks
+2025-01-22 16:40:16,782 - minirag - INFO - Logger initialized for working directory: ./rag_ouputs
+2025-01-22 16:40:16,785 - minirag - INFO - Load KV llm_response_cache with 18 data
+2025-01-22 16:40:16,787 - minirag - INFO - Load KV full_docs with 7 data
+2025-01-22 16:40:16,788 - minirag - INFO - Load KV text_chunks with 7 data
+2025-01-22 16:40:16,791 - minirag - INFO - Loaded graph from ./rag_ouputs/graph_chunk_entity_relation.graphml with 32 nodes, 20 edges
+2025-01-22 16:40:16,810 - minirag - INFO - [New Docs] inserting 1 docs
+2025-01-22 16:40:17,690 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-01-22 16:40:17,691 - minirag - INFO - Inserting 1 vectors to chunks
+2025-01-22 16:40:17,860 - minirag - INFO - [Entity Extraction]...
+2025-01-22 16:40:32,505 - minirag - WARNING - Didn't extract any relationships, maybe your LLM is not working
+2025-01-22 16:40:32,505 - minirag - WARNING - No new entities and relationships found
+2025-01-22 16:40:32,521 - minirag - INFO - Writing graph with 37 nodes, 20 edges
+2025-01-22 16:40:32,534 - minirag - INFO - [New Docs] inserting 1 docs
+2025-01-22 16:40:32,535 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-01-22 16:40:32,536 - minirag - INFO - Inserting 1 vectors to chunks
+2025-01-22 16:40:32,706 - minirag - INFO - [Entity Extraction]...
+2025-01-22 16:41:08,286 - minirag - INFO - Inserting 11 vectors to entities
+2025-01-22 16:41:08,766 - minirag - INFO - Inserting 11 vectors to entities_name
+2025-01-22 16:41:08,967 - minirag - INFO - Inserting 2 vectors to relationships
+2025-01-22 16:41:09,087 - minirag - INFO - Writing graph with 41 nodes, 22 edges
+2025-01-22 16:41:09,107 - minirag - INFO - [New Docs] inserting 1 docs
+2025-01-22 16:41:09,109 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-01-22 16:41:09,110 - minirag - INFO - Inserting 1 vectors to chunks
+2025-01-22 16:41:09,231 - minirag - INFO - [Entity Extraction]...
+2025-01-22 16:41:38,809 - minirag - INFO - Inserting 4 vectors to entities
+2025-01-22 16:41:38,989 - minirag - INFO - Inserting 4 vectors to entities_name
+2025-01-22 16:41:39,091 - minirag - INFO - Inserting 1 vectors to relationships
+2025-01-22 16:41:39,124 - minirag - INFO - Writing graph with 45 nodes, 22 edges
+2025-01-22 16:42:16,726 - minirag - INFO - Logger initialized for working directory: ./rag_ouputs
+2025-01-22 16:42:16,729 - minirag - INFO - Load KV llm_response_cache with 24 data
+2025-01-22 16:42:16,731 - minirag - INFO - Load KV full_docs with 8 data
+2025-01-22 16:42:16,733 - minirag - INFO - Load KV text_chunks with 8 data
+2025-01-22 16:42:16,736 - minirag - INFO - Loaded graph from ./rag_ouputs/graph_chunk_entity_relation.graphml with 45 nodes, 22 edges
+2025-01-22 16:42:16,751 - minirag - INFO - [New Docs] inserting 1 docs
+2025-01-22 16:42:16,752 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-01-22 16:42:16,753 - minirag - INFO - Inserting 1 vectors to chunks
+2025-01-22 16:42:16,902 - minirag - INFO - [Entity Extraction]...
+2025-01-22 16:42:16,945 - minirag - WARNING - Didn't extract any relationships, maybe your LLM is not working
+2025-01-22 16:42:16,947 - minirag - WARNING - No new entities and relationships found
+2025-01-22 16:42:16,967 - minirag - INFO - Writing graph with 45 nodes, 22 edges
+2025-01-22 16:42:16,980 - minirag - WARNING - All docs are already in the storage
+2025-01-22 16:42:16,988 - minirag - INFO - [New Docs] inserting 1 docs
+2025-01-22 16:42:16,989 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-01-22 16:42:16,991 - minirag - INFO - Inserting 1 vectors to chunks
+2025-01-22 16:42:17,126 - minirag - INFO - [Entity Extraction]...
+2025-01-22 16:42:17,176 - minirag - INFO - Inserting 4 vectors to entities
+2025-01-22 16:42:17,364 - minirag - INFO - Inserting 4 vectors to entities_name
+2025-01-22 16:42:17,512 - minirag - INFO - Inserting 1 vectors to relationships
+2025-01-22 16:42:17,559 - minirag - INFO - Writing graph with 45 nodes, 22 edges
+2025-01-22 16:42:28,029 - minirag - INFO - Logger initialized for working directory: ./rag_ouputs
+2025-01-22 16:42:28,031 - minirag - INFO - Load KV llm_response_cache with 24 data
+2025-01-22 16:42:28,033 - minirag - INFO - Load KV full_docs with 8 data
+2025-01-22 16:42:28,034 - minirag - INFO - Load KV text_chunks with 8 data
+2025-01-22 16:42:28,038 - minirag - INFO - Loaded graph from ./rag_ouputs/graph_chunk_entity_relation.graphml with 45 nodes, 22 edges
+2025-01-22 16:42:28,061 - minirag - INFO - [New Docs] inserting 1 docs
+2025-01-22 16:42:28,066 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-01-22 16:42:28,068 - minirag - INFO - Inserting 1 vectors to chunks
+2025-01-22 16:42:28,233 - minirag - INFO - [Entity Extraction]...
+2025-01-22 16:42:28,259 - minirag - WARNING - Didn't extract any relationships, maybe your LLM is not working
+2025-01-22 16:42:28,260 - minirag - WARNING - No new entities and relationships found
+2025-01-22 16:42:28,272 - minirag - INFO - Writing graph with 45 nodes, 22 edges
+2025-01-22 16:42:28,280 - minirag - WARNING - All docs are already in the storage
+2025-01-22 16:42:28,286 - minirag - INFO - [New Docs] inserting 1 docs
+2025-01-22 16:42:28,288 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-01-22 16:42:28,288 - minirag - INFO - Inserting 1 vectors to chunks
+2025-01-22 16:42:28,456 - minirag - INFO - [Entity Extraction]...
+2025-01-22 16:42:28,509 - minirag - INFO - Inserting 4 vectors to entities
+2025-01-22 16:42:28,702 - minirag - INFO - Inserting 4 vectors to entities_name
+2025-01-22 16:42:28,841 - minirag - INFO - Inserting 1 vectors to relationships
+2025-01-22 16:42:28,887 - minirag - INFO - Writing graph with 45 nodes, 22 edges
+2025-01-22 16:43:57,072 - minirag - INFO - Logger initialized for working directory: ./rag_ouputs
+2025-01-22 16:43:57,075 - minirag - INFO - Load KV llm_response_cache with 24 data
+2025-01-22 16:43:57,077 - minirag - INFO - Load KV full_docs with 8 data
+2025-01-22 16:43:57,078 - minirag - INFO - Load KV text_chunks with 8 data
+2025-01-22 16:43:57,082 - minirag - INFO - Loaded graph from ./rag_ouputs/graph_chunk_entity_relation.graphml with 45 nodes, 22 edges
+2025-01-22 16:43:57,108 - minirag - INFO - [New Docs] inserting 1 docs
+2025-01-22 16:43:57,110 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-01-22 16:43:57,111 - minirag - INFO - Inserting 1 vectors to chunks
+2025-01-22 16:43:57,271 - minirag - INFO - [Entity Extraction]...
+2025-01-22 16:43:57,314 - minirag - WARNING - Didn't extract any relationships, maybe your LLM is not working
+2025-01-22 16:43:57,316 - minirag - WARNING - No new entities and relationships found
+2025-01-22 16:43:57,330 - minirag - INFO - Writing graph with 45 nodes, 22 edges
+2025-01-22 16:43:57,341 - minirag - WARNING - All docs are already in the storage
+2025-01-22 16:43:57,347 - minirag - INFO - [New Docs] inserting 1 docs
+2025-01-22 16:43:57,349 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-01-22 16:43:57,349 - minirag - INFO - Inserting 1 vectors to chunks
+2025-01-22 16:43:57,464 - minirag - INFO - [Entity Extraction]...
+2025-01-22 16:43:57,496 - minirag - INFO - Inserting 4 vectors to entities
+2025-01-22 16:43:57,630 - minirag - INFO - Inserting 4 vectors to entities_name
+2025-01-22 16:43:57,741 - minirag - INFO - Inserting 1 vectors to relationships
+2025-01-22 16:43:57,778 - minirag - INFO - Writing graph with 45 nodes, 22 edges
+2025-01-22 16:45:13,291 - minirag - INFO - Logger initialized for working directory: ./rag_ouputs
+2025-01-22 16:45:13,295 - minirag - INFO - Load KV llm_response_cache with 24 data
+2025-01-22 16:45:13,297 - minirag - INFO - Load KV full_docs with 8 data
+2025-01-22 16:45:13,300 - minirag - INFO - Load KV text_chunks with 8 data
+2025-01-22 16:45:13,305 - minirag - INFO - Loaded graph from ./rag_ouputs/graph_chunk_entity_relation.graphml with 45 nodes, 22 edges
+2025-01-22 16:45:13,343 - minirag - INFO - [New Docs] inserting 1 docs
+2025-01-22 16:45:13,346 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-01-22 16:45:13,347 - minirag - INFO - Inserting 1 vectors to chunks
+2025-01-22 16:45:13,513 - minirag - INFO - [Entity Extraction]...
+2025-01-22 16:45:13,541 - minirag - WARNING - Didn't extract any relationships, maybe your LLM is not working
+2025-01-22 16:45:13,543 - minirag - WARNING - No new entities and relationships found
+2025-01-22 16:45:13,632 - minirag - INFO - Writing graph with 45 nodes, 22 edges
+2025-01-22 16:45:13,645 - minirag - WARNING - All docs are already in the storage
+2025-01-22 16:45:13,653 - minirag - INFO - [New Docs] inserting 1 docs
+2025-01-22 16:45:13,655 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-01-22 16:45:13,656 - minirag - INFO - Inserting 1 vectors to chunks
+2025-01-22 16:45:13,807 - minirag - INFO - [Entity Extraction]...
+2025-01-22 16:45:13,835 - minirag - INFO - Inserting 4 vectors to entities
+2025-01-22 16:45:13,974 - minirag - INFO - Inserting 4 vectors to entities_name
+2025-01-22 16:45:14,098 - minirag - INFO - Inserting 1 vectors to relationships
+2025-01-22 16:45:14,137 - minirag - INFO - Writing graph with 45 nodes, 22 edges
+2025-01-22 16:46:42,442 - minirag - INFO - Logger initialized for working directory: ./rag_ouputs
+2025-01-22 16:46:42,445 - minirag - INFO - Load KV llm_response_cache with 24 data
+2025-01-22 16:46:42,449 - minirag - INFO - Load KV full_docs with 8 data
+2025-01-22 16:46:42,451 - minirag - INFO - Load KV text_chunks with 8 data
+2025-01-22 16:46:42,456 - minirag - INFO - Loaded graph from ./rag_ouputs/graph_chunk_entity_relation.graphml with 45 nodes, 22 edges
+2025-01-22 16:46:42,489 - minirag - INFO - [New Docs] inserting 1 docs
+2025-01-22 16:46:42,492 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-01-22 16:46:42,492 - minirag - INFO - Inserting 1 vectors to chunks
+2025-01-22 16:46:42,692 - minirag - INFO - [Entity Extraction]...
+2025-01-22 16:46:42,717 - minirag - WARNING - Didn't extract any relationships, maybe your LLM is not working
+2025-01-22 16:46:42,718 - minirag - WARNING - No new entities and relationships found
+2025-01-22 16:46:42,729 - minirag - INFO - Writing graph with 45 nodes, 22 edges
+2025-01-22 16:46:42,737 - minirag - WARNING - All docs are already in the storage
+2025-01-22 16:46:42,742 - minirag - INFO - [New Docs] inserting 1 docs
+2025-01-22 16:46:42,744 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-01-22 16:46:42,745 - minirag - INFO - Inserting 1 vectors to chunks
+2025-01-22 16:46:42,895 - minirag - INFO - [Entity Extraction]...
+2025-01-22 16:46:42,942 - minirag - INFO - Inserting 4 vectors to entities
+2025-01-22 16:46:43,078 - minirag - INFO - Inserting 4 vectors to entities_name
+2025-01-22 16:46:43,173 - minirag - INFO - Inserting 1 vectors to relationships
+2025-01-22 16:46:43,206 - minirag - INFO - Writing graph with 45 nodes, 22 edges

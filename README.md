@@ -18,7 +18,13 @@ pip install \
   modelscope hf_transfer addict simplejson sortedcontainers openpyxl matplotlib 
 
 ## 评测依赖
-pip install segeval backtrader deepeval air-benchmark mteb
+pip install segeval backtrader deepeval 
+
+## rag框架依赖: minirag, 该库未来应该可以通过pip install minirag-hku直接安装
+cd tools
+git clone https://github.com/HKUDS/MiniRAG.git
+cd MiniRAG && pip install -e . && cd .. 
+cd ..
 ```
 
 Note: 
