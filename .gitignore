@@ -1,6 +1,5 @@
 # 忽略资源
-resources/*
-# 解锁资源下面的处理过数据
-!resources/data/
-!resources/data/cleaned/
-!resources/data/cleaned/**
+resources/open_models
+resources/ckpts
+resources/data/raw
+# 包含资源

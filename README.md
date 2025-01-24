@@ -66,6 +66,15 @@ LOCAL_PATH=
 huggingface-cli download --resume-download --local-dir-use-symlinks False $MODEL --local-dir $LOCAL_PATH
 ```
 
+
+### 数据源
+
+- [金融情绪提取](https://github.com/wwwxmu/Dataset-of-financial-news-sentiment-classification)
+- [股价预测--市场数据](https://github.com/chenditc/investment_data)
+- [股价预测--新闻数据(自爬)](https://www.eastmoney.com/)
+- [新闻摘要生成](https://huggingface.co/datasets/Maciel/FinCUGE-Instruction)
+- [文档主题分割](https://github.com/fjiangAI/CPTS)
+
 ### LLM微调
 
 这一部分主要根据[qwen2.5训练文档](https://github.com/QwenLM/Qwen2.5/blob/main/examples/llama-factory/finetune-zh.md)改写而来。
