@@ -1,3 +1,2 @@
-resources/
-dev/rag_outputs/
-!resources/data/cleaned/
+resources/*
+!resources/data/cleaned
