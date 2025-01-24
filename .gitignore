@@ -1,5 +1,3 @@
-# 忽略资源
-resources/open_models
-resources/ckpts
-resources/data/raw
-# 包含资源
+**/open_models
+**/ckpts
+**/raw
