@@ -39,17 +39,17 @@ cd ..
 ### 模型下载
 
 - modelscope
-    - [BAAI/bge-large-zh-v1.5](https://modelscope.cn/models/AI-ModelScope/bge-large-zh-v1.5)
+    - [AI-ModelScope/bge-large-zh-v1.5](https://modelscope.cn/models/AI-ModelScope/bge-large-zh-v1.5)
     - [Qwen/Qwen2.5-3B-Instruct](https://modelscope.cn/models/Qwen/Qwen2.5-3B-Instruct)
     - [qolaris/FinBert](https://modelscope.cn/models/qolaris/FinBert)
     - [iic/nlp_bert_document-segmentation_chinese-base](https://modelscope.cn/models/iic/nlp_bert_document-segmentation_chinese-base/summary) 
     - [Qwen/Qwen2.5-14B-Instruct](https://modelscope.cn/models/Qwen/Qwen2.5-14B-Instruct)
     - [LLM-Research/Llama-3.2-3B-Instruct](https://modelscope.cn/models/LLM-Research/Llama-3.2-3B-Instruct)
 
-终端下载指令：
+终端下载示例：
 ```bash
-MODEL=
-LOCAL_PATH=
+MODEL=Qwen/Qwen2.5-3B-Instruct
+LOCAL_PATH=resources/open_models/Qwen2.5-3B-Instruct
 # 注意本地路径最后一级会直接作为模型文件夹
 modelscope download --model $MODEL --local_dir $LOCAL_PATH
 ```
@@ -58,10 +58,10 @@ modelscope download --model $MODEL --local_dir $LOCAL_PATH
     - [openbmb/MiniCPM3-4B](https://huggingface.co/openbmb/MiniCPM3-4B)
     - [ProsusAI/finbert](https://huggingface.co/ProsusAI/finbert)  
 
-终端下载指令：
+终端下载示例：
 ```bash
-MODEL=
-LOCAL_PATH=
+MODEL=ProsusAI/finbert
+LOCAL_PATH=resources/open_models/ProsusAI-finbert
 # 注意本地路径最后一级会直接作为模型文件夹
 huggingface-cli download --resume-download --local-dir-use-symlinks False $MODEL --local-dir $LOCAL_PATH
 ```
