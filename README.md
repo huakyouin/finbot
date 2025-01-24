@@ -36,7 +36,6 @@ cd MiniRAG && pip install -e . && cd ..
 cd ..
 ```
 
-
 ### 模型下载
 
 - modelscope

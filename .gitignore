@@ -1,2 +1,6 @@
+# 忽略资源
 resources/*
-!resources/data/cleaned
+# 解锁资源下面的处理过数据
+!resources/data/
+!resources/data/cleaned/
+!resources/data/cleaned/**
