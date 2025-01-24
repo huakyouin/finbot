@@ -48,8 +48,8 @@ cd ..
 
 终端下载示例：
 ```bash
-MODEL=Qwen/Qwen2.5-3B-Instruct
-LOCAL_PATH=resources/open_models/Qwen2.5-3B-Instruct
+MODEL=LLM-Research/Llama-3.2-3B-Instruct
+LOCAL_PATH=resources/open_models/Llama-3.2-3B-Instruct
 # 注意本地路径最后一级会直接作为模型文件夹
 modelscope download --model $MODEL --local_dir $LOCAL_PATH
 ```
@@ -86,69 +86,68 @@ huggingface-cli download --resume-download --local-dir-use-symlinks False $MODEL
 - alpaca格式:
 
   - 单条数据形式
-```json
-[
-  {
-    "instruction": "user instruction (required)",
-    "input": "user input (optional)",
-    "output": "model response (required)",
-    "system": "system prompt (optional)",
-    "history": [
-      ["user instruction in the first round (optional)", "model response in the first round (optional)"],
-      ["user instruction in the second round (optional)", "model response in the second round (optional)"]
+    ```json
+    [
+      {
+        "instruction": "user instruction (required)",
+        "input": "user input (optional)",
+        "output": "model response (required)",
+        "system": "system prompt (optional)",
+        "history": [
+          ["user instruction in the first round (optional)", "model response in the first round (optional)"],
+          ["user instruction in the second round (optional)", "model response in the second round (optional)"]
+        ]
+      }
     ]
-  }
-]
-```
-  - 在`$LLaMA-Factory/data/dataset_info.json`中注册
+    ```
 
-```json
-"dataset_name": {
-  "file_name": "path/to/dataset",
-  "columns": {
-    "prompt": "instruction",
-    "query": "input",
-    "response": "output",
-    "system": "system",
-    "history": "history"
-  }
-}
-```
+  - 在`$LLaMA-Factory/data/dataset_info.json`中注册
+    ```json
+    "dataset_name": {
+      "file_name": "path/to/dataset",
+      "columns": {
+        "prompt": "instruction",
+        "query": "input",
+        "response": "output",
+        "system": "system",
+        "history": "history"
+      }
+    }
+    ```
 
 - sharegpt:
 
   - 单条数据形式
-```json
-[
-  {
-    "messages": [
-      {"from": "user", "value": "user instruction"},
-      {"from": "assistant", "value": "model response"}
-    ],
-    "system": "system prompt (optional)",
-    "tools": "tool description (optional)"
-  }
-]
-```
+    ```json
+    [
+      {
+        "messages": [
+          {"from": "user", "value": "user instruction"},
+          {"from": "assistant", "value": "model response"}
+        ],
+        "system": "system prompt (optional)",
+        "tools": "tool description (optional)"
+      }
+    ]
+    ```
 
   - 在`$LLaMA-Factory/data/dataset_info.json`中添加
-
-```json
-"dataset_name": {
-      "file_name": "path/to/dataset",
-      "formatting": "sharegpt",
-      "columns": {
-        "messages": "messages"
-      },
-      "tags": {
-        "role_tag": "role",
-        "content_tag": "content",
-        "user_tag": "user",
-        "assistant_tag": "assistant",
-        "system_tag": "system"
+    ```json
+    "dataset_name": {
+          "file_name": "path/to/dataset",
+          "formatting": "sharegpt",
+          "columns": {
+            "messages": "messages"
+          },
+          "tags": {
+            "role_tag": "role",
+            "content_tag": "content",
+            "user_tag": "user",
+            "assistant_tag": "assistant",
+            "system_tag": "system"
+          }
       }
-  }
-```
+    ```
 
 
 2. 启动训练
@@ -162,4 +161,3 @@ source dev/sft_qwen2_5_3B_for_FINNA.sh
 ```
 
 Note: 注意DATA_SETTINGS中`template`参数与所选模型匹配,详见https://github.com/hiyouga/LLaMA-Factory?tab=readme-ov-file#supported-models
-
