@@ -1,4 +1,3 @@
 resources/
-tools/LLaMA-Factory/
 dev/rag_outputs/
-tools/MiniRAG/
+!resources/data/cleaned/

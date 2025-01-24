@@ -11,24 +11,30 @@ conda activate $ENV_NAME
 ## 设置pip国内源
 export PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
 
-## 开发依赖
+## 安装基础依赖
 pip install \
   vllm peft FlagEmbedding bitsandbytes \
   catboost xgboost polars_ta \
   modelscope hf_transfer addict simplejson sortedcontainers openpyxl matplotlib 
 
-## 评测依赖
+## 安装评测依赖
 pip install segeval backtrader deepeval 
 
-## rag框架依赖: minirag, 该库未来应该可以通过pip install minirag-hku直接安装
+## 安装LLM微调框架依赖--LLaMAfactory
+cd tools
+git clone --depth 1 https://github.com/hiyouga/LLaMA-Factory.git
+cd LLaMA-Factory
+pip install -e ".[torch,metrics]"
+pip install deepspeed==0.15.4 # 此处版本号重要! 高版本有坑
+llamafactory-cli version
+cd ..
+
+## 安装rag框架依赖--minirag, 该库未来应该可以通过pip install minirag-hku直接安装
 cd tools
 git clone https://github.com/HKUDS/MiniRAG.git
 cd MiniRAG && pip install -e . && cd .. 
 cd ..
 ```
-
-Note: 
-- air-benchmark安装涉及到github clone, 报错的话请开代理 or 跳过.
 
 
 ### 模型下载
@@ -61,22 +67,11 @@ LOCAL_PATH=
 huggingface-cli download --resume-download --local-dir-use-symlinks False $MODEL --local-dir $LOCAL_PATH
 ```
 
-### LLM微调(可选)
+### LLM微调
 
 这一部分主要根据[qwen2.5训练文档](https://github.com/QwenLM/Qwen2.5/blob/main/examples/llama-factory/finetune-zh.md)改写而来。
 
-1. 安装LLaMA-Factory
-
-```bash
-# 确保当前目录是 $project-root/tools
-git clone --depth 1 https://github.com/hiyouga/LLaMA-Factory.git
-cd LLaMA-Factory
-pip install -e ".[torch,metrics]"
-pip install deepspeed=0.15.4 # 此处版本号重要! 高版本有坑
-llamafactory-cli version
-```
-
-2. 数据准备
+1. 数据准备
 
 按照`alpaca`或`sharegpt`格式之一准备和注册数据集:
 
@@ -148,7 +143,7 @@ llamafactory-cli version
 ```
 
 
-1. 启动训练
+2. 启动训练
 
 训练脚本存放为$project-root/dev/sft_*.sh的形式
 
