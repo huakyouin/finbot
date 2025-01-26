@@ -4,5 +4,5 @@
 
 
 [submodule "tools/LLaMA-Factory"]
-    path = tools/LLaMA-Factory
-    url = git@github.com:hiyouga/LLaMA-Factory.git
+	path = tools/LLaMA-Factory
+	url = git@github.com:hiyouga/LLaMA-Factory.git
