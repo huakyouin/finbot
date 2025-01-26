@@ -1,3 +1,4 @@
-**/open_models
-**/ckpts
-**/raw
+**/open_models/
+**/ckpts/
+**/raw/
+**/__pycache__/
