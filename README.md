@@ -13,9 +13,10 @@ export PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
 
 ## 安装基础依赖
 pip install \
+  addict simplejson sortedcontainers openpyxl matplotlib \
   vllm peft FlagEmbedding bitsandbytes \
-  catboost xgboost polars_ta \
-  modelscope hf_transfer addict simplejson sortedcontainers openpyxl matplotlib 
+  catboost xgboost polars_ta lightgbm \
+  modelscope hf_transfer \
 
 ## 安装评测依赖
 pip install segeval backtrader deepeval 
@@ -48,8 +49,8 @@ cd ..
 
 终端下载示例：
 ```bash
-MODEL=LLM-Research/Llama-3.2-3B-Instruct
-LOCAL_PATH=resources/open_models/Llama-3.2-3B-Instruct
+MODEL=qolaris/FinBert
+LOCAL_PATH=resources/open_models/FinBert
 # 注意本地路径最后一级会直接作为模型文件夹
 modelscope download --model $MODEL --local_dir $LOCAL_PATH
 ```

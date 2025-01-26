@@ -2,7 +2,7 @@ import os
 import lightgbm as lgb
 import torch
 import torch.nn as nn
-from transformers import BertModel
+
 
 class BaseModel():
     _registry = {}
@@ -35,10 +35,10 @@ class BaseModel():
 
 @BaseModel.register("bert_classifier")
 class BertClassifier(nn.Module, BaseModel):
-    def __init__(self, model_dir, num_labels=2):
+    def __init__(self, bert_backbone, num_labels=2):
         super().__init__()
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.bert = BertModel.from_pretrained(model_dir).to(self.device)
+        self.bert = bert_backbone.to(self.device)
         self.classifier = nn.Linear(self.bert.config.hidden_size, num_labels).to(self.device)
         
         # 冻结 BERT 的所有参数
