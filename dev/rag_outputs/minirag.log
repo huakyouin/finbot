@@ -1,0 +1,8 @@
+2025-01-26 17:22:12,206 - minirag - INFO - Logger initialized for working directory: ./rag_outputs
+2025-01-26 17:22:12,209 - minirag - INFO - Load KV llm_response_cache with 0 data
+2025-01-26 17:22:12,210 - minirag - INFO - Load KV full_docs with 0 data
+2025-01-26 17:22:12,212 - minirag - INFO - Load KV text_chunks with 0 data
+2025-01-26 17:22:49,157 - minirag - INFO - Logger initialized for working directory: ./rag_outputs
+2025-01-26 17:22:49,159 - minirag - INFO - Load KV llm_response_cache with 0 data
+2025-01-26 17:22:49,160 - minirag - INFO - Load KV full_docs with 0 data
+2025-01-26 17:22:49,161 - minirag - INFO - Load KV text_chunks with 0 data
