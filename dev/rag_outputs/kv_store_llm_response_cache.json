@@ -1,6 +1,0 @@
-{
-  "8bc461bf26b8b73535eebcce2c8fdb2d": {
-    "return": "{\n  \"answer_type_keywords\": [\"TONE\"],\n  \"entities_from_query\": [\"LiHua\", \"The Rings of Power\"]\n}",
-    "model": "llm"
-  }
-}

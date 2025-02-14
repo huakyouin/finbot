@@ -49,8 +49,8 @@ cd ..
 
 终端下载示例：
 ```bash
-MODEL=qolaris/FinBert
-LOCAL_PATH=resources/open_models/FinBert
+MODEL=Qwen/Qwen2.5-14B-Instruct
+LOCAL_PATH=resources/open_models/Qwen2.5-14B-Instruct
 # 注意本地路径最后一级会直接作为模型文件夹
 modelscope download --model $MODEL --local_dir $LOCAL_PATH
 ```
@@ -158,7 +158,7 @@ huggingface-cli download --resume-download --local-dir-use-symlinks False $MODEL
 调整好其中的参数后从本项目根目录通过以下命令启动:
 
 ```bash
-source dev/sft_qwen2_5_3B_for_FINNA.sh
+source train/sft_qwen2_5_3B_for_FINNA.sh
 ```
 
 Note: 注意DATA_SETTINGS中`template`参数与所选模型匹配,详见https://github.com/hiyouga/LLaMA-Factory?tab=readme-ov-file#supported-models
