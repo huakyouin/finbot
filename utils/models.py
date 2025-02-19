@@ -35,9 +35,9 @@ class BaseModel():
 
 @BaseModel.register("bert_classifier")
 class BertClassifier(nn.Module, BaseModel):
-    def __init__(self, bert_backbone, num_labels=2):
+    def __init__(self, bert_backbone, num_labels=2,device_map="cuda"):
         super().__init__()
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.device = torch.device(device_map)
         self.bert = bert_backbone.to(self.device)
         self.classifier = nn.Linear(self.bert.config.hidden_size, num_labels).to(self.device)
         
@@ -56,7 +56,7 @@ class BertClassifier(nn.Module, BaseModel):
     
     def train(self, data_loader, criterion, optimizer):
         """训练模型并返回平均训练损失"""
-        self.train()
+        self.classifier.train()
         total_loss = 0.0  
         total_correct = 0  
 
@@ -80,7 +80,7 @@ class BertClassifier(nn.Module, BaseModel):
     
     def eval(self, data_loader, criterion):
         """评估模型并返回平均验证损失"""
-        self.eval()  
+        self.classifier.eval()
         total_loss = 0.0
         total_correct = 0  
 

@@ -4,15 +4,6 @@ import random
 import time
 from openai import OpenAI
 
-llm = OpenAI(base_url="http://localhost:12239/v1",api_key="empty")
-
-
-chat_completion = llm.chat.completions.create(
-    model="base",
-    temperature=0.1, top_p=0.9, 
-    messages=[{"role": "system", "content": "为以下新闻生成摘要。"}, {"role": "user","content": "你好"}],
-)
-chat_completion.choices[0].message.content
 
 app = Flask(__name__)
 CORS(app)
@@ -57,6 +48,7 @@ def backtest():
 def chat():
     data = request.json
     message = data.get('message', '')
+    llm = OpenAI(base_url="http://localhost:12239/v1",api_key="empty")
 
     def generate():
         try:

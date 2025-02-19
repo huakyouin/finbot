@@ -15,9 +15,10 @@ METHOD_SETTINGS="\
 --lora_dropout 0.05 \
 --deepspeed tools/deepspeed_z2.json \
 "
+# 
 
 DATA_SETTINGS="\
---dataset_dir tools/LLaMA-Factory/data \
+--dataset_dir resources \
 --dataset FinCUGE_FINNA_train \
 --template qwen \
 --cutoff_len 3072 \
@@ -27,14 +28,14 @@ DATA_SETTINGS="\
 OUTPUT_SETTINGS="\
 --overwrite_cache \
 --overwrite_output_dir \
---output_dir resources/ckpts/qwen2.5-3B-Instruct/lora_adapter_dsz2 \
+--output_dir resources/ckpts/qwen2.5-3B-Instruct/lora_adapter \
 --logging_steps 100 \
 --save_steps 100 \
 --plot_loss \
 "
 
 TRAIN_SETTINGS="\
---per_device_train_batch_size 1 \
+--per_device_train_batch_size 2 \
 --gradient_accumulation_steps 16 \
 --learning_rate 1.0e-4 \
 --num_train_epochs 2.0 \
@@ -51,6 +52,6 @@ EVAL_SETTINGS="\
 --eval_steps 500 \
 "
 
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
+FORCE_TORCHRUN=1 CUDA_VISIBLE_DEVICES=0,1,2,3 \
 llamafactory-cli train \
 $MODEL_SETTINGS $METHOD_SETTINGS $DATA_SETTINGS $OUTPUT_SETTINGS $TRAIN_SETTINGS $EVAL_SETTINGS

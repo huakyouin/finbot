@@ -37,7 +37,31 @@ cd MiniRAG && pip install -e . && cd ..
 cd ..
 ```
 
-### 模型下载
+### 部署LLM服务
+
+通过vllm server来启动大模型，在终端输入：
+
+``` 基座&摘要模型
+vllm serve resources/open_models/Qwen2.5-3B-Instruct --trust-remote-code \
+--served-model-name base \
+--max-model-len 3072 --max-num-seqs 16 \
+--tensor-parallel-size 4 --pipeline-parallel-size 2 --gpu-memory-utilization 0.15 \
+--quantization fp8 \
+--enable-lora \
+--lora-modules lora=resources/ckpts/qwen2.5-3B-Instruct/lora_adapter \
+--port 12239
+```
+
+``` 评审模型
+vllm serve resources/open_models/Qwen2.5-14B-Instruct  --trust-remote-code \
+--served-model-name judger \
+--max-model-len 15000 --max-num-seqs 30 \
+--tensor-parallel-size 4 --pipeline-parallel-size 2 --gpu-memory-utilization 0.4 \
+--quantization fp8 --kv-cache-dtype fp8 \
+--port 12235
+```
+
+### 模型基座
 
 - modelscope
     - [AI-ModelScope/bge-large-zh-v1.5](https://modelscope.cn/models/AI-ModelScope/bge-large-zh-v1.5)
@@ -102,7 +126,7 @@ huggingface-cli download --resume-download --local-dir-use-symlinks False $MODEL
     ]
     ```
 
-  - 在`$LLaMA-Factory/data/dataset_info.json`中注册
+  - 在`$resources/dataset_info.json`中注册
     ```json
     "dataset_name": {
       "file_name": "path/to/dataset",
@@ -132,7 +156,7 @@ huggingface-cli download --resume-download --local-dir-use-symlinks False $MODEL
     ]
     ```
 
-  - 在`$LLaMA-Factory/data/dataset_info.json`中添加
+  - 在`$resources/dataset_info.json`中添加
     ```json
     "dataset_name": {
           "file_name": "path/to/dataset",

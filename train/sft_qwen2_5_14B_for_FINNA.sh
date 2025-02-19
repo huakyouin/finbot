@@ -3,7 +3,12 @@
 # 说明：此脚本中相对路径是相对于终端工作目录而言的。
 # reference：https://github.com/QwenLM/Qwen2.5/blob/main/examples/llama-factory/finetune-zh.md
 
-MODEL_SETTINGS="--model_name_or_path resources/open_models/Qwen2.5-14B-Instruct"
+MODEL_SETTINGS="\
+--model_name_or_path resources/open_models/Qwen2.5-14B-Instruct \
+--quantization_bit 4
+--quantization_method bitsandbytes  
+"
+# quant choices: [bitsandbytes (4/8), hqq (2/3/4/5/6/8), eetq (8)]
 
 METHOD_SETTINGS="\
 --stage sft \
@@ -13,11 +18,11 @@ METHOD_SETTINGS="\
 --lora_rank 16 \
 --lora_alpha 16 \
 --lora_dropout 0.05 \
---deepspeed tools/deepspeed_z2.json \
+--deepspeed tools/deepspeed_z3.json \
 "
 
 DATA_SETTINGS="\
---dataset_dir tools/LLaMA-Factory/data \
+--dataset_dir resources \
 --dataset FinCUGE_FINNA_train \
 --template qwen \
 --cutoff_len 3072 \
@@ -27,7 +32,7 @@ DATA_SETTINGS="\
 OUTPUT_SETTINGS="\
 --overwrite_cache \
 --overwrite_output_dir \
---output_dir resources/ckpts/qwen2.5-14B-Instruct/lora_adapter_dsz2 \
+--output_dir resources/ckpts/qwen2.5-14B-Instruct/qlora_adapter \
 --logging_steps 100 \
 --save_steps 100 \
 --plot_loss \
@@ -51,6 +56,6 @@ EVAL_SETTINGS="\
 --eval_steps 500 \
 "
 
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
+FORCE_TORCHRUN=1 CUDA_VISIBLE_DEVICES=0,1,2,3 \
 llamafactory-cli train \
 $MODEL_SETTINGS $METHOD_SETTINGS $DATA_SETTINGS $OUTPUT_SETTINGS $TRAIN_SETTINGS $EVAL_SETTINGS

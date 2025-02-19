@@ -19,9 +19,9 @@ METHOD_SETTINGS="\
 # 注意template参数,
 # https://github.com/hiyouga/LLaMA-Factory?tab=readme-ov-file#supported-models
 DATA_SETTINGS="\
---dataset_dir tools/LLaMA-Factory/data \
+--dataset_dir resources \
 --dataset FinCUGE_FINNA_train \
---template llama3 \
+--template qwen \
 --cutoff_len 3072 \
 --preprocessing_num_workers 16 \
 "
@@ -36,7 +36,7 @@ OUTPUT_SETTINGS="\
 "
 
 TRAIN_SETTINGS="\
---per_device_train_batch_size 1 \
+--per_device_train_batch_size 2 \
 --gradient_accumulation_steps 16 \
 --learning_rate 1.0e-4 \
 --num_train_epochs 2.0 \
@@ -53,6 +53,6 @@ EVAL_SETTINGS="\
 --eval_steps 500 \
 "
 
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
+FORCE_TORCHRUN=1 CUDA_VISIBLE_DEVICES=0,1,2,3 \
 llamafactory-cli train \
 $MODEL_SETTINGS $METHOD_SETTINGS $DATA_SETTINGS $OUTPUT_SETTINGS $TRAIN_SETTINGS $EVAL_SETTINGS
