@@ -32,7 +32,7 @@ DATA_SETTINGS="\
 OUTPUT_SETTINGS="\
 --overwrite_cache \
 --overwrite_output_dir \
---output_dir resources/ckpts/qwen2.5-14B-Instruct/qlora_adapter \
+--output_dir resources/ckpts/Qwen2.5-14B-Instruct/qlora_adapter \
 --logging_steps 100 \
 --save_steps 100 \
 --plot_loss \

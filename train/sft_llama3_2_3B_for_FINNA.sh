@@ -29,7 +29,7 @@ DATA_SETTINGS="\
 OUTPUT_SETTINGS="\
 --overwrite_cache \
 --overwrite_output_dir \
---output_dir resources/ckpts/llama3.2-3B-Instruct/lora_adapter \
+--output_dir resources/ckpts/Llama-3.2-3B-Instruct/lora_adapter \
 --logging_steps 100 \
 --save_steps 100 \
 --plot_loss \
