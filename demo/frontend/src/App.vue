@@ -85,7 +85,7 @@ import axios from 'axios';
 import dayjs from 'dayjs';
 import { ArrowRightOutlined, CloseOutlined } from '@ant-design/icons-vue';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'http://localhost:12241';
 
 // 状态管理
 const selectedDate = ref(dayjs());

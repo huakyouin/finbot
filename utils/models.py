@@ -2,6 +2,7 @@ import os
 import lightgbm as lgb
 import torch
 import torch.nn as nn
+import numpy as np
 
 
 class BaseModel():
@@ -102,20 +103,9 @@ class BertClassifier(nn.Module, BaseModel):
         }
         outputs = self(input_tokens['input_ids'].to(self.device),input_tokens['attention_mask'].to(self.device)).squeeze(dim=0)
         prob_ls = torch.softmax(outputs, dim=-1).cpu().detach().numpy()
-        pred_labels = [pred_mapper[pred] for pred in outputs.argmax(dim=-1).cpu().detach().numpy()]
+        prob_ls = np.expand_dims(prob_ls, axis=0) if prob_ls.ndim == 1 else prob_ls  # 保证形状为 [num_samples, num_labels]
+        pred_labels = [pred_mapper[prob.argmax()] for prob in prob_ls]
         return prob_ls, pred_labels
-    
-    # def save(self, to_dir):
-    #     os.makedirs(to_dir,exist_ok=True)
-    #     model_path = os.path.join(to_dir,"model_weights.pth")
-    #     torch.save(self.state_dict(), model_path)
-    #     print(f"Model weights saved to {model_path}")
-
-    # def load(self, from_dir):
-    #     model_path = os.path.join(from_dir,"model_weights.pth")
-    #     weights = torch.load(model_path, map_location=self.device, weights_only=True)
-    #     self.load_state_dict(weights)
-    #     print(f"Model weights load from {model_path}")
 
     def save_classifier(self, to_dir):
         os.makedirs(to_dir, exist_ok=True)

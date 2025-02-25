@@ -85,4 +85,4 @@ def chat():
 
 # 启动服务器
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port="12241",debug=True)
