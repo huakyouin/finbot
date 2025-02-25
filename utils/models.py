@@ -25,12 +25,6 @@ class BaseModel():
     
     def pred(self,):
         raise NotImplementedError
-    
-    def load(self,):
-        raise NotImplementedError
-
-    def save(self,):
-        raise NotImplementedError
 
 
 @BaseModel.register("bert_classifier")
@@ -111,17 +105,29 @@ class BertClassifier(nn.Module, BaseModel):
         pred_labels = [pred_mapper[pred] for pred in outputs.argmax(dim=-1).cpu().detach().numpy()]
         return prob_ls, pred_labels
     
-    def save(self, to_dir):
-        os.makedirs(to_dir,exist_ok=True)
-        model_path = os.path.join(to_dir,"model_weights.pth")
-        torch.save(self.state_dict(), model_path)
-        print(f"Model weights saved to {model_path}")
+    # def save(self, to_dir):
+    #     os.makedirs(to_dir,exist_ok=True)
+    #     model_path = os.path.join(to_dir,"model_weights.pth")
+    #     torch.save(self.state_dict(), model_path)
+    #     print(f"Model weights saved to {model_path}")
 
-    def load(self, from_dir):
-        model_path = os.path.join(from_dir,"model_weights.pth")
-        weights = torch.load(model_path, map_location=self.device, weights_only=True)
-        self.load_state_dict(weights)
-        print(f"Model weights load from {model_path}")
+    # def load(self, from_dir):
+    #     model_path = os.path.join(from_dir,"model_weights.pth")
+    #     weights = torch.load(model_path, map_location=self.device, weights_only=True)
+    #     self.load_state_dict(weights)
+    #     print(f"Model weights load from {model_path}")
+
+    def save_classifier(self, to_dir):
+        os.makedirs(to_dir, exist_ok=True)
+        model_path = os.path.join(to_dir, "classifier_weights.pth")
+        torch.save(self.classifier.state_dict(), model_path)
+        print(f"Classifier weights saved to {model_path}")
+
+    def load_classifier(self, from_dir):
+        model_path = os.path.join(from_dir, "classifier_weights.pth")
+        classifer_weights = torch.load(model_path, map_location=self.device, weights_only=True)
+        self.classifier.load_state_dict(classifer_weights)
+        print(f"Classifier weights loaded from {model_path}")
 
 
 @BaseModel.register("lgb")
