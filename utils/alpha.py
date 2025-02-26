@@ -1,4 +1,5 @@
 import polars as pl
+import pandas as pd
 from polars_ta.prefix.tdx import *
 from polars_ta.prefix.wq import *
 import numpy as np
@@ -88,3 +89,19 @@ def build_label(df: pl.DataFrame) -> pl.DataFrame:
         (CLOSE.shift(-1) / CLOSE - 1).alias("LABEL0")
     ])
     return df
+
+
+def build_senti_alpha(df: pd.DataFrame, method="标签众数") -> pd.DataFrame:
+
+    match method:
+        case "标签众数":
+            sentiment_map = {"POSITIVE": 1, "NEGATIVE": -1}
+            result = df.groupby(['instrument', 'datetime'])['sentiment'].agg(lambda x: x.mode()[0])  # 取众数
+            result = result.map(sentiment_map).reset_index(name="SENTI")
+        case "概率均值":
+            result = df.groupby(['instrument', 'datetime'])['sentiment_pos_score'].agg('mean').reset_index(name="SENTI")
+            result['SENTI'] = (result['SENTI'] - 0.5) / 2
+        case _:
+            raise ValueError(f"Unsupported method: {method}")
+
+    return result

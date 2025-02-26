@@ -3,6 +3,7 @@ import lightgbm as lgb
 import torch
 import torch.nn as nn
 import numpy as np
+import json
 
 
 class BaseModel():
@@ -122,29 +123,18 @@ class BertClassifier(nn.Module, BaseModel):
 
 @BaseModel.register("lgb")
 class LGBModel(BaseModel):
-    def __init__(self):
-        self.model_params = dict(
-            objective="mse", 
-            colsample_bytree=0.8879,
-            learning_rate=0.0421,
-            subsample=0.8789,
-            lambda_l1=2,  # 205.6999
-            lambda_l2=5, # 正则超重 580.9768
-            max_depth=8,
-            num_leaves=210,
-            num_threads=20,
-            verbosity=-1,
-        )
+    def __init__(self,train_params=None):
+        self.train_params = train_params
         self.early_stopping_callback = lgb.early_stopping(50)
         self.verbose_eval_callback = lgb.log_evaluation(period=20)
         self.evals_result = {}
         self.evals_result_callback = lgb.record_evaluation(self.evals_result)
 
-    def train(self, train_df, val_df, feature_keys, label_key):
-        train_set = lgb.Dataset(train_df[feature_keys].values, label=train_df[label_key].values, free_raw_data=False)
-        valid_set = lgb.Dataset(val_df[feature_keys].values, label=val_df[label_key].values, free_raw_data=False) 
+    def train(self, train_df, val_df, feature_cols, label_cols):
+        train_set = lgb.Dataset(train_df[feature_cols].values, label=train_df[label_cols].values, free_raw_data=False)
+        valid_set = lgb.Dataset(val_df[feature_cols].values, label=val_df[label_cols].values, free_raw_data=False) 
         self.model = lgb.train(
-            self.model_params,
+            self.train_params,
             train_set,
             num_boost_round=1000,
             valid_sets=[train_set, valid_set],
@@ -152,8 +142,8 @@ class LGBModel(BaseModel):
             callbacks=[self.verbose_eval_callback, self.evals_result_callback],
         )
 
-    def pred(self, df, feature_keys):
-        df['predict'] = self.model.predict(df[feature_keys]).tolist()
+    def pred(self, df, feature_cols):
+        df['predict'] = self.model.predict(df[feature_cols]).tolist()
         return df
     
     def load(self, from_dir):
@@ -161,4 +151,6 @@ class LGBModel(BaseModel):
 
     def save(self, to_dir):
         os.makedirs(to_dir,exist_ok=True)
-        self.model.save_model(os.path.join(to_dir,'model.bin'), format='binary')
+        with open(os.path.join(to_dir,'train_params.json'), 'w', encoding='utf-8') as f:
+            json.dump(self.train_params, f, ensure_ascii=False, indent=4)
+        self.model.save_model(os.path.join(to_dir,'model.bin'))
