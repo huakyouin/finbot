@@ -42,24 +42,20 @@ cd ..
 通过vllm server来启动大模型，在终端输入：
 
 ``` 基座&摘要模型
-CUDA_VISIBLE_DEVICES=0 \
-vllm serve resources/open_models/Qwen2.5-3B-Instruct --trust-remote-code \
---served-model-name base   \
+CUDA_VISIBLE_DEVICES=0 vllm serve \
+resources/open_models/Qwen2.5-3B-Instruct --trust-remote-code --served-model-name base   \
 --enable-lora --lora-modules lora=resources/ckpts/Qwen2.5-3B-Instruct/lora_adapter \
 --max-model-len 5000 --max-num-seqs 16 --quantization fp8 --gpu-memory-utilization 0.25 \
 --port 12239
 ```
 
 ``` 评审模型
-CUDA_VISIBLE_DEVICES=0,1 \
-vllm serve resources/open_models/Qwen2.5-14B-Instruct --trust-remote-code \
---served-model-name judger  \
+CUDA_VISIBLE_DEVICES=0,1 vllm serve \
+resources/open_models/Qwen2.5-14B-Instruct --trust-remote-code --served-model-name judger  \
 --max-model-len 5000 --max-num-seqs 30 --quantization fp8 --kv-cache-dtype fp8 \
 --gpu-memory-utilization 0.4  --tensor-parallel-size 2 \
 --port 12235 
 ```
-
---tensor-parallel-size 2 --pipeline-parallel-size 2 
 
 ### 模型基座
 

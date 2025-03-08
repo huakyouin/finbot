@@ -18,3 +18,27 @@
 2025-02-08 07:03:40,585 - minirag - INFO - Load KV full_docs with 3 data
 2025-02-08 07:03:40,587 - minirag - INFO - Load KV text_chunks with 3 data
 2025-02-08 07:03:40,593 - minirag - INFO - Loaded graph from ../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 6 nodes, 3 edges
+2025-03-08 13:09:24,487 - minirag - INFO - Logger initialized for working directory: ../resources/data/rag_outputs
+2025-03-08 13:09:24,501 - minirag - INFO - Load KV llm_response_cache with 14 data
+2025-03-08 13:09:24,502 - minirag - INFO - Load KV full_docs with 3 data
+2025-03-08 13:09:24,504 - minirag - INFO - Load KV text_chunks with 3 data
+2025-03-08 13:09:24,507 - minirag - INFO - Loaded graph from ../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 6 nodes, 3 edges
+2025-03-08 13:11:09,647 - minirag - WARNING - All docs are already in the storage
+2025-03-08 13:11:09,683 - minirag - WARNING - All docs are already in the storage
+2025-03-08 13:11:09,686 - minirag - WARNING - All docs are already in the storage
+2025-03-08 13:11:09,694 - minirag - INFO - [New Docs] inserting 1 docs
+2025-03-08 13:11:09,697 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-03-08 13:11:09,698 - minirag - INFO - Inserting 1 vectors to chunks
+2025-03-08 13:11:09,762 - minirag - INFO - [Entity Extraction]...
+2025-03-08 13:11:19,394 - minirag - INFO - Inserting 2 vectors to entities
+2025-03-08 13:11:19,498 - minirag - INFO - Inserting 2 vectors to entities_name
+2025-03-08 13:11:19,529 - minirag - INFO - Inserting 1 vectors to relationships
+2025-03-08 13:11:19,584 - minirag - INFO - Writing graph with 6 nodes, 3 edges
+2025-03-08 13:11:19,587 - minirag - INFO - [New Docs] inserting 1 docs
+2025-03-08 13:11:19,589 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-03-08 13:11:19,590 - minirag - INFO - Inserting 1 vectors to chunks
+2025-03-08 13:11:19,617 - minirag - INFO - [Entity Extraction]...
+2025-03-08 13:11:26,880 - minirag - INFO - Inserting 2 vectors to entities
+2025-03-08 13:11:26,909 - minirag - INFO - Inserting 2 vectors to entities_name
+2025-03-08 13:11:26,932 - minirag - INFO - Inserting 3 vectors to relationships
+2025-03-08 13:11:26,974 - minirag - INFO - Writing graph with 7 nodes, 5 edges

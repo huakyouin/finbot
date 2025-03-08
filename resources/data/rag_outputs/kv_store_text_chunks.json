@@ -16,5 +16,17 @@
     "content": "Time: 20260106_09:00\nLiHua: Hey Adam! Hope you're doing well. Just wanted to ask for the Wi-Fi password when you get a chance. Also, are there any house rules I should know about? Thanks!\nAdamSmith: Sure! The Wi-Fi password is \"Family123\". \n\nAs for house rules, please keep noise to a minimum during late hours and take good care of the property. Let me know if you have any other questions!\nLiHua: Got it, thanks! I'll make sure to keep it down at night. Just one more thing, is it okay to have friends over occasionally?\nAdamSmith: You're welcome! Yes, having friends over occasionally is fine, just try to keep the gatherings reasonable. Enjoy!\nLiHua: Awesome, appreciate it! Looking forward to settling in.",
     "chunk_order_index": 0,
     "full_doc_id": "doc-4a2229d7fb56a2e978136ad180f38adf"
+  },
+  "chunk-a8cef1c1bfe2631a34a89b272635729e": {
+    "tokens": 163,
+    "content": "Time: 20260105_14:00\nLiHua: Hey Adam! Hope you’re doing well. I wanted to check in about the details for the move-in. When’s a good time for me to come by? Thanks!\nAdamSmith: Hi Li Hua! I'm doing well, thanks. You can come by anytime after 5 PM today. Just let me know when you're on your way. Looking forward to it!\nLiHua: Awesome! I'll be there around 5:30 PM then. Can’t wait to see the place! Thanks for the quick reply!\nAdamSmith: Great! I’ll be here to welcome you. Feel free to ask if you have any questions about the house when you arrive. Safe travels!\nLiHua: Will do! See you soon!",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-a8cef1c1bfe2631a34a89b272635729e"
+  },
+  "chunk-9c8ecadc93d34075b0da1706d7d270a9": {
+    "tokens": 99,
+    "content": "Time: 20260106_15:00\nAdamSmith: Hey Li Hua, just wanted to confirm that the plumber will be arriving tomorrow at 10 AM to fix the water tap. Let me know if that works for you!\nLiHua: Sounds good to me! I'll be ready for him. Thanks for taking care of that!\nAdamSmith: Great! If you need anything else or have questions, just let me know.\nLiHua: Will do! Appreciate it!",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-9c8ecadc93d34075b0da1706d7d270a9"
   }
 }
