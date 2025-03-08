@@ -21,12 +21,12 @@ pip install \
 pip install segeval backtrader deepeval 
 
 ## 安装LLM微调包--LLaMAfactory
-git submodule add --force https://github.com/hiyouga/LLaMA-Factory.git tools/LLaMA-Factory
+git clone https://github.com/hiyouga/LLaMA-Factory.git tools/LLaMA-Factory
 cd tools/LLaMA-Factory && pip install -e ".[torch,metrics]" && pip install deepspeed==0.15.4 && cd ../..
 llamafactory-cli version
 
 ## 安装rag包--minirag v0.0.1
-git submodule add --force https://github.com/HKUDS/MiniRAG.git tools/MiniRAG
+git clone https://github.com/HKUDS/MiniRAG.git tools/MiniRAG
 cd tools/MiniRAG && git fetch --tags && git checkout tags/v0.0.1 && pip install -e . && cd ../..
 ```
 
