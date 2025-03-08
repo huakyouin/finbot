@@ -14,27 +14,20 @@ export PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
 ## 安装基础依赖
 pip install \
   addict simplejson sortedcontainers openpyxl matplotlib \
-  vllm peft FlagEmbedding bitsandbytes \
-  catboost xgboost polars_ta lightgbm \
-  modelscope hf_transfer \
+  vllm peft FlagEmbedding bitsandbytes modelscope hf_transfer \
+  catboost xgboost polars_ta lightgbm 
 
 ## 安装评测依赖
 pip install segeval backtrader deepeval 
 
-## 安装LLM微调框架依赖--LLaMAfactory
-cd tools
-git clone --depth 1 https://github.com/hiyouga/LLaMA-Factory.git
-cd LLaMA-Factory
-pip install -e ".[torch,metrics]"
-pip install deepspeed==0.15.4 # 此处版本号重要! 高版本有坑
+## 安装LLM微调包--LLaMAfactory
+git submodule add --force https://github.com/hiyouga/LLaMA-Factory.git tools/LLaMA-Factory
+cd tools/LLaMA-Factory && pip install -e ".[torch,metrics]" && pip install deepspeed==0.15.4 && cd ../..
 llamafactory-cli version
-cd ..
 
-## 安装rag框架依赖--minirag, 该库未来应该可以通过pip install minirag-hku直接安装
-cd tools
-git clone https://github.com/HKUDS/MiniRAG.git
-cd MiniRAG && pip install -e . && cd .. 
-cd ..
+## 安装rag包--minirag v0.0.1
+git submodule add --force https://github.com/HKUDS/MiniRAG.git tools/MiniRAG
+cd tools/MiniRAG && git fetch --tags && git checkout tags/v0.0.1 && pip install -e . && cd ../..
 ```
 
 ### 部署LLM服务

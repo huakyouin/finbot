@@ -42,3 +42,9 @@
 2025-03-08 13:11:26,909 - minirag - INFO - Inserting 2 vectors to entities_name
 2025-03-08 13:11:26,932 - minirag - INFO - Inserting 3 vectors to relationships
 2025-03-08 13:11:26,974 - minirag - INFO - Writing graph with 7 nodes, 5 edges
+2025-03-08 13:50:38,668 - minirag - INFO - Logger initialized for working directory: ../resources/data/rag_outputs
+2025-03-08 14:21:36,557 - minirag - INFO - Logger initialized for working directory: ../resources/data/rag_outputs
+2025-03-08 14:21:36,559 - minirag - INFO - Load KV llm_response_cache with 20 data
+2025-03-08 14:21:36,562 - minirag - INFO - Load KV full_docs with 5 data
+2025-03-08 14:21:36,563 - minirag - INFO - Load KV text_chunks with 5 data
+2025-03-08 14:21:36,566 - minirag - INFO - Loaded graph from ../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges

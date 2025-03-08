@@ -1,8 +1,6 @@
-[submodule "tools/MiniRAG"]
-    path = tools/MiniRAG
-    url = git@github.com:HKUDS/MiniRAG.git
-
-
 [submodule "tools/LLaMA-Factory"]
 	path = tools/LLaMA-Factory
 	url = git@github.com:hiyouga/LLaMA-Factory.git
+[submodule "tools/MiniRAG"]
+	path = tools/MiniRAG
+	url = https://github.com/HKUDS/MiniRAG.git
