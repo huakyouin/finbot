@@ -98,14 +98,14 @@ class BertClassifier(nn.Module, BaseModel):
         return avg_loss, accuracy
     
     def pred(self, input_tokens):
-        pred_mapper = {
+        label_mapper = {
             0: "NEGATIVE",
             1: "POSITIVE"
         }
         outputs = self(input_tokens['input_ids'].to(self.device),input_tokens['attention_mask'].to(self.device)).squeeze(dim=0)
         prob_ls = torch.softmax(outputs, dim=-1).cpu().detach().numpy()
         prob_ls = np.expand_dims(prob_ls, axis=0) if prob_ls.ndim == 1 else prob_ls  # 保证形状为 [num_samples, num_labels]
-        pred_labels = [pred_mapper[prob.argmax()] for prob in prob_ls]
+        pred_labels = [label_mapper[prob.argmax()] for prob in prob_ls]
         return prob_ls, pred_labels
 
     def save_classifier(self, to_dir):

@@ -15,7 +15,7 @@ export PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
 pip install \
   addict simplejson sortedcontainers openpyxl matplotlib \
   vllm peft FlagEmbedding bitsandbytes modelscope hf_transfer \
-  catboost xgboost polars_ta lightgbm 
+  catboost xgboost polars_ta lightgbm
 
 ## 安装评测依赖
 pip install segeval backtrader deepeval 
@@ -28,6 +28,12 @@ llamafactory-cli version
 ## 安装rag包--minirag v0.0.1
 git clone https://github.com/HKUDS/MiniRAG.git tools/MiniRAG
 cd tools/MiniRAG && git fetch --tags && git checkout tags/v0.0.1 && pip install -e . && cd ../..
+
+## 安装demo依赖
+#### 后端
+pip install Flask Flask-Cors
+#### 前端
+cd demo/frontend && npm install & cd ../..
 ```
 
 ### 部署LLM服务
@@ -166,9 +172,7 @@ huggingface-cli download --resume-download --local-dir-use-symlinks False $MODEL
 
 2. 启动训练
 
-训练脚本存放为$project-root/dev/sft_*.sh的形式
-
-调整好其中的参数后从本项目根目录通过以下命令启动:
+参考：
 
 ```bash
 source train/sft_qwen2_5_3B_for_FINNA.sh
