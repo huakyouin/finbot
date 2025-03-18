@@ -48,3 +48,53 @@
 2025-03-08 14:21:36,562 - minirag - INFO - Load KV full_docs with 5 data
 2025-03-08 14:21:36,563 - minirag - INFO - Load KV text_chunks with 5 data
 2025-03-08 14:21:36,566 - minirag - INFO - Loaded graph from ../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges
+2025-03-17 07:56:23,732 - minirag - INFO - Logger initialized for working directory: ../../resources/data/rag_outputs
+2025-03-17 07:56:23,758 - minirag - INFO - Load KV llm_response_cache with 20 data
+2025-03-17 07:56:23,766 - minirag - INFO - Load KV full_docs with 5 data
+2025-03-17 07:56:23,769 - minirag - INFO - Load KV text_chunks with 5 data
+2025-03-17 07:56:23,777 - minirag - INFO - Loaded graph from ../../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges
+2025-03-17 20:31:11,099 - minirag - INFO - Logger initialized for working directory: ../../resources/data/rag_outputs
+2025-03-17 20:31:11,119 - minirag - INFO - Load KV llm_response_cache with 20 data
+2025-03-17 20:31:11,123 - minirag - INFO - Load KV full_docs with 5 data
+2025-03-17 20:31:11,124 - minirag - INFO - Load KV text_chunks with 5 data
+2025-03-17 20:31:11,132 - minirag - INFO - Loaded graph from ../../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges
+2025-03-17 20:39:06,203 - minirag - INFO - Logger initialized for working directory: ../../resources/data/rag_outputs
+2025-03-17 20:39:06,206 - minirag - INFO - Load KV llm_response_cache with 20 data
+2025-03-17 20:39:06,207 - minirag - INFO - Load KV full_docs with 5 data
+2025-03-17 20:39:06,209 - minirag - INFO - Load KV text_chunks with 5 data
+2025-03-17 20:39:06,211 - minirag - INFO - Loaded graph from ../../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges
+2025-03-17 20:48:23,745 - minirag - INFO - Logger initialized for working directory: ../../resources/data/rag_outputs
+2025-03-17 20:48:23,748 - minirag - INFO - Load KV llm_response_cache with 20 data
+2025-03-17 20:48:23,749 - minirag - INFO - Load KV full_docs with 5 data
+2025-03-17 20:48:23,751 - minirag - INFO - Load KV text_chunks with 5 data
+2025-03-17 20:48:23,754 - minirag - INFO - Loaded graph from ../../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges
+2025-03-17 20:58:27,082 - minirag - INFO - Logger initialized for working directory: ../../resources/data/rag_outputs
+2025-03-17 20:58:27,083 - minirag - INFO - Load KV llm_response_cache with 20 data
+2025-03-17 20:58:27,084 - minirag - INFO - Load KV full_docs with 5 data
+2025-03-17 20:58:27,085 - minirag - INFO - Load KV text_chunks with 5 data
+2025-03-17 20:58:27,087 - minirag - INFO - Loaded graph from ../../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges
+2025-03-17 21:04:38,996 - minirag - INFO - Logger initialized for working directory: ../../resources/data/rag_outputs
+2025-03-17 21:04:38,998 - minirag - INFO - Load KV llm_response_cache with 20 data
+2025-03-17 21:04:39,000 - minirag - INFO - Load KV full_docs with 5 data
+2025-03-17 21:04:39,001 - minirag - INFO - Load KV text_chunks with 5 data
+2025-03-17 21:04:39,003 - minirag - INFO - Loaded graph from ../../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges
+2025-03-17 21:05:45,387 - minirag - INFO - Logger initialized for working directory: ../../resources/data/rag_outputs
+2025-03-17 21:05:45,390 - minirag - INFO - Load KV llm_response_cache with 20 data
+2025-03-17 21:05:45,391 - minirag - INFO - Load KV full_docs with 5 data
+2025-03-17 21:05:45,393 - minirag - INFO - Load KV text_chunks with 5 data
+2025-03-17 21:05:45,395 - minirag - INFO - Loaded graph from ../../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges
+2025-03-17 21:18:11,233 - minirag - INFO - Logger initialized for working directory: ../../resources/data/rag_outputs
+2025-03-17 21:18:11,236 - minirag - INFO - Load KV llm_response_cache with 20 data
+2025-03-17 21:18:11,237 - minirag - INFO - Load KV full_docs with 5 data
+2025-03-17 21:18:11,238 - minirag - INFO - Load KV text_chunks with 5 data
+2025-03-17 21:18:11,241 - minirag - INFO - Loaded graph from ../../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges
+2025-03-18 04:10:33,191 - minirag - INFO - Logger initialized for working directory: ../../resources/data/rag_outputs
+2025-03-18 04:10:41,196 - minirag - INFO - Load KV llm_response_cache with 20 data
+2025-03-18 04:10:41,208 - minirag - INFO - Load KV full_docs with 5 data
+2025-03-18 04:10:41,210 - minirag - INFO - Load KV text_chunks with 5 data
+2025-03-18 04:10:41,218 - minirag - INFO - Loaded graph from ../../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges
+2025-03-18 04:16:23,446 - minirag - INFO - Logger initialized for working directory: ../../resources/data/rag_outputs
+2025-03-18 04:16:23,901 - minirag - INFO - Load KV llm_response_cache with 20 data
+2025-03-18 04:16:23,903 - minirag - INFO - Load KV full_docs with 5 data
+2025-03-18 04:16:23,904 - minirag - INFO - Load KV text_chunks with 5 data
+2025-03-18 04:16:23,905 - minirag - INFO - Loaded graph from ../../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges

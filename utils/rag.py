@@ -1,7 +1,8 @@
+from minirag.operate import *
 
-rag_prompts = {}
-
-rag_prompts["entity_extraction"] = """-Goal-
+############## PROMPTS
+prompts = {}
+prompts["entity_extraction"] = """-Goal-
 给定一个与当前活动相关的文本文件和一个实体类型的列表，从文本中识别出所有这些类型的实体以及这些实体之间的所有关系。
 
 -Steps-
@@ -109,7 +110,7 @@ Output:
 """
 
 
-rag_prompts["minirag_query2kwd"] = """---Role---
+prompts["minirag_query2kwd"] = """---Role---
 
 你是一个帮助用户识别查询中答案类型关键词和低级关键词的助手。
 
@@ -257,7 +258,7 @@ Output:
 """
 
 
-rag_prompts["rag_response"] = """---Role---
+prompts["sys_prompt_for_rag_answer"] = """---Role---
 
 你是一个帮助用户解答有关提供的表格数据问题的助手。
 
@@ -267,13 +268,125 @@ rag_prompts["rag_response"] = """---Role---
 如果你不知道答案，只需说明。不要编造任何内容。
 不要包含没有提供支持证据的信息。
 
----Target response length and format---
-
-{response_type}
-
 ---Data tables---
 
-{context_data}
+-----Entities-----
+```csv
+{entities_context}
+```
+-----Sources-----
+```csv
+{text_units_context}
+```
 
 根据回答的长度和格式，适当添加章节和评论。以 Markdown 格式排版回答。
 """
+
+################# query提取关键词
+async def get_keyword(query, knowledge_graph_inst: BaseGraphStorage, global_config: dict):
+  use_model_func = global_config["llm_model_func"]
+  kw_prompt_temp = PROMPTS["minirag_query2kwd"]
+  TYPE_POOL,TYPE_POOL_w_CASE = await knowledge_graph_inst.get_types()
+  kw_prompt = kw_prompt_temp.format(query=query,TYPE_POOL = TYPE_POOL)
+  result = await use_model_func(kw_prompt)
+
+  try:
+      keywords_data = json_repair.loads(result)
+      
+      type_keywords = keywords_data.get("answer_type_keywords", [])
+      entities_from_query = keywords_data.get("entities_from_query", [])[:5]
+
+  except json_repair.JSONDecodeError as e:
+      try:
+          result = result.replace(kw_prompt[:-1],'').replace('user','').replace('model','').strip()
+          result = '{' + result.split('{')[1].split('}')[0] + '}'
+          keywords_data = json_repair.loads(result)
+          type_keywords = keywords_data.get("answer_type_keywords", [])
+          entities_from_query = keywords_data.get("entities_from_query", [])[:5]
+      # Handle parsing error
+      except Exception as e:
+          print(f"JSON parsing error: {e}")
+          return None, None
+  return type_keywords, entities_from_query
+
+################ 检索
+async def retrieval(
+    query, type_keywords,entities_from_query,
+    knowledge_graph_inst: BaseGraphStorage,
+    entity_name_vdb: BaseVectorStorage,
+    relationships_vdb: BaseVectorStorage,
+    chunks_vdb: BaseVectorStorage,
+    query_param: QueryParam = QueryParam(),
+):
+
+    imp_ents = []
+    nodes_from_query_list = []
+    ent_from_query_dict = {}
+    
+    for ent in entities_from_query:
+        ent_from_query_dict[ent] = []
+        results_node = await entity_name_vdb.query(ent, top_k=query_param.top_k)
+
+        nodes_from_query_list.append(results_node)
+        ent_from_query_dict[ent] = [e['entity_name'] for e in results_node]
+
+
+    candidate_reasoning_path =  {}
+
+    for results_node_list in nodes_from_query_list:
+        candidate_reasoning_path_new = {key['entity_name']: {'Score': key['distance'], 'Path':[]} for key in results_node_list}
+        
+        candidate_reasoning_path = {**candidate_reasoning_path, **candidate_reasoning_path_new}
+    for key in candidate_reasoning_path.keys():
+        candidate_reasoning_path[key]['Path'] = await knowledge_graph_inst.get_neighbors_within_k_hops(key,2)
+        imp_ents.append(key)
+
+    short_path_entries = {name: entry for name, entry in candidate_reasoning_path.items() if len(entry['Path']) < 1}
+    sorted_short_path_entries = sorted(short_path_entries.items(), key=lambda x: x[1]['Score'], reverse=True) 
+    save_p = max(1, int(len(sorted_short_path_entries) * 0.2))  
+    top_short_path_entries = sorted_short_path_entries[:save_p]
+    top_short_path_dict = {name: entry for name, entry in top_short_path_entries}
+    long_path_entries = {name: entry for name, entry in candidate_reasoning_path.items() if len(entry['Path']) >= 1}
+    candidate_reasoning_path = {**long_path_entries, **top_short_path_dict}
+    node_datas_from_type = await knowledge_graph_inst.get_node_from_types(type_keywords)#entity_type, description,...
+
+
+    maybe_answer_list = [n['entity_name'] for n in node_datas_from_type]
+    imp_ents = imp_ents+maybe_answer_list
+    scored_reasoning_path = cal_path_score_list(candidate_reasoning_path, maybe_answer_list)
+
+    results_edge = await relationships_vdb.query(query, top_k=len(entities_from_query)*query_param.top_k)
+    goodedge = []
+    badedge = []
+    for item in results_edge:
+        if item['src_id'] in imp_ents or item['tgt_id'] in imp_ents:
+            goodedge.append(item)
+        else:
+            badedge.append(item)
+    scored_edged_reasoning_path,pairs_append = edge_vote_path(scored_reasoning_path,goodedge)
+    scored_edged_reasoning_path = await path2chunk(scored_edged_reasoning_path,knowledge_graph_inst,pairs_append,query,max_chunks=3)
+
+
+    entites_section_list = []
+    node_datas = await asyncio.gather(
+        *[knowledge_graph_inst.get_node(entity_name) for entity_name in scored_edged_reasoning_path.keys()]
+    )
+    node_datas = [
+        {**n, "entity_name": k,"Score": scored_edged_reasoning_path[k]["Score"]}
+        for k, n in zip(scored_edged_reasoning_path.keys(), node_datas)
+    ]
+    for i, n in enumerate(node_datas):
+        entites_section_list.append([n["entity_name"], n["Score"], n.get("description", "UNKNOWN")])
+    entites_section_list = sorted(entites_section_list, key=lambda x: x[1], reverse=True)
+    entites_section_list = truncate_list_by_token_size(
+        entites_section_list,
+        key=lambda x: x[2],
+        max_token_size=query_param.max_token_for_node_context,
+    )
+
+    scorednode2chunk(ent_from_query_dict, scored_edged_reasoning_path)
+    results = await chunks_vdb.query(query, top_k=int(query_param.top_k/2))
+    chunks_ids = [r["id"] for r in results]
+    final_chunk_id = kwd2chunk(ent_from_query_dict,chunks_ids,chunk_nums = int(query_param.top_k/2))
+
+    return entites_section_list, final_chunk_id

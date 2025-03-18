@@ -42,7 +42,7 @@ class BaseSpliter():
     def cluster(sentence_df,):
         raise NotImplementedError
     
-@BaseSpliter.register("doc_seg_model_spliter")    
+@BaseSpliter.register("doc_seq_model_spliter")    
 class DocSegModelSpliter(BaseSpliter):
     def __init__(self, model, tokenizer):
         self.model = model

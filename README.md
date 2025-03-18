@@ -42,18 +42,18 @@ cd demo/frontend && npm install & cd ../..
 
 ``` 基座&摘要模型
 CUDA_VISIBLE_DEVICES=0 vllm serve \
-resources/open_models/Qwen2.5-3B-Instruct --trust-remote-code --served-model-name base   \
+resources/open_models/Qwen2.5-3B-Instruct --served-model-name base \
 --enable-lora --lora-modules lora=resources/ckpts/Qwen2.5-3B-Instruct/lora_adapter \
 --max-model-len 5000 --max-num-seqs 16 --quantization fp8 --gpu-memory-utilization 0.25 \
---port 12239
+--port 12239 --trust-remote-code
 ```
 
 ``` 评审模型
 CUDA_VISIBLE_DEVICES=0,1 vllm serve \
-resources/open_models/Qwen2.5-14B-Instruct --trust-remote-code --served-model-name judger  \
+resources/open_models/Qwen2.5-14B-Instruct  --served-model-name judger  \
 --max-model-len 5000 --max-num-seqs 30 --quantization fp8 --kv-cache-dtype fp8 \
 --gpu-memory-utilization 0.4  --tensor-parallel-size 2 \
---port 12235 
+--port 12235 --trust-remote-code
 ```
 
 ### 模型基座
