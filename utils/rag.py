@@ -110,7 +110,7 @@ Output:
 """
 
 
-prompts["minirag_query2kwd"] = """---Role---
+prompts["kw_extract_prompt"] = """---Role---
 
 你是一个帮助用户识别查询中答案类型关键词和低级关键词的助手。
 
@@ -258,7 +258,7 @@ Output:
 """
 
 
-prompts["sys_prompt_for_rag_answer"] = """---Role---
+prompts["answer_sys_prompt"] = """---Role---
 
 你是一个帮助用户解答有关提供的表格数据问题的助手。
 
@@ -285,10 +285,10 @@ prompts["sys_prompt_for_rag_answer"] = """---Role---
 ################# query提取关键词
 async def get_keyword(query, knowledge_graph_inst: BaseGraphStorage, global_config: dict):
   use_model_func = global_config["llm_model_func"]
-  kw_prompt_temp = PROMPTS["minirag_query2kwd"]
+  kw_prompt_temp = prompts["kw_extract_prompt"]
   TYPE_POOL,TYPE_POOL_w_CASE = await knowledge_graph_inst.get_types()
   kw_prompt = kw_prompt_temp.format(query=query,TYPE_POOL = TYPE_POOL)
-  result = await use_model_func(kw_prompt)
+  result = await use_model_func(prompt=kw_prompt)
 
   try:
       keywords_data = json_repair.loads(result)
@@ -316,7 +316,7 @@ async def retrieval(
     entity_name_vdb: BaseVectorStorage,
     relationships_vdb: BaseVectorStorage,
     chunks_vdb: BaseVectorStorage,
-    query_param: QueryParam = QueryParam(),
+    top_k: dict = {"entity": 5, "chunk": 5, "final": 5},
 ):
 
     imp_ents = []
@@ -325,7 +325,7 @@ async def retrieval(
     
     for ent in entities_from_query:
         ent_from_query_dict[ent] = []
-        results_node = await entity_name_vdb.query(ent, top_k=query_param.top_k)
+        results_node = await entity_name_vdb.query(ent, top_k=top_k['entity'])
 
         nodes_from_query_list.append(results_node)
         ent_from_query_dict[ent] = [e['entity_name'] for e in results_node]
@@ -355,7 +355,7 @@ async def retrieval(
     imp_ents = imp_ents+maybe_answer_list
     scored_reasoning_path = cal_path_score_list(candidate_reasoning_path, maybe_answer_list)
 
-    results_edge = await relationships_vdb.query(query, top_k=len(entities_from_query)*query_param.top_k)
+    results_edge = await relationships_vdb.query(query, top_k=len(entities_from_query)*top_k['entity'])
     goodedge = []
     badedge = []
     for item in results_edge:
@@ -381,12 +381,54 @@ async def retrieval(
     entites_section_list = truncate_list_by_token_size(
         entites_section_list,
         key=lambda x: x[2],
-        max_token_size=query_param.max_token_for_node_context,
+        max_token_size=500, # minirag default
     )
 
     scorednode2chunk(ent_from_query_dict, scored_edged_reasoning_path)
-    results = await chunks_vdb.query(query, top_k=int(query_param.top_k/2))
-    chunks_ids = [r["id"] for r in results]
-    final_chunk_id = kwd2chunk(ent_from_query_dict,chunks_ids,chunk_nums = int(query_param.top_k/2))
+    results = await chunks_vdb.query(query, top_k=top_k['chunk'])
+    vec_chunk_ids = [r["id"] for r in results]
+    entity_chunk_ids = kwd2chunk(ent_from_query_dict,vec_chunk_ids,chunk_nums=top_k['entity'])
+    remaining_vec_chunk_ids = [cid for cid in vec_chunk_ids if cid not in entity_chunk_ids]
+    final_chunk_ids = entity_chunk_ids + remaining_vec_chunk_ids
 
-    return entites_section_list, final_chunk_id
+    return entites_section_list, final_chunk_ids[:top_k['final']]
+
+## naive方法
+async def naive_retrival_and_answer(
+    query,
+    chunks_vdb: BaseVectorStorage,
+    chunk_mapper: dict,
+    query_param: QueryParam,
+    global_config: dict,
+):
+    use_model_func = global_config["llm_model_func"]
+    results = await chunks_vdb.query(query, top_k=query_param.top_k)
+    if not len(results):
+        return PROMPTS["fail_response"]
+    chunks_ids = [r["id"] for r in results ]
+    chunks_content = [chunk_mapper.get(c_id,"") for c_id in chunks_ids]
+    section = "--New Chunk--\n".join(chunks_content)
+    if query_param.only_need_context:
+        return section
+    sys_prompt_temp = PROMPTS["naive_rag_response"]
+    sys_prompt = sys_prompt_temp.format(
+        content_data=section, response_type=query_param.response_type
+    )
+    response = await use_model_func(
+        query,
+        system_prompt=sys_prompt,
+    )
+
+    if len(response) > len(sys_prompt):
+        response = (
+            response[len(sys_prompt) :]
+            .replace(sys_prompt, "")
+            .replace("user", "")
+            .replace("model", "")
+            .replace(query, "")
+            .replace("<system>", "")
+            .replace("</system>", "")
+            .strip()
+        )
+
+    return list(zip(chunks_ids,chunks_content)), response

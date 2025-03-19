@@ -14,12 +14,12 @@ class BaseSpliter():
         return decorator
     
     @classmethod
-    def use_subclass(cls, name,):
+    def use_subclass(cls, name):
         subclass = cls._registry.get(name)
         assert subclass, f"No subclass registered for '{name}"
         return subclass
     
-    def split_text_to_sentences(self, text, split_chars="?!。！…？\n"):
+    def split_text_to_sentences(self, text, split_chars="?!。！…？"):
         """按分割符切割文本成句子，返回包含句子及位置信息的DataFrame。"""
         if pd.isna(text): return pd.DataFrame(columns=['sentence',"start_idx","end_idx"]) ## 入参检查
         pattern = re.compile(
@@ -146,7 +146,18 @@ class CosineSimilaritySpliter(BaseSpliter):
             
         return pd.DataFrame(result)
 
+def init_spliter(method, model_path):
+    if method == "cos_sim_spliter":
+        from FlagEmbedding import FlagModel
+        model = FlagModel(model_path, query_instruction_for_retrieval="为这个句子生成表示以用于检索相关文章：", use_fp16=True)
+        spliter = BaseSpliter.use_subclass("cos_sim_spliter")(model)
 
+    elif method == "doc_seq_model_spliter":
+        from transformers import AutoModelForTokenClassification, AutoTokenizer
+        model = AutoModelForTokenClassification.from_pretrained(model_path)
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+        spliter = BaseSpliter.use_subclass("doc_seq_model_spliter")(model, tokenizer)
+    return spliter
 
 if __name__ == "__main__":
     spliter = BaseSpliter()

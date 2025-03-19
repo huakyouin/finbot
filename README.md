@@ -68,8 +68,8 @@ resources/open_models/Qwen2.5-14B-Instruct  --served-model-name judger  \
 
 终端下载示例：
 ```bash
-MODEL=Qwen/Qwen2.5-14B-Instruct
-LOCAL_PATH=resources/open_models/Qwen2.5-14B-Instruct
+MODEL=iic/nlp_bert_document-segmentation_chinese-base
+LOCAL_PATH=resources/open_models/nlp_bert_document-segmentation_chinese-base
 # 注意本地路径最后一级会直接作为模型文件夹
 modelscope download --model $MODEL --local_dir $LOCAL_PATH
 ```

@@ -98,3 +98,48 @@
 2025-03-18 04:16:23,903 - minirag - INFO - Load KV full_docs with 5 data
 2025-03-18 04:16:23,904 - minirag - INFO - Load KV text_chunks with 5 data
 2025-03-18 04:16:23,905 - minirag - INFO - Loaded graph from ../../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges
+2025-03-18 05:22:39,547 - minirag - INFO - Logger initialized for working directory: ../../resources/data/rag_outputs
+2025-03-18 05:22:39,848 - minirag - INFO - Load KV llm_response_cache with 20 data
+2025-03-18 05:22:39,851 - minirag - INFO - Load KV full_docs with 5 data
+2025-03-18 05:22:39,852 - minirag - INFO - Load KV text_chunks with 5 data
+2025-03-18 05:22:39,855 - minirag - INFO - Loaded graph from ../../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges
+2025-03-18 05:32:11,677 - minirag - INFO - Logger initialized for working directory: ../../resources/data/rag_outputs
+2025-03-18 05:32:11,978 - minirag - INFO - Load KV llm_response_cache with 20 data
+2025-03-18 05:32:11,979 - minirag - INFO - Load KV full_docs with 5 data
+2025-03-18 05:32:11,980 - minirag - INFO - Load KV text_chunks with 5 data
+2025-03-18 05:32:11,982 - minirag - INFO - Loaded graph from ../../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges
+2025-03-18 05:34:15,082 - minirag - INFO - Logger initialized for working directory: ../../resources/data/rag_outputs
+2025-03-18 05:34:15,383 - minirag - INFO - Load KV llm_response_cache with 20 data
+2025-03-18 05:34:15,386 - minirag - INFO - Load KV full_docs with 5 data
+2025-03-18 05:34:15,387 - minirag - INFO - Load KV text_chunks with 5 data
+2025-03-18 05:34:15,390 - minirag - INFO - Loaded graph from ../../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges
+2025-03-18 05:35:36,538 - minirag - INFO - Logger initialized for working directory: ../../resources/data/rag_outputs
+2025-03-18 05:35:36,939 - minirag - INFO - Load KV llm_response_cache with 20 data
+2025-03-18 05:35:36,941 - minirag - INFO - Load KV full_docs with 5 data
+2025-03-18 05:35:36,943 - minirag - INFO - Load KV text_chunks with 5 data
+2025-03-18 05:35:36,944 - minirag - INFO - Loaded graph from ../../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges
+2025-03-18 05:43:09,866 - minirag - INFO - Logger initialized for working directory: ../../resources/data/rag_outputs
+2025-03-18 05:43:10,161 - minirag - INFO - Load KV llm_response_cache with 20 data
+2025-03-18 05:43:10,162 - minirag - INFO - Load KV full_docs with 5 data
+2025-03-18 05:43:10,163 - minirag - INFO - Load KV text_chunks with 5 data
+2025-03-18 05:43:10,166 - minirag - INFO - Loaded graph from ../../resources/data/rag_outputs/graph_chunk_entity_relation.graphml with 7 nodes, 5 edges
+2025-03-18 06:24:52,386 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:24:52,396 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:24:52,398 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:24:52,415 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:24:52,417 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:25:06,504 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:25:06,506 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:25:06,508 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:25:06,510 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:25:06,511 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:32:28,199 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:32:28,201 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:32:28,203 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:32:28,205 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:32:28,206 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:32:35,683 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:32:35,684 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:32:35,686 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:32:35,687 - minirag - WARNING - All docs are already in the storage
+2025-03-18 06:32:35,688 - minirag - WARNING - All docs are already in the storage
