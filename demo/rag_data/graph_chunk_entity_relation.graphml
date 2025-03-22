@@ -1,0 +1,3173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="万科企业股份有限公司&quot;">
+  <data key="d0">ORGANIZATION"</data>
+  <data key="d1">"万科企业股份有限公司是一家中国知名的房地产开发和管理企业，公告涉及参与投资和谐鼎泰基金。"</data>
+  <data key="d2">chunk-1f179250084642c000fc16307d0dbba2</data>
+</node>
+<node id="和谐鼎泰基金&quot;">
+  <data key="d0">ORGANIZATION"</data>
+  <data key="d1">"和谐鼎泰基金是交易所的私募股权基金投资企业，涉及万科公司投资。"&lt;SEP&gt;"和谐鼎泰基金是交易所的私募股权基金投资企业，涉及万科公司的投资计划。"</data>
+  <data key="d2">chunk-1f179250084642c000fc16307d0dbba2</data>
+</node>
+<node id="天津荣泰成长&quot;">
+  <data key="d0">ORGANIZATION"</data>
+  <data key="d1">"天津荣泰成长是一家与万科共同参与了横琴和谐鼎泰股权投资企业的公司。"&lt;SEP&gt;"天津荣泰成长是一家投资企业，与万科企业股份有限公司和比亚迪工业共同参与投资。"</data>
+  <data key="d2">chunk-1f179250084642c000fc16307d0dbba2</data>
+</node>
+<node id="比亚迪工业&quot;">
+  <data key="d0">ORGANIZATION"</data>
+  <data key="d1">"比亚迪工业是一家与万科共同参与了横琴和谐鼎泰股权投资企业的公司。"&lt;SEP&gt;"比亚迪工业是一家投资企业，与万科企业股份有限公司和天津荣泰成长共同参与投资。"</data>
+  <data key="d2">chunk-1f179250084642c000fc16307d0dbba2</data>
+</node>
+<node id="横琴和谐鼎泰股权投资企业(有限合伙)&quot;">
+  <data key="d0">EVENT"</data>
+  <data key="d1">"横琴和谐鼎泰股权投资企业（有限合伙）是基金的实体基金，涉及万科及其合作企业的投资。"</data>
+  <data key="d2">chunk-1f179250084642c000fc16307d0dbba2</data>
+</node>
+<node id="万科企业股份有限公司">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">万科企业股份有限公司作为公告提及的参与和谐鼎泰基金投资的机构。&lt;SEP&gt;万科企业股份有限公司是一家参与投资和谐鼎泰基金的公司。&lt;SEP&gt;万科企业股份有限公司是公告主体，宣布参与投资和谐鼎泰基金，并签署合伙协议&lt;SEP&gt;万科企业股份有限公司是公告主体，宣布参与投资和谐鼎泰基金，并签署合伙协议。&lt;SEP&gt;万科企业股份有限公司是一家上市公司，其公告中有关于持股5%以上的股东减持计划的消息。公司下属子公司参与设立产业基金。&lt;SEP&gt;万科企业股份有限公司是公告提及的企业，持股超过5%的股东宣布其减持计划完成后的情况。</data>
+  <data key="d2">chunk-16f4693e08761f44a2c672d42cba5113&lt;SEP&gt;chunk-212acc4ef0b13a542403510089fee74e&lt;SEP&gt;chunk-0d21875fc71d6ef336ca2ad994895424</data>
+</node>
+<node id="WU AUTOMOTIVE CO., LTD.">
+  <data key="d0">ORGANIZATION"</data>
+  <data key="d1">WO Automotive Co., Ltd. is involved in an article about investing in the Harmonic Ditan fund.</data>
+  <data key="d2">chunk-8a9f22530bf4df779be99c4ba412eaf4</data>
+</node>
+<node id="WUXING ENTERPRISE SHARES CO., LTD.">
+  <data key="d0">ORGANIZATION"</data>
+  <data key="d1">This is the primary organization focusing on investing in Harmony Ditan.&lt;SEP&gt;WUXING Enterprise Shares Co., Ltd. is participating in the investment of the Harmonic Ditan Fund.</data>
+  <data key="d2">chunk-8a9f22530bf4df779be99c4ba412eaf4</data>
+</node>
+<node id="THIRD-PARTY ORGANIZATION">
+  <data key="d0">ORGANIZATION"</data>
+  <data key="d1">Third-party entity with a role in the investment portfolio fund setup.</data>
+  <data key="d2">chunk-8a9f22530bf4df779be99c4ba412eaf4</data>
+</node>
+<node id="INVESTMENT PORTFOLIO FUND">
+  <data key="d0">EVENT"</data>
+  <data key="d1">"Investment Portfolio Fund" refers to a cooperative venture involving the establishment of an investment portfolio with Harmonic Ditan.</data>
+  <data key="d2">chunk-8a9f22530bf4df779be99c4ba412eaf4</data>
+</node>
+<node id="WO AUTOMOTIVE CO., LTD.">
+  <data key="d0">ORGANIZATION"</data>
+  <data key="d1">WO Automotive Co., Ltd. is implied to be in an article about investing in the Harmonic Ditan fund.&lt;SEP&gt;WO Automotive Co., Ltd. is involved in an article about investing in the Harmonic Ditan fund.</data>
+  <data key="d2">chunk-8a9f22530bf4df779be99c4ba412eaf4</data>
+</node>
+<node id="“和谐鼎泰基金”">
+  <data key="d0">EVENT"</data>
+  <data key="d1">"Harmonic Ditan Fund" is described as an investment event involving WUXING Enterprise Shares Co., Ltd.</data>
+  <data key="d2">chunk-8a9f22530bf4df779be99c4ba412eaf4</data>
+</node>
+<node id="&quot;万科企业股份有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"WanKe Corporation is involved in an event and signed a partnership agreement, indicating corporate activities."&lt;SEP&gt;"万科企业股份有限公司 is the corporate name of a Chinese real estate development company that has announced the completion of a shareholder sale plan."&lt;SEP&gt;"万科企业股份有限公司是一家中国知名的房地产开发与投资企业。"&lt;SEP&gt;"万科企业股份有限公司是一家主要从事房地产开发与经营的企业。"&lt;SEP&gt;"万科企业股份有限公司是一家实体，负责发布信息披露公告。"&lt;SEP&gt;"万科企业股份有限公司，中文名万科，是一家上市公司，发布减持公告。"&lt;SEP&gt;"万科企业股份有限公司，简称万科，是一家上市公司，发布公告关于持股5%以上的股东进行股票减持。"&lt;SEP&gt;"万科企业股份有限公司，简称万科，是一家主要涉及房地产开发和运营的企业。"</data>
+  <data key="d2">chunk-d0729195c971adfe5870fa0284794305&lt;SEP&gt;chunk-8f8fb2aad1edcfa24f0ec6d04b04de7f&lt;SEP&gt;chunk-a43a435e41c8de9ea0cc25eb1a49d472&lt;SEP&gt;chunk-5ed376966fb48146686dddeaf4f275f1&lt;SEP&gt;chunk-5b6945c5579567f78fbe1eb78e13abb4</data>
+</node>
+<node id="&quot;和谐鼎泰基金&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Harmony DingTai Fund is a private equity firm involved in the transaction related to万科企业股份有限公司 shareholder减持计划."&lt;SEP&gt;"Heqin DingTai Fund is a private equity fund involved in the transaction related to WanKe A's committee composition."&lt;SEP&gt;"和谐鼎泰基金是一个商业投资项目的名称或称谓。"&lt;SEP&gt;"和谐鼎泰基金是万科企业股份有限公司的潜在投资项目."&lt;SEP&gt;"和谐鼎泰基金是万科企业股份有限公司的潜在投资项目。"</data>
+  <data key="d2">chunk-d0729195c971adfe5870fa0284794305&lt;SEP&gt;chunk-8f8fb2aad1edcfa24f0ec6d04b04de7f</data>
+</node>
+<node id="&quot;天津荣泰成长投资管理有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"天津荣泰成长投资管理有限公司是一家专注于投资管理的企业。"&lt;SEP&gt;"天津荣泰成长投资管理有限公司是和谐鼎泰基金的股东(N/A:这不是现实中的存在&lt;SEP&gt;"天津荣泰成长投资管理有限公司是和谐鼎泰基金的股东(N/A:这不是现实中的存在)"</data>
+  <data key="d2">chunk-d0729195c971adfe5870fa0284794305</data>
+</node>
+<node id="&quot;IDG资本&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"IDG资本是一个专注于私募股权投资的投资公司。"&lt;SEP&gt;"IDG资本是一家知名的私募股权投资公司。"</data>
+  <data key="d2">chunk-d0729195c971adfe5870fa0284794305</data>
+</node>
+<node id="&quot;吴挺&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"吴挺是天津荣泰成长投资管理有限公司的实际控制人。"</data>
+  <data key="d2">chunk-d0729195c971adfe5870fa0284794305</data>
+</node>
+<node id="&quot;比亚迪&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"比亚迪专注于汽车及相关产品生产和销售，与万科联合投资设立投资基金。"&lt;SEP&gt;"比亚迪是一个专注于汽车及相关产品生产的公司，与万科共同出资参与设立投资基金。"&lt;SEP&gt;"比亚迪是一家总部位于中国深圳的汽车制造商，其成为万科投资基金合作方。"&lt;SEP&gt;"比亚迪是与万科共同投资11.01亿元基金的合作伙伴。"&lt;SEP&gt;"比亚迪是一家专注于新能源和电动汽车领域的公司。"&lt;SEP&gt;"比亚迪是一家专注于新能源和电动汽车领域的公司，与万科联合投资基金。"</data>
+  <data key="d2">chunk-2dbb60d2cf9f883d1d91e96c36d350a9&lt;SEP&gt;chunk-722635e2dd6c04a40658be8a803ac40f&lt;SEP&gt;chunk-52c13efcad8173217dad312452122368</data>
+</node>
+<node id="&quot;投资基金&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"投资基金指的是通过并购和股权投资等方式，专注于科技及物流领域的投资。"&lt;SEP&gt;"投资基金旨在通过并购和股权投资等方式，专注于科技及物流领域的投资，助推公司在上述领域的发展。"&lt;SEP&gt;"投资基金的合作反映了万科和比亚迪在科技与物流领域的深度融合。"</data>
+  <data key="d2">chunk-722635e2dd6c04a40658be8a803ac40f&lt;SEP&gt;chunk-52c13efcad8173217dad312452122368</data>
+</node>
+<node id="&quot;科技、物流领域&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"科技与物流领域是基金投资的主要方向。"&lt;SEP&gt;"科技与物流领域是基金的主要投资方向。"</data>
+  <data key="d2">chunk-52c13efcad8173217dad312452122368</data>
+</node>
+<node id="&quot;万科&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"万科是一家总部位于中国深圳的房地产企业，专注于科技及物流等领域的投资。"&lt;SEP&gt;"万科是一家房地产和物业开发公司。"&lt;SEP&gt;"万科是房地产和物业开发公司，其下属子公司参与投资基金以加快战略定位落地。"</data>
+  <data key="d2">chunk-722635e2dd6c04a40658be8a803ac40f&lt;SEP&gt;chunk-52c13efcad8173217dad312452122368</data>
+</node>
+<node id="&quot;11亿投资基金&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"万科联合比亚迪投资一只规模为11亿元的专注于科技、物流的基金。"</data>
+  <data key="d2">chunk-52c13efcad8173217dad312452122368</data>
+</node>
+<node id="&quot;深圳&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"深圳是万科和比亚迪的企业总部所在地。"</data>
+  <data key="d2">chunk-52c13efcad8173217dad312452122368</data>
+</node>
+<node id="空|&gt;|&gt;ORGANIZATION">
+  <data key="d0">万科</data>
+  <data key="d1">万科是房地产巨头，计划通过投资产业基金进行多元化投资，重点关注科技和物流两个领域。)</data>
+  <data key="d2">chunk-c9e14b9526e44b607c5694f59b06142c</data>
+</node>
+<node id="&quot;科技&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"科技可能成为投资基金的主要领域之一，体现房地产与科技产业融合的趋势。"&lt;SEP&gt;"科技在投资基金的影响下，成为公司发展的关键方向之一。"&lt;SEP&gt;"科技在投资基金的投资策略及战略定位中占据重要地位。"</data>
+  <data key="d2">chunk-2dbb60d2cf9f883d1d91e96c36d350a9&lt;SEP&gt;chunk-722635e2dd6c04a40658be8a803ac40f</data>
+</node>
+<node id="&quot;物流&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"物流作为投资基金的投资策略范畴之一，成为重点关注领域。"&lt;SEP&gt;"物流领域也与投资基金的合作紧密相关，代表着发展机遇。"&lt;SEP&gt;"物流领域也可能成为投资基金的目标，凸显多样化投资策略。"</data>
+  <data key="d2">chunk-2dbb60d2cf9f883d1d91e96c36d350a9&lt;SEP&gt;chunk-722635e2dd6c04a40658be8a803ac40f</data>
+</node>
+<node id="&quot;产业基金&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"产业基金是一个由万科和比亚迪共同设立、专注于科技和物流领域的基金。"</data>
+  <data key="d2">chunk-2dbb60d2cf9f883d1d91e96c36d350a9</data>
+</node>
+<node id="&quot;科技投资基金&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"科技投资基金投向科技领域，体现房地产与科技产业的融合趋势。"</data>
+  <data key="d2">chunk-2dbb60d2cf9f883d1d91e96c36d350a9</data>
+</node>
+<node id="&quot;物流基金&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"物流基金投向物流领域，强调多元化投资策略。"</data>
+  <data key="d2">chunk-2dbb60d2cf9f883d1d91e96c36d350a9</data>
+</node>
+<node id="&quot;产业投资基金&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"产业投资基金是由万科和比亚迪共同设立、专注于科技和物流的基金。"</data>
+  <data key="d2">chunk-2dbb60d2cf9f883d1d91e96c36d350a9</data>
+</node>
+<node id="&quot;万科的下属子公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"万科下属子公司指万科公司内参与投资基金决策的子公司。"</data>
+  <data key="d2">chunk-722635e2dd6c04a40658be8a803ac40f</data>
+</node>
+<node id="&quot;战略定位&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"战略定位指的是公司在发展战略上的目标和规划。"</data>
+  <data key="d2">chunk-722635e2dd6c04a40658be8a803ac40f</data>
+</node>
+<node id="&quot;持股5%以上的股东&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"持股5%以上的股东们是公告中的减持计划主体，表明了其在公司股权关系中的重要性。"&lt;SEP&gt;"持股5%以上股东是公告中的持有公司超过5%股份的股东。"&lt;SEP&gt;"持股5%以上股东是减持计划的直接参与者，其计划涉及持股减持行动。"</data>
+  <data key="d2">chunk-5ed376966fb48146686dddeaf4f275f1&lt;SEP&gt;chunk-5b6945c5579567f78fbe1eb78e13abb4</data>
+</node>
+<node id="&quot;减持计划期限届满&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"减持计划是指关联于持股减持的行动与时间节点。"&lt;SEP&gt;"减持计划期限届满是指股东减持计划中的设定期限已满需要对外公开。"</data>
+  <data key="d2">chunk-5ed376966fb48146686dddeaf4f275f1</data>
+</node>
+<node id="&quot;实施情况公告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"实施情况公告是对减持计划实施过程进行的具体披露。"&lt;SEP&gt;"实施情况公告是针对减持计划实施过程中的信息披露。"</data>
+  <data key="d2">chunk-5ed376966fb48146686dddeaf4f275f1</data>
+</node>
+<node id="&quot;减持计划&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A减持 plan, indicating a sale or transfer of shares by company shareholders."&lt;SEP&gt;"Redemption Plan refers to a transaction or plan involving shareholders."&lt;SEP&gt;"减持计划”指的是特定时间段内，公司的重要股东有意减少其在公司股份中的占比这一行动。"</data>
+  <data key="d2">chunk-8f8fb2aad1edcfa24f0ec6d04b04de7f&lt;SEP&gt;chunk-439ed9c8770769e195be610fbfd898aa</data>
+</node>
+<node id="&quot;万科A&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"WanKe A is a part of WanKe Corporation with a possible identification as a company or subsidiary."</data>
+  <data key="d2">chunk-8f8fb2aad1edcfa24f0ec6d04b04de7f</data>
+</node>
+<node id="&quot;签署合伙协议&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Signed Partnership Agreement is a document or agreement between companies."</data>
+  <data key="d2">chunk-8f8fb2aad1edcfa24f0ec6d04b04de7f</data>
+</node>
+<node id="持股5%以上的股东&quot;">
+  <data key="d2">chunk-ec7f61f07335d4345e157c9a59ac94b2</data>
+  <data key="d1">"万科企业股份有限公司的持股5%以上的股东可能从事密集的商业活动，如设立产业基金."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="万科Ａ&quot;">
+  <data key="d2">chunk-ec7f61f07335d4345e157c9a59ac94b2</data>
+  <data key="d1">"持股5%以上的股东可能会通过万科Ａ参与更多的资本运作和市场参与."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="产业基金&quot;">
+  <data key="d2">chunk-ec7f61f07335d4345e157c9a59ac94b2</data>
+  <data key="d1">"持股5%以上的股东可能通过参与实体出资设立产业基金，表明他们正在寻求投资途径."&lt;SEP&gt;"股东持股5%以上的股东会参与设立产业基金，表明他们在寻求更多的投资机会和市场实践."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="减持计划期限届满暨实施情况公告&quot;">
+  <data key="d2">chunk-ec7f61f07335d4345e157c9a59ac94b2</data>
+  <data key="d1">"减持计划期限届满暨实施情况公告是为了澄清和更新持股5%以上的股东的减持行为及其实际操作情况."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="摘要&quot;">
+  <data key="d2">chunk-ec7f61f07335d4345e157c9a59ac94b2</data>
+  <data key="d1">"摘要提到万科Ａ拟1.5亿元参设产业基金，表明了公司近期在投资领域的行动."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;天津荣泰成长私募基金管理人&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"天津荣泰成长私募基金管理人是此次减持计划的执行主体，表明了其在相关管理领域的角色。"&lt;SEP&gt;"天津荣泰成长私募基金管理人是私募基金管理人之一，完成登记注册。"</data>
+  <data key="d2">chunk-5b6945c5579567f78fbe1eb78e13abb4</data>
+</node>
+<node id="&quot;减持计划期限届满暨实施情况&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"减持计划期限届满暨实施情况"是公告中的关键事件，明确说明了该公告的具体内容。"</data>
+  <data key="d2">chunk-5b6945c5579567f78fbe1eb78e13abb4</data>
+</node>
+<node id="&quot;华侨城&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"华侨城是位于中国的大型综合文化旅游开发及房地产企业集团。"&lt;SEP&gt;"华劵城集团是位于中国的大型综合文化旅游开发及房地产企业，其股权转让涉及其在中国的发展战略调整。"</data>
+  <data key="d2">chunk-8f940e23b9228685099547acdee90fe2</data>
+</node>
+<node id="&quot;昆明华侨城&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"昆明华侨城 is the organization performing the transfer of shares and equity."&lt;SEP&gt;"昆明华侨城是在昆明市投资建设的一个综合性文化旅游项目。"&lt;SEP&gt;"昆明华侨城是在昆明市投资建设的一个综合性文化旅游项目，其股权及债权的变动对其运营有重大影响。"</data>
+  <data key="d2">chunk-8f940e23b9228685099547acdee90fe2&lt;SEP&gt;chunk-8f3e9385a783105853c38fdbc91e3c5e</data>
+</node>
+<node id="&quot;转让&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"转让指的是公司将股权转让给其他实体，涉及到公司资产和股权的变更。"&lt;SEP&gt;"转让是企业间财产的最大变更之一，通过产权交易等方式完成。"&lt;SEP&gt;"转让是昆明华侨城24%股权及相关债权的法律行为，反映了华侨城集团的战略决策。"</data>
+  <data key="d2">chunk-8f940e23b9228685099547acdee90fe2&lt;SEP&gt;chunk-dd54f6a558779dde1e1734067bb6055d</data>
+</node>
+<node id="&quot;24%&quot;">
+  <data key="d0">"PERCENTAGE"</data>
+  <data key="d1">"24%的股权是中国企业有可能通过股权转让实现的一种控制水平，有助于华侨城进一步强化对昆明华侨城的控制力。"&lt;SEP&gt;"24%股权通常在上市公司股权转让或公司内部股权架构调整中出现，显示华侨城集团对昆明华侨城投资力度的调整。"</data>
+  <data key="d2">chunk-8f940e23b9228685099547acdee90fe2</data>
+</node>
+<node id="&quot;6125.68万元&quot;">
+  <data key="d0">"AMOUNT"</data>
+  <data key="d1">"6125.68万元人民币是昆明华侨城转让的债权数额。"&lt;SEP&gt;"6125.68万元人民币的债权涉及金融条款与投资回报，展示了昆明华侨城的资本状况与投资规模。"</data>
+  <data key="d2">chunk-8f940e23b9228685099547acdee90fe2</data>
+</node>
+<node id="&quot;股权&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"股权是指归属于公司的可分割价值的一部分，表现为股票。"&lt;SEP&gt;"股权转移与债权转让紧密相关，这是企业重组和资产优化的一种方式。"</data>
+  <data key="d2">chunk-8f940e23b9228685099547acdee90fe2&lt;SEP&gt;chunk-dd54f6a558779dde1e1734067bb6055d</data>
+</node>
+<node id="&quot;债权&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"债权是债务方对债务人的付款责任，涉及资金的借贷关系。"&lt;SEP&gt;"债权转让是一个金融事件，涉及到资产中的债权部分转移到债权人与债务人之外的第三方。"</data>
+  <data key="d2">chunk-8f940e23b9228685099547acdee90fe2&lt;SEP&gt;chunk-dd54f6a558779dde1e1734067bb6055d</data>
+</node>
+<node id="&quot;华侨城Ａ&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"华侨城Ａ是一家上市公司，专注于房地产等领域的开发与投资。"&lt;SEP&gt;"华侨城Ａ，代表华侨城集团的控股公司，进行昆明华侨城投资有限公司股权及相关债权的转让。"</data>
+  <data key="d2">chunk-dd54f6a558779dde1e1734067bb6055d&lt;SEP&gt;chunk-8f3e9385a783105853c38fdbc91e3c5e</data>
+</node>
+<node id="&quot;昆明华侨城投资有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"昆明华侨城投资有限公司，作为华侨城在昆明的投资实体，拥有一些股权和债权，并进行了这些资产的转让。"</data>
+  <data key="d2">chunk-dd54f6a558779dde1e1734067bb6055d</data>
+</node>
+<node id="&quot;昆明国瑞房地产发展有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"昆明国瑞房地产发展有限公司是华侨城Ａ控股的子公司，负责昆明地区的房地产开发业务。"</data>
+  <data key="d2">chunk-8f3e9385a783105853c38fdbc91e3c5e</data>
+</node>
+<node id="&quot;华侨城&quot;}}">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">""华侨城"没有具体的人物，可能是指华侨城集团或个体参与者。"</data>
+  <data key="d2">chunk-8f3e9385a783105853c38fdbc91e3c5e</data>
+</node>
+<node id="&quot; MAYOR &quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Mayor - referring to the top local administrative head in a city/state, Categorize as neutral."</data>
+  <data key="d2">chunk-8f3e9385a783105853c38fdbc91e3c5e</data>
+</node>
+<node id="&quot;华侨城&quot;}}&quot;">
+  <data key="d2">chunk-8f3e9385a783105853c38fdbc91e3c5e</data>
+  <data key="d1">"华侨城Ａ由华侨城个人或群体发起，并可能涉及华侨城个人或群体参与'</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;大族激光&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"大族激光是一家从事激光技术及装备研发、生产和销售的公司，主要活动包括全球业务布局和研发投资。"&lt;SEP&gt;"大族激光是一家作为欧洲在建项目资金流向确认的组织。"&lt;SEP&gt;"大族激光是一家公司的名称，文章中提到的大族激光公司负责管理和运营资金流向。"</data>
+  <data key="d2">chunk-0aa64455f42c515054cfb7f5435fc975&lt;SEP&gt;chunk-21ca555aa00973d32b160156585fe852</data>
+</node>
+<node id="&quot;普华永道&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"普华永道是一家国际知名的会计师事务所，常被邀请作为审计机构参与大型企业活动，此处表示公司将聘请其为专项审计机构。"&lt;SEP&gt;"普华永道是一家审计和咨询公司的名称，文章中普华永道通过审计确认了欧洲在建项目的资金流向。"&lt;SEP&gt;"普华永道是大族激光欧洲研发运营中心项目现金流交易确认的机构。"&lt;SEP&gt;"普华永道是确认欧洲研发运营中心项目现金流交易的机构，并且强调这些交易的用途。"&lt;SEP&gt;"普华永道是大族欧洲研发运营中心项目资金使用的审计机构。"&lt;SEP&gt;"普华永道被聘请为公开发行可转换公司债券的专项审计服务机构。"</data>
+  <data key="d2">chunk-882db926c0e0517844d5407697783bb0&lt;SEP&gt;chunk-0aa64455f42c515054cfb7f5435fc975&lt;SEP&gt;chunk-21ca555aa00973d32b160156585fe852&lt;SEP&gt;chunk-27a0b1ae934ed753834316b597161c46</data>
+</node>
+<node id="&quot;欧洲研发运营中心项目&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"该项目旨在推动大族激光在欧洲的研发能力提升。"&lt;SEP&gt;"这是一个特定的项目，可能涉及在欧洲的研发和运营中心。"&lt;SEP&gt;"这是一个项目，涉及到资金的流向确认，体现大族激光公司的运营和发展计划。"&lt;SEP&gt;"这是个项目，涉及到资金的流向确认，体现大族激光公司的运营和发展计划。"</data>
+  <data key="d2">chunk-0aa64455f42c515054cfb7f5435fc975&lt;SEP&gt;chunk-21ca555aa00973d32b160156585fe852</data>
+</node>
+<node id="&quot;欧洲&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"欧洲是资金流动到欧洲公司的地点，该项目可能也发生在欧洲。"&lt;SEP&gt;"欧洲是项目的重要地点，体现其运营及其发展重点。"</data>
+  <data key="d2">chunk-0aa64455f42c515054cfb7f5435fc975</data>
+</node>
+<node id="&quot;公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"公司用于汇至欧洲的大族资金，并且这笔资金被用于欧洲在建项目。"</data>
+  <data key="d2">chunk-0aa64455f42c515054cfb7f5435fc975</data>
+</node>
+<node id="&quot;汇至大族欧洲资金&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"资金汇到大族在欧洲设立的研发运营中心项目中。"&lt;SEP&gt;"资金汇至大族欧洲，被质疑是否用于欧洲在建项目。"</data>
+  <data key="d2">chunk-21ca555aa00973d32b160156585fe852&lt;SEP&gt;chunk-77d87af83784c91b52d2eca9314c7a21</data>
+</node>
+<node id="&quot;大族激光欧洲研发运营中心项目&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"大族激光欧洲项目，被质疑仅用作建设一家五星级酒店。"</data>
+  <data key="d2">chunk-77d87af83784c91b52d2eca9314c7a21</data>
+</node>
+<node id="&quot;大族香港&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"大族香港是大族激光的全资子公司，负责欧洲研发运营中心项目的资金提供。"</data>
+  <data key="d2">chunk-21ca555aa00973d32b160156585fe852</data>
+</node>
+<node id="&quot;欧洲研发中心项目&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"该项目旨在推动大族激光在欧洲的研发能力提升。"</data>
+  <data key="d2">chunk-21ca555aa00973d32b160156585fe852</data>
+</node>
+<node id="&quot;苏宁控股集团&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"苏宁控股集团是张近东先生领导的大型商业集团，专注于零售业的发展与变革。"&lt;SEP&gt;"苏宁控股集团，由张近东先生领导的大型商业集团，专注于零售业的发展与变革。"</data>
+  <data key="d2">chunk-90246ed8d5db026150edd9883fe30f0f</data>
+</node>
+<node id="&quot;张近东&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"张近东是苏宁控股集团的董事长，他在零售业变革方面有深刻的见解和行动。"&lt;SEP&gt;"张近东是苏宁电器的创始人，他提出“空调火了，苏宁也火了”的观点，体现了他对于零售业变革的视角。"&lt;SEP&gt;"张近东是苏宁电器的创始人，提出“空调火了，苏宁也火了”的观点，体现了他对于零售业变革的视角。"&lt;SEP&gt;"张近东是苏宁易购的董事长，他的观点强调互联网+如何推动苏宁易购从线下走到线上。"</data>
+  <data key="d2">chunk-b5c8f13f68e27b8c7afe4ba0da633610&lt;SEP&gt;chunk-90246ed8d5db026150edd9883fe30f0f&lt;SEP&gt;chunk-db0a4f0a7ecb4dfda4ccb385d24c6e08</data>
+</node>
+<node id="&quot;零售业&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"零售业正在经历从单纯的销售商品转变为提供全面服务的变化过程，这是一个重要的行业变革事件。"</data>
+  <data key="d2">chunk-90246ed8d5db026150edd9883fe30f0f</data>
+</node>
+<node id="&quot;买商品&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"买商品是零售业中传统的商业模式。"</data>
+  <data key="d2">chunk-90246ed8d5db026150edd9883fe30f0f</data>
+</node>
+<node id="&quot;买服务&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"买服务是零售业中注重用户体验、增值服务的一种新型商业模式。"</data>
+  <data key="d2">chunk-90246ed8d5db026150edd9883fe30f0f</data>
+</node>
+<node id="&quot;苏宁&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"苏宁 is a company actively challenging its current comfort zone by leveraging technology for industry transformation."&lt;SEP&gt;"苏宁 is a company dedicated to retail industry transformation by leveraging technology."&lt;SEP&gt;"苏宁是一家大型的电子产品制造商和零售商，多年来一直是家电行业的领导者。"&lt;SEP&gt;"苏宁是一家领先的零售企业，致力于零售业的变革和发展。"&lt;SEP&gt;"苏宁 refers to a particular location, cultural background, and origin of the mentioned activities and directions."&lt;SEP&gt;"苏宁，以其独特的′家′文化自居的开放式零售品牌，积极引领零售业变革。"&lt;SEP&gt;"苏宁隶属于苏宁控股集团，是中国零售行业的领军企业，一直在探索零售业的演变和变革。"&lt;SEP&gt;"苏宁是苏宁易购背后的关键人物，其科技赋能被视为推动零售业变革的核心力量。"&lt;SEP&gt;"苏宁是苏宁易购背后的关键人物，推动零售业变革的动力源。"&lt;SEP&gt;"苏宁通过主动跳出销售、物流等被动环节的'舒适区'，致力于通过科技创新引领零售业的迭代。"&lt;SEP&gt;"苏宁作为零售业中的重要参与者，采取行动引领行业的变革。"&lt;SEP&gt;"苏宁是中国一家大型零售企业的代表，展现出积极拥抱互联网转型的策略。苏宁易购董事长张近东的观点是核心主题。"</data>
+  <data key="d2">chunk-92bbcf81842bf83c1c891ef9b8414677&lt;SEP&gt;chunk-ecea9c2a94f74780906f38ee4607e788&lt;SEP&gt;chunk-4c05cb99d0d78bd0fd01e5728d870b24&lt;SEP&gt;chunk-3963afd258e5148aef48db4cc5c78238&lt;SEP&gt;chunk-b5c8f13f68e27b8c7afe4ba0da633610&lt;SEP&gt;chunk-35219c3d0909f4fbc99a4cabd3877b96&lt;SEP&gt;chunk-98491b4501c735964f1d90c3a1757375</data>
+</node>
+<node id="&quot;腾讯&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"腾讯在零售领域设立的电商平台，与苏宁易购形成了竞争态势。"&lt;SEP&gt;"腾讯是一家中国互联网公司，宣布退出家电市场份额。"</data>
+  <data key="d2">chunk-ecea9c2a94f74780906f38ee4607e788&lt;SEP&gt;chunk-35219c3d0909f4fbc99a4cabd3877b96</data>
+</node>
+<node id="&quot;家电&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"家电是指各类消费品，包括电器和家居用品。"</data>
+  <data key="d2">chunk-ecea9c2a94f74780906f38ee4607e788</data>
+</node>
+<node id="&quot;数字化转型&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"数字化转型是指利用信息技术进行业务改革的过程。"</data>
+  <data key="d2">chunk-ecea9c2a94f74780906f38ee4607e788</data>
+</node>
+<node id="&quot;专家&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"专家是一位在数字化转型方面具有丰富经验的专业人士。"</data>
+  <data key="d2">chunk-ecea9c2a94f74780906f38ee4607e788</data>
+</node>
+<node id="&quot;TSE易购&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"这里是假设的一个角色名，可能是一个人或一种特定品牌。</data>
+  <data key="d2">chunk-ecea9c2a94f74780906f38ee4607e788</data>
+</node>
+<node id="&quot;居民收入水平&quot;">
+  <data key="d0">"MEASUREMENT"</data>
+  <data key="d1">"居民收入水平的提升，增加了家庭购买力，使得消费行为更加多样化和高端化。"</data>
+  <data key="d2">chunk-ecea9c2a94f74780906f38ee4607e788</data>
+</node>
+<node id="&quot;物质生活的需求&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"对物质生活的更高需求意味着消费者购买更多高端和高质量的产品和商品。"</data>
+  <data key="d2">chunk-ecea9c2a94f74780906f38ee4607e788</data>
+</node>
+<node id="&quot;苏宁电器&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"苏宁电器是一家零售商，致力于推动零售业的变革，苏宁电器的创始人张近东引领苏宁的发展。"</data>
+  <data key="d2">chunk-db0a4f0a7ecb4dfda4ccb385d24c6e08</data>
+</node>
+<node id="&quot;空调&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"空调作为一种产品，是苏宁电器产品策略的一部分，体现了零售业利用科技手段进行产业转型的尝试。"&lt;SEP&gt;"空调成了苏宁电器的重点产品之一，通过一系列的科技赋能战略成为行业热门话题。"</data>
+  <data key="d2">chunk-db0a4f0a7ecb4dfda4ccb385d24c6e08</data>
+</node>
+<node id="&quot;零售业变革&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Retail industry transformation denotes the effort toward modernization in the retail sector."&lt;SEP&gt;"The retail industry transformation that苏宁 aims to lead through technological empowerment."&lt;SEP&gt;"The transformation and evolution of the retail industry by苏宁 through technological empowerment."&lt;SEP&gt;"苏宁电器及其创始人张近东追求科技赋能，引领零售业向数字化、智能化的方向发展。"&lt;SEP&gt;"零售业变革是苏宁电器及其创始人张近东追求的目标，他们追求科技赋能，引领行业革新。"&lt;SEP&gt;"苏宁易购引领零售业变革，通过科技赋能改变了零售业。"&lt;SEP&gt;"零售业变革象征着科技与商业的深度融合，苏宁易购成为此变革中的核心引擎。"&lt;SEP&gt;"零售业变革是苏宁推动的一项重大活动，苏宁利用科技手段面向消费者的服务方式得到了显著改善。"&lt;SEP&gt;"零售业变革是苏宁通过实现“+互联网”和“互联网+”策略带来的变革性事件。"</data>
+  <data key="d2">chunk-92bbcf81842bf83c1c891ef9b8414677&lt;SEP&gt;chunk-2cc01e042644770ed43baed6dc5b2658&lt;SEP&gt;chunk-db0a4f0a7ecb4dfda4ccb385d24c6e08&lt;SEP&gt;chunk-4c05cb99d0d78bd0fd01e5728d870b24&lt;SEP&gt;chunk-3963afd258e5148aef48db4cc5c78238</data>
+</node>
+<node id="&quot;科技赋能&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Technology empowerment is a strategic approach used by苏宁 to lead and drive transformation in the retail industry."&lt;SEP&gt;"Technology empowerment is central to the company's strategy and goal of leading retail industry transformation."&lt;SEP&gt;"科技赋能意味着整合了现代科技的苏宁利用AI、大数据等先进技术推动零售业的创新与变革。"&lt;SEP&gt;"苏宁易购依靠科技赋能进行零售业变革，引领了零售业第三次的创新变革。"&lt;SEP&gt;"Technology empowerment summarizes the use of technological means to drive business and societal evolution."&lt;SEP&gt;"科技赋能被提及为苏宁及其零售业变革的关键因素。"</data>
+  <data key="d2">chunk-92bbcf81842bf83c1c891ef9b8414677&lt;SEP&gt;chunk-4c05cb99d0d78bd0fd01e5728d870b24&lt;SEP&gt;chunk-3963afd258e5148aef48db4cc5c78238</data>
+</node>
+<node id="&quot;最忙的时候&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The peak operating period for the mentioned company, highlighting the intense workload and frenzied pace of operations."&lt;SEP&gt;"The peak period for the mentioned company, indicating high operational activity."</data>
+  <data key="d2">chunk-4c05cb99d0d78bd0fd01e5728d870b24</data>
+</node>
+<node id="&quot;我们&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The internal team or staff of苏宁 who are responsible for the intense, accelerated operations."&lt;SEP&gt;"This is a reference to the staff or team of the company."</data>
+  <data key="d2">chunk-4c05cb99d0d78bd0fd01e5728d870b24</data>
+</node>
+<node id="&quot;三五天&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The short span of time during which the company and its team operate at a frenzied and unceasing pace."&lt;SEP&gt;"The time period when the company is most busy, indicating the pace and scale of their operations."</data>
+  <data key="d2">chunk-4c05cb99d0d78bd0fd01e5728d870b24</data>
+</node>
+<node id="&quot;苏宁易购&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"苏宁易购 is a part of the broader苏宁's business enterprise, actively participating in the retail market."&lt;SEP&gt;"苏宁易购 is described as a key organization that stands out by actively changing its position in the retail industry."&lt;SEP&gt;"苏宁易购，由董事长黄明端领导的综合性电子商务和零售企业，致力于零售业的变革。"&lt;SEP&gt;"苏宁易购是苏宁旗下的零售品牌，致力于通过科技赋能，引领中国零售业的变革潮流。"&lt;SEP&gt;"苏宁易购这是苏宁旗下的零售品牌，致力于通过科技赋能，引领中国零售业的变革潮流。"&lt;SEP&gt;"苏宁易购是智慧零售企业，得益于苏宁以及其科技赋能的发展。"&lt;SEP&gt;"苏宁易购连续三年入围世界500强，显示其在零售业取得的显著成就。"&lt;SEP&gt;"苏宁易购是电商和零售领域的知名企业，专注于通过“+互联网”和“互联网+”的发展策略进行变革。"</data>
+  <data key="d2">chunk-92bbcf81842bf83c1c891ef9b8414677&lt;SEP&gt;chunk-2cc01e042644770ed43baed6dc5b2658&lt;SEP&gt;chunk-3963afd258e5148aef48db4cc5c78238&lt;SEP&gt;chunk-35219c3d0909f4fbc99a4cabd3877b96&lt;SEP&gt;chunk-98491b4501c735964f1d90c3a1757375</data>
+</node>
+<node id="&quot;黄明端&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"黄明端 is mentioned as the chairman of the board for these game-changing initiatives."&lt;SEP&gt;"黄明端担任苏宁易购董事长，推动苏宁在零售业中的转型与创新。"</data>
+  <data key="d2">chunk-98491b4501c735964f1d90c3a1757375</data>
+</node>
+<node id="&quot;全国连锁网络&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"苏宁在全国范围内建立的连锁网络，覆盖了多个省市，体现了其跨区域扩张的战略。"</data>
+  <data key="d2">chunk-35219c3d0909f4fbc99a4cabd3877b96</data>
+</node>
+<node id="&quot;淘宝&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"阿里巴巴旗下淘宝作为苏宁易购的重要竞争对手，双方在全球零售市场上展开了激烈的竞争。"</data>
+  <data key="d2">chunk-35219c3d0909f4fbc99a4cabd3877b96</data>
+</node>
+<node id="&quot;天猫&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"阿里巴巴旗下的天猫是苏宁易购在网络购物领域的竞争者，双方的竞争关系在市场上引起了广泛关注。"</data>
+  <data key="d2">chunk-35219c3d0909f4fbc99a4cabd3877b96</data>
+</node>
+<node id="苏宁易购&quot;">
+  <data key="d0">ORGANIZATION"</data>
+  <data key="d1">"苏宁易购自200平方米门店发展为智慧零售企业，是苏宁推动零售业变革的代表。"</data>
+  <data key="d2">chunk-92bbcf81842bf83c1c891ef9b8414677</data>
+</node>
+<node id="&quot;200平方米门店&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"200平方米是苏宁发展历程中的初期阶段。"</data>
+  <data key="d2">chunk-92bbcf81842bf83c1c891ef9b8414677</data>
+</node>
+<node id="&quot;智慧零售企业&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"苏宁易购当前的开店规模和发展方向。"</data>
+  <data key="d2">chunk-92bbcf81842bf83c1c891ef9b8414677</data>
+</node>
+<node id="&quot;世界500强&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"World 500强 represents financial and commercial supremacy recognized by business rankings."</data>
+  <data key="d2">chunk-3963afd258e5148aef48db4cc5c78238</data>
+</node>
+<node id="&quot;侯恩龙&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"侯恩龙作为苏宁易购的领导人，分享了苏宁关于互联网转型的深刻理解与实践，体现了苏宁内部决策者的创新思维和实践智慧。"&lt;SEP&gt;"侯恩龙是苏宁易购的负责人，他分享了苏宁关于互联网转型的经验。"</data>
+  <data key="d2">chunk-2cc01e042644770ed43baed6dc5b2658</data>
+</node>
+<node id="&quot;互联网&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"互联网这一概念在文中被多次提及，它作为苏宁转型的背景和关键驱动力。"</data>
+  <data key="d2">chunk-2cc01e042644770ed43baed6dc5b2658</data>
+</node>
+<node id="&quot;六七年&quot;">
+  <data key="d0">"DURATION"</data>
+  <data key="d1">"六七年是指苏宁进行“+互联网”和“互联网+”两个发展过程的时间跨度。"</data>
+  <data key="d2">chunk-2cc01e042644770ed43baed6dc5b2658</data>
+</node>
+<node id="&quot;互联网转型&quot;">
+  <data key="d2">chunk-2cc01e042644770ed43baed6dc5b2658</data>
+  <data key="d1">"侯恩龙分享了苏宁在互联网转型中结合自身经验的策略与实践，体现了苏宁的创新思维。</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;互联网+&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"互联网+是指利用互联网的平台能力，促进线上线下融合，加速企业的数字化转型。"</data>
+  <data key="d2">chunk-b5c8f13f68e27b8c7afe4ba0da633610</data>
+</node>
+<node id="&quot;线下&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"线下零售市场，苏宁作为传统零售商，面临线上渠道的竞争，寻找转型出路。"</data>
+  <data key="d2">chunk-b5c8f13f68e27b8c7afe4ba0da633610</data>
+</node>
+<node id="&quot;线上&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"线上销售渠道，如苏宁易购，苏宁通过互联网+战略与线下销售互补，实现零售业务的数字化转型。"</data>
+  <data key="d2">chunk-b5c8f13f68e27b8c7afe4ba0da633610</data>
+</node>
+<node id="&quot;包钢股份&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"包钢股份是一家与包钢集团及内蒙古转型升级基金签署债转股相关协议的公司。"</data>
+  <data key="d2">chunk-1d8d7a587fa002b15c21f0e6cc875316</data>
+</node>
+<node id="&quot;包钢集团&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"包钢集团是包钢股份的一家合作伙伴，共同参与债转股协议的签署。"</data>
+  <data key="d2">chunk-1d8d7a587fa002b15c21f0e6cc875316</data>
+</node>
+<node id="&quot;内蒙古转型升级基金&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"内蒙古转型升级基金为债转股提供了基金支持，参与协议的签署。"</data>
+  <data key="d2">chunk-1d8d7a587fa002b15c21f0e6cc875316</data>
+</node>
+<node id="&quot;上期所&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"上期所是中国一家大宗商品交易所，专门从事衍生品交易和风险管理相关业务。"</data>
+  <data key="d2">chunk-7b81d63afb86a0db3644173bb62a993d</data>
+</node>
+<node id="&quot;中国宝武&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"中国宝武是位于中国的大型冶金企业集团，专注于钢铁及相关产品的生产和销售。"</data>
+  <data key="d2">chunk-7b81d63afb86a0db3644173bb62a993d</data>
+</node>
+<node id="&quot;战略合作协议&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"这次签署的战略合作协议表明上期所和中国宝武之间的合作关系将在多个领域展开，包括资源的协同供应与市场布局的共同规划等。"</data>
+  <data key="d2">chunk-7b81d63afb86a0db3644173bb62a993d</data>
+</node>
+<node id="&quot;招商银行&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"China Merchants Bank announces a policy to adjust mortgage interest rates based on LPR changes."&lt;SEP&gt;"招商银行发布声明，称其个人贷款利率将参考LPR的变动而调整，以此反映市场利率的变化。"&lt;SEP&gt;"招商银行是文中提到的推动LPR利率改革的重要银行机构。"&lt;SEP&gt;"招商银行是给个人发放贷款的金融机构，也提到它是积极响应LPR改革的银行。"&lt;SEP&gt;"招商银行作为大型金融机构，在利率改革中率先跟进，推出参照LPR发放贷款的措施，体现了银行积极顺应市场环境的响应机制。"&lt;SEP&gt;"招商银行是该摘要中的一个重要金融机构，被明确提到开展遵循LPR基准利率发放贷款的活动。"&lt;SEP&gt;"招商银行是财务活动的主要参与者。”&lt;SEP&gt;"招商银行率先采纳LPR作为贷款利率基准进行个贷发放，贷款利率未变，显示利率转换过程平稳。"</data>
+  <data key="d2">chunk-4bebc377e4f464060c372f511fc0a5be&lt;SEP&gt;chunk-3858bc758b9805995470061d52abbba3&lt;SEP&gt;chunk-5208fb8ea7c750248b1f286e79e794e5&lt;SEP&gt;chunk-532b1b7de4e52fd61ccb4782aaade603&lt;SEP&gt;chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</node>
+<node id="&quot;个人贷款&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Personal loans constitute a significant portion of the banking industry in China, and their rates are crucial for consumer finance and macroeconomic stability."&lt;SEP&gt;"个人贷款利率与市场利率挂钩，体现了金融市场利率的波动现象。"&lt;SEP&gt;"个人贷款是指个人向银行申请的小额贷款，文中提及的逐步参照LPR利率发放贷款指向个人贷款改革。"&lt;SEP&gt;"个人贷款是指银行给出的面向个人的小额贷款服务，被提及为先行参照LPR进行发放。"</data>
+  <data key="d2">chunk-4bebc377e4f464060c372f511fc0a5be&lt;SEP&gt;chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</node>
+<node id="&quot;LPR&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"LPR (Loan Prime Rate) is a benchmark interest rate that loans follow in China, reflecting the overall market rate."&lt;SEP&gt;"LPR（Loan Prime Rate，贷款基础利率）是市场资金成本的重要参考指标，其变动会对个人贷款利率产生直接影响。"&lt;SEP&gt;"LPR是基准利率，用于指导招商银行各类贷款业务，展示了贷款利率的基准参考标准。"&lt;SEP&gt;"LPR切换是个人贷款业务定价规则的重大变化，体现了银行对政策调整的快速适应。"&lt;SEP&gt;"LPR是指贷款市场报价利率，这里指的就是银行参考的人民币贷款定价基准。"&lt;SEP&gt;"Loan Prime Rate represents a new reference loan pricing mechanism for personal loans."&lt;SEP&gt;"LPR利率作为贷款利率基准，显示利率转换过程平稳。"&lt;SEP&gt;"LPR是衡量贷款利率的关键基准。”</data>
+  <data key="d2">chunk-577df0465adbea828346952633d5ede4&lt;SEP&gt;chunk-e03cba2de8dbae732d5cf38f954fa1c1&lt;SEP&gt;chunk-5208fb8ea7c750248b1f286e79e794e5&lt;SEP&gt;chunk-532b1b7de4e52fd61ccb4782aaade603</data>
+</node>
+<node id="&quot;市场利率&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Rise in market rates affects individual loan interest rates, reflecting changes in overall economic conditions."&lt;SEP&gt;"市场利率的变动影响个人贷款的利率，反映出金融市场环境的不确定性。"</data>
+  <data key="d2">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</node>
+<node id="&quot;个人贷款利率&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Personal loan rates are a key metric that reflects market interest rates and banking policies in China."</data>
+  <data key="d2">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</node>
+<node id="&quot;招商银行董事会&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The board of directors of China Merchants Bank takes measures to adjust mortgage rates based on LPR shifts."</data>
+  <data key="d2">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</node>
+<node id="&quot;建议&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"There is a discussion about suggestions for adjusting mortgage rates, indicating the ongoing policy environment."</data>
+  <data key="d2">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</node>
+<node id="&quot;关注&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The article highlights that market and regulatory pressures are causing concerns about mortgage rate changes."</data>
+  <data key="d2">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</node>
+<node id="&quot;平稳转换&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The announcement of smooth transitional actions like changing loan rates is seen as part of the economic restructuring efforts in China."&lt;SEP&gt;"平稳转换表明了招商银行在贷款业务上的结构调整，体现了其顺应市场变化和政策要求的努力。"</data>
+  <data key="d2">chunk-e03cba2de8dbae732d5cf38f954fa1c1&lt;SEP&gt;chunk-5208fb8ea7c750248b1f286e79e794e5</data>
+</node>
+<node id="&quot;商业银行&quot;">
+  <data key="d2">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+  <data key="d1">"Market interest rates and overall economic conditions influence the interest rates of personal loans, exemplifying the impact of macroeconomic factors."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;标题&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"标题是公告的标题，用来表明公告的主题。"&lt;SEP&gt;"标题是关于招商银行苏州分行首笔LPR贷款落地的新闻事件。"</data>
+  <data key="d2">chunk-3c6048c7f320e6ee1d51c6464d78f33f&lt;SEP&gt;chunk-617077acb8d3bc7b71a8169d776905c7</data>
+</node>
+<node id="&quot;招商银行苏州分行&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"招商银行苏州分行率先参照LPR发放贷款，成为首笔LPR贷款的发放者。"&lt;SEP&gt;"招商银行苏州分行率先按LPR标准发放贷款，成为首笔LPR贷款的发放者。"</data>
+  <data key="d2">chunk-617077acb8d3bc7b71a8169d776905c7</data>
+</node>
+<node id="&quot;LPR贷款&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"LPR (Loan Prime Rate) is introduced as the new guideline for loan issuing practices, marking a transition in lending standards."</data>
+  <data key="d2">chunk-617077acb8d3bc7b71a8169d776905c7</data>
+</node>
+<node id="&quot;贷款&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Loan issuance adheres to new standards and guidelines set by LPR, indicating a move towards more flexible and responsive lending practices."&lt;SEP&gt;"贷款是指银行给个人或企业的资金服务，其中特别指个人贷款。"&lt;SEP&gt;"贷款是全文的重点内容，涵盖了房贷、小微贷款与消费贷款在内的各类贷款活动。"</data>
+  <data key="d2">chunk-617077acb8d3bc7b71a8169d776905c7&lt;SEP&gt;chunk-4bebc377e4f464060c372f511fc0a5be&lt;SEP&gt;chunk-5208fb8ea7c750248b1f286e79e794e5</data>
+</node>
+<node id="&quot;LPR利率改革&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"LPR利率改革指的是利率市场化改革的一部分，旨在通过参考LPR的方式提升贷款市场透明度。"&lt;SEP&gt;"LPR利率改革是利率市场化改革的一部分，提到招商银行加快落地此处改革。"</data>
+  <data key="d2">chunk-4bebc377e4f464060c372f511fc0a5be</data>
+</node>
+<node id="|&quot;LPR利率改革&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"LPR利率改革指商业银行调整贷款基准利率的一种方式，标志着利率市场化进程的进一步推进。此改革的目标是使实体经济的融资成本降低。"</data>
+  <data key="d2">chunk-3858bc758b9805995470061d52abbba3</data>
+</node>
+<node id="&quot;实体经济融资成本&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"实体经济融资成本，作为宏观经济指标，反映了企业在市场上的融资难易程度以及借贷的成本水平。"</data>
+  <data key="d2">chunk-3858bc758b9805995470061d52abbba3</data>
+</node>
+<node id="&quot;房贷&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"房贷是指简要提及的一种贷款类型，反映出招商银行提供房贷业务。"</data>
+  <data key="d2">chunk-5208fb8ea7c750248b1f286e79e794e5</data>
+</node>
+<node id="&quot;小微&quot;">
+  <data key="d0">"PRODUCT_CATEGORY"</data>
+  <data key="d1">"小微是简要提及的一种贷款类别，展示了招商银行在小微贷款方面的作用。"&lt;SEP&gt;"小微，作为理财产品，指的是设计用于服务小型企业的金融产品。"</data>
+  <data key="d2">chunk-49b7485cc3f3e37d464cf46b1a505fd7&lt;SEP&gt;chunk-5208fb8ea7c750248b1f286e79e794e5</data>
+</node>
+<node id="&quot;消费贷款&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"消费贷款是指满足个人消费者日常消费需求的贷款产品，招商银行进行了此类贷款的投放。"</data>
+  <data key="d2">chunk-5208fb8ea7c750248b1f286e79e794e5</data>
+</node>
+<node id="&quot;摘要&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"摘要 acts as a summary event, encapsulating the core message or key points from the disclosur&lt;a missing&gt;ed content."&lt;SEP&gt;"摘要强调了招商证券公司2017年年度报告补充公告中关于职工代表监事的信息内容。"&lt;SEP&gt;"摘要是对招商银行贷款业务政策调整的总结，交代了整体情况和主要分项业务的动态。"&lt;SEP&gt;"摘要 describes China Pacific Insurance's announcement of repurchasing A股 shares reaching a total of 5759万股 with a total cost of 5亿元."&lt;SEP&gt;"摘要描述中国平安已累计回购5759万股A股股份，并已经花费了5亿元，还剩5亿元。"&lt;SEP&gt;"摘要部分简要介绍了中国国旅近期的市场表现，包括盘中创历史新高并有望达到百元股。"</data>
+  <data key="d2">chunk-5208fb8ea7c750248b1f286e79e794e5&lt;SEP&gt;chunk-56acb6e64cab4475cff6c1be9b437364&lt;SEP&gt;chunk-908f9bee7beb3d7ed4ea08e55b1d54f3&lt;SEP&gt;chunk-da2fd77a35db0d7be9091b6180d0353b&lt;SEP&gt;chunk-0c1ba1d5e81b8914422e7a77863370eb</data>
+</node>
+<node id="&quot;基准利率&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"基准利率由LPR提供，是贷款定价的重要依据与标准。&lt;br&gt;&lt;br&gt;它是对贷款市场监测、调节的主要指标之一，有助于把控贷款风险与价格。"</data>
+  <data key="d2">chunk-5208fb8ea7c750248b1f286e79e794e5</data>
+</node>
+<node id="&quot;贷款利率&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"贷款利率包含了基准利率和各类贷款的实际利率信息"&lt;SEP&gt;"贷款利率是根据贷款市场报价利率（LPR）和加点数值确定的。"</data>
+  <data key="d2">chunk-ebcc1be67f92759f47a478728c8ddbb1&lt;SEP&gt;chunk-5208fb8ea7c750248b1f286e79e794e5</data>
+</node>
+<node id="&quot;招商银行深圳分行&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"招商银行深圳分行 is the specific bank branch that initiated the LPR for personal loan issuance."&lt;SEP&gt;"招商银行深圳分行是率先参照LPR发放贷款的个人贷款业务的执行者。"</data>
+  <data key="d2">chunk-577df0465adbea828346952633d5ede4</data>
+</node>
+<node id="&quot;房贷业务&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Personal loan issuance is progressively implementing the Loan Prime Rate. The event describes the transition from old pricing mechanisms to LPR."&lt;SEP&gt;"房贷业务切换折射出银行市场利率改革的进程以及对政策回应的及时性和积极响应性。"&lt;SEP&gt;"房贷业务的切换体现银行对市场利率改革的积极响应，也意味着贷款定价规则的重大变化。"</data>
+  <data key="d2">chunk-577df0465adbea828346952633d5ede4</data>
+</node>
+<node id="&quot;贷款利率保持不变&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"贷款利率保持不变的事件标志着利率转换的平稳过渡。”</data>
+  <data key="d2">chunk-532b1b7de4e52fd61ccb4782aaade603</data>
+</node>
+<node id="&quot;国投资本股份有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"State-owned Investment Capital Co., Ltd. is a company_reporting shareholder减持行为."&lt;SEP&gt;"该公司是一家名为的国投资本股份有限公司，主要从事资本业务，发布股东减持股份的结果公告。"&lt;SEP&gt;"国投资本股份有限公司（英文名可能为“State Investment Company Limited"）是一家公开上市公司，公司主要股东进行股份减持活动已完成。"</data>
+  <data key="d2">chunk-5e734fec15f0e23317d5a529bc3c4411&lt;SEP&gt;chunk-beb1b08ab9140da7df076471bda23b5e&lt;SEP&gt;chunk-439ed9c8770769e195be610fbfd898aa</data>
+</node>
+<node id="&quot;远致投资&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Far Zen Investment is an organization_engaging in减持."&lt;SEP&gt;"远致投资是国投资本股份有限公司的一个股东，参与了本次减持股份的计划。"</data>
+  <data key="d2">chunk-5e734fec15f0e23317d5a529bc3c4411&lt;SEP&gt;chunk-beb1b08ab9140da7df076471bda23b5e</data>
+</node>
+<node id="&quot;减持股份的结果公告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"这种公告是国投资本股份有限公司为了发布其股东远致投资已完成减持计划的最终公告。"</data>
+  <data key="d2">chunk-beb1b08ab9140da7df076471bda23b5e</data>
+</node>
+<node id="&quot;减持计划实施完毕&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"这种公告是国投资本股份有限公司为了发布其股东远致投资已完成减持计划的最终公告。"</data>
+  <data key="d2">chunk-beb1b08ab9140da7df076471bda23b5e</data>
+</node>
+<node id="&quot;减持股份&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Shareholders reselling their shares represents the event of Reselling."&lt;SEP&gt;"Shareholders sharing of shares involves the event of Reselling."</data>
+  <data key="d2">chunk-5e734fec15f0e23317d5a529bc3c4411</data>
+</node>
+<node id="&quot;国投资本&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"国投资本综合类控股上市公司，用于描述公司的高层行动。"</data>
+  <data key="d2">chunk-439ed9c8770769e195be610fbfd898aa</data>
+</node>
+<node id="&quot;股东&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"股东指的是持有公司股份的投资者，用于描述政策执行过程中的行动发起方。"</data>
+  <data key="d2">chunk-439ed9c8770769e195be610fbfd898aa</data>
+</node>
+<node id="&quot;股份&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"涉及公司的数字货币、虚拟货币或其他投资产品概念。"</data>
+  <data key="d2">chunk-439ed9c8770769e195be610fbfd898aa</data>
+</node>
+<node id="&quot;董监高&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"上市公司管理人员，包含董事会、监事会及高管，他们是减持计划的参与方。"</data>
+  <data key="d2">chunk-439ed9c8770769e195be610fbfd898aa</data>
+</node>
+<node id="&quot;计划实施完毕&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"减持计划已经完全按照公司公告执行且不再进行。"</data>
+  <data key="d2">chunk-439ed9c8770769e195be610fbfd898aa</data>
+</node>
+<node id="&quot;江苏银行股份有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"江苏银行股份有限公司 is a Chinese commercial bank that recently completed the issuance of its 2019 tier 2 capital bonds."&lt;SEP&gt;"江苏银行股份有限公司是一家银行机构，负责发行2019年二级资本债券和永续债，并获得董事会的批准。"</data>
+  <data key="d2">chunk-9feda6a069e672ec7f5dd795718a76ee&lt;SEP&gt;chunk-aae34ca38577c86c11b97a076cb7a464</data>
+</node>
+<node id="&quot;2019年二级资本债券&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The 2019 tier 2 capital bonds refer to a bond issuance by Jiangsu Bank aimed at issuing capital."</data>
+  <data key="d2">chunk-aae34ca38577c86c11b97a076cb7a464</data>
+</node>
+<node id="&quot;江苏银行&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Jiangsu Bank represents the issuer, a financial institution in charge of the bond issuance process."&lt;SEP&gt;"江苏银行是一家中国银行机构，参与发行永续债的讨论和决策。"</data>
+  <data key="d2">chunk-9feda6a069e672ec7f5dd795718a76ee&lt;SEP&gt;chunk-aae34ca38577c86c11b97a076cb7a464</data>
+</node>
+<node id="&quot;董事会&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"股东大会，负责股票期权激励计划的审批，涉及范围包括上海医药及其下属公司。"&lt;SEP&gt;"董事会由江苏银行股份有限公司的董事会成员构成，负责审议有关发行的议案。"&lt;SEP&gt;"董事会指企业内部的管理决策层，负责公司经营的各个方面。"</data>
+  <data key="d2">chunk-f768e5d2437df4a4d648139fbfb21e45&lt;SEP&gt;chunk-9feda6a069e672ec7f5dd795718a76ee&lt;SEP&gt;chunk-eb2296262ebb34d7a505d75eda2c87fa</data>
+</node>
+<node id="&quot;2019年二级资本债券发行完毕&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"江苏银行最终发行2019年二级资本债券，并完成了相关公告程序。"</data>
+  <data key="d2">chunk-9feda6a069e672ec7f5dd795718a76ee</data>
+</node>
+<node id="&quot;永续债&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"永续债是江苏银行引入的一种新型债务工具，其特性可能会对银行的资本构成和风险评估产生影响。"</data>
+  <data key="d2">chunk-9feda6a069e672ec7f5dd795718a76ee</data>
+</node>
+<node id="&quot;九州通医药集团股份有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"九州通医药集团股份有限公司是一家涉及医药行业的上市公司，公告中提及控股股东的债券发行与其相关。"&lt;SEP&gt;"九州通医药集团股份有限公司是与公告相关的企业，控股股东发行可交换公司债券的主体。"</data>
+  <data key="d2">chunk-4ef02e35b34518247dedccdefcd1bab4</data>
+</node>
+<node id="&quot;控股股东&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"控股股东"表示发行可交换公司债券的主体，这一角色是指企业的实际控股人。"&lt;SEP&gt;"控股股东在公告中提及，他是此次可交换公司债券发行的发起人。"</data>
+  <data key="d2">chunk-4ef02e35b34518247dedccdefcd1bab4</data>
+</node>
+<node id="&quot;大规模发行的债券&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"10亿人民币的大规模发行债券反映了公司财务状况及融资策略。"</data>
+  <data key="d2">chunk-4ef02e35b34518247dedccdefcd1bab4</data>
+</node>
+<node id="&quot;可交换公司债券&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"可交换公司债券是一种新的金融工具，允许股东将债券转换为普通股，提供了一种新的融资手段。"</data>
+  <data key="d2">chunk-4ef02e35b34518247dedccdefcd1bab4</data>
+</node>
+<node id="&quot;募集到的资金&quot;">
+  <data key="d0">"MONEY"</data>
+  <data key="d1">"募集资金的到账，反映了公司财务管理与金融市场的一系列动态。"</data>
+  <data key="d2">chunk-4ef02e35b34518247dedccdefcd1bab4</data>
+</node>
+<node id="&quot;《关于控股股东非公开发行可交换公司债券（第一期）募集资金到账的公告》&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"公告发布，详细记录了债券发行和募集资金到账的情况。"&lt;SEP&gt;"公告的发布体现了公司证券市场的透明度，以及与投资者沟通的基本程序。"</data>
+  <data key="d2">chunk-4ef02e35b34518247dedccdefcd1bab4</data>
+</node>
+<node id="&quot;非公开发行的可交换公司债券&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"可交换公司债券是用于筹集资金的一种新工具，信息披露表示进行了首次非公开发行。"</data>
+  <data key="d2">chunk-4ef02e35b34518247dedccdefcd1bab4</data>
+</node>
+<node id="&quot;第一期&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"第一期"指此次议案中的第一档债券发行。"</data>
+  <data key="d2">chunk-4ef02e35b34518247dedccdefcd1bab4</data>
+</node>
+<node id="&quot;募集资金&quot;">
+  <data key="d0">"MONEY"</data>
+  <data key="d1">"文中提到的募集资金到账，反映了一次筹资事件。"</data>
+  <data key="d2">chunk-4ef02e35b34518247dedccdefcd1bab4</data>
+</node>
+<node id="&quot;SOURCE_ENTITY&quot;">
+  <data key="d2">chunk-4ef02e35b34518247dedccdefcd1bab4</data>
+  <data key="d1">"target_entity"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;不存在明显的实体间关系&quot;">
+  <data key="d2">chunk-4ef02e35b34518247dedccdefcd1bab4</data>
+  <data key="d1">"target_entity"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="九州通医药集团股份有限公司">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">九州通医药集团股份有限公司是一家主要从事医药业务的公司，公告涉及其非公开发行可交换公司债券的募集情况。&lt;SEP&gt;九州通医药集团股份有限公司是一家位于中国的大型医药集团企业，公告中明确提及了该公司发行可交换债券一事。&lt;SEP&gt;九州通医药集团股份有限公司是一家医药集团公司，专注于药品和健康产品的生产和销售。&lt;SEP&gt;九州通医药集团股份有限公司是中国一家医药集团公司，专注于药品和健康产品的生产和销售。</data>
+  <data key="d2">chunk-cd730709c8aad4b78d3165aae9acf1bc&lt;SEP&gt;chunk-7c163d781541bc13ad0b59bca8143320&lt;SEP&gt;chunk-15b4ef59e17fd71c7d2c1dd7c69e6785</data>
+</node>
+<node id="控股股东">
+  <data key="d2">chunk-cd730709c8aad4b78d3165aae9acf1bc&lt;SEP&gt;chunk-7c163d781541bc13ad0b59bca8143320</data>
+  <data key="d1">控股股东是公司实际控制人，负责公司的日常运作和重大决策。&lt;SEP&gt;控股股东的存在影响了公司的决策和资金流动。</data>
+  <data key="d0">PERSON</data>
+</node>
+<node id="非公开发行可交换公司债券">
+  <data key="d0">EVENT</data>
+  <data key="d1">指一种金融工具发行活动，允许投资者换取公司普通股的权益，这里具体描述的是募集资金到账公告附带的第一期发行。&lt;SEP&gt;非公开发行可交换公司债券是指一种金融工具发行活动，允许投资者换取公司普通股的权益，这里具体描述的是募集资金到账公告附带的第一期发行。</data>
+  <data key="d2">chunk-cd730709c8aad4b78d3165aae9acf1bc</data>
+</node>
+<node id="第一期">
+  <data key="d0">EVENT</data>
+  <data key="d1">强调的是第一个发行批次，说明了具体内容未详细咨询。&lt;SEP&gt;这里可能需进一步说明第一期的具体组成要素或实施细节。&lt;SEP&gt;非公开发行可交换公司债券系列中的第一期发行，具体份额和内容未详细说明。</data>
+  <data key="d2">chunk-cd730709c8aad4b78d3165aae9acf1bc</data>
+</node>
+<node id="募集资金到账">
+  <data key="d0">EVENT</data>
+  <data key="d1">标明了资金顺利完成转移的过程，是说明书正文的重点内容。</data>
+  <data key="d2">chunk-cd730709c8aad4b78d3165aae9acf1bc</data>
+</node>
+<node id="特此公告">
+  <data key="d0">EVENT</data>
+  <data key="d1">格式化标题的一部分，标示本书籍或消息的主要说明，无需详细身份信息。</data>
+  <data key="d2">chunk-cd730709c8aad4b78d3165aae9acf1bc</data>
+</node>
+<node id="&quot;子公司拟1.5亿元收购武汉医药集团部分股权&quot;">
+  <data key="d2">chunk-15b4ef59e17fd71c7d2c1dd7c69e6785</data>
+  <data key="d1">"九州通的子公司计划收购武汉医药集团的股权."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;武汉医药集团部分股权&quot;">
+  <data key="d2">chunk-15b4ef59e17fd71c7d2c1dd7c69e6785</data>
+  <data key="d1">"九州通的子公司计划收购武汉医药集团的股权."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;子公司&quot;">
+  <data key="d2">chunk-15b4ef59e17fd71c7d2c1dd7c69e6785</data>
+  <data key="d1">"子公司计划通过收购武汉医药集团部分股权的方式对公司进行经营决策和重组."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;收购&quot;">
+  <data key="d2">chunk-15b4ef59e17fd71c7d2c1dd7c69e6785</data>
+  <data key="d1">"子公司计划通过收购武汉医药集团部分股权的方式对公司进行经营决策和重组."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;招商证券股份有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"招商证券股份有限公司 is a company issuing the 2017 annual report."|&lt;SEP&gt;"招商证券股份有限公司是一家中国证券公司，主要从事证券经纪、投资银行、财务顾问等业务。"&lt;SEP&gt;"招商证券股份有限公司是中国的一家证券公司，负责发布2017年的年度报告补充公告。"&lt;SEP&gt;"招商证券股份有限公司是中国的一家证券公司，负责发布年报补充公告。"&lt;SEP&gt;"招商证券股份有限公司在中国大陆的金融服务机构，负责发布2017年年度报告补充公告。"&lt;SEP&gt;"招商证券股份有限公司是中国的主要金融服务机构，负责发布2017年年度报告补充公告。"&lt;SEP&gt;"招商证券股份有限公司是中国一家证券公司，被提及在2017年年度报告补充公告中。"</data>
+  <data key="d2">chunk-2ecd2863dcca6efbd16c4b3283373f40&lt;SEP&gt;chunk-7591e4e0bd58e3e4052caf42d89a9728&lt;SEP&gt;chunk-ca696e05f22b10992d4f8fbaac31efe4&lt;SEP&gt;chunk-61ff6398f4898a39ca771c6aec719cac&lt;SEP&gt;chunk-0c1ba1d5e81b8914422e7a77863370eb</data>
+</node>
+<node id="&quot;招商证券&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Cai Ruan Securities analyzes the stability of Dà Qín Railway's transport volumes and high dividends, providing reference for investors."&lt;SEP&gt;"招商证券对大秦铁路的全年运输量及高股息进行了分析，为投资提供参考。"&lt;SEP&gt;"招商证券指发布声明的证券公司，用于提及高管离职的信息。"&lt;SEP&gt;"招商证券是一家中国证券公司，主要子公司和子公司研究、财务尽职调查服务。"</data>
+  <data key="d2">chunk-2ecd2863dcca6efbd16c4b3283373f40&lt;SEP&gt;chunk-4d86d3b4a48a289b225cd30203510609&lt;SEP&gt;chunk-7591e4e0bd58e3e4052caf42d89a9728</data>
+</node>
+<node id="&quot;高管&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Executives of CS Securities are involved in the disclosure of tax-prepaid compensation."&lt;SEP&gt;"高管 refers to executives in CS Securities."&lt;SEP&gt;"高管是指公司的高级管理人员，负责公司的战略规划和日常运营。"</data>
+  <data key="d2">chunk-2ecd2863dcca6efbd16c4b3283373f40</data>
+</node>
+<node id="&quot;2017年年度报告补充公告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2017年年度报告补充公告是招商证券股份有限公司发布的一份补充报告，用于补充2017年的年度报告。"&lt;SEP&gt;"发布于2018年，供投资者参考，公告中详细解释了2017年税前报酬的详细情况。"</data>
+  <data key="d2">chunk-2ecd2863dcca6efbd16c4b3283373f40&lt;SEP&gt;chunk-61ff6398f4898a39ca771c6aec719cac</data>
+</node>
+<node id="&quot;税前报酬&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"税前报酬在这里是指高管每年基于其服务而获得的现金收入、股票期权或其他形式的报酬，但不包括已缴纳的企业所得税。"&lt;SEP&gt;"税前报酬是职工代表监事2017年度应得的经济回报，数值是10.5万元。"</data>
+  <data key="d2">chunk-2ecd2863dcca6efbd16c4b3283373f40&lt;SEP&gt;chunk-0c1ba1d5e81b8914422e7a77863370eb</data>
+</node>
+<node id="&quot;CS SECURITIES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"CS Securities represents the company with core executives involved in disclosure."</data>
+  <data key="d2">chunk-2ecd2863dcca6efbd16c4b3283373f40</data>
+</node>
+<node id="&quot;年度报告补充公告，高管2017年度税前报酬的其余部分披露&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An announcement related to disclosing compensation for executives in the additional report of the 2017 annual financial report."</data>
+  <data key="d2">chunk-2ecd2863dcca6efbd16c4b3283373f40</data>
+</node>
+<node id="招商证券股份有限公司">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">“招商证券股份有限公司是一家中国证券公司，主营证券承销、经纪、投资咨询等多项业务，且在发布2017年年度报告补充公告时进行适当信息披露。”&lt;SEP&gt;招商证券股份有限公司是中国一家重要的证券公司，以其发布的年度报告补充公告而闻名。</data>
+  <data key="d2">chunk-8a8fbb32339318d5781df39c972f2c0e&lt;SEP&gt;chunk-55ffe9efcee464698cad801b0fa7e556</data>
+</node>
+<node id="&quot;霍达&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"霍达是一位高管，从招商证券离职。"</data>
+  <data key="d2">chunk-7591e4e0bd58e3e4052caf42d89a9728</data>
+</node>
+<node id="&quot;宫少林&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"宫少林是一位高管，从招商证券离职。"</data>
+  <data key="d2">chunk-7591e4e0bd58e3e4052caf42d89a9728</data>
+</node>
+<node id="&quot;丁安华&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"丁安华是一位高管，从招商证券离职。"</data>
+  <data key="d2">chunk-7591e4e0bd58e3e4052caf42d89a9728</data>
+</node>
+<node id="&quot;王岩&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"王岩是一位高管，从招商证券离职。"</data>
+  <data key="d2">chunk-7591e4e0bd58e3e4052caf42d89a9728</data>
+</node>
+<node id="&quot;孙议政&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"孙议政是一位高管，从招商证券离职。"</data>
+  <data key="d2">chunk-7591e4e0bd58e3e4052caf42d89a9728</data>
+</node>
+<node id="&quot;多位高管离职&quot;">
+  <data key="d2">chunk-7591e4e0bd58e3e4052caf42d89a9728</data>
+  <data key="d1">"宫少林作为公司高管的一员，在多位高管离职的事件中担任重要角色."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;职工代表监事&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"职工代表监事是指公司中代表职工利益的管理者，2017年度税前报酬为10.5万元。"</data>
+  <data key="d2">chunk-0c1ba1d5e81b8914422e7a77863370eb</data>
+</node>
+<node id="&quot;10.5 万元&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"税前报酬数值，指职工代表监事2017年度应得报酬为10.5万元。"&lt;SEP&gt;"税前报酬的具体数值为10.5万元。"</data>
+  <data key="d2">chunk-0c1ba1d5e81b8914422e7a77863370eb</data>
+</node>
+<node id="&quot;大秦铁路&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Dà Qín Railway is responsible for carrying out the west coal to eastern transportation with a focus on maintaining stable transport volumes and high dividends."&lt;SEP&gt;"大秦铁路是负责西煤东运的重要铁路运输单位，其运输量的稳定性和股息的高回报凸显了其投资价值。"&lt;SEP&gt;"大秦铁路是一家专注于西煤东运的铁路运输公司，为国家煤炭运输提供重要的基础设施，由于其稳健的业绩和高股利支付率，被视为具有投资价值的公司。"</data>
+  <data key="d2">chunk-9c462e813e429aaf01a34d2aa0a781d4&lt;SEP&gt;chunk-4d86d3b4a48a289b225cd30203510609</data>
+</node>
+<node id="&quot;西煤东运&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"West coal to East transportation is a key operation handled by Dà Qín Railway."&lt;SEP&gt;"西煤东运是大秦铁路承担的重要任务。"&lt;SEP&gt;"西煤东运指的是煤炭从西部地区通过铁路向东部地区运输，是大秦铁路的主要业务活动和核心主题。"&lt;SEP&gt;"西煤东运指的是煤炭资源的地理位置分布，是大秦铁路运输网络这一活动的主要时间和空间范围。"&lt;SEP&gt;"西煤东运是大秦铁路的核心业务板块，旨在促进煤炭的高效运输，以满足东部能源需求。"</data>
+  <data key="d2">chunk-9c462e813e429aaf01a34d2aa0a781d4&lt;SEP&gt;chunk-4d86d3b4a48a289b225cd30203510609</data>
+</node>
+<node id="&quot;《大秦铁路》&quot;">
+  <data key="d0">"TITLE"</data>
+  <data key="d1">"Title of the report highlighting the significance of the Dà Qín Railway in carrying out the west coal to the east energy transportation."</data>
+  <data key="d2">chunk-4d86d3b4a48a289b225cd30203510609</data>
+</node>
+<node id="&quot;股息&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Dividends are highlighted as a cornerstone of sophisticated investment value with stable railway operations."</data>
+  <data key="d2">chunk-4d86d3b4a48a289b225cd30203510609</data>
+</node>
+<node id="&quot;国海证券&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"国海证券是一家证券公司，负责对大秦铁路的业绩进行分析，并关注其股利支付率，认为其股利支付率高，具有较高的投资价值。"</data>
+  <data key="d2">chunk-9c462e813e429aaf01a34d2aa0a781d4</data>
+</node>
+<node id="&quot;高股息&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"高股息强调了分红政策，通常用于描述企业对股东的现金回馈，反映了大秦铁路稳健的财务支付率和较高的投资潜力。"&lt;SEP&gt;"高股息被认为是一种投资策略，强调长期收益和稳定性。这句话突出了大秦铁路的股利支付率高，具有投资价值。"</data>
+  <data key="d2">chunk-9c462e813e429aaf01a34d2aa0a781d4</data>
+</node>
+<node id="&quot;隆基股份&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"作为发布方，隆基股份在公告中可能是指隆基绿能科技股份有限公司的一部门或者特定负责人，但从提供的英文可以理解为具有实体身份的角色。"&lt;SEP&gt;"隆基股份（全称：隆基绿能科技股份有限公司）正在考虑聘请年度审计机构为其公开发行可转换公司债券提供专项审计服务。"&lt;SEP&gt;"隆基股份作为一个企业集团，其子公司或特定办事处从事可转换公司债券的筹备工作。"&lt;SEP&gt;"隆基股份未提到具体的人，可能是隆基绿能科技股份有限公司所涉及的团体或公司或董事会成员。"</data>
+  <data key="d2">chunk-0a03964df23721f740cbbce0e80775e0&lt;SEP&gt;chunk-71236ca0057f653637a27a2a1b209339&lt;SEP&gt;chunk-882db926c0e0517844d5407697783bb0</data>
+</node>
+<node id="&quot;监事会&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"监事会是隆基股份的一个执行机构，负责审核公司事务。"&lt;SEP&gt;"监事会，即公司的监事会，负责监督公司的运营和管理，确保其合规性及高效运作。"</data>
+  <data key="d2">chunk-68df7c7f4212aa0c9b339b1873e42ece&lt;SEP&gt;chunk-71236ca0057f653637a27a2a1b209339</data>
+</node>
+<node id="&quot;年度审计机构&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"年度审计机构被提议为隆基股份公开发行可转换公司债券提供专项审计服务，以确保财务报告的可靠性和透明度。"</data>
+  <data key="d2">chunk-71236ca0057f653637a27a2a1b209339</data>
+</node>
+<node id="&quot;公司公开发行可转换公司债券&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"隆基股份可能即将举行的公开发行可转换公司债券的活动。"</data>
+  <data key="d2">chunk-71236ca0057f653637a27a2a1b209339</data>
+</node>
+<node id="&quot;隆基绿能科技股份有限公司第四届监事会2019年第五次会议决议公告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"会议公告属于公司内部决议的宣布过程。"</data>
+  <data key="d2">chunk-8b4d0b102d5c204504dd73a44e130107</data>
+</node>
+<node id="&quot;隆基绿能科技股份有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Organization mentioned in the announcement."|&lt;SEP&gt;"This is the company name, representing the entity, as the provided text is a title with company name and event reference."&lt;SEP&gt;"标题：隆基绿能科技股份有限公司第四届董事会2019年第十三次会议决议公告，主体提及一家公司的董事会会议决议公告。"&lt;SEP&gt;"隆基绿能科技股份有限公司是一家上市公司，主要从事绿色能源行业的技术研发和应用。"&lt;SEP&gt;"隆基绿能科技股份有限公司是一家专注于绿色能源技术研发和生产的企业。"&lt;SEP&gt;"隆基绿能科技股份有限公司是一家从事绿色能源业务的公司。"&lt;SEP&gt;"隆基绿能科技股份有限公司是一家从事绿色能源科技的公司。"&lt;SEP&gt;"隆基绿能科技股份有限公司，一家从事绿色能源科技的公司。"&lt;SEP&gt;"隆基绿能科技股份有限公司是中国一家主要从事绿色能源技术的公司，总部设在上海。公告内容涉及公司计划公开发行可转债，并聘请普华永道作为专项审计机构。"&lt;SEP&gt;"隆基绿能科技股份有限公司是一家专注于绿色能源科技的公司。"&lt;SEP&gt;"隆基绿能科技股份有限公司是一家专注于绿色能源科技的公司，其公告表达了对一家公司的正式公告的尊重。"&lt;SEP&gt;"隆基绿能科技股份有限公司 is the main company/document issuer of this announcement."&lt;SEP&gt;"隆基绿能科技股份有限公司 is the main company/document issuer of this announcement.")|&lt;SEP&gt;"隆基绿能科技股份有限公司是一家专注于绿色能源技术开发和应用的公司，涉及可转换公司债券的筹划和公开发行。"&lt;SEP&gt;"隆基绿能科技股份有限公司是从事绿色能源技术研发和应用的公司，专注于可转换公司债券的发行和筹划。"&lt;SEP&gt;"隆基绿能科技股份有限公司(以下简称‘本公司’)，拟筹划公开发行可转换公司债券，作为公司全资子公司进行增资。"&lt;SEP&gt;"隆基绿能科技股份有限公司是一家已存在的公司，正在进行发行可转换公司债券的相关筹备工作。"&lt;SEP&gt;"隆基绿能科技股份有限公司，目前正筹划公开发行可转换公司债券相关事宜。"</data>
+  <data key="d2">chunk-8b4d0b102d5c204504dd73a44e130107&lt;SEP&gt;chunk-25f98236ffadc1de38b402082f6ca87d&lt;SEP&gt;chunk-87d1ead1d4ba296377cd03bee9c4d75e&lt;SEP&gt;chunk-1944d168c63e33807ce771fc78aa5ea1&lt;SEP&gt;chunk-0a03964df23721f740cbbce0e80775e0&lt;SEP&gt;chunk-b6a2d1ff157e0105abbcd05074e76d72&lt;SEP&gt;chunk-6af30f5fdb8f9e55e05d72905e7fd76e&lt;SEP&gt;chunk-27a0b1ae934ed753834316b597161c46&lt;SEP&gt;chunk-8f0cfd97cce8ded65745e6fecd346548</data>
+</node>
+<node id="&quot;天职国际会计师事务所&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"天职国际会计师事务所是有资质为公司提供专项审计服务的独立第三方机构。"&lt;SEP&gt;"天职国际会计师事务所，是一家具备审计服务资质的独立第三方机构。"</data>
+  <data key="d2">chunk-8b4d0b102d5c204504dd73a44e130107</data>
+</node>
+<node id="&quot;第四届监事会&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An internal meeting and resolution issuance of the company's ithieth directors' meeting. Leading to the Fifth Resolution Announcement."&lt;SEP&gt;"第四届监事会是一个具体的，但意义不明确的会议。"</data>
+  <data key="d2">chunk-1944d168c63e33807ce771fc78aa5ea1&lt;SEP&gt;chunk-8b4d0b102d5c204504dd73a44e130107</data>
+</node>
+<node id="&quot;第五次会议决议公告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The announcement of the resolutions made in the ithieth directors' meeting."</data>
+  <data key="d2">chunk-8b4d0b102d5c204504dd73a44e130107</data>
+</node>
+<node id="&quot;隆基绿能&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"For this context might refer to the company itself, however, it is more appropriate to treat it as an organization due to its corporate identity."</data>
+  <data key="d2">chunk-8b4d0b102d5c204504dd73a44e130107</data>
+</node>
+<node id="&quot;公开发行可转换公司债券&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The issuance of convertible bonds could be considered a corporate action involving the company."&lt;SEP&gt;"公开发行可转换公司债券是一事件，普华永道被聘请为专项审计服务机构与此有直接关联。"&lt;SEP&gt;"公开发行可转换公司债券指的是发行人通过公开方式向投资者销售公司债券的可转换权利."&lt;SEP&gt;"公开发行可转换公司债券指的是隆基绿能科技股份有限公司计划公开销售可转换债券。"</data>
+  <data key="d2">chunk-0a03964df23721f740cbbce0e80775e0&lt;SEP&gt;chunk-8b4d0b102d5c204504dd73a44e130107&lt;SEP&gt;chunk-882db926c0e0517844d5407697783bb0</data>
+</node>
+<node id="&quot;2019年第五次会议决议公告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2019年第五次会议决议公告是一次包含决议过程的会议."&lt;SEP&gt;"2019年第五次会议决议公告是一次包含决议过程的会议。"</data>
+  <data key="d2">chunk-1944d168c63e33807ce771fc78aa5ea1</data>
+</node>
+<node id="&quot;第五届监事会二〇一九年第五次会议决议公告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"第五届监事会二〇一九年第五次会议决议公告是一个具体的单次会议的公告，涉及决议。"</data>
+  <data key="d2">chunk-1944d168c63e33807ce771fc78aa5ea1</data>
+</node>
+<node id="&quot;隆基绿能科技股份有限公司第四届监事会2019年第五次会议&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"该事件指的是隆基绿能科技股份有限公司第四届监事会2019年第五次会议的决议公告。"</data>
+  <data key="d2">chunk-25f98236ffadc1de38b402082f6ca87d</data>
+</node>
+<node id="&quot;王英歌&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"王英歌是隆基绿能科技股份有限公司的监事会主席。"&lt;SEP&gt;"王英歌是隆基绿能科技股份有限公司的监事会主席，后来宣布辞职。"</data>
+  <data key="d2">chunk-25f98236ffadc1de38b402082f6ca87d</data>
+</node>
+<node id="&quot;监事会主席王英歌&quot;">
+  <data key="d2">chunk-25f98236ffadc1de38b402082f6ca87d</data>
+  <data key="d1">"王英歌在会议上以监事会主席的身份出现，并在此后宣布辞职."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="|&quot;隆基绿能科技股份有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Ronglili Green Energy Science &amp; Technology Co., Ltd. is the company subject to the announcement, responsible for issuing the announcement and inviting accounting services from PricewaterhouseCooper.&lt;SEP&gt;"隆基绿能科技股份有限公司是公告发布主体，负责公告内容并聘请普华永道作为服务机构。"</data>
+  <data key="d2">chunk-882db926c0e0517844d5407697783bb0</data>
+</node>
+<node id="|&quot;普华永道&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"PricewaterhouseCooper is the company hired to provide special audit services for the issuance of convertible bonds by Ronglili Green Energy Science &amp; Technology Co., Ltd.</data>
+  <data key="d2">chunk-882db926c0e0517844d5407697783bb0</data>
+</node>
+<node id="&quot;公开发行可转债&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"公司计划通过发行可转债的方式来筹集资金，这是一种常见的融资策略。"</data>
+  <data key="d2">chunk-27a0b1ae934ed753834316b597161c46</data>
+</node>
+<node id="&quot;MANY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">""MANY is a placeholder for additional entities that may have been missed in the extraction. It can encompass additional persons, locations, organizations, or events that were not explicitly identified in the text."&lt;SEP&gt;"MANY实体在这里被遗漏，可能指的是多个或大量的实体。"</data>
+  <data key="d2">chunk-6af30f5fdb8f9e55e05d72905e7fd76e&lt;SEP&gt;chunk-27a0b1ae934ed753834316b597161c46</data>
+</node>
+<node id="&quot;特此公告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"特此公告指的是公司对某个重要事件发出的正式公告。"</data>
+  <data key="d2">chunk-6af30f5fdb8f9e55e05d72905e7fd76e</data>
+</node>
+<node id="&quot;公告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"公告指的是发布正式通知或说明的过程。"</data>
+  <data key="d2">chunk-6af30f5fdb8f9e55e05d72905e7fd76e</data>
+</node>
+<node id="隆基绿能科技股份有限公司">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">隆基绿能科技股份有限公司是中国一家专注于光伏行业的多元化科技企业。</data>
+  <data key="d2">chunk-2daaffe6fb4f09aafddb9837b73eebdf</data>
+</node>
+<node id="&quot;第四届董事会&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"第四届董事会，指的是隆基绿能科技股份有限公司组织的多次会议中的一次会议，会议目的是进行董事会的工作。"</data>
+  <data key="d2">chunk-b6a2d1ff157e0105abbcd05074e76d72</data>
+</node>
+<node id="&quot;2019年第十三次会议&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2019年第十三次会议，特指隆基绿能科技股份有限公司第四届董事会的时间点。"</data>
+  <data key="d2">chunk-b6a2d1ff157e0105abbcd05074e76d72</data>
+</node>
+<node id="&quot;会议决议公告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"会议决议公告提醒了上海医药集团股份有限公司的董事会做出了重要决策。"&lt;SEP&gt;"会议决议公告是会议的后续行动声明，宣布了上海医药集团股份有限公司通过了重要议案，体现了公司决策的公开透明。"&lt;SEP&gt;"决议公告象征着会议结果的正式记录与发布，显示了公司在面对特定议题时的决策态度。"</data>
+  <data key="d2">chunk-b6a2d1ff157e0105abbcd05074e76d72&lt;SEP&gt;chunk-1be2df6e69c8b000e8b903267b29c9a8</data>
+</node>
+<node id="公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"公司在此会议上审议了在中国进出口银行申请授信业务的议案，表明了对公司与金融机构合作关系的重视。"</data>
+  <data key="d2">chunk-3e1a537fe5191fd8040b03f4aaa5f0f3</data>
+</node>
+<node id="中国进出口银行&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"中国进出口银行是一个为进出口企业服务的银行机构，公司的授信业务计划与该银行有关联。"</data>
+  <data key="d2">chunk-3e1a537fe5191fd8040b03f4aaa5f0f3</data>
+</node>
+<node id="审议通过关于公司在中国进出口银行申请授信业务的议案&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"审议议案的内容包括中国进出口银行为企业申请授信业务的情况，旨在确保公司运作的财务稳定性。"</data>
+  <data key="d2">chunk-3e1a537fe5191fd8040b03f4aaa5f0f3</data>
+</node>
+<node id="&quot;中国进出口银行&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"中国进出口银行是一家为进出口企业提供服务的银行机构。"</data>
+  <data key="d2">chunk-3e1a537fe5191fd8040b03f4aaa5f0f3</data>
+</node>
+<node id="&quot;CHINA&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"China refers to the country where the transaction takes place and where the company operates."</data>
+  <data key="d2">chunk-3e1a537fe5191fd8040b03f4aaa5f0f3</data>
+</node>
+<node id="&quot;审议通过关于公司在中国进出口银行申请授信业务的议案&quot;">
+  <data key="d2">chunk-3e1a537fe5191fd8040b03f4aaa5f0f3</data>
+  <data key="d1">"会议涉及审议的重要事项是公司业务中与融资相关的交易计划."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;第四届董事会2019年第十三次会议&quot;">
+  <data key="d2">chunk-3e1a537fe5191fd8040b03f4aaa5f0f3</data>
+  <data key="d1">"会议涉及审议的重要事项是公司业务中与融资相关的交易计划."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;中国&quot;">
+  <data key="d2">chunk-3e1a537fe5191fd8040b03f4aaa5f0f3</data>
+  <data key="d1">"The company operates in China and is subject to Chinese regulations and laws."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;全资子公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"指隆基绿能科技股份有限公司作为全资股东的战略控股公司，将是此次增资的主要对象。"</data>
+  <data key="d2">chunk-8f0cfd97cce8ded65745e6fecd346548</data>
+</node>
+<node id="&quot;隆基绿能科技股份有限公司全资子公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"全资子公司是隆基绿能科技股份有限公司的全资子公司，将进行增资。"</data>
+  <data key="d2">chunk-8f0cfd97cce8ded65745e6fecd346548</data>
+</node>
+<node id="&quot;张老板&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"张老板是公司中提及的人物，但由于这句文本缺乏足够的细节，这可能是一个具体的提及。"</data>
+  <data key="d2">chunk-8f0cfd97cce8ded65745e6fecd346548</data>
+</node>
+<node id="&quot;春秋航空股份有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The full name of the issuer of the bond and the convenor of the shareholders' meeting, representing a significant organizational entity in financial notation and reporting."&lt;SEP&gt;"春秋航空股份有限公司 is the controlling organization mentioned, representing a significant corporate entity. It is involved in the issuance of bonds and the convening of shareholders' meetings."&lt;SEP&gt;"春秋航空股份有限公司，一家在2019年召开第二次债券持有人会议的公司。"&lt;SEP&gt;"春秋航空股份有限公司，是一家发行16春秋01债券并组织债券持有人会议的公司。"&lt;SEP&gt;"春秋航空股份有限公司（简称：春秋航）是一家航空公司的股份有限公司，负责召开2019年第二次的债券持有人会议。"&lt;SEP&gt;"春秋航空股份有限公司是一家飞机运营公司。"&lt;SEP&gt;"春秋航空股份有限公司是一家飞机运营公司，涉及债券发行及持有人会议议题。"</data>
+  <data key="d2">chunk-f3d4b6fcafbce8ce99e3ffde35795bec&lt;SEP&gt;chunk-56acb6e64cab4475cff6c1be9b437364&lt;SEP&gt;chunk-9739f4bb3d91df63bb3f0f2baf970b7a&lt;SEP&gt;chunk-5023d55c19a4496312d1faadd217a418</data>
+</node>
+<node id="&quot;春秋航空&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"春秋航空 is a company engaged in air travel, mentioned as the issuer of a bond and reported on annually. The company is also responsible for a shareholders' meeting."&lt;SEP&gt;"春秋航空 is the main reporting entity and meets referred to in the context of the bond and the corporate annual report."&lt;SEP&gt;"春秋航空是发起第一次会议的主体，并任命会议的角色。"</data>
+  <data key="d2">chunk-56acb6e64cab4475cff6c1be9b437364&lt;SEP&gt;chunk-5023d55c19a4496312d1faadd217a418</data>
+</node>
+<node id="&quot;债券持有人会议&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"This event refers to a shareholders' meeting for bondholders, a crucial meeting where bondholders' interests are considered and decisions on bond policies are made."&lt;SEP&gt;"债券持有人会议 is the shareholders' meeting convened by the company, where bondholders' interests are addressed and decisions are made."&lt;SEP&gt;"债券持有人会议 is the shareholders' meeting convened by the company, where bondholders' interests are addressed and decisions are made."**&lt;SEP&gt;"债券持有人会议体现了债券持有人与春秋航空股份有限公司管理层之间的沟通渠道。"&lt;SEP&gt;"债券持有人会议，这是春秋航空股份有限公司举行的关于公司债券持有人利益的股东会性质的会议。"&lt;SEP&gt;"债券持有人会议是春秋航空召开的一个重要债券持有人会议，旨在解决与债券持有人相关的问题和召开。"</data>
+  <data key="d2">chunk-56acb6e64cab4475cff6c1be9b437364&lt;SEP&gt;chunk-f3d4b6fcafbce8ce99e3ffde35795bec&lt;SEP&gt;chunk-5023d55c19a4496312d1faadd217a418</data>
+</node>
+<node id="&quot;2019年年度报告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2019年年度报告 refers to the annual statement released by the company, summarizing its performance over the previous year."&lt;SEP&gt;"2019年年度报告 refers to the annual statement released by the company, summarizing its performance over the previous year."**&lt;SEP&gt;"This event is the annal report disclosed yearly by the company, disclosing information comprehensively and commenting on past performance and future plans."</data>
+  <data key="d2">chunk-56acb6e64cab4475cff6c1be9b437364</data>
+</node>
+<node id="&quot;16春秋01&quot;">
+  <data key="d0">"BOND"</data>
+  <data key="d1">"16春秋01 is the specific bond with bond number 16春秋01, which is mentioned in the disclosure context."&lt;SEP&gt;"16春秋01 is the specific bond with bond number 16春秋01, which is mentioned in the disclosure context."**&lt;SEP&gt;"This event refers to a specific periodical disclosed by the company which is a bond with bond number 16春秋01."&lt;SEP&gt;"16春秋01是事件的一部分，指的是春秋航空股份有限公司发行的一款债券。"&lt;SEP&gt;"16春秋01是春秋航空股份有限公司发行的一只债券。"&lt;SEP&gt;"16春秋01（即春秋航空的2016年公开发行的总规模为5亿元的债券之一）是会议持有方之一。"&lt;SEP&gt;"16春秋01是指春秋航空股份有限公司发行的债券，持有人会议将其提及。"&lt;SEP&gt;"16春秋01是春秋航空股份有限公司于2019年清求的债券，持有人会议制定了决议。"</data>
+  <data key="d2">chunk-f3d4b6fcafbce8ce99e3ffde35795bec&lt;SEP&gt;chunk-56acb6e64cab4475cff6c1be9b437364&lt;SEP&gt;chunk-9739f4bb3d91df63bb3f0f2baf970b7a&lt;SEP&gt;chunk-5023d55c19a4496312d1faadd217a418</data>
+</node>
+<node id="&quot;春（2019年）第二次债券持有人会议决议公告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"春（2019年）第二次债券持有人会议决议公告宣布了会上达成的关于16春秋01的决议。"&lt;SEP&gt;"这份公告宣布了春秋航空股份有限公司的第二次债券持有人会议的决议。"</data>
+  <data key="d2">chunk-5023d55c19a4496312d1faadd217a418</data>
+</node>
+<node id="&quot;2019年第二次债券持有人会议&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2019年春秋航空股份有限公司第二次债券持有人会议，审议并作出相关决议。&lt;SEP&gt;"2019年春秋航空股份有限公司第二次债券持有人会议，审议并作出相关决议。"</data>
+  <data key="d2">chunk-9739f4bb3d91df63bb3f0f2baf970b7a</data>
+</node>
+<node id="&quot;兴业银行&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"兴业银行是一家提供金融产品的组织，最著名的产品之一是‘添利小微’理财产品。"</data>
+  <data key="d2">chunk-49b7485cc3f3e37d464cf46b1a505fd7</data>
+</node>
+<node id="&quot;添利小微&quot;">
+  <data key="d0">"PRODUCT"</data>
+  <data key="d1">"添利小微是兴业银行专门为小微企业推出的首款理财产品，旨在帮助小微企业获得资金支持。"</data>
+  <data key="d2">chunk-49b7485cc3f3e37d464cf46b1a505fd7</data>
+</node>
+<node id="&quot;小微企业&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"小微企业是指企业规模在一定范围内的企业。具体涵盖100家或1000万元以下的企业。"</data>
+  <data key="d2">chunk-49b7485cc3f3e37d464cf46b1a505fd7</data>
+</node>
+<node id="&quot;上海银行股份有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"CompanyName related to providing financial service, more specifically involved in the process of legal opinion correction."&lt;SEP&gt;"上海银行股份有限公司是多家公司之一，与2017年年度股东大会法律意见书更正的公告有关。"&lt;SEP&gt;"上海银行股份有限公司是全文讨论的公司主体，同时也是发起更正公告的主体。"&lt;SEP&gt;"上海银行股份有限公司 is an organization that issues legal opinions related to its annual shareholders' meeting."&lt;SEP&gt;"上海银行股份有限公司 is an organization that issues legal opinions related to its annual shareholders' meeting."|&gt;&lt;SEP&gt;"上海银行股份有限公司是一家在中国上海经营的银行，其股东大会关于2017年度股东大会法律意见书有更正的公告发布。其余法律意见书内容不变。"</data>
+  <data key="d2">chunk-403c75b71eef535ddbceef91413c9a18&lt;SEP&gt;chunk-7c1bcd8db7098523de796a168b9b7ad3&lt;SEP&gt;chunk-2bd09f247132060697701c4d57370e1d</data>
+</node>
+<node id="&quot;上海银行&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The legal operation unit of the company, related to the process of the new trade, such as the new shareholders, and the correction of trading texts."&lt;SEP&gt;"上海银行是其拥有的一家公司，与公告内容有关。"&lt;SEP&gt;"上海银行是召开2017年度股东大会的组织，同时也在全文中扮演着发起公告的角色。"&lt;SEP&gt;"上海银行股份有限公司下属的分支机构，发起更正公告及股东大会召开的组织。"</data>
+  <data key="d2">chunk-403c75b71eef535ddbceef91413c9a18&lt;SEP&gt;chunk-7c1bcd8db7098523de796a168b9b7ad3</data>
+</node>
+<node id="&quot;2017年度股东大会&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2017年度股东大会 is a specific event in the annual shareholders' meeting procedure of Shanghai Bank."&lt;SEP&gt;"2017年度股东大会 is a specific event in the annual shareholders' meeting procedure of Shanghai Bank."|&gt;&lt;SEP&gt;"2017年度股东大会是上海银行股份有限公司宣布法律意见书更正的公告所涉及的股东大会活动。"&lt;SEP&gt;"2017年度股东大会是上海银行股份有限公司讨论的重要年度会议。"&lt;SEP&gt;"2017年度股东大会是与公告相关的大型年度会议。"&lt;SEP&gt;"Important event, which mentioned the correction of lawyer opinion regarding the 2017 annual shareholders' meeting."</data>
+  <data key="d2">chunk-403c75b71eef535ddbceef91413c9a18&lt;SEP&gt;chunk-7c1bcd8db7098523de796a168b9b7ad3&lt;SEP&gt;chunk-2bd09f247132060697701c4d57370e1d</data>
+</node>
+<node id="&quot;法律意见书&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A specialized term in legal professional context referring to an official statement or recommendation on the status or future prospects of a company or specific business operations, intended for the purpose of providing legal advice or guidance to its investors and creditors."&lt;SEP&gt;"法律意见书是全文讨论的主题之一，反映出对上海银行在2017年度股东大会事宜的法律考量。"&lt;SEP&gt;"法律意见书 is the official document describing the results of the legal review of the 2017 shareholders' meeting."&lt;SEP&gt;"法律意见书 is the official document describing the results of the legal review of the 2017 shareholders' meeting."|&gt;&lt;SEP&gt;"法律意见书是一个重要内容，涉及到对股东大会的法律认可，显示了多元化和权威性。"</data>
+  <data key="d2">chunk-403c75b71eef535ddbceef91413c9a18&lt;SEP&gt;chunk-7c1bcd8db7098523de796a168b9b7ad3&lt;SEP&gt;chunk-2bd09f247132060697701c4d57370e1d</data>
+</node>
+<node id="&quot;北京证监局&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"北京证监局是监管机构之一，与公告中法律意见书更正有关。"</data>
+  <data key="d2">chunk-403c75b71eef535ddbceef91413c9a18</data>
+</node>
+<node id="&quot;证监会&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"证监会是监管机构，可能与公告中法律意见书的出具有关。"</data>
+  <data key="d2">chunk-403c75b71eef535ddbceef91413c9a18</data>
+</node>
+<node id="&quot;2017年度股东大会法律意见书&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"一个体现年度股东大会的法律意见书。"</data>
+  <data key="d2">chunk-403c75b71eef535ddbceef91413c9a18</data>
+</node>
+<node id="&quot;北京市&quot;">
+  <data key="d2">chunk-403c75b71eef535ddbceef91413c9a18</data>
+  <data key="d1">"公司与北京市内的英国证券市场监管机构等行业标准实体保持密切联系."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;更正的公告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"更正的公告指上海银行做出的关于2017年度股东大会召开情况调整的声明。"</data>
+  <data key="d2">chunk-7c1bcd8db7098523de796a168b9b7ad3</data>
+</node>
+<node id="&quot;股东大会召开&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"上海市银行股份有限公司将在2017年召开年度股东大会。"</data>
+  <data key="d2">chunk-7c1bcd8db7098523de796a168b9b7ad3</data>
+</node>
+<node id="&quot;中国平安&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"China Pacific Insurance is a large financial company that has announced a share repurchase initiative in the Chinese stock market."&lt;SEP&gt;"中国平安作为大型金融企业，制定了回购A股股份的计划，并将该计划付诸实践。"&lt;SEP&gt;"中国平安是一家大型金融企业，已在A股市场上进行股份回购。"&lt;SEP&gt;"中国平安是一个大型的保险公司，已经斥资50亿元来回购A股股份。"&lt;SEP&gt;"中国平安是中国一家大型保险公司，正在执行一项A股股份回购计划。"&lt;SEP&gt;"中国平安是进行回购计划的组织；正在进行的回购是其再次投资自己股份的行为。"&lt;SEP&gt;"中国平安是金融行业的一个实体，代表着其董事长、CEO或其他关键领导者。"&lt;SEP&gt;"中国平安是一家领先的国内金融企业，专注于保险和银行领域，主导涉足相关的股权投资与金融产品销售。"&lt;SEP&gt;"中国平安是一家中国的大型金融保险企业，一直在回购A股股份，展示了其积极的财务措施。"</data>
+  <data key="d2">chunk-e85023ea5da0ba6b9449550430cca545&lt;SEP&gt;chunk-da2fd77a35db0d7be9091b6180d0353b&lt;SEP&gt;chunk-253f4f5719bc51447a8c9455982b150b&lt;SEP&gt;chunk-f6402c075d3d69060d1ea839406115b1</data>
+</node>
+<node id="&quot;5759万股&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"5759万股 represents the number of shares repurchased by China Pacific Insurance."&lt;SEP&gt;"5759万股是平安此次回购股份的具体数量。"</data>
+  <data key="d2">chunk-da2fd77a35db0d7be9091b6180d0353b</data>
+</node>
+<node id="&quot;5亿元&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"5亿元 represents the total cost of the share repurchase."&lt;SEP&gt;"5亿元是中国平安此次股份回购活动的总支出，体现了公司的财务决策和策略。"</data>
+  <data key="d2">chunk-da2fd77a35db0d7be9091b6180d0353b</data>
+</node>
+<node id="&quot;第50亿元&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"提到中国平安还有50亿元的回购额度，暗示了公司的回购计划尚未完成。"&lt;SEP&gt;"第50亿元 reflects the remaining allocation for future share repurchase by China Pacific Insurance."</data>
+  <data key="d2">chunk-da2fd77a35db0d7be9091b6180d0353b</data>
+</node>
+<node id="&quot;A股&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"A股 refers to the stock market of mainland China."</data>
+  <data key="d2">chunk-da2fd77a35db0d7be9091b6180d0353b</data>
+</node>
+<node id="&quot;A股股份&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"A股股份 refers to publicly traded shares listed on the A股 market."&lt;SEP&gt;"A股股份是指在中国大陆市场上交易的股票，中国平安的这一行动是针对此股票的回购。"&lt;SEP&gt;"A股股份是金融市场的交易对象，中国平安正在回购这部分股份。"&lt;SEP&gt;"A股股份指的是在深交所和上交所上市的中国大陆公司发行的股票。"</data>
+  <data key="d2">chunk-da2fd77a35db0d7be9091b6180d0353b&lt;SEP&gt;chunk-253f4f5719bc51447a8c9455982b150b&lt;SEP&gt;chunk-f6402c075d3d69060d1ea839406115b1</data>
+</node>
+<node id="&quot;4677万美元&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"4677万美元 is mentioned as the total cost of previous repurchases, just before the current 5亿元 cost."</data>
+  <data key="d2">chunk-da2fd77a35db0d7be9091b6180d0353b</data>
+</node>
+<node id="&quot;市场表现&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"市场对这些回购行为的反应将决定中国平安是否采取进一步行动继续回购A股股份。"&lt;SEP&gt;"市场表现决定了中国平安未来是否继续回购A股股份的决定。"</data>
+  <data key="d2">chunk-253f4f5719bc51447a8c9455982b150b</data>
+</node>
+<node id="&quot;50亿元回购&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"中国平安已斥资50亿元用于回购A股股份，尚未达到上限。"&lt;SEP&gt;"中国平安已花费50亿元用于回购其A股股份，尚未达到上限。"</data>
+  <data key="d2">chunk-253f4f5719bc51447a8c9455982b150b</data>
+</node>
+<node id="&quot;回购计划&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"中国平安宣布的回购计划已完成50亿元，被认为是公司控制其价值和管理市场情绪的战略行动。"</data>
+  <data key="d2">chunk-253f4f5719bc51447a8c9455982b150b</data>
+</node>
+<node id="&quot;中国平安的决策&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"中国平安的回购决策源于市场对其未来表现和表现预期的认识和调整。"</data>
+  <data key="d2">chunk-253f4f5719bc51447a8c9455982b150b</data>
+</node>
+<node id="&quot;公关事件&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">""中国平安的这一举动被视为要向公众反馈其财务健康状态的一部分。"</data>
+  <data key="d2">chunk-253f4f5719bc51447a8c9455982b150b</data>
+</node>
+<node id="&quot;未来回购&quot;">
+  <data key="d2">chunk-253f4f5719bc51447a8c9455982b150b</data>
+  <data key="d1">"中国平安是否回购取决于市场对公司的认可程度."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;未来是否回购&quot;">
+  <data key="d2">chunk-253f4f5719bc51447a8c9455982b150b</data>
+  <data key="d1">"是否回购取决于市场反应的程度."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;管理层&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"管理层指的是负责公司日常经营的管理者，他们对公司的基本面负责。"</data>
+  <data key="d2">chunk-e85023ea5da0ba6b9449550430cca545</data>
+</node>
+<node id="&quot;基本面&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"基本面指的是公司的财务状况和运营表现，这对其长期投资价值至关重要。公司努力提升和维护良好的基本面来支持股价和未来的财务健康。"</data>
+  <data key="d2">chunk-e85023ea5da0ba6b9449550430cca545</data>
+</node>
+<node id="&quot;中国人寿&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"中国人寿是中国的另一家大型金融保险企业，其评级和派息与中国平安形成对比对比。"</data>
+  <data key="d2">chunk-f6402c075d3d69060d1ea839406115b1</data>
+</node>
+<node id="&quot;中期&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"中期通常指的是会计年度中的一个季度或月份，具体在这个句子中表示资产变动或派息的报告周期。"</data>
+  <data key="d2">chunk-f6402c075d3d69060d1ea839406115b1</data>
+</node>
+<node id="&quot;50亿元回购A股股份&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"50亿元是中国平安在特定时间内的回购额度，这显示了公司对自身股票价值的肯定和对未来发展的信心。"&lt;SEP&gt;"距离上限还有50亿元，展示了回购额度以及公司对股市的决策。"</data>
+  <data key="d2">chunk-f6402c075d3d69060d1ea839406115b1</data>
+</node>
+<node id="&quot;136.80亿元&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"136.80亿元为企业中期可能的派股或派息金额，反映了企业的利润和分红政策。"&lt;SEP&gt;"中国平安中期派息136.80亿元，反映其利润和分红政策。"</data>
+  <data key="d2">chunk-f6402c075d3d69060d1ea839406115b1</data>
+</node>
+<node id="&quot;买入&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"买入评级是投资者对某股票的一种态度，表示推荐购买。"</data>
+  <data key="d2">chunk-f6402c075d3d69060d1ea839406115b1</data>
+</node>
+<node id="&quot;50亿元&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"50亿元是中国平安在特定时间内的回购额度，这显示了公司对自身股票价值的肯定和对未来发展的信心。"</data>
+  <data key="d2">chunk-f6402c075d3d69060d1ea839406115b1</data>
+</node>
+<node id="&quot;买入评级&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"多家券商给予“买入”评级，表示推荐购买。"</data>
+  <data key="d2">chunk-f6402c075d3d69060d1ea839406115b1</data>
+</node>
+<node id="&quot;中国中铁股份有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"中国中铁股份有限公司是中国一家房地产和基础设施领域的大型国有企业。其工商变更反映了权力结构的变化。"</data>
+  <data key="d2">chunk-a7c94c322e28056f0792a499c586db8b</data>
+</node>
+<node id="&quot;李长进&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"李长进是公司法定代表人与董事长，其卸任标志着权力结构的调整。"&lt;SEP&gt;"李长进是公司董事长和法定代表人，在完成工商变更后卸任该职位。他代表了公司的重要职位。"</data>
+  <data key="d2">chunk-a7c94c322e28056f0792a499c586db8b</data>
+</node>
+<node id="&quot;张宗言&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"张宗言成为公司新任董事长，接替李长进。"&lt;SEP&gt;"张宗言接任位置，成为公司新的董事长，标志着权力移交完成。"</data>
+  <data key="d2">chunk-a7c94c322e28056f0792a499c586db8b</data>
+</node>
+<node id="&quot;工商变更&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"工商变更是公司内部权力转移和法律结构调整的过程，体现了事务的动态性。"&lt;SEP&gt;"工商变更过程反映了中国中铁股份有限公司内部权力结构的动态调整。"</data>
+  <data key="d2">chunk-a7c94c322e28056f0792a499c586db8b</data>
+</node>
+<node id="&quot;上海医药集团股份有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"This is the organizational entity, Shanghai医药集团股份有限公司, which holds significant importance in the pharmaceutical sector."&lt;SEP&gt;"上海医药集团股份有限公司 is a significant organization in the pharmaceutical industry, known for its high-level resolutions and corporate activities."&lt;SEP&gt;"上海医药集团股份有限公司，一家在上海注册的大型医药企业，发布第七届董事会第五次会议决议的公告。"&lt;SEP&gt;"上海医药集团股份有限公司是全名提到的重要企业实体，其第七届董事会第五次会议决议公开。"&lt;SEP&gt;"上海医药集团股份有限公司是一家位于中国的大型医药公司，其第七届董事会审议通过了向其财务公司进行增资的议案。"&lt;SEP&gt;"上海医药集团股份有限公司是中国一家大型综合性的医药产业集团旗下公司，负责旗下医药企业的发展与管理。"&lt;SEP&gt;"上海医药集团股份有限公司 is an organization."&lt;SEP&gt;"上海医药集团股份有限公司是上海医药集团的本公司，成立于2001年，是一家提供医药产品的全球领导型企业。"</data>
+  <data key="d2">chunk-f768e5d2437df4a4d648139fbfb21e45&lt;SEP&gt;chunk-eb2296262ebb34d7a505d75eda2c87fa&lt;SEP&gt;chunk-68df7c7f4212aa0c9b339b1873e42ece&lt;SEP&gt;chunk-1be2df6e69c8b000e8b903267b29c9a8&lt;SEP&gt;chunk-1f3edf124e6c946373252a084cba6fa8</data>
+</node>
+<node id="&quot;第三次会议&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Third Meeting is a specific corporate event where resolutions are made, mentioned in the report."&lt;SEP&gt;"Third Meeting refers to a specific event of the Supervisory Board of the company, where decisions and resolutions are made."</data>
+  <data key="d2">chunk-68df7c7f4212aa0c9b339b1873e42ece</data>
+</node>
+<node id="&quot;决议公告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Resolution Announcement is the official communications issued following the Third Meeting of the Supervisory Board."&lt;SEP&gt;"The resolution announcement is the official communication of the resolutions made during the third meeting of the Supervisory Board."</data>
+  <data key="d2">chunk-68df7c7f4212aa0c9b339b1873e42ece</data>
+</node>
+<node id="&quot;第七届监事会&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Seventh Supervisory Board is a specific corporate governance body responsible for oversight and decision-making."</data>
+  <data key="d2">chunk-68df7c7f4212aa0c9b339b1873e42ece</data>
+</node>
+<node id="&quot;第三人会议&quot;">
+  <data key="d2">chunk-68df7c7f4212aa0c9b339b1873e42ece</data>
+  <data key="d1">"Resolution Announcement reflects the content and outcome of the Third Meeting."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="上海医药集团股份有限公司">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">“上海医药集团股份有限公司是一家位于中国的大型医药企业。”&lt;SEP&gt;“上海医药集团股份有限公司是一家位于中国的大型医药企业，第七届监事会第三次会议主要讨论并做出了关于股票期权激励计划的决议。”</data>
+  <data key="d2">chunk-0fa294548c6241de10d590882b614b7d</data>
+</node>
+<node id="上海医药集团股份有限公司&quot;">
+  <data key="d0">ORGANIZATION"</data>
+  <data key="d1">"上海医药集团股份有限公司，一家在上海注册的大型医药企业，发布第七届董事会第五次会议决议的公告。"</data>
+  <data key="d2">chunk-1f3edf124e6c946373252a084cba6fa8</data>
+</node>
+<node id="&quot;上海医药&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"上海医药指上海医药集团股份有限公司旗下的一个重要子公司或部门，专注于医药产品的研发、生产及销售。"&lt;SEP&gt;"上海医药是上海医药集团股份有限公司的一部分，指代公司名。"&lt;SEP&gt;"上海医药是上海医药集团股份有限公司的简称，提及了公司参与的股票期权激励计划的董事会决议。"&lt;SEP&gt;"上海医药是指这家大型医药公司，其相关声明涉及两个重要组织和决议公告。"</data>
+  <data key="d2">chunk-1be2df6e69c8b000e8b903267b29c9a8&lt;SEP&gt;chunk-1f3edf124e6c946373252a084cba6fa8&lt;SEP&gt;chunk-eb2296262ebb34d7a505d75eda2c87fa</data>
+</node>
+<node id="&quot;第七届董事会第五次会议决议公告&quot;">
+  <data key="d0">EVENT"</data>
+  <data key="d1">" announcement of the 7th Board Meeting Resolution No. 5 of Shanghaimed Pharmaceutical Group Co., Ltd.", "The announcement summarizes the decision made by the board of directors and it is the main event in this document."&lt;SEP&gt;"第七届董事会第五次会议决议公告是关于第七届董事会第五次会议的公告和决议。"</data>
+  <data key="d2">chunk-1f3edf124e6c946373252a084cba6fa8</data>
+</node>
+<node id="&quot;上海&quot;">
+  <data key="d0">LOCATION"</data>
+  <data key="d1">"上海是公告发布地，指事件发生地。"</data>
+  <data key="d2">chunk-1f3edf124e6c946373252a084cba6fa8</data>
+</node>
+<node id="&quot;2019年股票期权激励计划&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"指上海医药集团股份有限公司于年制定并提出的2019年股票期权激励计划。"&lt;SEP&gt;"议题涵盖2019年的股票期权激励计划，该计划需通过上海医药集团股份有限公司的董事会审议。"</data>
+  <data key="d2">chunk-f768e5d2437df4a4d648139fbfb21e45&lt;SEP&gt;chunk-eb2296262ebb34d7a505d75eda2c87fa</data>
+</node>
+<node id="&quot;股票期权激励计划&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"上海医药集团股份有限公司启动的激励方案，旨在通过股权激励提升员工积极性，促进公司的持续发展。"</data>
+  <data key="d2">chunk-eb2296262ebb34d7a505d75eda2c87fa</data>
+</node>
+<node id="&quot;上海医药集团财务有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"上海医药集团财务有限公司是一家财务公司，支持上海医药集团进行内部融资和资金融通。"&lt;SEP&gt;"上海医药集团财务有限公司是上海医药集团股份有限公司下属的财务公司，提供多元化的金融服务和财务管理支持。"</data>
+  <data key="d2">chunk-1be2df6e69c8b000e8b903267b29c9a8</data>
+</node>
+<node id="&quot;会议&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"会议文本指上海医药集团股份有限公司召开的第七届董事会第五次会议。"&lt;SEP&gt;"会议的具体形式是董事会会议，这些会议常常涉及公司的重要决策和议程。"</data>
+  <data key="d2">chunk-1be2df6e69c8b000e8b903267b29c9a8</data>
+</node>
+<node id="&quot;增资&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"增资是指上海医药集团股份有限公司的子公司上海医药集团财务有限公司获得资本增加的决策。"</data>
+  <data key="d2">chunk-1be2df6e69c8b000e8b903267b29c9a8</data>
+</node>
+<node id="&quot;上海证券医药集团股份有限公司&quot;">
+  <data key="d2">chunk-1be2df6e69c8b000e8b903267b29c9a8</data>
+  <data key="d1">"公司增资决策使得集团财务公司的资本实力增强，体现出公司管理层确保财务与业务健康发展的决心。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;增资举动&quot;">
+  <data key="d2">chunk-1be2df6e69c8b000e8b903267b29c9a8</data>
+  <data key="d1">"公司通过增资议案的决定在会议公告中得以体现，增强了公司透明度。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;股东大会&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"股东大会 handles formal resolutions related to corporate matters."&lt;SEP&gt;"股东大会 is a group responsible for making resolutions and decisions."&lt;SEP&gt;"股东大会是指上海医药召开的会议，与上述2019年股票期权激励计划相关，总经理或董事会需要对此决议进行授权和执行。"</data>
+  <data key="d2">chunk-f768e5d2437df4a4d648139fbfb21e45</data>
+</node>
+<node id="&quot;中国中车股份有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"It is an organization referred to in the announcement, indicating that it is responsible for the 16中车01债券的转售实施。"&lt;SEP&gt;"中国中车股份有限公司是中国一家制造轨道交通装备的大型国有企业。"&lt;SEP&gt;"中国中车股份有限公司是中国境内的主要铁路装备制造企业之一。"</data>
+  <data key="d2">chunk-a546fb0e5e17b20889957df0a0857912&lt;SEP&gt;chunk-3c6048c7f320e6ee1d51c6464d78f33f&lt;SEP&gt;chunk-265e117fff0fe44e81972a3efa3dd0d8</data>
+</node>
+<node id="&quot;&quot;16中车01&quot;">
+  <data key="d0">"BOND"</data>
+  <data key="d1">""16中车01"是一只由中国中车股份有限公司发行的债券，用于描述公司的财务状况和债券目标。"</data>
+  <data key="d2">chunk-265e117fff0fe44e81972a3efa3dd0d8</data>
+</node>
+<node id="&quot;8月30日&quot;">
+  <data key="d0">"DATE"</data>
+  <data key="d1">"回售资金发放日，标志着相关信息的披露日期。"</data>
+  <data key="d2">chunk-265e117fff0fe44e81972a3efa3dd0d8</data>
+</node>
+<node id="&quot;中国中车&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"中国中车是一家主要从事铁路和城市轨道交通装备制造业的公司，专注于提供先进的轨道交通设备解决方案。"</data>
+  <data key="d2">chunk-3c6048c7f320e6ee1d51c6464d78f33f</data>
+</node>
+<node id="&quot;16中车01&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"'16中车01' is the specific bond that needs to be transacted."&lt;SEP&gt;"16中车01 is the bond that needs to be transacted, representing a specific financial event within the scope of the announcement. "&lt;SEP&gt;"16中车01" 是中国中车在二级市场公开发行的一笔境内债券，后来执行了回售。"</data>
+  <data key="d2">chunk-a546fb0e5e17b20889957df0a0857912&lt;SEP&gt;chunk-3c6048c7f320e6ee1d51c6464d78f33f</data>
+</node>
+<node id="&quot;回售&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"回售是指债券持有人有权在特定条件下将其持有的债权卖出的行为。在这里，持有人行使了回售权利。"</data>
+  <data key="d2">chunk-3c6048c7f320e6ee1d51c6464d78f33f</data>
+</node>
+<node id="&quot;持有人&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"持有人指的是债券发行之后购买债券并享有相关权益的个人或机构。"</data>
+  <data key="d2">chunk-3c6048c7f320e6ee1d51c6464d78f33f</data>
+</node>
+<node id="&quot;债券金额1.41亿元&quot;">
+  <data key="d0">"AMOUNT"</data>
+  <data key="d1">"The amount expressed is 1.41 billion yuan, indicating the financial aspect of the bond's transation."&lt;SEP&gt;"The amount of bond '16中车01' is 1.41 billion yuan."</data>
+  <data key="d2">chunk-a546fb0e5e17b20889957df0a0857912</data>
+</node>
+<node id="中国中车股份有限公司&quot;">
+  <data key="d0">ORGANIZATION"</data>
+  <data key="d1">"中国中车股份有限公司（英文名：Changgang Corporation Co., Ltd.），一家位于中国的大型国有企业，负责轨道交通及汽车产业的生产和销售，发布关于“16中车01”转售结果的公告。"</data>
+  <data key="d2">chunk-b0dea2a771b5c10e45fa3b390091481d</data>
+</node>
+<node id="&quot;“16中车01”&quot;">
+  <data key="d0">TECHNOLOGY"</data>
+  <data key="d1">"“16中车01”是指该公司发行的一种债券，关于转售结果的公告涉及到这项金融产品。”</data>
+  <data key="d2">chunk-b0dea2a771b5c10e45fa3b390091481d</data>
+</node>
+<node id="&quot;16中车01转售实施结果公告&quot;">
+  <data key="d0">EVENT"</data>
+  <data key="d1">"此公告展示了中国中车股份有限公司关于“16中车01”债券转售的最终结果和实施情况。"</data>
+  <data key="d2">chunk-b0dea2a771b5c10e45fa3b390091481d</data>
+</node>
+<node id="&quot;光大证券&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Guodian Securities is China's securities financial institution, where the personnel mentioned are from."&lt;SEP&gt;"光大证券是一个重要的金融机构，其执行总裁周健男的离职引起了广泛关注。"&lt;SEP&gt;"光大证券是一家股票经纪公司。"&lt;SEP&gt;"光大证券是一家证券公司，其总裁职位发生变动。"&lt;SEP&gt;"光大证券是一家证券公司，其执行总裁周健男的辞职事件引起关注，并预示着其未来发展动向。"&lt;SEP&gt;"光大证券是一家证券公司，涵盖了执行总裁周健男的离职和未来方向的相关信息。"&lt;SEP&gt;"光大证券是中国的一家金融机构，这则消息涉及该机构的一个重要变动。"&lt;SEP&gt;"光大证券 is a company, financial institution, and one of the largest brokers in China, where Zhou Jiannan became the president in his new role."|&lt;SEP&gt;"光大证券是一家金融企业，上市公司，以其总裁职位而知名。"&lt;SEP&gt;"光大证券是现代金融行业中的重要机构。周健男在该公司担任执行总裁，负责公司运营。"</data>
+  <data key="d2">chunk-e617c12e9ccbaffc7cc9374cb74a7e29&lt;SEP&gt;chunk-9756d0d7f92e93c194abdee946404874&lt;SEP&gt;chunk-b855de7eeaef9add4c4d7a50e8568746&lt;SEP&gt;chunk-d68fb6086b12805e6ff553a995e91e22&lt;SEP&gt;chunk-adc74fb1d5553efb24200571bf10a0f6&lt;SEP&gt;chunk-f7347279b2de854482eb9f7ef8b270cb</data>
+</node>
+<node id="&quot;周健男&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Zhou Jiannan is the CEO of Guodian Securities who is resigning from his position."&lt;SEP&gt;"周健男作为光大证券的执行总裁的离职，说明光大证券高层发生变动。"&lt;SEP&gt;"周健男作为光大证券的执行总裁的辞职，说明光大证券管理层发生了变动。"&lt;SEP&gt;"周健男是光大证券的执行总裁。他辞职辞任这一职务。"&lt;SEP&gt;"周健男是光大证券的执行总裁，宣布辞职，未来或将考虑创业。"&lt;SEP&gt;"周健男是光大证券的执行总裁，目前面临离职并未来可能转向创业的决定。"&lt;SEP&gt;"周健男现任光大证券执行总裁，提及他决定离开职务并未来或将转向创业。"&lt;SEP&gt;"周健男是光大证券的执行总裁，并于未来将选择创业。"&lt;SEP&gt;"周健男 from Dacheng Fund became the president of Lightstone Securities, indicating a career transition from a position of authority at a fund company to a top leadership role in a larger financial institution."|&lt;SEP&gt;"周健男 is a person held important positions such as party secretary and executive board member, then assumed the role of president of Lightstone Securities, showing a significant career cross-over."|&lt;SEP&gt;"周健男曾任大成基金党委书记，执委会主任，现担任光大证券总裁，宣布将辞职，未来可能考虑创业。"&lt;SEP&gt;"周健男曾在中国证监会工作20年，现在作为光大证券的董事长和执行总裁，其领导角色对光大证券的影响深远。他最终决定辞职，未来未知是否会转向创业。"</data>
+  <data key="d2">chunk-e617c12e9ccbaffc7cc9374cb74a7e29&lt;SEP&gt;chunk-9756d0d7f92e93c194abdee946404874&lt;SEP&gt;chunk-b855de7eeaef9add4c4d7a50e8568746&lt;SEP&gt;chunk-d68fb6086b12805e6ff553a995e91e22&lt;SEP&gt;chunk-adc74fb1d5553efb24200571bf10a0f6&lt;SEP&gt;chunk-f7347279b2de854482eb9f7ef8b270cb</data>
+</node>
+<node id="&quot;闫峻&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"闫峻将代理光大证券总裁职务，面对这个职位，未来可能既有机遇也有挑战。"&lt;SEP&gt;"闫峻接任光大证券的总裁职位。"</data>
+  <data key="d2">chunk-d68fb6086b12805e6ff553a995e91e22</data>
+</node>
+<node id="&quot;创业&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"创业被提及为周健男未来可能的选择，这反映了他在此事件中将面临的机遇与挑战并存的状况。"</data>
+  <data key="d2">chunk-f7347279b2de854482eb9f7ef8b270cb</data>
+</node>
+<node id="&quot;创业梦&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"创业梦引申的是周健男未来可能转向创业领域的希望和目标。"</data>
+  <data key="d2">chunk-f7347279b2de854482eb9f7ef8b270cb</data>
+</node>
+<node id="&quot;接棒者&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"接棒者指的是将会接任光大证券职位的人，没有具体介绍，但提到未来可能存在接棒。"</data>
+  <data key="d2">chunk-f7347279b2de854482eb9f7ef8b270cb</data>
+</node>
+<node id="&quot;资本市场老兵&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Zhou Jiannan is a seasoned veteran in the capital market, indicating his long career."</data>
+  <data key="d2">chunk-b855de7eeaef9add4c4d7a50e8568746</data>
+</node>
+<node id="&quot;新掌门人&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Zhou Jiannan resumes leadership of Guodian Securities, indicated to be a new leader."</data>
+  <data key="d2">chunk-b855de7eeaef9add4c4d7a50e8568746</data>
+</node>
+<node id="&quot;大成基金&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"大成基金是中国的一家大型基金公司，公告显示周健男另一位领导职务为其党委书记、执委会主任。"</data>
+  <data key="d2">chunk-e617c12e9ccbaffc7cc9374cb74a7e29</data>
+</node>
+<node id="&quot;LIGHTSTONE SECURITIES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Lightstone Securities is a financial entity, a company or firm, with notable leadership roles like executive presidents and directors."|</data>
+  <data key="d2">chunk-e617c12e9ccbaffc7cc9374cb74a7e29</data>
+</node>
+<node id="&quot;中国证监会&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"中国证监会是中国金融监管机构之一的表现，说明隶属于上级机关。"</data>
+  <data key="d2">chunk-adc74fb1d5553efb24200571bf10a0f6</data>
+</node>
+<node id="&quot;联系方式&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">""未来或选择创业" 行显示变化动向和注意点，这里是高管变动的可能结果之一，但没有足够的信息将其明确转化为事件。"</data>
+  <data key="d2">chunk-adc74fb1d5553efb24200571bf10a0f6</data>
+</node>
+<node id="&quot;中国光大银行股份有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"中国光大银行股份有限公司是中国一家知名综合型国有控股银行集团，注册为中国银行之一，承担综合性金融业务"&lt;SEP&gt;"中国光大银行股份有限公司是中国的一家大型综合性商业银行，执行董事兼行长职位由葛海蛟先生辞任。"&lt;SEP&gt;"中国光大银行股份有限公司是中国的一家大型银行，其执行董事和行长发生了变动。行长葛海蛟已辞任行长职务。"&lt;SEP&gt;"中国光大银行股份有限公司是公告背景下的关键银行组织。"&lt;SEP&gt;"中国光大银行股份有限公司是发布此公告的银行机构。"&lt;SEP&gt;"中国光大银行股份有限公司是知名金融机构，成立于与中国银行业类似的背景下。"</data>
+  <data key="d2">chunk-d59007d2f59538510c4a865b63c98513&lt;SEP&gt;chunk-c8cffd416a14102f5c49fb97d1950e33&lt;SEP&gt;chunk-04dedf36f3da1e18eb4dc77dddca318b&lt;SEP&gt;chunk-512c42e07d9054174a6b5f48c0cf6f90</data>
+</node>
+<node id="&quot;葛海蛟&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"葛海蛟先生确认其与本行董事会无不同意见，辞任中国光大银行股份有限公司执行董事兼行长的职务。"&lt;SEP&gt;"葛海蛟是光大银行的行长，在此次公告中宣布辞任。"</data>
+  <data key="d2">chunk-d59007d2f59538510c4a865b63c98513&lt;SEP&gt;chunk-04dedf36f3da1e18eb4dc77dddca318b</data>
+</node>
+<node id="&quot;辞任&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"行长葛海蛟辞任光大银行行长职务。"&lt;SEP&gt;"辞任是宣布执行董事和行长辞职，触发的公告行为。"</data>
+  <data key="d2">chunk-c8cffd416a14102f5c49fb97d1950e33&lt;SEP&gt;chunk-04dedf36f3da1e18eb4dc77dddca318b</data>
+</node>
+<node id="&quot;GEHAIKUO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"GeHaikuo is a person holding the行长, whose position is now vacant."&lt;SEP&gt;"GeHaikuo is the person who held the行长position, now vacant."|&gt;"organization structure management"&lt;SEP&gt;"GeHaikuo is the person who held the行长position, now vacant."|&gt;"organization structure management"&lt;|"2"</data>
+  <data key="d2">chunk-04dedf36f3da1e18eb4dc77dddca318b</data>
+</node>
+<node id="&quot;DISMISSAL&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Dismissal refers to the explanation of resignation."&lt;SEP&gt;"Disposal of a position"|"position change"</data>
+  <data key="d2">chunk-04dedf36f3da1e18eb4dc77dddca318b</data>
+</node>
+<node id="&quot;GUADABANK&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"GuadaBank is the organization involved in the dismissal."|&gt;"organization management"&lt;SEP&gt;"GuadaBank is the organization involved in the dismissal."|&gt;"organization management"&lt;|"1"</data>
+  <data key="d2">chunk-04dedf36f3da1e18eb4dc77dddca318b</data>
+</node>
+<node id="&quot;执行董事&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"执行董事指的是银行的高级管理人员。"</data>
+  <data key="d2">chunk-c8cffd416a14102f5c49fb97d1950e33</data>
+</node>
+<node id="&quot;行长&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"行长也指银行的高级管理人员的一部分。"</data>
+  <data key="d2">chunk-c8cffd416a14102f5c49fb97d1950e33</data>
+</node>
+<node id="&quot;李&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"李是辞任的执行董事。"</data>
+  <data key="d2">chunk-c8cffd416a14102f5c49fb97d1950e33</data>
+</node>
+<node id="&quot;王先生&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"王先生是接任的执行董事。"</data>
+  <data key="d2">chunk-c8cffd416a14102f5c49fb97d1950e33</data>
+</node>
+<node id="&quot;行长女士&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"行长女士指公司总经理职务。"</data>
+  <data key="d2">chunk-c8cffd416a14102f5c49fb97d1950e33</data>
+</node>
+<node id="&quot;李先生&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"李先生是前执行董事。"</data>
+  <data key="d2">chunk-c8cffd416a14102f5c49fb97d1950e33</data>
+</node>
+<node id="&quot;NULL&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"辞任公告标志着职位变动。"</data>
+  <data key="d2">chunk-c8cffd416a14102f5c49fb97d1950e33</data>
+</node>
+<node id="&quot;新任执行董事王先生&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"新任执行董事王先生接受了先前李的职位。"</data>
+  <data key="d2">chunk-c8cffd416a14102f5c49fb97d1950e33</data>
+</node>
+<node id="&quot;执行董事李先生&quot;">
+  <data key="d2">chunk-c8cffd416a14102f5c49fb97d1950e33</data>
+  <data key="d1">"公司执行董事李先生辞任换人."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;公司行长女士&quot;">
+  <data key="d2">chunk-c8cffd416a14102f5c49fb97d1950e33</data>
+  <data key="d1">"行长女士职务保持不变."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;称号：&lt;执行董事、行长&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"张一斌是该机构的执行董事与行长职务。他辞任光大的职位。"</data>
+  <data key="d2">chunk-512c42e07d9054174a6b5f48c0cf6f90</data>
+</node>
+<node id="&quot;光大银行&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"光大银行是中国某家银行机构，是中国光大银行股份有限公司旗下的银行部门。"&lt;SEP&gt;"光大银行是发行永续债议案已通过审议过程中的中国金融机构。"</data>
+  <data key="d2">chunk-512c42e07d9054174a6b5f48c0cf6f90</data>
+</node>
+<node id="&quot;永续债">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"永续债的发行与此致辞有关，关系到光大银行的提交议案。"</data>
+  <data key="d2">chunk-512c42e07d9054174a6b5f48c0cf6f90</data>
+</node>
+<node id="&quot;张一斌&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"张一斌是机构中的执行董事和行长职位，并在其职务期间宣布离职"</data>
+  <data key="d2">chunk-512c42e07d9054174a6b5f48c0cf6f90</data>
+</node>
+<node id="&quot;发行永续债议程&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"发行永续债议案需要公司董事会的审议与投票过程，它是光大银行的重大财务举措之一"</data>
+  <data key="d2">chunk-512c42e07d9054174a6b5f48c0cf6f90</data>
+</node>
+<node id="&quot;执行董事,行长&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"张一斌作为公司的执行董事和行长，同时负责银行日常运营、战略规划以及对外代表职务."</data>
+  <data key="d2">chunk-512c42e07d9054174a6b5f48c0cf6f90</data>
+</node>
+<node id="&quot;中国国旅&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"China Travel Group Co., Ltd., the leading operator offering tax-free shopping discounts and services."&lt;SEP&gt;"中国国旅作为免税行业的龙头企业及市场引领者，在2018年已经创下了历史新高，并对行业走势影响显著。"&lt;SEP&gt;"中国国旅作为免税行业的龙头，在2018年创下历史新高，表明其在行业中的强大影响力。"&lt;SEP&gt;"中国国旅创历史新高，是国庆长假期间免税消费增长显著的标志性公司。"&lt;SEP&gt;"中国国旅在国庆长假期间的免税消费增长率创历史新高，成为了免税消费增长的龙头企业。"&lt;SEP&gt;"中国国旅是一家免税龙头公司，近期表现突出，创历史新高，有成为百元股的潜力。"&lt;SEP&gt;"中国国旅是一家大型旅游服务公司，专注于免税业务，并因业务增长而股价创纪录新高。"&lt;SEP&gt;"中国国旅，上市公司，免税业务保持高增长态势，其股价近期表现优异。"&lt;SEP&gt;"中国国旅，上市公司，其股票持续突破高点，有望达到百元股的高度。"&lt;SEP&gt;"虽然"中国国旅个人"在这段文本中并非指具体的人，但指代中国国旅公司相关的信息。"&lt;SEP&gt;"中国国旅是一家免税零售商，出现了相关免税消费增长的情况。"&lt;SEP&gt;"中国国旅是一家免税零售商，在免税店内进行销售以在假期期间增长业绩。"&lt;SEP&gt;"China Travel Group is the company that created a new record in duty-free consumption during the National Day holiday."</data>
+  <data key="d2">chunk-8e8cac77e4fe5bae974c34d1354c4706&lt;SEP&gt;chunk-d06c84c0f378cb39889b2e6e79ebf210&lt;SEP&gt;chunk-70c9493acfb7d2615efee63babeced22&lt;SEP&gt;chunk-469c256163ba327a11c88fdd8d31c801&lt;SEP&gt;chunk-d8db7e1b41e5969a4c20081e9f61fa7f&lt;SEP&gt;chunk-908f9bee7beb3d7ed4ea08e55b1d54f3&lt;SEP&gt;chunk-5b0420a41c26fd0034ae779a8eb30894&lt;SEP&gt;chunk-cdaf44beed50db6e8b285f19819ab4cc</data>
+</node>
+<node id="&quot;免税业务&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"免税业务保持着高增长态势，对公司的表现形成积极影响。"&lt;SEP&gt;"免税业务持续增长，预期对上市公司股价表现产生积极影响。"&lt;SEP&gt;"免税业务指在中国大陆的主要旅游城市提供免税商品的业务，本文即提及免税商店销售增长和股价突破百元。"</data>
+  <data key="d2">chunk-8e8cac77e4fe5bae974c34d1354c4706&lt;SEP&gt;chunk-908f9bee7beb3d7ed4ea08e55b1d54f3</data>
+</node>
+<node id="&quot;中国国旅股价&quot;">
+  <data key="d2">chunk-908f9bee7beb3d7ed4ea08e55b1d54f3</data>
+  <data key="d1">"中国国旅股价创新高，反映了公司主营业务（免税业务）的增长，突显了其市场价值."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="免税业务&quot;">
+  <data key="d0">EVENT"</data>
+  <data key="d1">"免税业务是本报告关注的重点，它在过去一段时间内保持了持续高速增长的态势。"</data>
+  <data key="d2">chunk-c45f97d8b0854bc822b717a30cfb6049</data>
+</node>
+<node id="中国国旅&quot;">
+  <data key="d0">ORGANIZATION"</data>
+  <data key="d1">"中国国旅，免税业务领域的龙头企业，因其业绩的优异表现而引发了股价的迅速上升。"</data>
+  <data key="d2">chunk-c45f97d8b0854bc822b717a30cfb6049</data>
+</node>
+<node id="海南免税店&quot;">
+  <data key="d0">LOCATION"</data>
+  <data key="d1">"海南免税店是免税业务的关键部署地点，国庆期间反映出免税销售的强大吸引力。"</data>
+  <data key="d2">chunk-c45f97d8b0854bc822b717a30cfb6049</data>
+</node>
+<node id="国庆期间&quot;">
+  <data key="d0">EVENT"</data>
+  <data key="d1">"国庆期间的促销活动被视为传统假日销售旺季的代表，推动了海南免税店销售额的增长。"</data>
+  <data key="d2">chunk-c45f97d8b0854bc822b717a30cfb6049</data>
+</node>
+<node id="中国国旅股价&quot;">
+  <data key="d0">CONCEPT"</data>
+  <data key="d1">"中国国旅最新的股价表现创下了新高，反映了其在免税业务领域的突出价值。"</data>
+  <data key="d2">chunk-c45f97d8b0854bc822b717a30cfb6049</data>
+</node>
+<node id="&quot;新高股价&quot;">
+  <data key="d2">chunk-c45f97d8b0854bc822b717a30cfb6049</data>
+  <data key="d1">"中国国旅的股价创新高，预示着其未来有望跻身百元股行列。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;海南离岛免税&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"海南离岛免税是海南免税店政策下的免税购物活动，它持续火爆，显然推动了中国免税业的发展。"</data>
+  <data key="d2">chunk-8e8cac77e4fe5bae974c34d1354c4706</data>
+</node>
+<node id="&quot;国庆长假&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The event is the National Day holiday, during which there was a notable increase in consumption within the duty-free sector."&lt;SEP&gt;"国庆长假 refers to the National Day holiday, a festive period during which special tax-free shopping promotions are often held."&lt;SEP&gt;"国庆长假是一个特定事件，通常指每年的十月一日假期。"&lt;SEP&gt;"国庆长假是一个特定的节日假期，通常在每年的国庆节期间。"&lt;SEP&gt;"国庆长假是一个节假日，期间免税消费增长显著的现象。"&lt;SEP&gt;"国庆长假期间免税消费的增长反映出消费者对免税商品的需求激增。"&lt;SEP&gt;"国庆长假期间，免税消费增长显著，但与中国国旅的具体业绩情况关联不明确。"&lt;SEP&gt;"国庆长假是指中国国庆节期间的假期，期间免税消费表现出增长的态势。"</data>
+  <data key="d2">chunk-d06c84c0f378cb39889b2e6e79ebf210&lt;SEP&gt;chunk-70c9493acfb7d2615efee63babeced22&lt;SEP&gt;chunk-469c256163ba327a11c88fdd8d31c801&lt;SEP&gt;chunk-d8db7e1b41e5969a4c20081e9f61fa7f&lt;SEP&gt;chunk-5b0420a41c26fd0034ae779a8eb30894&lt;SEP&gt;chunk-cdaf44beed50db6e8b285f19819ab4cc</data>
+</node>
+<node id="&quot;免税消费&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The concept includes duty-free shopping and its growth during the National Day holiday."&lt;SEP&gt;"免税消费" refers to tax-free shopping, a special shopping period offering tax savings to consumers, referred to here as '消费增长亮丽'."&lt;SEP&gt;"免税消费是指消费者在特定场所（如机场）购买免税商品、享受免税收程序的一种交易行为。"&lt;SEP&gt;"免税消费的增长体现了中国国旅对特殊消费群体的吸引力，或是国庆长假促销活动的效果。"</data>
+  <data key="d2">chunk-5b0420a41c26fd0034ae779a8eb30894&lt;SEP&gt;chunk-cdaf44beed50db6e8b285f19819ab4cc&lt;SEP&gt;chunk-d06c84c0f378cb39889b2e6e79ebf210&lt;SEP&gt;chunk-d8db7e1b41e5969a4c20081e9f61fa7f</data>
+</node>
+<node id="&quot;中国国旅创历史新高&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"China Travel Group set a new record for the highest level of duty-free consumption during the National Day holiday."&lt;SEP&gt;"中国国旅旗下业务取得了里程碑成绩。"</data>
+  <data key="d2">chunk-5b0420a41c26fd0034ae779a8eb30894&lt;SEP&gt;chunk-d8db7e1b41e5969a4c20081e9f61fa7f</data>
+</node>
+<node id="&quot;有望跻身百元股&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"中国国旅有望在股价上达到一个新的高度，步入百元股行列。"</data>
+  <data key="d2">chunk-d8db7e1b41e5969a4c20081e9f61fa7f</data>
+</node>
+<node id="&quot;百元股&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"一个较高的股票市场细分概念。"</data>
+  <data key="d2">chunk-d8db7e1b41e5969a4c20081e9f61fa7f</data>
+</node>
+<node id="&quot;ZHONG HUAI LUN&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Zhong Huai Lun is China's leading travel management company, noted for significant market value and competition from airport duty-free stores."&lt;SEP&gt;"Zhong Huai Lun is the travel management company, recognized for its total market value."</data>
+  <data key="d2">chunk-9c5d6f70713c53a0b98822bc0008cf50</data>
+</node>
+<node id="&quot;ZHANG ZHOUTONG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Zhang Zhoutong is a notable individual involved in the company or related to the event."</data>
+  <data key="d2">chunk-9c5d6f70713c53a0b98822bc0008cf50</data>
+</node>
+<node id="&quot;AIRPORT DUTY-FREE STORES&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"Airport Duty-Free Stores are commercial establishments selling duty-free goods, competing with the company on growing demand."&lt;SEP&gt;"Airport Duty-Free Stores are commercial establishments where duty-free goods are sold, competing with the company."</data>
+  <data key="d2">chunk-9c5d6f70713c53a0b98822bc0008cf50</data>
+</node>
+<node id="&quot;XI JI NA GENG&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Xi Ji Na Geng (National Day Golden Week) is a significant holiday period contributing to increased consumption."</data>
+  <data key="d2">chunk-9c5d6f70713c53a0b98822bc0008cf50</data>
+</node>
+<node id="&quot;GUO YAN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Guo Yan represents the growth of duty-free spending during the Golden Week, highlighting market dynamics."</data>
+  <data key="d2">chunk-9c5d6f70713c53a0b98822bc0008cf50</data>
+</node>
+<node id="&quot;NATIONAL DAY GOLDEN WEEK&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"National Day Golden Week is a significant holiday period for increased consumer spending."</data>
+  <data key="d2">chunk-9c5d6f70713c53a0b98822bc0008cf50</data>
+</node>
+<node id="&quot;CTRIP&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Ctrip is the leading travel management company, recognized for its total market value and competition from airport duty-free stores."</data>
+  <data key="d2">chunk-9c5d6f70713c53a0b98822bc0008cf50</data>
+</node>
+<node id="&quot;TOTAL MARKET VALUE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Total Market Value represents the total value or capitalization of a travel management company."</data>
+  <data key="d2">chunk-9c5d6f70713c53a0b98822bc0008cf50</data>
+</node>
+<node id="&quot;GROWTH OF DUTY-FREE EXPENDITURE DURING GOLDEN WEEK UPSHOT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Growth of Duty-Free Expenditure During Golden Week Upshot highlights the significance of duty-free spending during the National Day holiday period."</data>
+  <data key="d2">chunk-9c5d6f70713c53a0b98822bc0008cf50</data>
+</node>
+<node id="&quot;跨境电商&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"跨境电商可能会成为机场免税业务最大的消费者威胁，需要进一步观察。"&lt;SEP&gt;"跨境电商可能成为机场免税业务面临的一个重要威胁，其发展势头值得业界关注。"&lt;SEP&gt;"跨境电商是指通过网络平台在不同国家之间进行商品交易的模式。"</data>
+  <data key="d2">chunk-cdaf44beed50db6e8b285f19819ab4cc</data>
+</node>
+<node id="&quot;海通证券&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"海通证券提出，跨境电商是否会对机场免税业务构成重大威胁，这是一个需要进一步观察的问题。"&lt;SEP&gt;"海通证券提到跨境电商可能会成为机场免税最大的消费者威胁，需要进一步观察。"</data>
+  <data key="d2">chunk-cdaf44beed50db6e8b285f19819ab4cc</data>
+</node>
+<node id="&quot;机场免税&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"机场免税业务整体情况被视为在机场消费需求中的一部分，受到假期免税政策的影响。"&lt;SEP&gt;"机场免税是指在机场内提供的一种免税商品的销售服务。"</data>
+  <data key="d2">chunk-cdaf44beed50db6e8b285f19819ab4cc</data>
+</node>
+<node id="&quot;增长&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"增长在这里指的是国庆期间免税消费增加的现象。"</data>
+  <data key="d2">chunk-cdaf44beed50db6e8b285f19819ab4cc</data>
+</node>
+<node id="&quot;海南&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"海南是一个位于中国海南岛的地点，是免税消费的增长地区。"&lt;SEP&gt;"海南是中国的一个自由贸易区，文中涉及到的具体消费场景发生于此。"&lt;SEP&gt;"海南是中国的一个自贸地区，文中涉及到的具体消费 happened there."</data>
+  <data key="d2">chunk-70c9493acfb7d2615efee63babeced22</data>
+</node>
+<node id="&quot;免税消费增长亮丽&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"This phrase indicates that duty-free consumption showed a bright and impressive growth during the National Day holiday."&lt;SEP&gt;"免税消费增长为亮点，表明减税措施在全国后续假期里产生的积极影响。"</data>
+  <data key="d2">chunk-5b0420a41c26fd0034ae779a8eb30894&lt;SEP&gt;chunk-469c256163ba327a11c88fdd8d31c801</data>
+</node>
+<node id="&quot;中国免税业&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"中国免税业整体销售规模预计未来可高达900亿元，显示行业发展的潜力。"&lt;SEP&gt;"中国免税行业作为一个整体市场，预计未来能达到近900亿元的规模。"</data>
+  <data key="d2">chunk-469c256163ba327a11c88fdd8d31c801</data>
+</node>
+<node id="&quot;2018年中国销售额达395亿元&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2018年具体销售额数据，作为行业发展的指标之一，反映了行业潜力。"&lt;SEP&gt;"在2018年2018年中国免税部门的总销售额达到395亿元人民币。"</data>
+  <data key="d2">chunk-469c256163ba327a11c88fdd8d31c801</data>
+</node>
+<node id="&quot;国庆长假免税消费增长亮丽&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"国庆长假免税消费增长亮丽是指2018年国庆期间免税消费显著增长。"</data>
+  <data key="d2">chunk-469c256163ba327a11c88fdd8d31c801</data>
+</node>
+<node id="&quot;中国市场&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"中国市场是中国免税行业的主要市场，被认为是决定行业前景的最重要因素。"</data>
+  <data key="d2">chunk-469c256163ba327a11c88fdd8d31c801</data>
+</node>
+<node id="&quot;免税龙头&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The national retail organization focused on tax-free shopping sales and initiatives."</data>
+  <data key="d2">chunk-d06c84c0f378cb39889b2e6e79ebf210</data>
+</node>
+<node id="&quot;中证报&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"China Securities Daily, the newspaper that provides detailed analysis of the Chinese financial markets."</data>
+  <data key="d2">chunk-d06c84c0f378cb39889b2e6e79ebf210</data>
+</node>
+<node id="&quot;股东会&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Investment conference or a shareholder meeting focused on discussing company performance."</data>
+  <data key="d2">chunk-d06c84c0f378cb39889b2e6e79ebf210</data>
+</node>
+<node id="&quot;中免免税牌照最全、范围最广&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Zhongfan's duty-free license has the broadest and most comprehensive scope."</data>
+  <data key="d2">chunk-5b0420a41c26fd0034ae779a8eb30894</data>
+</node>
+<node id="&quot;中免&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Zhongfan is a company specializing in duty-free business, whose comprehensive and wide-ranging licenses contribute to its success."</data>
+  <data key="d2">chunk-5b0420a41c26fd0034ae779a8eb30894</data>
+</node>
+<node id="&quot;中国国旅旗下子公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A subsidiary of China Travel Group, which focuses on duty-free businesses."</data>
+  <data key="d2">chunk-5b0420a41c26fd0034ae779a8eb30894</data>
+</node>
+<node id="&quot;永辉超市股份有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"永辉超市股份有限公司 is the legal entity responsible for the resolution of the Board meeting."&lt;SEP&gt;"永辉超市股份有限公司是本次公告提及的公司名称，其第四届董事会第十次会议决议内容被公告。"&lt;SEP&gt;"永辉超市股份有限公司为山东设立全资子公司的事宜提供了决议担保。"&lt;SEP&gt;"永辉超市股份有限公司是发布通知的公司。该通知涉及其拟在山东设立全资子公司。。"&lt;SEP&gt;"永辉超市股份有限公司是一家主要从事大中型连锁超市经营、仓储式大型超市，商品购销等业务的中国现代企业集团。"</data>
+  <data key="d2">chunk-2b025f42a2d5cc8d624cc19d011f8939&lt;SEP&gt;chunk-cd60010c6c7dc7b6ec32726c4f3bd4c9&lt;SEP&gt;chunk-183d40295300c368003489bcb5939276</data>
+</node>
+<node id="&quot;第四届董事会第十次会议&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"第四届董事会第十次会议是指永辉超市举办的董事会会议，具体涉及到公司内部的重大决策流程。"&lt;SEP&gt;"这是一个涉及永辉超市股份有限公司的董事会会议，目的是审议和通过决议。"</data>
+  <data key="d2">chunk-2b025f42a2d5cc8d624cc19d011f8939&lt;SEP&gt;chunk-183d40295300c368003489bcb5939276</data>
+</node>
+<node id="&quot;永辉超市&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"永辉超市是一家位于中国的连锁超市企业，其在公告中展示了董事会决议的重要性。"&lt;SEP&gt;"永辉超市是旗下拥有全资子公司的母公司。子公司设立在山东意味着向这个地理区域扩张。"&lt;SEP&gt;"永辉超市计划在山东设立全资子公司以扩展业务。"</data>
+  <data key="d2">chunk-2b025f42a2d5cc8d624cc19d011f8939&lt;SEP&gt;chunk-cd60010c6c7dc7b6ec32726c4f3bd4c9</data>
+</node>
+<node id="&quot;山东&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"山东被提及为永辉超市计划设立其全资子公司的地方。"&lt;SEP&gt;"山东被视为永辉超市新的子公司设立的地点。"</data>
+  <data key="d2">chunk-cd60010c6c7dc7b6ec32726c4f3bd4c9</data>
+</node>
+<node id="&quot;第四届董事会第十次会议决议公告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"此次会议是发布拟在山东设立永辉超市全资子公司提议的决议公告。"</data>
+  <data key="d2">chunk-cd60010c6c7dc7b6ec32726c4f3bd4c9</data>
+</node>
+<node id="&quot;永辉超市股份有限公司第四届董事会第十次会议&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"这是一个涉及永辉超市股份有限公司的董事会会议，目的是审议和通过决议。"</data>
+  <data key="d2">chunk-183d40295300c368003489bcb5939276</data>
+</node>
+<node id="&quot;永辉超市股份有限公司2019年第一次临时股东大会&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"这是一个涉及永辉超市股份有限公司的股东大会，目的是审查并审议股东大会决议。"</data>
+  <data key="d2">chunk-183d40295300c368003489bcb5939276</data>
+</node>
+<node id="&quot;2019年第一次临时股东大会决议公告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"发布了一份会议决议公告，公告内容是2019年永辉超市股份有限公司的第一次临时股东大会决议。"</data>
+  <data key="d2">chunk-183d40295300c368003489bcb5939276</data>
+</node>
+<node id="&quot;第一临时股东大会&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"这是一个涉及永辉超市股份有限公司的临时股东大会，目的是审査并审议具体事项。"</data>
+  <data key="d2">chunk-183d40295300c368003489bcb5939276</data>
+</node>
+<node id="&quot;建设银行&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"建设银行作为机构严格执行'因城施策'原则以及合理确定新发放个人住房贷款利率的政策。"</data>
+  <data key="d2">chunk-ebcc1be67f92759f47a478728c8ddbb1</data>
+</node>
+<node id="&quot;各分行&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"各分行是建设银行的一部分，具体执行建设银行的'因城施策'政策。"</data>
+  <data key="d2">chunk-ebcc1be67f92759f47a478728c8ddbb1</data>
+</node>
+<node id="&quot;贷款市场报价利率（LPR）&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"LPR是利率形成的重要参考指标。"</data>
+  <data key="d2">chunk-ebcc1be67f92759f47a478728c8ddbb1</data>
+</node>
+<node id="&quot;加点数值&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"加点数值是具体贷款利率确定的关键因素。"</data>
+  <data key="d2">chunk-ebcc1be67f92759f47a478728c8ddbb1</data>
+</node>
+<edge source="万科企业股份有限公司&quot;" target="天津荣泰成长&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"万科企业股份有限公司与天津荣泰成长共同进行投资."&lt;SEP&gt;"万科是横琴和谐鼎泰股权投资企业的合作伙伴之一，通过合作基金进行投资行为."</data>
+  <data key="d5">"investment partnership"</data>
+  <data key="d6">chunk-1f179250084642c000fc16307d0dbba2</data>
+</edge>
+<edge source="万科企业股份有限公司&quot;" target="比亚迪工业&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"万科企业股份有限公司与比亚迪工业共同进行投资."&lt;SEP&gt;"万科是横琴和谐鼎泰股权投资企业的合作伙伴之一，通过合作基金进行投资行为."</data>
+  <data key="d5">"investment partnership"</data>
+  <data key="d6">chunk-1f179250084642c000fc16307d0dbba2</data>
+</edge>
+<edge source="万科企业股份有限公司&quot;" target="持股5%以上的股东&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"万科企业股份有限公司的持股5%以上的股东可能从事密集的商业活动，如设立产业基金."</data>
+  <data key="d5">"股东行为，可能的投资，变动的股权结构"</data>
+  <data key="d6">chunk-ec7f61f07335d4345e157c9a59ac94b2</data>
+</edge>
+<edge source="天津荣泰成长&quot;" target="比亚迪工业&quot;">
+  <data key="d3">11.0</data>
+  <data key="d4">"天津荣泰成长与比亚迪工业共同参与到横琴和谐鼎泰股权投资企业中，形成合作关系."&lt;SEP&gt;"天津荣泰成长与比亚迪工业共同进行投资."</data>
+  <data key="d5">"collaborative investment"&lt;SEP&gt;"investment partnership"</data>
+  <data key="d6">chunk-1f179250084642c000fc16307d0dbba2</data>
+</edge>
+<edge source="&quot;万科企业股份有限公司&quot;" target="&quot;和谐鼎泰基金&quot;">
+  <data key="d3">33.0</data>
+  <data key="d4">"万科企业股份有限公司与和谐鼎泰基金行成了合作关系，参与万科A的减持计划."&lt;SEP&gt;"万科企业股份有限公司计划投资和谐鼎泰基金."&lt;SEP&gt;"参与和谐鼎泰基金的投资表明公司对发展潜力的投资策略。"</data>
+  <data key="d5">"investment, partnership"&lt;SEP&gt;"投资行为"&lt;SEP&gt;"投资计划"</data>
+  <data key="d6">chunk-d0729195c971adfe5870fa0284794305&lt;SEP&gt;chunk-a43a435e41c8de9ea0cc25eb1a49d472</data>
+</edge>
+<edge source="&quot;万科企业股份有限公司&quot;" target="&quot;持股5%以上的股东&quot;">
+  <data key="d3">33.0</data>
+  <data key="d4">"The shareholders with more than 5% of the shares of万科企业股份有限公司 made a减持 plan."&lt;SEP&gt;"万科企业股份有限公司发布持股5%以上的股东的减持计划及其缩短的公告."&lt;SEP&gt;"万科企业股份有限公司有着义务通过信息披露公告来表述持股5%以上的股东的减持计划及实施情况."</data>
+  <data key="d5">"shareholder action, transaction"&lt;SEP&gt;"信息披露义务，股东行为说明"&lt;SEP&gt;"公告发布，股东行为披露"</data>
+  <data key="d6">chunk-5ed376966fb48146686dddeaf4f275f1&lt;SEP&gt;chunk-8f8fb2aad1edcfa24f0ec6d04b04de7f</data>
+</edge>
+<edge source="&quot;万科企业股份有限公司&quot;" target="&quot;减持计划&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"WanKe Corporation is involved in Redemption Plan, indicating shareholders' action."</data>
+  <data key="d5">"Redemption Plan, shareholder activity"</data>
+  <data key="d6">chunk-8f8fb2aad1edcfa24f0ec6d04b04de7f</data>
+</edge>
+<edge source="&quot;万科企业股份有限公司&quot;" target="&quot;签署合伙协议&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The corporation signed a partnership agreement with Heqin DingTai Fund."</data>
+  <data key="d5">"corporate transaction, strategic partnership"</data>
+  <data key="d6">chunk-8f8fb2aad1edcfa24f0ec6d04b04de7f</data>
+</edge>
+<edge source="&quot;万科企业股份有限公司&quot;" target="&quot;减持计划期限届满暨实施情况&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"万科企业股份有限公司不得不在该期限结束后披露减持计划的实施情况，以免引发市场猜疑与不信任."</data>
+  <data key="d5">"财务透明度的需求"</data>
+  <data key="d6">chunk-5b6945c5579567f78fbe1eb78e13abb4</data>
+</edge>
+<edge source="&quot;和谐鼎泰基金&quot;" target="&quot;天津荣泰成长投资管理有限公司&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"天津荣泰成长投资管理有限公司是和谐鼎泰基金的股东。"</data>
+  <data key="d5">"股东关系"</data>
+  <data key="d6">chunk-d0729195c971adfe5870fa0284794305</data>
+</edge>
+<edge source="&quot;天津荣泰成长投资管理有限公司&quot;" target="&quot;吴挺&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"天津荣泰成长投资管理有限公司实际控制者是吴挺。"</data>
+  <data key="d5">"实际控制"</data>
+  <data key="d6">chunk-d0729195c971adfe5870fa0284794305</data>
+</edge>
+<edge source="&quot;比亚迪&quot;" target="&quot;万科&quot;">
+  <data key="d3">25.0</data>
+  <data key="d4">"万科和比亚迪共同出资参与设立投资基金，展现了双方合作关系和资源整合潜力."&lt;SEP&gt;"万科和比亚迪共同投资11.01亿元专注于科技与物流领域的优势合作及协同效应."&lt;SEP&gt;"万科和比亚迪合作设立产业投资基金，旗下含科技投资基金和物流基金."</data>
+  <data key="d5">"合作伙伴关系，资源整合"&lt;SEP&gt;"合作伙伴关系，资金合作"</data>
+  <data key="d6">chunk-2dbb60d2cf9f883d1d91e96c36d350a9&lt;SEP&gt;chunk-52c13efcad8173217dad312452122368</data>
+</edge>
+<edge source="&quot;比亚迪&quot;" target="&quot;11亿投资基金&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"比亚迪作为投资基金的重要合作伙伴，参与合作投资科技与物流领域的基金."</data>
+  <data key="d5">"合作伙伴关系，资源整合"</data>
+  <data key="d6">chunk-52c13efcad8173217dad312452122368</data>
+</edge>
+<edge source="&quot;比亚迪&quot;" target="&quot;投资基金&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"比亚迪参与投资基金显示了其在科技领域的投资野心和对物流领域的关注。"&lt;SEP&gt;"比亚迪参与投资基金，展示了其在新能源领域的投资潜力及对科技领域感兴趣的尝试."</data>
+  <data key="d5">"合作趋势，产业投资"&lt;SEP&gt;"合作趋势，能源行业"</data>
+  <data key="d6">chunk-722635e2dd6c04a40658be8a803ac40f</data>
+</edge>
+<edge source="&quot;投资基金&quot;" target="&quot;万科&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"万科下属子公司参与投资基金体现了其加大对科技和物流领域的投资力度。"&lt;SEP&gt;"万科及其下属子公司参与投资基金，有助于加快公司的战略定位落地."</data>
+  <data key="d5">"业务扩展，战略定位"&lt;SEP&gt;"业务扩展，投资布局"</data>
+  <data key="d6">chunk-722635e2dd6c04a40658be8a803ac40f</data>
+</edge>
+<edge source="&quot;投资基金&quot;" target="&quot;科技&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"投资基金的投资策略聚焦于科技领域，来迎合市场及政策导向."&lt;SEP&gt;"投资基金的投资策略聚焦于科技领域，来迎合市场及政策导向。</data>
+  <data key="d5">"投资重点，市场导向"</data>
+  <data key="d6">chunk-722635e2dd6c04a40658be8a803ac40f</data>
+</edge>
+<edge source="&quot;投资基金&quot;" target="&quot;物流&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"投资基金关注物流领域，跟上行业发展趋势，把握市场机会."&lt;SEP&gt;"投资基金对物流领域的关注，意在跟上行业发展趋势，把握市场机会。"</data>
+  <data key="d5">"投资领域，行业趋势"&lt;SEP&gt;"行业趋势，市场机会"</data>
+  <data key="d6">chunk-722635e2dd6c04a40658be8a803ac40f</data>
+</edge>
+<edge source="&quot;投资基金&quot;" target="&quot;万科的下属子公司&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"万科下属子公司参与投资基金，体现出公司业务领域的拓展及资源整合能力."</data>
+  <data key="d5">"资源整合，业务拓展"</data>
+  <data key="d6">chunk-722635e2dd6c04a40658be8a803ac40f</data>
+</edge>
+<edge source="&quot;万科&quot;" target="&quot;11亿投资基金&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"万科和比亚迪的联手投资，体现了双方在科技与物流领域的深度合作和资源整合."</data>
+  <data key="d5">"合作伙伴关系，资源整合，企业合作"</data>
+  <data key="d6">chunk-52c13efcad8173217dad312452122368</data>
+</edge>
+<edge source="&quot;科技&quot;" target="&quot;产业基金&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"投资基金计划在科技领域探索，可能与万科和比亚迪公司的业务有交集."</data>
+  <data key="d5">"业务关联，投资方向"</data>
+  <data key="d6">chunk-2dbb60d2cf9f883d1d91e96c36d350a9</data>
+</edge>
+<edge source="&quot;物流&quot;" target="&quot;产业基金&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"投资基金计划在物流领域拓展业务，有助于强化其多元化布局."</data>
+  <data key="d5">"业务扩展，合作前景"</data>
+  <data key="d6">chunk-2dbb60d2cf9f883d1d91e96c36d350a9</data>
+</edge>
+<edge source="&quot;科技投资基金&quot;" target="&quot;产业投资基金&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"科技投资基金是产业投资基金中的一个部分，专注于科技领域."</data>
+  <data key="d5">"概念关系，领域划分"</data>
+  <data key="d6">chunk-2dbb60d2cf9f883d1d91e96c36d350a9</data>
+</edge>
+<edge source="&quot;物流基金&quot;" target="&quot;产业投资基金&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"物流基金是产业投资基金的一部分，专注于物流领域."</data>
+  <data key="d5">"概念关系，领域划分"</data>
+  <data key="d6">chunk-2dbb60d2cf9f883d1d91e96c36d350a9</data>
+</edge>
+<edge source="&quot;战略定位&quot;" target="&quot;战略定位&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"战略定位则是公司内不同主体基于各自业务或投资逻辑进行分工和调整的关系."</data>
+  <data key="d5">"内部趋势"</data>
+  <data key="d6">chunk-722635e2dd6c04a40658be8a803ac40f</data>
+</edge>
+<edge source="&quot;持股5%以上的股东&quot;" target="&quot;减持计划期限届满&quot;">
+  <data key="d3">17.0</data>
+  <data key="d4">"持股5%以上的股东减持计划已到期，需要调整公告更新其持股变动情况."&lt;SEP&gt;"持股5%以上的股东的减持计划已经到了期限，需要进行财务和策略性的结束或处理."</data>
+  <data key="d5">"减持计划处理，期限管理"&lt;SEP&gt;"到期公告，计划调整"</data>
+  <data key="d6">chunk-5ed376966fb48146686dddeaf4f275f1</data>
+</edge>
+<edge source="&quot;持股5%以上的股东&quot;" target="&quot;实施情况公告&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"实施情况公告详细记录了持股5%以上的股东减持计划的进度及具体说明."&lt;SEP&gt;"实施情况公告详细记录了持股5%以上的股东在减持计划中的具体披露活动."</data>
+  <data key="d5">"信息披露，实际情况记录"&lt;SEP&gt;"详细披露，计划执行"</data>
+  <data key="d6">chunk-5ed376966fb48146686dddeaf4f275f1</data>
+</edge>
+<edge source="&quot;减持计划&quot;" target="&quot;股东&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"股份持有者根据计划减少了其持股量，这是一个具体的执行过程."</data>
+  <data key="d5">"计划执行，内部行动"</data>
+  <data key="d6">chunk-439ed9c8770769e195be610fbfd898aa</data>
+</edge>
+<edge source="&quot;减持计划&quot;" target="&quot;董监高&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"公司高层人员及管理团队根据既定计划参与减持股行动."</data>
+  <data key="d5">"计划执行，高层参与"</data>
+  <data key="d6">chunk-439ed9c8770769e195be610fbfd898aa</data>
+</edge>
+<edge source="持股5%以上的股东&quot;" target="万科Ａ&quot;">
+  <data key="d3">15.0</data>
+  <data key="d4">"持股5%以上的股东可能会通过万科Ａ参与更多的资本运作和市场参与."</data>
+  <data key="d5">"股东参与，公司行为的延伸"</data>
+  <data key="d6">chunk-ec7f61f07335d4345e157c9a59ac94b2</data>
+</edge>
+<edge source="持股5%以上的股东&quot;" target="产业基金&quot;">
+  <data key="d3">24.0</data>
+  <data key="d4">"持股5%以上的股东可能通过参与实体出资设立产业基金，表明他们正在寻求投资途径."&lt;SEP&gt;"股东持股5%以上的股东会参与设立产业基金，表明他们在寻求更多的投资机会和市场实践."</data>
+  <data key="d5">"股东行为，参与设立新的市场投资主体"</data>
+  <data key="d6">chunk-ec7f61f07335d4345e157c9a59ac94b2</data>
+</edge>
+<edge source="持股5%以上的股东&quot;" target="减持计划期限届满暨实施情况公告&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"减持计划期限届满暨实施情况公告是为了澄清和更新持股5%以上的股东的减持行为及其实际操作情况."</data>
+  <data key="d5">"信息披露，实际操作情况披露"</data>
+  <data key="d6">chunk-ec7f61f07335d4345e157c9a59ac94b2</data>
+</edge>
+<edge source="万科Ａ&quot;" target="摘要&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"摘要提到万科Ａ拟1.5亿元参设产业基金，表明了公司近期在投资领域的行动."</data>
+  <data key="d5">"信息摘要，策略说明"</data>
+  <data key="d6">chunk-ec7f61f07335d4345e157c9a59ac94b2</data>
+</edge>
+<edge source="&quot;天津荣泰成长私募基金管理人&quot;" target="&quot;减持计划期限届满暨实施情况&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"天津荣泰成长私募基金管理人作为减持计划主体，其遵守公司信息披露要求的表现."</data>
+  <data key="d5">"合规义务的履行"</data>
+  <data key="d6">chunk-5b6945c5579567f78fbe1eb78e13abb4</data>
+</edge>
+<edge source="&quot;华侨城&quot;" target="&quot;昆明华侨城&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"华侨城转让昆明华侨城24%的股权及6125.68万元的债权，显示华侨城集团在进一步控制云南项目的意图."&lt;SEP&gt;"华侨城转让昆明华侨城部分股权及债权，表明华侨城通过资本运作增强了对昆明华侨城的影响力."</data>
+  <data key="d5">"ownership transfer, increased control"&lt;SEP&gt;"ownership transfer, strategic investment"</data>
+  <data key="d6">chunk-8f940e23b9228685099547acdee90fe2</data>
+</edge>
+<edge source="&quot;华侨城Ａ&quot;" target="&quot;昆明华侨城投资有限公司&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"华侨城Ａ转让其所持有的昆明华侨城股权及债权."</data>
+  <data key="d5">"交易行动，资产转移"</data>
+  <data key="d6">chunk-dd54f6a558779dde1e1734067bb6055d</data>
+</edge>
+<edge source="&quot;华侨城Ａ&quot;" target="&quot;华侨城&quot;}}&quot;">
+  <data key="d3">4.0</data>
+  <data key="d4">"华侨城Ａ由华侨城个人或群体发起，并可能涉及华侨城个人或群体参与'</data>
+  <data key="d5">"ownership, potential partial involvement"</data>
+  <data key="d6">chunk-8f3e9385a783105853c38fdbc91e3c5e</data>
+</edge>
+<edge source="&quot;大族激光&quot;" target="&quot;普华永道&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"普华永道确认大族激光欧洲研发运营中心项目现金流交易仅用于项目中的资金流向。 "</data>
+  <data key="d5">"project verification, funds flow"</data>
+  <data key="d6">chunk-0aa64455f42c515054cfb7f5435fc975</data>
+</edge>
+<edge source="&quot;大族激光&quot;" target="&quot;欧洲研发运营中心项目&quot;">
+  <data key="d3">24.0</data>
+  <data key="d4">"大族激光对欧洲研发运营中心项目的现金流量交易真实性进行了确认。"&lt;SEP&gt;"大族激光确认公司欧洲研发运营中心项目的活动。"</data>
+  <data key="d5">"company confirmation, activity confirmation"&lt;SEP&gt;"project verification, operational integrity"</data>
+  <data key="d6">chunk-0aa64455f42c515054cfb7f5435fc975</data>
+</edge>
+<edge source="&quot;普华永道&quot;" target="&quot;欧洲研发运营中心项目&quot;">
+  <data key="d3">12.0</data>
+  <data key="d4">"普华永道确认欧洲研发运营中心项目的现金流交易仅用于项目。"</data>
+  <data key="d5">"audit confirmation, fund flow confirmation"</data>
+  <data key="d6">chunk-0aa64455f42c515054cfb7f5435fc975</data>
+</edge>
+<edge source="&quot;普华永道&quot;" target="&quot;欧洲研发中心项目&quot;">
+  <data key="d3">15.0</data>
+  <data key="d4">"普华永道对资金使用进行审计，确保资金专用于项目."</data>
+  <data key="d5">"financial oversight, transparency"&lt;SEP&gt;"财务监控，资金透明"</data>
+  <data key="d6">chunk-21ca555aa00973d32b160156585fe852</data>
+</edge>
+<edge source="&quot;公司&quot;" target="&quot;隆基绿能科技股份有限公司&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"需要通过的议案与公司自身的筹资和金融业务密切相关，反映其稳健的财务管理和对外关系的探索。"</data>
+  <data key="d5">"关联重要性，业务发展"</data>
+  <data key="d6">chunk-3e1a537fe5191fd8040b03f4aaa5f0f3</data>
+</edge>
+<edge source="&quot;汇至大族欧洲资金&quot;" target="&quot;大族激光欧洲研发运营中心项目&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"质疑资金实际用途，认为投注于五星级酒店，暗示资金使用未获证实."</data>
+  <data key="d5">"资金用途，质疑"</data>
+  <data key="d6">chunk-77d87af83784c91b52d2eca9314c7a21</data>
+</edge>
+<edge source="&quot;汇至大族欧洲资金&quot;" target="&quot;大族香港&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"全资子公司大族香港为欧洲研发运营中心项目提供了约1.34亿瑞士法郎资金."</data>
+  <data key="d5">"资金提供，运营支持"</data>
+  <data key="d6">chunk-21ca555aa00973d32b160156585fe852</data>
+</edge>
+<edge source="&quot;大族香港&quot;" target="&quot;欧洲研发中心项目&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"全资子公司大族香港为欧洲研发运营中心项目提供了约1.34亿瑞士法郎资金."</data>
+  <data key="d5">"funding, support"</data>
+  <data key="d6">chunk-21ca555aa00973d32b160156585fe852</data>
+</edge>
+<edge source="&quot;苏宁控股集团&quot;" target="&quot;零售业&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"苏宁控股集团积极参与零售业的变革，尤其擅长提供服务以区别于传统零售模式."</data>
+  <data key="d5">"服务创新，零售业引领"&lt;SEP&gt;"行业引领，服务创新"</data>
+  <data key="d6">chunk-90246ed8d5db026150edd9883fe30f0f</data>
+</edge>
+<edge source="&quot;张近东&quot;" target="&quot;苏宁电器&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"苏宁电器的成功一定程度上反映了张近东对于零售策略变革的引领和支持."&lt;SEP&gt;"苏宁电器的成功很大程度上归功于张近东对于科技赋能与零售业变革的引领."</data>
+  <data key="d5">"vision leader relationship"</data>
+  <data key="d6">chunk-db0a4f0a7ecb4dfda4ccb385d24c6e08</data>
+</edge>
+<edge source="&quot;张近东&quot;" target="&quot;苏宁&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"张近东提出互联网+的战略观点，为苏宁的数字化转型提供指导。</data>
+  <data key="d5">"战略观点，战略指导"</data>
+  <data key="d6">chunk-b5c8f13f68e27b8c7afe4ba0da633610</data>
+</edge>
+<edge source="&quot;张近东&quot;" target="&quot;互联网+&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"张近东指导苏宁易购的互联网+实现，为苏宁的数字化转型提供关键策略。</data>
+  <data key="d5">"战略指导，数字化转型"</data>
+  <data key="d6">chunk-b5c8f13f68e27b8c7afe4ba0da633610</data>
+</edge>
+<edge source="&quot;苏宁&quot;" target="&quot;腾讯&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"苏宁为了维持市场份额，聘请了在数字化转型方面的专家，显示苏宁如何应对外部竞争压力，提升自己在市场的地位。"</data>
+  <data key="d5">"market competition, innovation"</data>
+  <data key="d6">chunk-ecea9c2a94f74780906f38ee4607e788</data>
+</edge>
+<edge source="&quot;苏宁&quot;" target="&quot;苏宁易购&quot;">
+  <data key="d3">40.0</data>
+  <data key="d4">"苏宁 and its subsidiary,苏宁易购, are in the same organizational family and play the same role in the retail market."&lt;SEP&gt;"苏宁易购和苏宁之间是象征性和实际性的联系，苏宁易购代表了苏宁的具体行动和变革的方向."&lt;SEP&gt;"苏宁易购被视为苏宁的一部分，其′家′文化体现于苏宁的品牌理念中."&lt;SEP&gt;"苏宁易购得益于苏宁", "&lt;SEP&gt;"苏宁通过苏宁易购展开了其零售业的变革。</data>
+  <data key="d5">"part of the same organization, company relationship"&lt;SEP&gt;"symbolic relation, actual action"&lt;SEP&gt;"科技赋能、发展", "&lt;SEP&gt;"组织与所属品牌的关系，具体见证了苏宁易购的成就"&lt;SEP&gt;"组织关系，品牌诠释"</data>
+  <data key="d6">chunk-92bbcf81842bf83c1c891ef9b8414677&lt;SEP&gt;chunk-3963afd258e5148aef48db4cc5c78238&lt;SEP&gt;chunk-98491b4501c735964f1d90c3a1757375</data>
+</edge>
+<edge source="&quot;苏宁&quot;" target="&quot;互联网+&quot;">
+  <data key="d3">15.0</data>
+  <data key="d4">"互联网+战略中的反哺效应，帮助苏宁实现零售业的扭转型变革。&lt;SEP&gt;"苏宁利用互联网+战略，将互联网技术应用于零售业，实现线上线下的融合。</data>
+  <data key="d5">"反哺效应，变革实现"&lt;SEP&gt;"战略应用，融合实现"</data>
+  <data key="d6">chunk-b5c8f13f68e27b8c7afe4ba0da633610</data>
+</edge>
+<edge source="&quot;零售业变革&quot;" target="&quot;苏宁易购&quot;">
+  <data key="d3">17.0</data>
+  <data key="d4">"苏宁易购引领零售业变革", "&lt;SEP&gt;"苏宁易购采用“+互联网”和“互联网+”策略，在六七年间实施变革，成为零售业变革的领航者。</data>
+  <data key="d5">"发展战略，变革实践"&lt;SEP&gt;"零售业变革、引领", "</data>
+  <data key="d6">chunk-92bbcf81842bf83c1c891ef9b8414677&lt;SEP&gt;chunk-2cc01e042644770ed43baed6dc5b2658</data>
+</edge>
+<edge source="&quot;零售业变革&quot;" target="&quot;科技赋能&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The concept of technology empowerment significantly influenced the retail industry transformation, highlighting its importance."</data>
+  <data key="d5">"influence, advancement"</data>
+  <data key="d6">chunk-3963afd258e5148aef48db4cc5c78238</data>
+</edge>
+<edge source="&quot;科技赋能&quot;" target="&quot;苏宁易购&quot;">
+  <data key="d3">24.0</data>
+  <data key="d4">"The use of technology, such as technology empowerment, is utilized extensively by苏宁易购 to advance its market presence."&lt;SEP&gt;"苏宁易购依赖科技手段推进行业革新，体现了科技赋能的重要性。&lt;SEP&gt;"苏宁易购依靠科技赋能", "</data>
+  <data key="d5">"technological application, operational use"&lt;SEP&gt;"依赖关系，科技创新推动品牌发展"&lt;SEP&gt;"科技赋能、驱动", "</data>
+  <data key="d6">chunk-92bbcf81842bf83c1c891ef9b8414677&lt;SEP&gt;chunk-3963afd258e5148aef48db4cc5c78238</data>
+</edge>
+<edge source="&quot;苏宁易购&quot;" target="&quot;黄明端&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"苏宁易购的主要负责人为了推动零售业变革而领导黄明端."</data>
+  <data key="d5">"leadership, revolting convention"</data>
+  <data key="d6">chunk-98491b4501c735964f1d90c3a1757375</data>
+</edge>
+<edge source="&quot;苏宁易购&quot;" target="&quot;侯恩龙&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"侯恩龙作为苏宁易购的领导人，分享了苏宁关于互联网转型的经验和深刻理解，体现了苏宁内部决策者的创新思维和实践智慧。"&lt;SEP&gt;"侯恩龙作为苏宁易购的领导人，分享了苏宁对于互联网转型的深刻理解与实践，体现了苏宁内部决策者的创新思维和实践智慧。"</data>
+  <data key="d5">"决策者，实践智慧"&lt;SEP&gt;"领导与决策者，行业实践"</data>
+  <data key="d6">chunk-2cc01e042644770ed43baed6dc5b2658</data>
+</edge>
+<edge source="&quot;苏宁易购&quot;" target="&quot;互联网&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"苏宁易购采用了包括“+互联网”和“互联网+”在内的多种互联网转型策略，引领零售业变革。"</data>
+  <data key="d5">"转型策略，行业先锋"</data>
+  <data key="d6">chunk-2cc01e042644770ed43baed6dc5b2658</data>
+</edge>
+<edge source="&quot;苏宁易购&quot;" target="&quot;互联网+&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"苏宁易购作为苏宁实体门店的线上延伸，是互联网+战略的典型案例。</data>
+  <data key="d5">"线上扩展，数字化转型"</data>
+  <data key="d6">chunk-b5c8f13f68e27b8c7afe4ba0da633610</data>
+</edge>
+<edge source="&quot;苏宁易购&quot;" target="&quot;线下&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"苏宁易购通过加强线上线下融合，焕发出新的活力。</data>
+  <data key="d5">"线上线下融合，焕发活力"</data>
+  <data key="d6">chunk-b5c8f13f68e27b8c7afe4ba0da633610</data>
+</edge>
+<edge source="&quot;苏宁易购&quot;" target="&quot;线上&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"苏宁易购线上业务的增长，得益于互联网技术的应用与线下渠道的联动。</data>
+  <data key="d5">"联动效应，线上增长"</data>
+  <data key="d6">chunk-b5c8f13f68e27b8c7afe4ba0da633610</data>
+</edge>
+<edge source="&quot;侯恩龙&quot;" target="&quot;互联网转型&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"侯恩龙分享了苏宁在互联网转型中结合自身经验的策略与实践，体现了苏宁的创新思维。</data>
+  <data key="d5">"领导实践，创新思维"</data>
+  <data key="d6">chunk-2cc01e042644770ed43baed6dc5b2658</data>
+</edge>
+<edge source="&quot;包钢股份&quot;" target="&quot;包钢集团&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"包钢股份与包钢集团签署了债转股相关协议，表明这些公司之间在债转股项目上的合作。"</data>
+  <data key="d5">"business partnership, cooperation"</data>
+  <data key="d6">chunk-1d8d7a587fa002b15c21f0e6cc875316</data>
+</edge>
+<edge source="&quot;包钢股份&quot;" target="&quot;内蒙古转型升级基金&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"包钢股份与内蒙古转型升级基金签署了债转股相关协议，体现了外部基金的支持作用。"</data>
+  <data key="d5">"external funding support, cooperation"</data>
+  <data key="d6">chunk-1d8d7a587fa002b15c21f0e6cc875316</data>
+</edge>
+<edge source="&quot;包钢集团&quot;" target="&quot;内蒙古转型升级基金&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"包钢集团与内蒙古转型升级基金在债转股项目上具有共同的利益。"</data>
+  <data key="d5">"stakeholder relationship, alignment of interests"</data>
+  <data key="d6">chunk-1d8d7a587fa002b15c21f0e6cc875316</data>
+</edge>
+<edge source="&quot;上期所&quot;" target="&quot;中国宝武&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"上期所与中国宝武签署战略合作协议，表明了双方在未来在多个领域的合作意向和实际对接需求."</data>
+  <data key="d5">"战略合作，市场协同"</data>
+  <data key="d6">chunk-7b81d63afb86a0db3644173bb62a993d</data>
+</edge>
+<edge source="&quot;招商银行&quot;" target="&quot;个人贷款&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"招商银行根据市场变动调整个人贷款利率，这种做法有效体现了市场利率的波动对贷款利率的影响."&lt;SEP&gt;"招商银行积极推行LPR利率改革，率先展开针对个人贷款的利率市场化尝试."</data>
+  <data key="d5">"利率联动机制，市场反应"&lt;SEP&gt;"行业引领，改革实践"</data>
+  <data key="d6">chunk-4bebc377e4f464060c372f511fc0a5be&lt;SEP&gt;chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</edge>
+<edge source="&quot;招商银行&quot;" target="&quot;LPR&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"招商银行将个人贷款利率参考LPR调整，显示了银行在利率市场化环境下的灵活应对策略."</data>
+  <data key="d5">"利率挂钩，市场趋势"</data>
+  <data key="d6">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</edge>
+<edge source="&quot;招商银行&quot;" target="&quot;个人贷款利率&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The personal loan rate adjustment by China Merchants Bank is a strategic move to align with broader market trends and regulatory requirements."</data>
+  <data key="d5">"market alignment, regulatory compliance"</data>
+  <data key="d6">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</edge>
+<edge source="&quot;招商银行&quot;" target="&quot;贷款&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"招商银行是金融机构，首先加快落地LPR利率改革，推出个人贷款的服务."</data>
+  <data key="d5">"银行贯彻改革，推动贷款业务"</data>
+  <data key="d6">chunk-4bebc377e4f464060c372f511fc0a5be</data>
+</edge>
+<edge source="&quot;招商银行&quot;" target="&quot;LPR利率改革&quot;">
+  <data key="d3">25.0</data>
+  <data key="d4">"招商银行作为实体银行发挥了推动LPR改革的积极作用，推动了一系列配套改革措施的出台."&lt;SEP&gt;"招商银行积极响应改革，并先行实施，采用LPR作为贷款的利率参考."</data>
+  <data key="d5">"快速响应，制度贯彻"&lt;SEP&gt;"政策响应，改革推动"</data>
+  <data key="d6">chunk-4bebc377e4f464060c372f511fc0a5be&lt;SEP&gt;chunk-3858bc758b9805995470061d52abbba3</data>
+</edge>
+<edge source="&quot;个人贷款&quot;" target="&quot;市场利率&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"个人贷款利率参考市场利率的变动，体现了银行在利率市场化环境中的定价灵活性."</data>
+  <data key="d5">"利率变动，定价策略"</data>
+  <data key="d6">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</edge>
+<edge source="&quot;个人贷款&quot;" target="&quot;个人贷款利率&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The interest rate on personal loans is directly affected by changes in overall market rates, thus significantly impacting the loan businesses."</data>
+  <data key="d5">"interest rate changes, business impact"</data>
+  <data key="d6">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</edge>
+<edge source="&quot;LPR&quot;" target="&quot;市场利率&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"LPR随着市场利率变动而调整，提供了一个观察市场动态的视角."</data>
+  <data key="d5">"利率参考，市场指引"</data>
+  <data key="d6">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</edge>
+<edge source="&quot;LPR&quot;" target="&quot;平稳转换&quot;">
+  <data key="d3">2.0</data>
+  <data key="d4">"Smooth transition measures such as changing loan rates align with market and economic trends, demonstrating a coherent policy response."</data>
+  <data key="d5">"economic restructuring, policy continuity"</data>
+  <data key="d6">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</edge>
+<edge source="&quot;市场利率&quot;" target="&quot;个人贷款利率&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The rate of personal loans can reflect the overall market interest rate, illustrating how policy and market dynamics drive similar changes."</data>
+  <data key="d5">"market dynamics, economic policy"</data>
+  <data key="d6">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</edge>
+<edge source="&quot;个人贷款利率&quot;" target="&quot;招商银行董事会&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"China Merchants Bank's board of directors discusses and implements measures to adjust personal loan rates in response to market and regulatory shifts."</data>
+  <data key="d5">"board deliberation, policy adoption"</data>
+  <data key="d6">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</edge>
+<edge source="&quot;个人贷款利率&quot;" target="&quot;建议&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"There are ongoing discussions about adjusting personal loan rates, reflecting concerns about potential economic fluctuations and regulatory pressures."</data>
+  <data key="d5">"policy discussion, economic concerns"</data>
+  <data key="d6">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</edge>
+<edge source="&quot;个人贷款利率&quot;" target="&quot;关注&quot;">
+  <data key="d3">4.0</data>
+  <data key="d4">"Market pressures and regulatory concerns influence personal loan rate adjustments, affecting financial stability and consumer interest."</data>
+  <data key="d5">"concerns, regulatory pressures"</data>
+  <data key="d6">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</edge>
+<edge source="&quot;个人贷款利率&quot;" target="&quot;商业银行&quot;">
+  <data key="d3">3.0</data>
+  <data key="d4">"Market interest rates and overall economic conditions influence the interest rates of personal loans, exemplifying the impact of macroeconomic factors."</data>
+  <data key="d5">"macroeconomic factors, business impact"</data>
+  <data key="d6">chunk-e03cba2de8dbae732d5cf38f954fa1c1</data>
+</edge>
+<edge source="&quot;招商银行苏州分行&quot;" target="&quot;LPR贷款&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"招商银行苏州分行参照LPR发放首笔贷款，首次以新的贷款标准进行操作。"&lt;SEP&gt;"招商银行苏州分行首先参照LPR发放贷款，显示了它积极响应并采纳新的贷款标准."&lt;/|&gt;"bank's initiative, updated loan standards"</data>
+  <data key="d5">"首笔贷款，新型贷款标准"&lt;SEP&gt;9</data>
+  <data key="d6">chunk-617077acb8d3bc7b71a8169d776905c7</data>
+</edge>
+<edge source="&quot;招商银行苏州分行&quot;" target="&quot;贷款&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"招商银行苏州分行依据LPR发放贷款，标志着贷款行业朝着更加灵活和响应性的方向转型."&lt;/|&gt;"industry shift, banking practices"</data>
+  <data key="d5">9</data>
+  <data key="d6">chunk-617077acb8d3bc7b71a8169d776905c7</data>
+</edge>
+<edge source="&quot;摘要&quot;" target="&quot;中国平安&quot;">
+  <data key="d3">17.0</data>
+  <data key="d4">"China Pacific Insurance is the purchasing entity and the summary mentions its share repurchase activity and total cost."|&gt;"share repurchase, financial decision"&lt;SEP&gt;"中国平安进行股份回购活动，并且摘要描述了此次回购的股份数量和总花费。"</data>
+  <data key="d5">"财务管理，股份回购"&lt;SEP&gt;9</data>
+  <data key="d6">chunk-da2fd77a35db0d7be9091b6180d0353b</data>
+</edge>
+<edge source="&quot;招商银行深圳分行&quot;" target="&quot;房贷业务&quot;">
+  <data key="d3">15.0</data>
+  <data key="d4">"The招商银行深圳分行率先推行为LPR，体现了关于个人贷款定价基准重大变化的组织行为."&lt;SEP&gt;"招商银行深圳分行率先参照LPR发放贷款，体现了银行响应市场利率改革的趋势。</data>
+  <data key="d5">"policy change, organization transition"&lt;SEP&gt;"顺应政策，市场响应"</data>
+  <data key="d6">chunk-577df0465adbea828346952633d5ede4</data>
+</edge>
+<edge source="&quot;国投资本股份有限公司&quot;" target="&quot;远致投资&quot;">
+  <data key="d3">24.0</data>
+  <data key="d4">"远致投资参与了国投资本股份有限公司的减持股份计划，并已实施完毕."</data>
+  <data key="d5">"减持股份计划的具体执行"</data>
+  <data key="d6">chunk-beb1b08ab9140da7df076471bda23b5e</data>
+</edge>
+<edge source="&quot;国投资本股份有限公司&quot;" target="&quot;股东&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"股东已执行减持股行动，而这一行为受到了国投资本股份有限公司的监督和规划."</data>
+  <data key="d5">"计划执行，监督过程"</data>
+  <data key="d6">chunk-439ed9c8770769e195be610fbfd898aa</data>
+</edge>
+<edge source="&quot;江苏银行股份有限公司&quot;" target="&quot;2019年二级资本债券&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The issuance of 2019 year tier 2 capital bonds signifies Jiangsu Bank's financial strategy and increases their capital base."</data>
+  <data key="d5">"financial strategy, capital enhancement"</data>
+  <data key="d6">chunk-aae34ca38577c86c11b97a076cb7a464</data>
+</edge>
+<edge source="&quot;江苏银行股份有限公司&quot;" target="&quot;董事会&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"江苏银行的董事会负责审议发行债券相关议案，确保符合监管要求并与金融政策保持一致."</data>
+  <data key="d5">"决策过程，监管审查"</data>
+  <data key="d6">chunk-9feda6a069e672ec7f5dd795718a76ee</data>
+</edge>
+<edge source="&quot;江苏银行股份有限公司&quot;" target="&quot;2019年二级资本债券发行完毕&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"江苏银行在公告中正式宣布完成二级资本债券的发行工作."</data>
+  <data key="d5">"行动执行，发布公告"</data>
+  <data key="d6">chunk-9feda6a069e672ec7f5dd795718a76ee</data>
+</edge>
+<edge source="&quot;江苏银行股份有限公司&quot;" target="&quot;永续债&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"江苏银行引入永续债作为融资手段，旨在优化资本结构，提高长期资金使用效率."</data>
+  <data key="d5">"创新融资方式，资本优化"</data>
+  <data key="d6">chunk-9feda6a069e672ec7f5dd795718a76ee</data>
+</edge>
+<edge source="&quot;董事会&quot;" target="&quot;永续债&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"董事会关注永续债的特性，评价其对银行的风险管理和资本结构的影响，从而影响其未来的决策."</data>
+  <data key="d5">"风险评估，决策考量"</data>
+  <data key="d6">chunk-9feda6a069e672ec7f5dd795718a76ee</data>
+</edge>
+<edge source="&quot;董事会&quot;" target="&quot;上海医药集团股份有限公司&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"上海医药集团股份有限公司的第七届董事会向上海医药集团财务有限公司增资议案给出了通过的决策。</data>
+  <data key="d5">"通过决议，董事会决议"</data>
+  <data key="d6">chunk-1be2df6e69c8b000e8b903267b29c9a8</data>
+</edge>
+<edge source="&quot;永续债&quot;" target="&quot;中国光大银行股份有限公司&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"董事会批准发行永续债，表明为中国光大银行股份有限公司提供资金来源."</data>
+  <data key="d5">"金融支出，发行决议"</data>
+  <data key="d6">chunk-512c42e07d9054174a6b5f48c0cf6f90</data>
+</edge>
+<edge source="&quot;九州通医药集团股份有限公司&quot;" target="&quot;控股股东&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"九州通医药集团股份有限公司的控股股东负责公司的日常运营和决策."|&gt;"关系类型：控制关系"</data>
+  <data key="d5">5</data>
+  <data key="d6">chunk-cd730709c8aad4b78d3165aae9acf1bc</data>
+</edge>
+<edge source="&quot;控股股东&quot;" target="&quot;第一期&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"通过发行非公开发行可交换公司债券，控股股东募集资金的第一期达到了募集目标."</data>
+  <data key="d5">"关系类型：债券发行到资金到账."</data>
+  <data key="d6">chunk-cd730709c8aad4b78d3165aae9acf1bc</data>
+</edge>
+<edge source="&quot;SOURCE_ENTITY&quot;" target="&quot;不存在明显的实体间关系&quot;">
+  <data key="d3">2.0</data>
+  <data key="d4">"target_entity"</data>
+  <data key="d5">"relationship_description"</data>
+  <data key="d6">chunk-4ef02e35b34518247dedccdefcd1bab4</data>
+</edge>
+<edge source="九州通医药集团股份有限公司" target="控股股东">
+  <data key="d3">7.0</data>
+  <data key="d4">控股股东的存在影响了公司的决策和资金流动。</data>
+  <data key="d5">控制与决策链的影响.</data>
+  <data key="d6">chunk-7c163d781541bc13ad0b59bca8143320</data>
+</edge>
+<edge source="&quot;子公司拟1.5亿元收购武汉医药集团部分股权&quot;" target="&quot;武汉医药集团部分股权&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"九州通的子公司计划收购武汉医药集团的股权."</data>
+  <data key="d5">"股权交易，战略方向"</data>
+  <data key="d6">chunk-15b4ef59e17fd71c7d2c1dd7c69e6785</data>
+</edge>
+<edge source="&quot;子公司&quot;" target="&quot;收购&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"子公司计划通过收购武汉医药集团部分股权的方式对公司进行经营决策和重组."</data>
+  <data key="d5">"收购行为，市场策略"</data>
+  <data key="d6">chunk-15b4ef59e17fd71c7d2c1dd7c69e6785</data>
+</edge>
+<edge source="&quot;招商证券股份有限公司&quot;" target="&quot;职工代表监事&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"监事作为公司的重要组成部分，直接服务于公司的运营和发展。"</data>
+  <data key="d5">"职责关系"</data>
+  <data key="d6">chunk-0c1ba1d5e81b8914422e7a77863370eb</data>
+</edge>
+<edge source="&quot;招商证券股份有限公司&quot;" target="&quot;2017年年度报告补充公告&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"招商证券股份有限公司发布补充公告，用以补充其2017年的年度报告."</data>
+  <data key="d5">"发布补充公告，补充年度报告"</data>
+  <data key="d6">chunk-61ff6398f4898a39ca771c6aec719cac</data>
+</edge>
+<edge source="&quot;招商证券&quot;" target="&quot;大秦铁路&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"招商证券通过分析大秦铁路的全年运输量和高股息，为投资者提供投资建议."</data>
+  <data key="d5">"investment analysis, reference"&lt;SEP&gt;"投资分析，提供参考"</data>
+  <data key="d6">chunk-4d86d3b4a48a289b225cd30203510609</data>
+</edge>
+<edge source="&quot;税前报酬&quot;" target="&quot;职工代表监事&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"职工代表监事的税前报酬表明他们为公司工作的经济回报，体现了他们的工作价值和贡献。"</data>
+  <data key="d5">"经济回报关系"</data>
+  <data key="d6">chunk-0c1ba1d5e81b8914422e7a77863370eb</data>
+</edge>
+<edge source="&quot;霍达&quot;" target="&quot;多位高管离职&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"霍达作为公司高管的一员，在多位高管离职的事件中担任重要角色."</data>
+  <data key="d5">"高管变动"</data>
+  <data key="d6">chunk-7591e4e0bd58e3e4052caf42d89a9728</data>
+</edge>
+<edge source="&quot;宫少林&quot;" target="&quot;多位高管离职&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"宫少林作为公司高管的一员，在多位高管离职的事件中担任重要角色."</data>
+  <data key="d5">"高管变动"</data>
+  <data key="d6">chunk-7591e4e0bd58e3e4052caf42d89a9728</data>
+</edge>
+<edge source="&quot;丁安华&quot;" target="&quot;多位高管离职&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"丁安华作为公司高管的一员，在多位高管离职的事件中担任重要角色."</data>
+  <data key="d5">"高管变动"</data>
+  <data key="d6">chunk-7591e4e0bd58e3e4052caf42d89a9728</data>
+</edge>
+<edge source="&quot;王岩&quot;" target="&quot;多位高管离职&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"王岩作为公司高管的一员，在多位高管离职的事件中担任重要角色."</data>
+  <data key="d5">"高管变动"</data>
+  <data key="d6">chunk-7591e4e0bd58e3e4052caf42d89a9728</data>
+</edge>
+<edge source="&quot;孙议政&quot;" target="&quot;多位高管离职&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"孙议政作为公司高管的一员，在多位高管离职的事件中担任重要角色."</data>
+  <data key="d5">"高管变动"</data>
+  <data key="d6">chunk-7591e4e0bd58e3e4052caf42d89a9728</data>
+</edge>
+<edge source="&quot;大秦铁路&quot;" target="&quot;国海证券&quot;">
+  <data key="d3">15.0</data>
+  <data key="d4">"国海证券通过对其业绩的分析和股利支付率的关注，提升了大秦铁路的投资价值.&lt;SEP&gt;"国海证券通过对其业绩的分析和股利支付率的关注，提升了大秦铁路的投资价值。</data>
+  <data key="d5">"performance, investment value"&lt;SEP&gt;"证券分析，投资评价"</data>
+  <data key="d6">chunk-9c462e813e429aaf01a34d2aa0a781d4</data>
+</edge>
+<edge source="&quot;监事会&quot;" target="&quot;上海医药集团股份有限公司&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Supervisory Board is the official body responsible for decision-making within the corporation."</data>
+  <data key="d5">"corporate governance, decision-making"</data>
+  <data key="d6">chunk-68df7c7f4212aa0c9b339b1873e42ece</data>
+</edge>
+<edge source="&quot;隆基绿能科技股份有限公司&quot;" target="&quot;天职国际会计师事务所&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"隆基绿能科技股份有限公司公开招聘天职国际会计师事务所为其公开发行可转换公司债券提供专项审计服务."&lt;SEP&gt;"隆基绿能科技股份有限公司聘任天职国际会计师事务所为其公开发行可转换公司债券提供专项审计服务."</data>
+  <data key="d5">"employment relationship relation"&lt;SEP&gt;"employment relationship, service provision"</data>
+  <data key="d6">chunk-8b4d0b102d5c204504dd73a44e130107</data>
+</edge>
+<edge source="&quot;隆基绿能科技股份有限公司&quot;" target="&quot;第四届董事会&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"公司组织了第四届董事会，进一步表明公司的治理架构和决策流程."</data>
+  <data key="d5">"organizational structure, decision-making"</data>
+  <data key="d6">chunk-b6a2d1ff157e0105abbcd05074e76d72</data>
+</edge>
+<edge source="&quot;隆基绿能科技股份有限公司&quot;" target="&quot;中国进出口银行&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The company needs to apply for loans from the bank, indicating its reliance on financial services from this institution."</data>
+  <data key="d5">"financial service dependence"</data>
+  <data key="d6">chunk-3e1a537fe5191fd8040b03f4aaa5f0f3</data>
+</edge>
+<edge source="&quot;隆基绿能科技股份有限公司&quot;" target="&quot;中国&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The company operates in China and is subject to Chinese regulations and laws."</data>
+  <data key="d5">"regulatory environment"</data>
+  <data key="d6">chunk-3e1a537fe5191fd8040b03f4aaa5f0f3</data>
+</edge>
+<edge source="&quot;隆基绿能科技股份有限公司&quot;" target="&quot;公开发行可转换公司债券&quot;">
+  <data key="d3">21.0</data>
+  <data key="d4">"隆基绿能科技股份有限公司筹划公开发行可转换公司债券，暗示了其发展和经营策略的重大变化."&lt;SEP&gt;"隆基绿能科技股份有限公司筹划公开发行可转换公司债券，进一步明确了其业务方向及资金策略."</data>
+  <data key="d5">"发展规划，融资策略"</data>
+  <data key="d6">chunk-0a03964df23721f740cbbce0e80775e0</data>
+</edge>
+<edge source="&quot;隆基绿能科技股份有限公司&quot;" target="&quot;全资子公司&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"隆基绿能科技股份有限公司是全资子公司唯一股东，将对其进行增资."</data>
+  <data key="d5">"增资本质，资金注入"</data>
+  <data key="d6">chunk-8f0cfd97cce8ded65745e6fecd346548</data>
+</edge>
+<edge source="&quot;隆基绿能科技股份有限公司第四届监事会2019年第五次会议&quot;" target="&quot;王英歌&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"王英歌作为监事会主席参与了会议，并且在会后宣布辞职."</data>
+  <data key="d5">"辞职，参与会议"</data>
+  <data key="d6">chunk-25f98236ffadc1de38b402082f6ca87d</data>
+</edge>
+<edge source="&quot;隆基绿能科技股份有限公司第四届监事会2019年第五次会议&quot;" target="&quot;监事会主席王英歌&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"王英歌在会议上以监事会主席的身份出现，并在此后宣布辞职."</data>
+  <data key="d5">"辞职，担任重要职务"</data>
+  <data key="d6">chunk-25f98236ffadc1de38b402082f6ca87d</data>
+</edge>
+<edge source="&quot;MANY&quot;" target="&quot;公告&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"公司发布公告通常涉及多个相关实体，如公司名称、关键决策者等。"</data>
+  <data key="d5">"关键信息公布，多方参与"</data>
+  <data key="d6">chunk-6af30f5fdb8f9e55e05d72905e7fd76e</data>
+</edge>
+<edge source="&quot;第四届董事会&quot;" target="&quot;2019年第十三次会议&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"概述中的会议是一个 namedtuple，用于描述公司治理过程中的具体活动."</data>
+  <data key="d5">"specific activity"</data>
+  <data key="d6">chunk-b6a2d1ff157e0105abbcd05074e76d72</data>
+</edge>
+<edge source="&quot;第四届董事会&quot;" target="&quot;会议决议公告&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"董事会的决议最终以会议决议公告的形式公布，显示了公司治理过程的透明和公正."</data>
+  <data key="d5">"transparent and fair governance"</data>
+  <data key="d6">chunk-b6a2d1ff157e0105abbcd05074e76d72</data>
+</edge>
+<edge source="&quot;会议决议公告&quot;" target="&quot;上海医药集团股份有限公司&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"上海医药集团股份有限公司第七届董事会第五次会议通过了上述议案，并发布了会议决议公告。"</data>
+  <data key="d5">"决议公告发布，流程透明"</data>
+  <data key="d6">chunk-1be2df6e69c8b000e8b903267b29c9a8</data>
+</edge>
+<edge source="&quot;会议决议公告&quot;" target="&quot;增资举动&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"公司通过增资议案的决定在会议公告中得以体现，增强了公司透明度。"</data>
+  <data key="d5">"决议公告，增资决策"</data>
+  <data key="d6">chunk-1be2df6e69c8b000e8b903267b29c9a8</data>
+</edge>
+<edge source="&quot;审议通过关于公司在中国进出口银行申请授信业务的议案&quot;" target="&quot;第四届董事会2019年第十三次会议&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"会议涉及审议的重要事项是公司业务中与融资相关的交易计划."</data>
+  <data key="d5">"议事项显示董事会决策对业务的影响"</data>
+  <data key="d6">chunk-3e1a537fe5191fd8040b03f4aaa5f0f3</data>
+</edge>
+<edge source="&quot;春秋航空股份有限公司&quot;" target="&quot;债券持有人会议&quot;">
+  <data key="d3">56.0</data>
+  <data key="d4">"The company convenes a bondholders' meeting to address the needs and interests of bondholders."&lt;SEP&gt;"春秋航空股份有限公司成为定期邀请债券持有人讨论公司事务性质的参与者."&lt;SEP&gt;"春秋航空股份有限公司是一家积极召开债券持有人会议以听取策略和财务状况的意见的公司."&lt;SEP&gt;"春秋航空召开会议邀请债券持有人参加会议讨论相关的问题."</data>
+  <data key="d5">"bondholders' engagement, decision-making"&lt;SEP&gt;"会议组织，决策讨论"&lt;SEP&gt;"债权人会议，沟通渠道"&lt;SEP&gt;"投融资结构，信息透明"</data>
+  <data key="d6">chunk-56acb6e64cab4475cff6c1be9b437364&lt;SEP&gt;chunk-f3d4b6fcafbce8ce99e3ffde35795bec&lt;SEP&gt;chunk-5023d55c19a4496312d1faadd217a418</data>
+</edge>
+<edge source="&quot;春秋航空股份有限公司&quot;" target="&quot;2019年年度报告&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"The company's annual report is disclosed with a time change, indicating the establishment of new annual disclosure schedules."</data>
+  <data key="d5">"reporting, schedule change"</data>
+  <data key="d6">chunk-56acb6e64cab4475cff6c1be9b437364</data>
+</edge>
+<edge source="&quot;春秋航空股份有限公司&quot;" target="&quot;16春秋01&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"春秋航空股份有限公司发行了16春秋01，参会是缴付利息或管理相关事务的一部分活动."&lt;SEP&gt;"春秋航空股份有限公司发行了16春秋01，通过债券持有人会议对此进行管理."</data>
+  <data key="d5">"发行公司，债务管理"&lt;SEP&gt;"发行公司，相关事务参与"</data>
+  <data key="d6">chunk-5023d55c19a4496312d1faadd217a418</data>
+</edge>
+<edge source="&quot;春秋航空股份有限公司&quot;" target="&quot;春（2019年）第二次债券持有人会议决议公告&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"会议决议内容体现在公告上，体现了春秋航空股份有限公司对公司债券的管理和财务状况的见解."&lt;SEP&gt;"决议公告中包含了会议上的决议，反映了16春秋01的当前状况."</data>
+  <data key="d5">"债务治理，决策记录"&lt;SEP&gt;"决策记录，信息发布"</data>
+  <data key="d6">chunk-5023d55c19a4496312d1faadd217a418</data>
+</edge>
+<edge source="&quot;16春秋01&quot;" target="&quot;2019年第二次债券持有人会议&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"公司的债券16春秋01被提及在2019年第二次债券持有人会议上。"</data>
+  <data key="d5">"mentioned, discussed in "</data>
+  <data key="d6">chunk-9739f4bb3d91df63bb3f0f2baf970b7a</data>
+</edge>
+<edge source="&quot;兴业银行&quot;" target="&quot;添利小微&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"兴业银行推出了添利小微理财产品作为专门为小微企业服务的尝试."</data>
+  <data key="d5">"PRODUCT_LAUNCH, SUPPORT_FOR_MICROBUSINESSES"</data>
+  <data key="d6">chunk-49b7485cc3f3e37d464cf46b1a505fd7</data>
+</edge>
+<edge source="&quot;上海银行股份有限公司&quot;" target="&quot;2017年度股东大会&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The legal opinion will be corrected due to a certain event, which involves some aspect of governance and professional responsibility."&lt;SEP&gt;"上海银行股份有限公司在与2017年度股东大会的过程中可能涉及年度财务报告和治理绩效等方面的讨论."</data>
+  <data key="d5">"correction of legal opinion"&lt;SEP&gt;"财务报告，治理绩效"</data>
+  <data key="d6">chunk-403c75b71eef535ddbceef91413c9a18</data>
+</edge>
+<edge source="&quot;上海银行股份有限公司&quot;" target="&quot;北京证监局&quot;">
+  <data key="d3">1.0</data>
+  <data key="d4">"上海银行股份有限公司必须遵守北京证监局的监管要求以维护法律合规性."</data>
+  <data key="d5">"合规性检查，监管要求"</data>
+  <data key="d6">chunk-403c75b71eef535ddbceef91413c9a18</data>
+</edge>
+<edge source="&quot;上海银行股份有限公司&quot;" target="&quot;证监会&quot;">
+  <data key="d3">1.0</data>
+  <data key="d4">"上海银行股份有限公司遵守证监会的相关规定和要求."</data>
+  <data key="d5">"合规性操作，监管指导"</data>
+  <data key="d6">chunk-403c75b71eef535ddbceef91413c9a18</data>
+</edge>
+<edge source="&quot;上海银行股份有限公司&quot;" target="&quot;2017年度股东大会法律意见书&quot;">
+  <data key="d3">1.0</data>
+  <data key="d4">"法律意见书与年度股东大会的合规性严格性或业务操作有关."</data>
+  <data key="d5">"法律审查，合规性"</data>
+  <data key="d6">chunk-403c75b71eef535ddbceef91413c9a18</data>
+</edge>
+<edge source="&quot;上海银行股份有限公司&quot;" target="&quot;北京市&quot;">
+  <data key="d3">1.0</data>
+  <data key="d4">"公司与北京市内的英国证券市场监管机构等行业标准实体保持密切联系."</data>
+  <data key="d5">"行业标准实体，监管合规链"</data>
+  <data key="d6">chunk-403c75b71eef535ddbceef91413c9a18</data>
+</edge>
+<edge source="&quot;上海银行&quot;" target="&quot;法律意见书&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"上海银行根据股东大会的进程发布了法律意见书，表明对2017年度股东大会的深度考量."</data>
+  <data key="d5">"审议，法律事务"</data>
+  <data key="d6">chunk-7c1bcd8db7098523de796a168b9b7ad3</data>
+</edge>
+<edge source="&quot;上海银行&quot;" target="&quot;更正的公告&quot;">
+  <data key="d3">15.0</data>
+  <data key="d4">"上海银行发布更正公告，可能是在对法律意见书或股市反应进行评估后的结果."</data>
+  <data key="d5">"公开声明，信息更新."&lt;SEP&gt;"公开声明，调整信息"</data>
+  <data key="d6">chunk-7c1bcd8db7098523de796a168b9b7ad3</data>
+</edge>
+<edge source="&quot;上海银行&quot;" target="&quot;2017年度股东大会&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"上海银行积极参与并组织了2017年度股东大会."</data>
+  <data key="d5">"组织活动，会议参与"</data>
+  <data key="d6">chunk-7c1bcd8db7098523de796a168b9b7ad3</data>
+</edge>
+<edge source="&quot;上海银行&quot;" target="&quot;股东大会召开&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"随着股东大会的召开，更正公告可能会发布，以解决可能存在的法律纠纷和澄清股东大会的状况."</data>
+  <data key="d5">"法律事务，股东大会记录."</data>
+  <data key="d6">chunk-7c1bcd8db7098523de796a168b9b7ad3</data>
+</edge>
+<edge source="&quot;2017年度股东大会&quot;" target="&quot;更正的公告&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"公告的内容可能包含了对股东大会的某些修正或更新，是为了澄清此前可能存在的不准确信息."</data>
+  <data key="d5">"信息更新，会议记录"</data>
+  <data key="d6">chunk-7c1bcd8db7098523de796a168b9b7ad3</data>
+</edge>
+<edge source="&quot;法律意见书&quot;" target="&quot;更正的公告&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"公告的内容可能包含了对法律意见书或股东大会的修正或更新，这些影响到公司法律依据的说明."</data>
+  <data key="d5">"法律意见书的更正或者更新."</data>
+  <data key="d6">chunk-7c1bcd8db7098523de796a168b9b7ad3</data>
+</edge>
+<edge source="&quot;中国平安&quot;" target="&quot;第50亿元&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"公司还计划回购股份，但尚未达到50亿元的上限。"</data>
+  <data key="d5">"回购计划，财务策略"</data>
+  <data key="d6">chunk-da2fd77a35db0d7be9091b6180d0353b</data>
+</edge>
+<edge source="&quot;中国平安&quot;" target="&quot;50亿元回购&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"中国平安执行了其预示中的50亿元回购计划."&lt;SEP&gt;"中国平安正在执行50亿元的A股股份回购计划."</data>
+  <data key="d5">"financial action, financial consolidation"</data>
+  <data key="d6">chunk-253f4f5719bc51447a8c9455982b150b</data>
+</edge>
+<edge source="&quot;中国平安&quot;" target="&quot;管理层&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"管理层的行为直接影响公司的基本面，他们应积极做好公司的基本面工作来支撑公司的长期发展势头."</data>
+  <data key="d5">"核心管理与业绩表现"</data>
+  <data key="d6">chunk-e85023ea5da0ba6b9449550430cca545</data>
+</edge>
+<edge source="&quot;中国平安&quot;" target="&quot;50亿元&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"中国平安已斥资50亿元用于回购A股股份，展示了公司财务稳健和对股票价值的内部信心."</data>
+  <data key="d5">"财务决策，股票回购"</data>
+  <data key="d6">chunk-f6402c075d3d69060d1ea839406115b1</data>
+</edge>
+<edge source="&quot;市场表现&quot;" target="&quot;未来回购&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"中国平安是否回购取决于市场对公司的认可程度."</data>
+  <data key="d5">"market response, financial decision"</data>
+  <data key="d6">chunk-253f4f5719bc51447a8c9455982b150b</data>
+</edge>
+<edge source="&quot;市场表现&quot;" target="&quot;未来是否回购&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"是否回购取决于市场反应的程度."</data>
+  <data key="d5">"market response, financial decision"</data>
+  <data key="d6">chunk-253f4f5719bc51447a8c9455982b150b</data>
+</edge>
+<edge source="&quot;李长进&quot;" target="&quot;工商变更&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"在中国中铁股份有限公司的工商变更中，李长进辞去法定代表人和董事长的职务，开启了权力的象征性移交过程。"</data>
+  <data key="d5">"权力移交, 职员变动"&lt;SEP&gt;"权力移交，职工变动"</data>
+  <data key="d6">chunk-a7c94c322e28056f0792a499c586db8b</data>
+</edge>
+<edge source="&quot;张宗言&quot;" target="&quot;工商变更&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"张宗言接替李长进成为新的董事会上，这体现了权力在公司业务中的转移。"</data>
+  <data key="d5">"权力移交, 新领导上任"</data>
+  <data key="d6">chunk-a7c94c322e28056f0792a499c586db8b</data>
+</edge>
+<edge source="&quot;上海医药集团股份有限公司&quot;" target="&quot;第七届监事会&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Supervisory Board is an internal body overseeing the corporation's operations, and its decisions are a key focus for the public and internal stakeholders."</data>
+  <data key="d5">"corporate governance"</data>
+  <data key="d6">chunk-68df7c7f4212aa0c9b339b1873e42ece</data>
+</edge>
+<edge source="&quot;上海医药集团股份有限公司&quot;" target="&quot;第七届董事会第五次会议决议公告&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The announcement regarding the board meeting's decision is a crucial part of the company's governance and transparency."&lt;SEP&gt;"The announcement summarized the decision of the board meeting and represents the main event, serving as a public notice for the company."</data>
+  <data key="d5">"Depiction, Resolution, Public Notice"&lt;SEP&gt;"corporate governance, transparency"</data>
+  <data key="d6">chunk-1f3edf124e6c946373252a084cba6fa8</data>
+</edge>
+<edge source="&quot;上海医药集团股份有限公司&quot;" target="&quot;上海医药&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The entity is in charge of the stated event of the board meeting, playing a leadership and organizational role."</data>
+  <data key="d5">"Leadership, Organizational Role"</data>
+  <data key="d6">chunk-1f3edf124e6c946373252a084cba6fa8</data>
+</edge>
+<edge source="&quot;上海医药集团股份有限公司&quot;" target="&quot;股票期权激励计划&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"上海医药集团股份有限公司的决策层对2019年股票期权激励计划给予了认可，完成了相关的审议和决议。</data>
+  <data key="d5">"决策、审议"</data>
+  <data key="d6">chunk-eb2296262ebb34d7a505d75eda2c87fa</data>
+</edge>
+<edge source="&quot;上海医药集团股份有限公司&quot;" target="&quot;上海医药集团财务有限公司&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"上海医药集团股份有限公司向其财务公司进行增资的议案获得董事会通过，这一决策增厚了上海医药控股集团内的金融比重。"</data>
+  <data key="d5">"增资，内部控制"</data>
+  <data key="d6">chunk-1be2df6e69c8b000e8b903267b29c9a8</data>
+</edge>
+<edge source="&quot;上海医药集团股份有限公司&quot;" target="&quot;会议&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"第七届董事会为明确财务关系和业务发展方向而召开董事会会议，并通过增资议案。"</data>
+  <data key="d5">"董事会决策，会议发起"</data>
+  <data key="d6">chunk-1be2df6e69c8b000e8b903267b29c9a8</data>
+</edge>
+<edge source="&quot;上海医药集团股份有限公司&quot;" target="&quot;2019年股票期权激励计划&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"决议公告中提请股东大会授权董事会办理该计划的相关事宜，体现了高级管理层执行公司战略的需求."</data>
+  <data key="d5">"授权执行，公司战略"</data>
+  <data key="d6">chunk-f768e5d2437df4a4d648139fbfb21e45</data>
+</edge>
+<edge source="&quot;上海医药集团股份有限公司&quot;" target="&quot;股东大会&quot;">
+  <data key="d3">13.0</data>
+  <data key="d4">"股东大会对上海医药集团股份有限公司内的决议公告负责."&lt;SEP&gt;"股东大会负责决议上海医药集团股份有限公司提出的议案."</data>
+  <data key="d5">"resolving, organizational authority"&lt;SEP&gt;"resolvion, responsibility"</data>
+  <data key="d6">chunk-f768e5d2437df4a4d648139fbfb21e45</data>
+</edge>
+<edge source="&quot;第三次会议&quot;" target="&quot;第七届监事会&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Third Meeting is described as a key event where resolutions are made and communicated."</data>
+  <data key="d5">"meeting events"</data>
+  <data key="d6">chunk-68df7c7f4212aa0c9b339b1873e42ece</data>
+</edge>
+<edge source="&quot;决议公告&quot;" target="&quot;第三人会议&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Resolution Announcement reflects the content and outcome of the Third Meeting."</data>
+  <data key="d5">"communication, official announcement"</data>
+  <data key="d6">chunk-68df7c7f4212aa0c9b339b1873e42ece</data>
+</edge>
+<edge source="&quot;上海医药&quot;" target="&quot;第七届董事会第五次会议决议公告&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Refers to the organizational unit of the Shanghai Pharmaceutical Group and signifies the relationship between them."</data>
+  <data key="d5">"Sub-Organization"</data>
+  <data key="d6">chunk-1f3edf124e6c946373252a084cba6fa8</data>
+</edge>
+<edge source="&quot;增资&quot;" target="&quot;上海证券医药集团股份有限公司&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"公司增资决策使得集团财务公司的资本实力增强，体现出公司管理层确保财务与业务健康发展的决心。"</data>
+  <data key="d5">"增资影响，稳定发展"</data>
+  <data key="d6">chunk-1be2df6e69c8b000e8b903267b29c9a8</data>
+</edge>
+<edge source="&quot;中国中车股份有限公司&quot;" target="&quot;&quot;16中车01&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"中国中车股份有限公司负责"16中车01"的转售，并在公告中公布了回售资金的发放日期。"</data>
+  <data key="d5">"债券披露，资金发放"&lt;SEP&gt;"证券披露，资金发放"</data>
+  <data key="d6">chunk-265e117fff0fe44e81972a3efa3dd0d8</data>
+</edge>
+<edge source="&quot;中国中车股份有限公司&quot;" target="&quot;16中车01&quot;">
+  <data key="d3">34.0</data>
+  <data key="d4">"China CRRC Co. undertakes the responsibility of marketing the bond '16中车01'&lt;SEP&gt;"The company, China CRRC Co., undertakes the responsibility of marketing the bond '16中车01'&lt;SEP&gt;"中国中车股份有限公司对本次有效登记回售的“16中车01”持有人实施了回售."</data>
+  <data key="d5">"bond event, corporate action"&lt;SEP&gt;"bond transation, responsibility of the issuer"</data>
+  <data key="d6">chunk-a546fb0e5e17b20889957df0a0857912&lt;SEP&gt;chunk-3c6048c7f320e6ee1d51c6464d78f33f</data>
+</edge>
+<edge source="&quot;光大证券&quot;" target="&quot;周健男&quot;">
+  <data key="d3">84.0</data>
+  <data key="d4">"Zhou Jiannan is the current CEO of Guodian Securities, who is resigning from his position."&lt;SEP&gt;"Zhou Jiannan is the current CEO of Guodian Securities, who is resigning from his role."&lt;SEP&gt;"周健男作为光大证券执行总裁的辞职事件，预示其未来可能转向创业领域以迎接新的机遇与挑战。"&lt;SEP&gt;"周健男作为光大证券的执行总裁，宣布辞职，并可能考虑创业，暗示其对当前职位的不满和对未来事业的规划。"&lt;SEP&gt;"周健男作为光大证券的执行总裁，离职后职位由闫峻接任。"&lt;SEP&gt;"周健男作为执行总裁的离职反映了光大证券管理层的变化，这可能影响公司的运营策略和方向."&lt;SEP&gt;"周健男作为执行总裁的离职影响了光大证券的组织架构和高层管理."&lt;SEP&gt;"周健男作为光大证券的执行总裁正在递交辞呈，因此光大证券可能面临权责接棒的挑战。"&lt;SEP&gt;"周健男从大成基金转任光大证券总裁，表明其职业多年的变动，涉及金融行业的职位晋升与转换。"&lt;SEP&gt;"周健男在光大证券扮演多重角色，包括执行总裁，同时他在证监会的工作经验也为公司运营带来帮助；然而他的辞职和未来的选择对其团队产生了影响。"</data>
+  <data key="d5">"ownership change"&lt;SEP&gt;"个人决策，职业展望"&lt;SEP&gt;"个人职业决策，公司变动"&lt;SEP&gt;"人员变动，新任接棒"&lt;SEP&gt;"管理层变动，运营策略调整"&lt;SEP&gt;"职位变动，行业移动"&lt;SEP&gt;"领导角色转变，团队影响"&lt;SEP&gt;"高层变动，组织架构影响"&lt;SEP&gt;"高管变动，职位继任"</data>
+  <data key="d6">chunk-e617c12e9ccbaffc7cc9374cb74a7e29&lt;SEP&gt;chunk-9756d0d7f92e93c194abdee946404874&lt;SEP&gt;chunk-b855de7eeaef9add4c4d7a50e8568746&lt;SEP&gt;chunk-d68fb6086b12805e6ff553a995e91e22&lt;SEP&gt;chunk-adc74fb1d5553efb24200571bf10a0f6&lt;SEP&gt;chunk-f7347279b2de854482eb9f7ef8b270cb</data>
+</edge>
+<edge source="&quot;光大证券&quot;" target="&quot;闫峻&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"闫峻将在未来代理总裁职务，面对可能的机遇与挑战，显示出接棒者的不确定性。"</data>
+  <data key="d5">"接替角色，不确定性"</data>
+  <data key="d6">chunk-d68fb6086b12805e6ff553a995e91e22</data>
+</edge>
+<edge source="&quot;光大证券&quot;" target="&quot;接棒者&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"光大证券未来可能会面临接棒者的任命，接棒者是否做出与周健男类似的决策或创业选择，取决于具体接任者的职业规划。"</data>
+  <data key="d5">"职业规划，领导责任"</data>
+  <data key="d6">chunk-f7347279b2de854482eb9f7ef8b270cb</data>
+</edge>
+<edge source="&quot;周健男&quot;" target="&quot;闫峻&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"周健男辞职后，职位将由闫峻接任，表明同事之间的角色变动。"</data>
+  <data key="d5">"职位交接，变动影响"</data>
+  <data key="d6">chunk-d68fb6086b12805e6ff553a995e91e22</data>
+</edge>
+<edge source="&quot;周健男&quot;" target="&quot;创业梦&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"周健男未来可能选择创业，这个决定体现了创业梦对他的激励和对其职业规划的可能性影响。</data>
+  <data key="d5">"职业规划，未来方向"</data>
+  <data key="d6">chunk-f7347279b2de854482eb9f7ef8b270cb</data>
+</edge>
+<edge source="&quot;周健男&quot;" target="&quot;中国证监会&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"周健男作为一名在中国证监会工作过的高层人士，转变至光大证券担任执行总裁，同时他的领导角色和未来动向也与证监会有一定的关系."</data>
+  <data key="d5">"高管变更，金融监管."</data>
+  <data key="d6">chunk-adc74fb1d5553efb24200571bf10a0f6</data>
+</edge>
+<edge source="&quot;中国光大银行股份有限公司&quot;" target="&quot;葛海蛟&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"葛海蛟先生与本行董事会无不同意见，辞去中国光大银行股份有限公司执行董事兼行长职务。"&lt;SEP&gt;"葛海蛟辞任光大银行行长职务，这是中国光大银行的一次人事变动."</data>
+  <data key="d5">"辞退关系"&lt;SEP&gt;"高管变动，职务调整"</data>
+  <data key="d6">chunk-d59007d2f59538510c4a865b63c98513&lt;SEP&gt;chunk-04dedf36f3da1e18eb4dc77dddca318b</data>
+</edge>
+<edge source="&quot;中国光大银行股份有限公司&quot;" target="&quot;执行董事&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"执行董事职务由原执行董事辞任后的人员担当."</data>
+  <data key="d5">"职位变动"</data>
+  <data key="d6">chunk-c8cffd416a14102f5c49fb97d1950e33</data>
+</edge>
+<edge source="&quot;中国光大银行股份有限公司&quot;" target="&quot;行长&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"行长职务由原行长辞任后的人员担当."</data>
+  <data key="d5">"职位变动"</data>
+  <data key="d6">chunk-c8cffd416a14102f5c49fb97d1950e33</data>
+</edge>
+<edge source="&quot;中国光大银行股份有限公司&quot;" target="&quot;执行董事李先生&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"公司执行董事李先生辞任换人."</data>
+  <data key="d5">"职位变更"</data>
+  <data key="d6">chunk-c8cffd416a14102f5c49fb97d1950e33</data>
+</edge>
+<edge source="&quot;中国光大银行股份有限公司&quot;" target="&quot;新任执行董事王先生&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"公司任命新任执行董事王先生."</data>
+  <data key="d5">"职位兼任"</data>
+  <data key="d6">chunk-c8cffd416a14102f5c49fb97d1950e33</data>
+</edge>
+<edge source="&quot;中国光大银行股份有限公司&quot;" target="&quot;张一斌&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"张一斌辞任行长职务，为中国光大银行股份有限公司带来机构人事变革."</data>
+  <data key="d5">"辞任,人事变动"</data>
+  <data key="d6">chunk-512c42e07d9054174a6b5f48c0cf6f90</data>
+</edge>
+<edge source="&quot;执行董事&quot;" target="&quot;行长&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"行长和执行董事的角色通常互相错综复杂，此事件体现其变动."</data>
+  <data key="d5">"职位互换，层次关系"</data>
+  <data key="d6">chunk-c8cffd416a14102f5c49fb97d1950e33</data>
+</edge>
+<edge source="&quot;行长女士&quot;" target="&quot;公司行长女士&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"行长女士职务保持不变."</data>
+  <data key="d5">"职位不变"</data>
+  <data key="d6">chunk-c8cffd416a14102f5c49fb97d1950e33</data>
+</edge>
+<edge source="&quot;张一斌&quot;" target="&quot;发行永续债议程&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"张一斌吩咐董事会审议发行永续债议案."</data>
+  <data key="d5">"企业决策,审议提案"</data>
+  <data key="d6">chunk-512c42e07d9054174a6b5f48c0cf6f90</data>
+</edge>
+<edge source="&quot;中国国旅&quot;" target="&quot;免税业务&quot;">
+  <data key="d3">24.0</data>
+  <data key="d4">"免税业务的增长与中国国旅股价创新高的情况相关联，体现出公司业务与股价的正相关关系."&lt;SEP&gt;"免税业务表现强劲、销售增长显著，带动了中国国旅股价的走高。"</data>
+  <data key="d5">"业绩增长，股价上升"&lt;SEP&gt;"业绩驱动，业务发展"</data>
+  <data key="d6">chunk-908f9bee7beb3d7ed4ea08e55b1d54f3&lt;SEP&gt;chunk-c45f97d8b0854bc822b717a30cfb6049</data>
+</edge>
+<edge source="&quot;中国国旅&quot;" target="&quot;中国国旅股价&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"中国国旅股价创新高，反映了公司主营业务（免税业务）的增长，突显了其市场价值."</data>
+  <data key="d5">"股价增长，市场价值"</data>
+  <data key="d6">chunk-908f9bee7beb3d7ed4ea08e55b1d54f3</data>
+</edge>
+<edge source="&quot;中国国旅&quot;" target="&quot;新高股价&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"中国国旅的股价创新高，预示着其未来有望跻身百元股行列。"</data>
+  <data key="d5">"股价创新高，股票价值"</data>
+  <data key="d6">chunk-c45f97d8b0854bc822b717a30cfb6049</data>
+</edge>
+<edge source="&quot;中国国旅&quot;" target="&quot;海南离岛免税&quot;">
+  <data key="d3">15.0</data>
+  <data key="d4">"中国国旅在海南离岛免税的推动下股票创新高．"&lt;SEP&gt;"中国国旅在这种免税活动的支持下，可能受益于销量的增长和股价创新高."</data>
+  <data key="d5">"成长连结、股价影响"&lt;SEP&gt;"股价推动和增长"</data>
+  <data key="d6">chunk-8e8cac77e4fe5bae974c34d1354c4706</data>
+</edge>
+<edge source="&quot;中国国旅&quot;" target="&quot;国庆长假&quot;">
+  <data key="d3">30.0</data>
+  <data key="d4">"中国国旅的免税消费增长率在国庆长假期间达到历史新高，成为免税消费增长的主要促进者。&lt;SEP&gt;"中国国旅的销售记录在国庆长假期间创新高，体现了免税消费的增长。"&lt;SEP&gt;"国庆长假促进中国国旅的免税消费增长，对它的业绩有所影响."</data>
+  <data key="d5">" Christmas consumption growth"&lt;SEP&gt;"促销活动，影响力"&lt;SEP&gt;"增长与中国国旅的重要性"&lt;SEP&gt;"销售业绩与消费增长关联"</data>
+  <data key="d6">chunk-cdaf44beed50db6e8b285f19819ab4cc&lt;SEP&gt;chunk-d8db7e1b41e5969a4c20081e9f61fa7f</data>
+</edge>
+<edge source="&quot;中国国旅&quot;" target="&quot;免税消费&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"免税消费的增长体现了中国国旅对特殊消费群体的吸引力，或是国庆长假促销活动的效果."</data>
+  <data key="d5">"消费的增长，大型促销活动"</data>
+  <data key="d6">chunk-d8db7e1b41e5969a4c20081e9f61fa7f</data>
+</edge>
+<edge source="&quot;中国国旅&quot;" target="&quot;2018年中国销售额达395亿元&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"中国国旅在2018年取得了优异的销售额成绩。"&lt;SEP&gt;"中国国旅在2018年销售额表现良好，反映了行业龙头的正面影响."</data>
+  <data key="d5">"sales performance, market leader"</data>
+  <data key="d6">chunk-469c256163ba327a11c88fdd8d31c801</data>
+</edge>
+<edge source="&quot;中国国旅&quot;" target="&quot;中国免税业&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"中国国旅的业绩拉高了中国免税业的整体业绩，为中国免税业带了正面的预期和信心。"</data>
+  <data key="d5">"positive impact, market leader"</data>
+  <data key="d6">chunk-469c256163ba327a11c88fdd8d31c801</data>
+</edge>
+<edge source="&quot;中国国旅&quot;" target="&quot;中国国旅创历史新高&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"China Travel Group set a new record for the highest level of duty-free consumption, emphasizing its market presence and robust growth during the holiday."&lt;SEP&gt;"China Travel Group set a new record in high duty-free consumption, indicating its dominance and significant performance during the event."</data>
+  <data key="d5">"performance, growth"&lt;SEP&gt;"performance, record setting"</data>
+  <data key="d6">chunk-5b0420a41c26fd0034ae779a8eb30894</data>
+</edge>
+<edge source="&quot;中国国旅&quot;" target="&quot;中免免税牌照最全、范围最广&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Zongfan's comprehensive and broad licenses support China Travel Group in achieving high duty-free consumption success."</data>
+  <data key="d5">"sponsorship, competitive edge"</data>
+  <data key="d6">chunk-5b0420a41c26fd0034ae779a8eb30894</data>
+</edge>
+<edge source="&quot;免税业务&quot;" target="&quot;海南离岛免税&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"免税业务可以理解为海南离岛免税这一销售活动带来的具体体现和效果."&lt;SEP&gt;"免税业务可以理解为海南离岛免税这一销售活动带来的具体体现和效果．"</data>
+  <data key="d5">"销量增长、政策影响"</data>
+  <data key="d6">chunk-8e8cac77e4fe5bae974c34d1354c4706</data>
+</edge>
+<edge source="&quot;中国国旅创历史新高&quot;" target="&quot;有望跻身百元股&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"对外的市场表现已显著提高了中国国旅的业绩，预测它有望晋升至百元股."</data>
+  <data key="d5">"业绩提高，市场份额的提升"</data>
+  <data key="d6">chunk-d8db7e1b41e5969a4c20081e9f61fa7f</data>
+</edge>
+<edge source="&quot;AIRPORT DUTY-FREE STORES&quot;" target="&quot;GUO YAN&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The growth in duty-free spending (Guo Yan) indicates increased competition from duty-free stores at airports."&lt;SEP&gt;"The growth in duty-free spending (Guo Yan) reflects more competition from duty-free stores at airports."</data>
+  <data key="d5">"competition, market dynamics"</data>
+  <data key="d6">chunk-9c5d6f70713c53a0b98822bc0008cf50</data>
+</edge>
+<edge source="&quot;跨境电商&quot;" target="&quot;海通证券&quot;">
+  <data key="d3">21.0</data>
+  <data key="d4">"海通证券提出跨境电商作为机场免税可能的威胁问题，表明了对该领域发展的观察。"&lt;SEP&gt;"海通证券高度关注跨境电商是否会成为机场免税业务的主要威胁，建议需要进一步观察其发展走势。"&lt;SEP&gt;"海通证券高度关注跨境电商是否会成为机场免税业务的最大威胁，需要进一步观察其发展走势。</data>
+  <data key="d5">"行业发展观察"&lt;SEP&gt;"跨境电商威胁展望"&lt;SEP&gt;"跨境电商威胁观察"</data>
+  <data key="d6">chunk-cdaf44beed50db6e8b285f19819ab4cc</data>
+</edge>
+<edge source="&quot;永辉超市股份有限公司&quot;" target="&quot;第四届董事会第十次会议&quot;">
+  <data key="d3">17.0</data>
+  <data key="d4">"永辉超市股份有限公司做出了第四届董事会第十次会议的决议，并通过公告的方式公布结果."&lt;SEP&gt;"永辉超市股份有限公司召开会议，批准设立山东全资子公司的议案."</data>
+  <data key="d5">"会议批准，议案决定"&lt;SEP&gt;"决议与公告，公司内部流程"</data>
+  <data key="d6">chunk-2b025f42a2d5cc8d624cc19d011f8939&lt;SEP&gt;chunk-cd60010c6c7dc7b6ec32726c4f3bd4c9</data>
+</edge>
+<edge source="&quot;永辉超市股份有限公司&quot;" target="&quot;永辉超市&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"永辉超市是永辉超市股份有限公司的成员之一，其行为受后者决议的指导."&lt;SEP&gt;"永辉超市股份有限公司提供决策框架，永辉超市编写议案，表明二者协同工作."</data>
+  <data key="d5">"公司关系"&lt;SEP&gt;"决策过程，协同工作组"</data>
+  <data key="d6">chunk-cd60010c6c7dc7b6ec32726c4f3bd4c9</data>
+</edge>
+<edge source="&quot;永辉超市股份有限公司&quot;" target="&quot;第四届董事会第十次会议决议公告&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"永辉超市股份有限公司发布会议决议公告，其中包括设立山东全资子公司的内容."</data>
+  <data key="d5">"决议发布，会议公告"</data>
+  <data key="d6">chunk-cd60010c6c7dc7b6ec32726c4f3bd4c9</data>
+</edge>
+<edge source="&quot;永辉超市股份有限公司&quot;" target="&quot;山东&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"永辉超市股份有限公司在山东设立全资子公司与其先前的会议公告和决策计划一致."</data>
+  <data key="d5">"地理扩张，会议一致"</data>
+  <data key="d6">chunk-cd60010c6c7dc7b6ec32726c4f3bd4c9</data>
+</edge>
+<edge source="&quot;第四届董事会第十次会议&quot;" target="&quot;永辉超市&quot;">
+  <data key="d3">15.0</data>
+  <data key="d4">"永辉超市必须在第四届董事会第十次会议后，才能落实设立山东全资子公司的提案."&lt;SEP&gt;"永辉超市的董事会会议内容影响了其在市场和公众中的形象和决策流程."</data>
+  <data key="d5">"决策执行，会议指导"&lt;SEP&gt;"决议影响，市场表现"</data>
+  <data key="d6">chunk-2b025f42a2d5cc8d624cc19d011f8939&lt;SEP&gt;chunk-cd60010c6c7dc7b6ec32726c4f3bd4c9</data>
+</edge>
+<edge source="&quot;第四届董事会第十次会议&quot;" target="&quot;山东&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"第四届董事会第十次会议在考虑设立山东全资子公司的提案时，设定的一个时间节点."</data>
+  <data key="d5">"会议时间表，提案设定"</data>
+  <data key="d6">chunk-cd60010c6c7dc7b6ec32726c4f3bd4c9</data>
+</edge>
+<edge source="&quot;永辉超市&quot;" target="&quot;山东&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"永辉超市在山东设立全资子公司表明其在该地理区域扩张业务的决心."&lt;SEP&gt;"永辉超市根据其母公司永辉超市股份有限公司的决议，在山东设立全资子公司."</data>
+  <data key="d5">"决议执行，公司执行"&lt;SEP&gt;"地理扩张，区域显示"</data>
+  <data key="d6">chunk-cd60010c6c7dc7b6ec32726c4f3bd4c9</data>
+</edge>
+<edge source="&quot;永辉超市股份有限公司第四届董事会第十次会议&quot;" target="&quot;2019年第一次临时股东大会决议公告&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"此次会议审议并通过了2019年第一次临时股东大会的具体决议内容."</data>
+  <data key="d5">"审议与通过，会议决议信息公开"</data>
+  <data key="d6">chunk-183d40295300c368003489bcb5939276</data>
+</edge>
+</graph></graphml>
