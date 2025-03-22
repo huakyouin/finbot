@@ -175,7 +175,7 @@ huggingface-cli download --resume-download --local-dir-use-symlinks False $MODEL
 参考：
 
 ```bash
-source train/sft_qwen2_5_3B_for_FINNA.sh
+source moddules/llm/sft_qwen2_5_3B_for_FINNA.sh
 ```
 
 Note: 注意DATA_SETTINGS中`template`参数与所选模型匹配,详见https://github.com/hiyouga/LLaMA-Factory?tab=readme-ov-file#supported-models
