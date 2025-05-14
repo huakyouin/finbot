@@ -1,40 +1,15 @@
-### 基础环境安装
+### 环境配置
 
-```bash
-ENV_NAME="finbot"
-PYTHON_VERSION="3.10"
+- 安装依赖
+  ```bash
+  pip install uv
+  uv sync
+  ```
 
-## 创建虚拟环境并激活
-conda create -n $ENV_NAME python=$PYTHON_VERSION notebook -y
-conda activate $ENV_NAME
-
-## 设置pip国内源
-export PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
-
-## 安装基础依赖
-pip install \
-  addict simplejson sortedcontainers openpyxl matplotlib \
-  vllm peft FlagEmbedding bitsandbytes modelscope hf_transfer \
-  catboost xgboost polars_ta lightgbm
-
-## 安装评测依赖
-pip install segeval backtrader deepeval 
-
-## 安装LLM微调包--LLaMAfactory
-git clone https://github.com/hiyouga/LLaMA-Factory.git tools/LLaMA-Factory
-cd tools/LLaMA-Factory && pip install -e ".[torch,metrics]" && pip install deepspeed==0.15.4 && cd ../..
-llamafactory-cli version
-
-## 安装rag包--minirag v0.0.1
-git clone https://github.com/HKUDS/MiniRAG.git tools/MiniRAG
-cd tools/MiniRAG && git fetch --tags && git checkout tags/v0.0.1 && pip install -e . && cd ../..
-
-## 安装demo依赖
-#### 后端
-pip install Flask Flask-Cors
-#### 前端
-cd demo/frontend && npm install & cd ../..
-```
+- 激活环境
+  ```bash
+  source .venv/bin/activate
+  ```
 
 ### 部署LLM服务
 
@@ -94,6 +69,7 @@ huggingface-cli download --resume-download --local-dir-use-symlinks False $MODEL
 - [股价预测--新闻数据(自爬)](https://www.eastmoney.com/)
 - [新闻摘要生成](https://huggingface.co/datasets/Maciel/FinCUGE-Instruction)
 - [文档主题分割](https://github.com/fjiangAI/CPTS)
+- [RAGQA](https://www.kaggle.com/competitions/icaif-24-finance-rag-challenge/data)
 
 ### LLM微调
 

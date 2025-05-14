@@ -3,3 +3,4 @@
 **/_raw/
 **/__pycache__/
 nodel_modules/
+.venv/*
