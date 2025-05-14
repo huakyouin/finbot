@@ -1313,6 +1313,7 @@ dependencies = [
     { name = "backtrader" },
     { name = "deepspeed" },
     { name = "flagembedding" },
+    { name = "flashinfer-python" },
     { name = "flask" },
     { name = "flask-cors" },
     { name = "hf-transfer" },
@@ -1337,6 +1338,7 @@ requires-dist = [
     { name = "backtrader", specifier = ">=1.9.78.123" },
     { name = "deepspeed", specifier = ">=0.16.7" },
     { name = "flagembedding", specifier = ">=1.3.4" },
+    { name = "flashinfer-python", specifier = ">=0.2.5" },
     { name = "flask", specifier = ">=3.1.1" },
     { name = "flask-cors", specifier = ">=5.0.1" },
     { name = "hf-transfer", specifier = ">=0.1.9" },
@@ -1383,6 +1385,17 @@ dependencies = [
     { name = "transformers" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/87/4e/3ab7a407b04581fd42e87f9fa02eb17117dc9f5e923c3d67dc8ea7acea43/FlagEmbedding-1.3.4.tar.gz", hash = "sha256:ea49794a08dd186110573c38582f242907d42f12e692b5206a03a45621b9311d", size = 163755, upload-time = "2025-02-07T13:41:43.837Z" }
+
+[[package]]
+name = "flashinfer-python"
+version = "0.2.5"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "ninja" },
+    { name = "numpy" },
+    { name = "torch" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/b2/c4/9ec0f79e2480fc5c93307c4a1ac903e5cf33c551c0eaeb648196234b55af/flashinfer_python-0.2.5.tar.gz", hash = "sha256:990aa090ef781783e76b836696ece4efd23956f72b5696d622fc619a61162aef", size = 2492267, upload-time = "2025-04-04T15:06:42.864Z" }
 
 [[package]]
 name = "flask"
