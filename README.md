@@ -16,19 +16,17 @@
 通过vllm server来启动大模型，在终端输入：
 
 ``` 基座&摘要模型
-CUDA_VISIBLE_DEVICES=0 VLLM_ATTENTION_BACKEND=FLASHINFER vllm serve \
+CUDA_VISIBLE_DEVICES=2 vllm serve \
 resources/open_models/Qwen2.5-3B-Instruct --served-model-name base \
 --enable-lora --lora-modules lora=resources/ckpts/Qwen2.5-3B-Instruct/lora_adapter \
---max-model-len 2048 --max-num-seqs 5 --quantization fp8 --gpu-memory-utilization 0.3 --kv-cache-dtype fp8 \
+--max-model-len 20000 --max-num-seqs 10 --dtype auto --gpu-memory-utilization 0.65 \
 --port 12239 --trust-remote-code
 ```
 
-
 ``` 评审模型
-CUDA_VISIBLE_DEVICES=5,6 VLLM_ATTENTION_BACKEND=FLASHINFER vllm serve \
+CUDA_VISIBLE_DEVICES=4,5,6,7 vllm serve \
 resources/open_models/Qwen2.5-14B-Instruct  --served-model-name judger  \
---max-model-len 2048 --max-num-seqs 3 \
---gpu-memory-utilization 0.2 --dtype bfloat16 --tensor-parallel-size 2 --swap-space 8 \
+--max-model-len 5000 --max-num-seqs 20 --gpu-memory-utilization 0.6 --dtype auto --tensor-parallel-size 4 \
 --port 12235 --trust-remote-code
 ```
 
@@ -98,7 +96,7 @@ huggingface-cli download --resume-download --local-dir-use-symlinks False $MODEL
     ]
     ```
 
-  - 在`$resources/dataset_info.json`中注册
+  - 在`$resources/data/training/dataset_info.json`中注册
     ```json
     "dataset_name": {
       "file_name": "path/to/dataset",
@@ -128,7 +126,7 @@ huggingface-cli download --resume-download --local-dir-use-symlinks False $MODEL
     ]
     ```
 
-  - 在`$resources/dataset_info.json`中添加
+  - 在`$resources/data/training/dataset_info.json`中添加
     ```json
     "dataset_name": {
           "file_name": "path/to/dataset",

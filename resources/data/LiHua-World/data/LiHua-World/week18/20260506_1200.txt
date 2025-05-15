@@ -1,7 +1,0 @@
-Time: 20260506_12:00
-YurikoYamamoto: Hey Li Hua! I was thinking about adding a "leave a message" feature to the studio website. Any advice on how to go about that? 🤔
-LiHua: That sounds like a great idea! You could use a contact form plugin if you're using WordPress. It’s pretty user-friendly and allows visitors to send messages directly. Or, if you’re coding it, a simple form with fields for name, email, and message would work well. Let me know if you need help implementing it!
-YurikoYamamoto: Thanks for the tips! I’m leaning toward using a plugin since I'm not great at coding. Do you have any specific ones in mind?
-LiHua: For sure! "Contact Form 7" is super popular and easy to use. Another great option is "WPForms." Both have customization options and are pretty straightforward. You can check them out and see which one fits your needs better!
-YurikoYamamoto: Awesome, that helps a lot! I’ll check those out. Thank you so much! 😊
-LiHua: No problem at all! Anytime you need help, just reach out. Good luck with the website!
