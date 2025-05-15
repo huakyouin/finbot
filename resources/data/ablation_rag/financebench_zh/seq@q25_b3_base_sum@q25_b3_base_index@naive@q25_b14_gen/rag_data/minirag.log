@@ -1,0 +1,636 @@
+2025-05-15 13:16:49,726 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/FinanceBench_zh/seq@q25_b3_base_sum@q25_b3_base_index/rag_data
+2025-05-15 13:16:50,053 - minirag - INFO - Load KV llm_response_cache with 35 data
+2025-05-15 13:16:50,056 - minirag - INFO - Load KV full_docs with 16 data
+2025-05-15 13:16:50,057 - minirag - INFO - Load KV text_chunks with 16 data
+2025-05-15 13:16:50,063 - minirag - INFO - Loaded graph from resources/data/ablation_rag/FinanceBench_zh/seq@q25_b3_base_sum@q25_b3_base_index/rag_data/graph_chunk_entity_relation.graphml with 134 nodes, 58 edges
+2025-05-15 13:16:50,095 - minirag - WARNING - All docs are already in the storage
+2025-05-15 13:16:50,096 - minirag - WARNING - All docs are already in the storage
+2025-05-15 13:16:50,097 - minirag - WARNING - All docs are already in the storage
+2025-05-15 13:16:50,098 - minirag - WARNING - All docs are already in the storage
+2025-05-15 13:16:50,098 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:16:50,477 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:16:50,478 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:16:51,447 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:22:33,508 - minirag - INFO - Writing graph with 134 nodes, 58 edges
+2025-05-15 13:24:31,965 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/FinanceBench_zh/seq@q25_b3_base_sum@q25_b3_base_index/rag_data
+2025-05-15 13:24:32,273 - minirag - INFO - Load KV llm_response_cache with 39 data
+2025-05-15 13:24:32,275 - minirag - INFO - Load KV full_docs with 16 data
+2025-05-15 13:24:32,276 - minirag - INFO - Load KV text_chunks with 16 data
+2025-05-15 13:24:32,282 - minirag - INFO - Loaded graph from resources/data/ablation_rag/FinanceBench_zh/seq@q25_b3_base_sum@q25_b3_base_index/rag_data/graph_chunk_entity_relation.graphml with 134 nodes, 58 edges
+2025-05-15 13:24:32,316 - minirag - WARNING - All docs are already in the storage
+2025-05-15 13:24:32,317 - minirag - WARNING - All docs are already in the storage
+2025-05-15 13:24:32,318 - minirag - WARNING - All docs are already in the storage
+2025-05-15 13:24:32,318 - minirag - WARNING - All docs are already in the storage
+2025-05-15 13:24:32,319 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:24:32,322 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:24:32,323 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:24:32,749 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:26:59,607 - minirag - INFO - Inserting 48 vectors to entities
+2025-05-15 13:26:59,757 - minirag - INFO - Inserting 48 vectors to entities_name
+2025-05-15 13:26:59,806 - minirag - INFO - Inserting 23 vectors to relationships
+2025-05-15 13:26:59,912 - minirag - INFO - Writing graph with 169 nodes, 81 edges
+2025-05-15 13:26:59,921 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:26:59,923 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:26:59,924 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:26:59,951 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:27:50,776 - minirag - INFO - Inserting 51 vectors to entities
+2025-05-15 13:27:50,983 - minirag - INFO - Inserting 51 vectors to entities_name
+2025-05-15 13:27:51,032 - minirag - INFO - Inserting 40 vectors to relationships
+2025-05-15 13:27:51,161 - minirag - INFO - Writing graph with 211 nodes, 121 edges
+2025-05-15 13:27:51,170 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:27:51,172 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:27:51,173 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:27:51,194 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:36:09,828 - minirag - INFO - Inserting 23 vectors to entities
+2025-05-15 13:36:09,971 - minirag - INFO - Inserting 23 vectors to entities_name
+2025-05-15 13:36:09,997 - minirag - INFO - Inserting 4 vectors to relationships
+2025-05-15 13:36:10,067 - minirag - INFO - Writing graph with 231 nodes, 125 edges
+2025-05-15 13:36:10,076 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:36:10,078 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:36:10,079 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:36:10,104 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:36:30,575 - minirag - INFO - Inserting 24 vectors to entities
+2025-05-15 13:36:30,770 - minirag - INFO - Inserting 24 vectors to entities_name
+2025-05-15 13:36:30,795 - minirag - INFO - Inserting 11 vectors to relationships
+2025-05-15 13:36:30,873 - minirag - INFO - Writing graph with 253 nodes, 136 edges
+2025-05-15 13:36:30,885 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:36:30,887 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:36:30,887 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:36:30,912 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:39:04,857 - minirag - INFO - Inserting 9 vectors to entities
+2025-05-15 13:39:04,935 - minirag - INFO - Inserting 9 vectors to entities_name
+2025-05-15 13:39:04,969 - minirag - INFO - Inserting 5 vectors to relationships
+2025-05-15 13:39:05,056 - minirag - INFO - Writing graph with 260 nodes, 141 edges
+2025-05-15 13:39:05,069 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:39:05,071 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:39:05,072 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:39:05,097 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:39:16,337 - minirag - INFO - Inserting 10 vectors to entities
+2025-05-15 13:39:16,447 - minirag - INFO - Inserting 10 vectors to entities_name
+2025-05-15 13:39:16,472 - minirag - INFO - Inserting 2 vectors to relationships
+2025-05-15 13:39:16,554 - minirag - INFO - Writing graph with 266 nodes, 143 edges
+2025-05-15 13:39:16,568 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:39:16,570 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:39:16,571 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:39:16,596 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:39:29,029 - minirag - INFO - Inserting 14 vectors to entities
+2025-05-15 13:39:29,192 - minirag - INFO - Inserting 14 vectors to entities_name
+2025-05-15 13:39:29,216 - minirag - INFO - Inserting 6 vectors to relationships
+2025-05-15 13:39:29,299 - minirag - INFO - Writing graph with 275 nodes, 149 edges
+2025-05-15 13:39:29,313 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:39:29,315 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:39:29,316 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:39:29,342 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:39:49,730 - minirag - INFO - Inserting 14 vectors to entities
+2025-05-15 13:39:49,867 - minirag - INFO - Inserting 14 vectors to entities_name
+2025-05-15 13:39:49,892 - minirag - INFO - Inserting 4 vectors to relationships
+2025-05-15 13:39:49,979 - minirag - INFO - Writing graph with 286 nodes, 153 edges
+2025-05-15 13:39:49,993 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:39:49,995 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:39:49,996 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:39:50,022 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:40:04,991 - minirag - INFO - Inserting 10 vectors to entities
+2025-05-15 13:40:05,049 - minirag - INFO - Inserting 10 vectors to entities_name
+2025-05-15 13:40:05,085 - minirag - INFO - Inserting 8 vectors to relationships
+2025-05-15 13:40:05,181 - minirag - INFO - Writing graph with 297 nodes, 161 edges
+2025-05-15 13:40:05,196 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:40:05,198 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:40:05,198 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:40:05,223 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:40:17,372 - minirag - INFO - Inserting 22 vectors to entities
+2025-05-15 13:40:17,434 - minirag - INFO - Inserting 22 vectors to entities_name
+2025-05-15 13:40:17,468 - minirag - INFO - Inserting 4 vectors to relationships
+2025-05-15 13:40:17,567 - minirag - INFO - Writing graph with 317 nodes, 165 edges
+2025-05-15 13:40:17,582 - minirag - INFO - [New Docs] inserting 3 docs
+2025-05-15 13:40:17,584 - minirag - INFO - [New Chunks] inserting 3 chunks
+2025-05-15 13:40:17,585 - minirag - INFO - Inserting 3 vectors to chunks
+2025-05-15 13:40:17,610 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:40:28,974 - minirag - INFO - Inserting 8 vectors to entities
+2025-05-15 13:40:29,060 - minirag - INFO - Inserting 8 vectors to entities_name
+2025-05-15 13:40:29,093 - minirag - INFO - Inserting 3 vectors to relationships
+2025-05-15 13:40:29,196 - minirag - INFO - Writing graph with 323 nodes, 168 edges
+2025-05-15 13:40:29,254 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:40:29,256 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:40:29,256 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:40:29,277 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:40:42,237 - minirag - INFO - Inserting 18 vectors to entities
+2025-05-15 13:40:42,443 - minirag - INFO - Inserting 18 vectors to entities_name
+2025-05-15 13:40:42,467 - minirag - INFO - Inserting 11 vectors to relationships
+2025-05-15 13:40:42,570 - minirag - INFO - Writing graph with 330 nodes, 174 edges
+2025-05-15 13:40:42,585 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:40:42,588 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:40:42,588 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:40:42,615 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:41:01,302 - minirag - INFO - Inserting 14 vectors to entities
+2025-05-15 13:41:01,472 - minirag - INFO - Inserting 14 vectors to entities_name
+2025-05-15 13:41:01,496 - minirag - INFO - Inserting 10 vectors to relationships
+2025-05-15 13:41:01,593 - minirag - INFO - Writing graph with 343 nodes, 184 edges
+2025-05-15 13:41:01,609 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:41:01,611 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:41:01,611 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:41:01,637 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:41:20,750 - minirag - INFO - Inserting 12 vectors to entities
+2025-05-15 13:41:20,811 - minirag - INFO - Inserting 12 vectors to entities_name
+2025-05-15 13:41:20,845 - minirag - INFO - Inserting 8 vectors to relationships
+2025-05-15 13:41:20,953 - minirag - INFO - Writing graph with 355 nodes, 192 edges
+2025-05-15 13:41:20,970 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:41:20,971 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:41:20,972 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:41:20,997 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:41:42,543 - minirag - INFO - Inserting 24 vectors to entities
+2025-05-15 13:41:42,819 - minirag - INFO - Inserting 24 vectors to entities_name
+2025-05-15 13:41:42,845 - minirag - INFO - Inserting 4 vectors to relationships
+2025-05-15 13:41:42,946 - minirag - INFO - Writing graph with 373 nodes, 196 edges
+2025-05-15 13:41:42,963 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:41:42,964 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:41:42,965 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:41:42,988 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:42:00,901 - minirag - INFO - Inserting 9 vectors to entities
+2025-05-15 13:42:00,961 - minirag - INFO - Inserting 9 vectors to entities_name
+2025-05-15 13:42:00,996 - minirag - INFO - Inserting 5 vectors to relationships
+2025-05-15 13:42:01,109 - minirag - INFO - Writing graph with 382 nodes, 201 edges
+2025-05-15 13:42:01,127 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:42:01,129 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:42:01,130 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:42:01,158 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:42:31,079 - minirag - INFO - Inserting 32 vectors to entities
+2025-05-15 13:42:31,431 - minirag - INFO - Inserting 32 vectors to entities_name
+2025-05-15 13:42:31,473 - minirag - INFO - Inserting 12 vectors to relationships
+2025-05-15 13:42:31,636 - minirag - INFO - Writing graph with 410 nodes, 213 edges
+2025-05-15 13:42:31,653 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:42:31,656 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:42:31,656 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:42:31,687 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:43:02,850 - minirag - INFO - Inserting 40 vectors to entities
+2025-05-15 13:43:03,226 - minirag - INFO - Inserting 40 vectors to entities_name
+2025-05-15 13:43:03,276 - minirag - INFO - Inserting 13 vectors to relationships
+2025-05-15 13:43:03,405 - minirag - INFO - Writing graph with 446 nodes, 226 edges
+2025-05-15 13:43:03,424 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:43:03,425 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:43:03,426 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:43:03,450 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:43:30,672 - minirag - INFO - Inserting 19 vectors to entities
+2025-05-15 13:43:30,772 - minirag - INFO - Inserting 19 vectors to entities_name
+2025-05-15 13:43:30,799 - minirag - INFO - Inserting 14 vectors to relationships
+2025-05-15 13:43:30,925 - minirag - INFO - Writing graph with 470 nodes, 240 edges
+2025-05-15 13:43:30,946 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:43:30,948 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:43:30,949 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:43:30,974 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:51:50,588 - minirag - INFO - Writing graph with 470 nodes, 240 edges
+2025-05-15 13:54:17,444 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/FinanceBench_zh/seq@q25_b3_base_sum@q25_b3_base_index/rag_data
+2025-05-15 13:54:17,993 - minirag - INFO - Load KV llm_response_cache with 189 data
+2025-05-15 13:54:17,995 - minirag - INFO - Load KV full_docs with 91 data
+2025-05-15 13:54:17,996 - minirag - INFO - Load KV text_chunks with 91 data
+2025-05-15 13:54:18,019 - minirag - INFO - Loaded graph from resources/data/ablation_rag/FinanceBench_zh/seq@q25_b3_base_sum@q25_b3_base_index/rag_data/graph_chunk_entity_relation.graphml with 470 nodes, 240 edges
+2025-05-15 13:54:18,148 - minirag - INFO - [New Docs] inserting 2 docs
+2025-05-15 13:54:18,776 - minirag - INFO - [New Chunks] inserting 2 chunks
+2025-05-15 13:54:18,777 - minirag - INFO - Inserting 2 vectors to chunks
+2025-05-15 13:54:20,130 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:54:49,153 - minirag - INFO - Inserting 16 vectors to entities
+2025-05-15 13:54:49,403 - minirag - INFO - Inserting 16 vectors to entities_name
+2025-05-15 13:54:49,445 - minirag - INFO - Inserting 10 vectors to relationships
+2025-05-15 13:54:49,592 - minirag - INFO - Writing graph with 483 nodes, 250 edges
+2025-05-15 13:54:49,619 - minirag - INFO - [New Docs] inserting 2 docs
+2025-05-15 13:54:49,620 - minirag - INFO - [New Chunks] inserting 2 chunks
+2025-05-15 13:54:49,621 - minirag - INFO - Inserting 2 vectors to chunks
+2025-05-15 13:54:49,646 - minirag - INFO - [Entity Extraction]...
+2025-05-15 13:55:07,880 - minirag - INFO - Inserting 15 vectors to entities
+2025-05-15 13:55:07,917 - minirag - INFO - Inserting 15 vectors to entities_name
+2025-05-15 13:55:07,950 - minirag - INFO - Inserting 7 vectors to relationships
+2025-05-15 13:55:08,110 - minirag - INFO - Writing graph with 496 nodes, 257 edges
+2025-05-15 13:55:08,140 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 13:55:08,141 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 13:55:08,142 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 13:55:08,170 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:05:17,322 - minirag - INFO - Inserting 31 vectors to entities
+2025-05-15 14:05:17,686 - minirag - INFO - Inserting 31 vectors to entities_name
+2025-05-15 14:05:17,711 - minirag - INFO - Inserting 14 vectors to relationships
+2025-05-15 14:05:17,867 - minirag - INFO - Writing graph with 516 nodes, 263 edges
+2025-05-15 14:05:17,886 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 14:05:17,888 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 14:05:17,888 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 14:05:17,913 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:05:32,467 - minirag - INFO - Inserting 11 vectors to entities
+2025-05-15 14:05:32,510 - minirag - INFO - Inserting 11 vectors to entities_name
+2025-05-15 14:05:32,539 - minirag - INFO - Inserting 3 vectors to relationships
+2025-05-15 14:05:32,701 - minirag - INFO - Writing graph with 525 nodes, 266 edges
+2025-05-15 14:05:32,721 - minirag - INFO - [New Docs] inserting 2 docs
+2025-05-15 14:05:32,723 - minirag - INFO - [New Chunks] inserting 2 chunks
+2025-05-15 14:05:32,724 - minirag - INFO - Inserting 2 vectors to chunks
+2025-05-15 14:05:32,750 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:05:37,056 - minirag - INFO - Inserting 1 vectors to entities
+2025-05-15 14:05:37,099 - minirag - INFO - Inserting 1 vectors to entities_name
+2025-05-15 14:05:37,126 - minirag - INFO - Inserting 1 vectors to relationships
+2025-05-15 14:05:37,279 - minirag - INFO - Writing graph with 526 nodes, 267 edges
+2025-05-15 14:05:37,298 - minirag - INFO - [New Docs] inserting 2 docs
+2025-05-15 14:05:37,300 - minirag - INFO - [New Chunks] inserting 2 chunks
+2025-05-15 14:05:37,300 - minirag - INFO - Inserting 2 vectors to chunks
+2025-05-15 14:05:37,326 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:06:10,817 - minirag - INFO - Inserting 14 vectors to entities
+2025-05-15 14:06:10,998 - minirag - INFO - Inserting 14 vectors to entities_name
+2025-05-15 14:06:11,022 - minirag - INFO - Inserting 12 vectors to relationships
+2025-05-15 14:06:11,159 - minirag - INFO - Writing graph with 533 nodes, 278 edges
+2025-05-15 14:06:11,179 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 14:06:11,180 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 14:06:11,181 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 14:06:11,203 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:06:30,002 - minirag - INFO - Inserting 17 vectors to entities
+2025-05-15 14:06:30,258 - minirag - INFO - Inserting 17 vectors to entities_name
+2025-05-15 14:06:30,287 - minirag - INFO - Inserting 15 vectors to relationships
+2025-05-15 14:06:30,423 - minirag - INFO - Writing graph with 542 nodes, 293 edges
+2025-05-15 14:06:30,453 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 14:06:30,454 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 14:06:30,455 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 14:06:30,483 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:06:46,996 - minirag - INFO - Inserting 3 vectors to entities
+2025-05-15 14:06:47,027 - minirag - INFO - Inserting 3 vectors to entities_name
+2025-05-15 14:06:47,054 - minirag - INFO - Inserting 1 vectors to relationships
+2025-05-15 14:06:47,178 - minirag - INFO - Writing graph with 543 nodes, 294 edges
+2025-05-15 14:06:47,199 - minirag - INFO - [New Docs] inserting 2 docs
+2025-05-15 14:06:47,200 - minirag - INFO - [New Chunks] inserting 2 chunks
+2025-05-15 14:06:47,201 - minirag - INFO - Inserting 2 vectors to chunks
+2025-05-15 14:06:47,237 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:07:04,577 - minirag - INFO - Inserting 13 vectors to entities
+2025-05-15 14:07:04,747 - minirag - INFO - Inserting 13 vectors to entities_name
+2025-05-15 14:07:04,775 - minirag - INFO - Inserting 10 vectors to relationships
+2025-05-15 14:07:04,902 - minirag - INFO - Writing graph with 553 nodes, 304 edges
+2025-05-15 14:07:04,934 - minirag - INFO - [New Docs] inserting 2 docs
+2025-05-15 14:07:04,935 - minirag - INFO - [New Chunks] inserting 2 chunks
+2025-05-15 14:07:04,936 - minirag - INFO - Inserting 2 vectors to chunks
+2025-05-15 14:07:04,964 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:07:27,031 - minirag - INFO - Inserting 11 vectors to entities
+2025-05-15 14:07:27,171 - minirag - INFO - Inserting 11 vectors to entities_name
+2025-05-15 14:07:27,197 - minirag - INFO - Inserting 8 vectors to relationships
+2025-05-15 14:07:27,378 - minirag - INFO - Writing graph with 566 nodes, 312 edges
+2025-05-15 14:07:27,413 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 14:07:27,414 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 14:07:27,415 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 14:07:27,452 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:07:44,335 - minirag - INFO - Inserting 17 vectors to entities
+2025-05-15 14:07:44,428 - minirag - INFO - Inserting 17 vectors to entities_name
+2025-05-15 14:07:44,456 - minirag - INFO - Inserting 6 vectors to relationships
+2025-05-15 14:07:44,605 - minirag - INFO - Writing graph with 578 nodes, 318 edges
+2025-05-15 14:07:44,638 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 14:07:44,640 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 14:07:44,640 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 14:07:44,670 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:08:09,443 - minirag - INFO - Inserting 27 vectors to entities
+2025-05-15 14:08:09,768 - minirag - INFO - Inserting 27 vectors to entities_name
+2025-05-15 14:08:09,793 - minirag - INFO - Inserting 13 vectors to relationships
+2025-05-15 14:08:09,949 - minirag - INFO - Writing graph with 601 nodes, 331 edges
+2025-05-15 14:08:09,986 - minirag - INFO - [New Docs] inserting 2 docs
+2025-05-15 14:08:09,987 - minirag - INFO - [New Chunks] inserting 2 chunks
+2025-05-15 14:08:09,987 - minirag - INFO - Inserting 2 vectors to chunks
+2025-05-15 14:08:10,015 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:08:25,695 - minirag - INFO - Inserting 10 vectors to entities
+2025-05-15 14:08:25,826 - minirag - INFO - Inserting 10 vectors to entities_name
+2025-05-15 14:08:25,854 - minirag - INFO - Inserting 5 vectors to relationships
+2025-05-15 14:08:26,008 - minirag - INFO - Writing graph with 609 nodes, 336 edges
+2025-05-15 14:08:26,045 - minirag - INFO - [New Docs] inserting 2 docs
+2025-05-15 14:08:26,046 - minirag - INFO - [New Chunks] inserting 2 chunks
+2025-05-15 14:08:26,047 - minirag - INFO - Inserting 2 vectors to chunks
+2025-05-15 14:08:26,070 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:08:45,800 - minirag - INFO - Inserting 33 vectors to entities
+2025-05-15 14:08:46,216 - minirag - INFO - Inserting 33 vectors to entities_name
+2025-05-15 14:08:46,257 - minirag - INFO - Inserting 18 vectors to relationships
+2025-05-15 14:08:46,468 - minirag - INFO - Writing graph with 629 nodes, 352 edges
+2025-05-15 14:08:46,493 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 14:08:46,495 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 14:08:46,495 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 14:08:46,518 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:09:00,702 - minirag - INFO - Inserting 17 vectors to entities
+2025-05-15 14:09:00,964 - minirag - INFO - Inserting 17 vectors to entities_name
+2025-05-15 14:09:00,992 - minirag - INFO - Inserting 9 vectors to relationships
+2025-05-15 14:09:01,163 - minirag - INFO - Writing graph with 636 nodes, 360 edges
+2025-05-15 14:09:01,202 - minirag - INFO - [New Docs] inserting 3 docs
+2025-05-15 14:09:01,203 - minirag - INFO - [New Chunks] inserting 3 chunks
+2025-05-15 14:09:01,204 - minirag - INFO - Inserting 3 vectors to chunks
+2025-05-15 14:09:01,232 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:09:24,621 - minirag - INFO - Inserting 13 vectors to entities
+2025-05-15 14:09:24,844 - minirag - INFO - Inserting 13 vectors to entities_name
+2025-05-15 14:09:24,872 - minirag - INFO - Inserting 8 vectors to relationships
+2025-05-15 14:09:25,043 - minirag - INFO - Writing graph with 647 nodes, 367 edges
+2025-05-15 14:09:25,082 - minirag - INFO - [New Docs] inserting 2 docs
+2025-05-15 14:09:25,083 - minirag - INFO - [New Chunks] inserting 2 chunks
+2025-05-15 14:09:25,084 - minirag - INFO - Inserting 2 vectors to chunks
+2025-05-15 14:09:25,111 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:09:37,971 - minirag - INFO - Inserting 11 vectors to entities
+2025-05-15 14:09:38,043 - minirag - INFO - Inserting 11 vectors to entities_name
+2025-05-15 14:09:38,077 - minirag - INFO - Inserting 4 vectors to relationships
+2025-05-15 14:09:38,264 - minirag - INFO - Writing graph with 654 nodes, 371 edges
+2025-05-15 14:09:38,316 - minirag - INFO - [New Docs] inserting 2 docs
+2025-05-15 14:09:38,318 - minirag - INFO - [New Chunks] inserting 2 chunks
+2025-05-15 14:09:38,318 - minirag - INFO - Inserting 2 vectors to chunks
+2025-05-15 14:09:38,354 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:09:54,587 - minirag - INFO - Inserting 8 vectors to entities
+2025-05-15 14:09:54,720 - minirag - INFO - Inserting 8 vectors to entities_name
+2025-05-15 14:09:54,755 - minirag - INFO - Inserting 3 vectors to relationships
+2025-05-15 14:09:54,930 - minirag - INFO - Writing graph with 660 nodes, 373 edges
+2025-05-15 14:09:54,975 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 14:09:54,977 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 14:09:54,978 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 14:09:55,048 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:10:24,551 - minirag - INFO - Inserting 19 vectors to entities
+2025-05-15 14:10:24,692 - minirag - INFO - Inserting 19 vectors to entities_name
+2025-05-15 14:10:24,721 - minirag - INFO - Inserting 14 vectors to relationships
+2025-05-15 14:10:24,891 - minirag - INFO - Writing graph with 670 nodes, 387 edges
+2025-05-15 14:10:24,933 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 14:10:24,935 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 14:10:24,935 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 14:10:24,972 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:10:42,216 - minirag - INFO - Inserting 19 vectors to entities
+2025-05-15 14:10:42,421 - minirag - INFO - Inserting 19 vectors to entities_name
+2025-05-15 14:10:42,450 - minirag - INFO - Inserting 6 vectors to relationships
+2025-05-15 14:10:42,621 - minirag - INFO - Writing graph with 688 nodes, 393 edges
+2025-05-15 14:10:42,663 - minirag - INFO - [New Docs] inserting 2 docs
+2025-05-15 14:10:42,664 - minirag - INFO - [New Chunks] inserting 2 chunks
+2025-05-15 14:10:42,665 - minirag - INFO - Inserting 2 vectors to chunks
+2025-05-15 14:10:42,692 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:10:58,488 - minirag - INFO - Inserting 6 vectors to entities
+2025-05-15 14:10:58,600 - minirag - INFO - Inserting 6 vectors to entities_name
+2025-05-15 14:10:58,628 - minirag - INFO - Inserting 5 vectors to relationships
+2025-05-15 14:10:58,819 - minirag - INFO - Writing graph with 693 nodes, 398 edges
+2025-05-15 14:10:58,861 - minirag - INFO - [New Docs] inserting 2 docs
+2025-05-15 14:10:58,864 - minirag - INFO - [New Chunks] inserting 3 chunks
+2025-05-15 14:10:58,864 - minirag - INFO - Inserting 3 vectors to chunks
+2025-05-15 14:10:58,930 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:11:26,322 - minirag - INFO - Inserting 17 vectors to entities
+2025-05-15 14:11:26,558 - minirag - INFO - Inserting 17 vectors to entities_name
+2025-05-15 14:11:26,587 - minirag - INFO - Inserting 10 vectors to relationships
+2025-05-15 14:11:26,809 - minirag - INFO - Writing graph with 708 nodes, 408 edges
+2025-05-15 14:11:26,853 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 14:11:26,855 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 14:11:26,855 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 14:11:26,896 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:11:48,350 - minirag - INFO - Inserting 22 vectors to entities
+2025-05-15 14:11:48,613 - minirag - INFO - Inserting 22 vectors to entities_name
+2025-05-15 14:11:48,642 - minirag - INFO - Inserting 9 vectors to relationships
+2025-05-15 14:11:48,835 - minirag - INFO - Writing graph with 730 nodes, 417 edges
+2025-05-15 14:11:48,882 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 14:11:48,885 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 14:11:48,885 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 14:11:48,936 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:12:01,814 - minirag - INFO - Inserting 11 vectors to entities
+2025-05-15 14:12:01,904 - minirag - INFO - Inserting 11 vectors to entities_name
+2025-05-15 14:12:01,935 - minirag - INFO - Inserting 9 vectors to relationships
+2025-05-15 14:12:02,130 - minirag - INFO - Writing graph with 738 nodes, 425 edges
+2025-05-15 14:12:02,164 - minirag - INFO - [New Docs] inserting 2 docs
+2025-05-15 14:12:02,166 - minirag - INFO - [New Chunks] inserting 2 chunks
+2025-05-15 14:12:02,167 - minirag - INFO - Inserting 2 vectors to chunks
+2025-05-15 14:12:02,192 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:12:15,371 - minirag - INFO - Inserting 5 vectors to entities
+2025-05-15 14:12:15,454 - minirag - INFO - Inserting 5 vectors to entities_name
+2025-05-15 14:12:15,488 - minirag - INFO - Inserting 4 vectors to relationships
+2025-05-15 14:12:15,659 - minirag - INFO - Writing graph with 740 nodes, 427 edges
+2025-05-15 14:12:15,688 - minirag - INFO - [New Docs] inserting 2 docs
+2025-05-15 14:12:15,690 - minirag - INFO - [New Chunks] inserting 2 chunks
+2025-05-15 14:12:15,690 - minirag - INFO - Inserting 2 vectors to chunks
+2025-05-15 14:12:15,715 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:22:19,986 - minirag - WARNING - Didn't extract any relationships, maybe your LLM is not working
+2025-05-15 14:22:19,988 - minirag - WARNING - No new entities and relationships found
+2025-05-15 14:22:20,189 - minirag - INFO - Writing graph with 745 nodes, 427 edges
+2025-05-15 14:22:20,223 - minirag - INFO - [New Docs] inserting 3 docs
+2025-05-15 14:22:20,225 - minirag - INFO - [New Chunks] inserting 3 chunks
+2025-05-15 14:22:20,226 - minirag - INFO - Inserting 3 vectors to chunks
+2025-05-15 14:22:20,259 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:22:39,051 - minirag - INFO - Inserting 16 vectors to entities
+2025-05-15 14:22:39,166 - minirag - INFO - Inserting 16 vectors to entities_name
+2025-05-15 14:22:39,192 - minirag - INFO - Inserting 10 vectors to relationships
+2025-05-15 14:22:39,387 - minirag - INFO - Writing graph with 764 nodes, 437 edges
+2025-05-15 14:22:39,423 - minirag - INFO - [New Docs] inserting 4 docs
+2025-05-15 14:22:39,425 - minirag - INFO - [New Chunks] inserting 4 chunks
+2025-05-15 14:22:39,426 - minirag - INFO - Inserting 4 vectors to chunks
+2025-05-15 14:22:39,454 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:23:13,153 - minirag - INFO - Inserting 21 vectors to entities
+2025-05-15 14:23:13,404 - minirag - INFO - Inserting 21 vectors to entities_name
+2025-05-15 14:23:13,430 - minirag - INFO - Inserting 19 vectors to relationships
+2025-05-15 14:23:13,642 - minirag - INFO - Writing graph with 782 nodes, 455 edges
+2025-05-15 14:23:13,672 - minirag - INFO - [New Docs] inserting 2 docs
+2025-05-15 14:23:13,674 - minirag - INFO - [New Chunks] inserting 2 chunks
+2025-05-15 14:23:13,675 - minirag - INFO - Inserting 2 vectors to chunks
+2025-05-15 14:23:13,707 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:23:44,142 - minirag - INFO - Inserting 10 vectors to entities
+2025-05-15 14:23:44,224 - minirag - INFO - Inserting 10 vectors to entities_name
+2025-05-15 14:23:44,251 - minirag - INFO - Inserting 8 vectors to relationships
+2025-05-15 14:23:44,447 - minirag - INFO - Writing graph with 791 nodes, 463 edges
+2025-05-15 14:23:44,478 - minirag - INFO - [New Docs] inserting 2 docs
+2025-05-15 14:23:44,480 - minirag - INFO - [New Chunks] inserting 2 chunks
+2025-05-15 14:23:44,480 - minirag - INFO - Inserting 2 vectors to chunks
+2025-05-15 14:23:44,502 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:23:49,191 - minirag - WARNING - Didn't extract any relationships, maybe your LLM is not working
+2025-05-15 14:23:49,192 - minirag - WARNING - No new entities and relationships found
+2025-05-15 14:23:49,397 - minirag - INFO - Writing graph with 798 nodes, 463 edges
+2025-05-15 14:23:49,433 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:23:49,436 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:23:49,436 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:23:49,464 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:24:12,705 - minirag - INFO - Inserting 28 vectors to entities
+2025-05-15 14:24:12,984 - minirag - INFO - Inserting 28 vectors to entities_name
+2025-05-15 14:24:13,012 - minirag - INFO - Inserting 10 vectors to relationships
+2025-05-15 14:24:13,221 - minirag - INFO - Writing graph with 820 nodes, 471 edges
+2025-05-15 14:24:13,258 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:24:13,261 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:24:13,262 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:24:13,296 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:24:45,020 - minirag - INFO - Inserting 61 vectors to entities
+2025-05-15 14:24:45,658 - minirag - INFO - Inserting 61 vectors to entities_name
+2025-05-15 14:24:45,701 - minirag - INFO - Inserting 26 vectors to relationships
+2025-05-15 14:24:45,961 - minirag - INFO - Writing graph with 869 nodes, 496 edges
+2025-05-15 14:24:45,995 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:24:45,998 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:24:45,998 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:24:46,048 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:25:06,216 - minirag - INFO - Inserting 37 vectors to entities
+2025-05-15 14:25:06,610 - minirag - INFO - Inserting 37 vectors to entities_name
+2025-05-15 14:25:06,658 - minirag - INFO - Inserting 13 vectors to relationships
+2025-05-15 14:25:06,884 - minirag - INFO - Writing graph with 896 nodes, 508 edges
+2025-05-15 14:25:06,917 - minirag - INFO - [New Docs] inserting 5 docs
+2025-05-15 14:25:06,920 - minirag - INFO - [New Chunks] inserting 5 chunks
+2025-05-15 14:25:06,920 - minirag - INFO - Inserting 5 vectors to chunks
+2025-05-15 14:25:06,947 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:25:22,119 - minirag - INFO - Inserting 25 vectors to entities
+2025-05-15 14:25:22,405 - minirag - INFO - Inserting 25 vectors to entities_name
+2025-05-15 14:25:22,432 - minirag - INFO - Inserting 13 vectors to relationships
+2025-05-15 14:25:22,694 - minirag - INFO - Writing graph with 911 nodes, 514 edges
+2025-05-15 14:25:22,736 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:25:22,738 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:25:22,739 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:25:22,768 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:25:39,715 - minirag - INFO - Inserting 24 vectors to entities
+2025-05-15 14:25:40,002 - minirag - INFO - Inserting 24 vectors to entities_name
+2025-05-15 14:25:40,030 - minirag - INFO - Inserting 6 vectors to relationships
+2025-05-15 14:25:40,222 - minirag - INFO - Writing graph with 929 nodes, 519 edges
+2025-05-15 14:25:40,255 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:25:40,257 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:25:40,258 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:25:40,298 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:26:02,997 - minirag - INFO - Inserting 41 vectors to entities
+2025-05-15 14:26:03,403 - minirag - INFO - Inserting 41 vectors to entities_name
+2025-05-15 14:26:03,454 - minirag - INFO - Inserting 16 vectors to relationships
+2025-05-15 14:26:03,690 - minirag - INFO - Writing graph with 955 nodes, 532 edges
+2025-05-15 14:26:03,727 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:26:03,729 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:26:03,730 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:26:03,755 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:27:03,459 - minirag - INFO - Inserting 33 vectors to entities
+2025-05-15 14:27:03,851 - minirag - INFO - Inserting 33 vectors to entities_name
+2025-05-15 14:27:03,901 - minirag - INFO - Inserting 14 vectors to relationships
+2025-05-15 14:27:04,146 - minirag - INFO - Writing graph with 973 nodes, 544 edges
+2025-05-15 14:27:04,184 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:27:04,187 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:27:04,189 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:27:04,225 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:27:23,134 - minirag - INFO - Inserting 25 vectors to entities
+2025-05-15 14:27:23,446 - minirag - INFO - Inserting 25 vectors to entities_name
+2025-05-15 14:27:23,473 - minirag - INFO - Inserting 12 vectors to relationships
+2025-05-15 14:27:23,720 - minirag - INFO - Writing graph with 995 nodes, 556 edges
+2025-05-15 14:27:23,756 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:27:23,757 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:27:23,758 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:27:23,781 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:27:58,428 - minirag - INFO - Inserting 27 vectors to entities
+2025-05-15 14:27:58,755 - minirag - INFO - Inserting 27 vectors to entities_name
+2025-05-15 14:27:58,781 - minirag - INFO - Inserting 10 vectors to relationships
+2025-05-15 14:27:59,017 - minirag - INFO - Writing graph with 1018 nodes, 566 edges
+2025-05-15 14:27:59,057 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:27:59,058 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:27:59,058 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:27:59,084 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:28:29,743 - minirag - INFO - Inserting 29 vectors to entities
+2025-05-15 14:28:30,101 - minirag - INFO - Inserting 29 vectors to entities_name
+2025-05-15 14:28:30,129 - minirag - INFO - Inserting 23 vectors to relationships
+2025-05-15 14:28:30,425 - minirag - INFO - Writing graph with 1038 nodes, 589 edges
+2025-05-15 14:28:30,464 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:28:30,465 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:28:30,466 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:28:30,494 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:28:44,756 - minirag - INFO - Inserting 19 vectors to entities
+2025-05-15 14:28:45,002 - minirag - INFO - Inserting 19 vectors to entities_name
+2025-05-15 14:28:45,027 - minirag - INFO - Inserting 13 vectors to relationships
+2025-05-15 14:28:45,251 - minirag - INFO - Writing graph with 1049 nodes, 601 edges
+2025-05-15 14:28:45,291 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:28:45,292 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:28:45,293 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:28:45,315 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:28:57,406 - minirag - INFO - Inserting 19 vectors to entities
+2025-05-15 14:28:57,627 - minirag - INFO - Inserting 19 vectors to entities_name
+2025-05-15 14:28:57,651 - minirag - INFO - Inserting 5 vectors to relationships
+2025-05-15 14:28:57,926 - minirag - INFO - Writing graph with 1061 nodes, 606 edges
+2025-05-15 14:28:57,990 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:28:57,992 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:28:57,992 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:28:58,039 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:29:17,731 - minirag - INFO - Inserting 35 vectors to entities
+2025-05-15 14:29:18,159 - minirag - INFO - Inserting 35 vectors to entities_name
+2025-05-15 14:29:18,202 - minirag - INFO - Inserting 25 vectors to relationships
+2025-05-15 14:29:18,589 - minirag - INFO - Writing graph with 1085 nodes, 627 edges
+2025-05-15 14:29:18,631 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:29:18,632 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:29:18,633 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:29:18,663 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:29:35,648 - minirag - INFO - Inserting 34 vectors to entities
+2025-05-15 14:29:36,062 - minirag - INFO - Inserting 34 vectors to entities_name
+2025-05-15 14:29:36,104 - minirag - INFO - Inserting 11 vectors to relationships
+2025-05-15 14:29:36,358 - minirag - INFO - Writing graph with 1114 nodes, 638 edges
+2025-05-15 14:29:36,400 - minirag - INFO - [New Docs] inserting 5 docs
+2025-05-15 14:29:36,402 - minirag - INFO - [New Chunks] inserting 5 chunks
+2025-05-15 14:29:36,402 - minirag - INFO - Inserting 5 vectors to chunks
+2025-05-15 14:29:36,431 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:29:51,332 - minirag - INFO - Inserting 13 vectors to entities
+2025-05-15 14:29:51,518 - minirag - INFO - Inserting 13 vectors to entities_name
+2025-05-15 14:29:51,548 - minirag - INFO - Inserting 4 vectors to relationships
+2025-05-15 14:29:51,779 - minirag - INFO - Writing graph with 1118 nodes, 642 edges
+2025-05-15 14:29:51,822 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:29:51,823 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:29:51,824 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:29:51,859 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:30:15,032 - minirag - INFO - Inserting 17 vectors to entities
+2025-05-15 14:30:15,313 - minirag - INFO - Inserting 17 vectors to entities_name
+2025-05-15 14:30:15,343 - minirag - INFO - Inserting 8 vectors to relationships
+2025-05-15 14:30:15,648 - minirag - INFO - Writing graph with 1127 nodes, 649 edges
+2025-05-15 14:30:15,712 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:30:15,714 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:30:15,715 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:30:15,757 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:30:42,314 - minirag - INFO - Inserting 24 vectors to entities
+2025-05-15 14:30:42,662 - minirag - INFO - Inserting 24 vectors to entities_name
+2025-05-15 14:30:42,687 - minirag - INFO - Inserting 14 vectors to relationships
+2025-05-15 14:30:43,005 - minirag - INFO - Writing graph with 1146 nodes, 662 edges
+2025-05-15 14:30:43,068 - minirag - INFO - [New Docs] inserting 5 docs
+2025-05-15 14:30:43,070 - minirag - INFO - [New Chunks] inserting 5 chunks
+2025-05-15 14:30:43,071 - minirag - INFO - Inserting 5 vectors to chunks
+2025-05-15 14:30:43,111 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:31:16,583 - minirag - INFO - Inserting 37 vectors to entities
+2025-05-15 14:31:17,049 - minirag - INFO - Inserting 37 vectors to entities_name
+2025-05-15 14:31:17,103 - minirag - INFO - Inserting 28 vectors to relationships
+2025-05-15 14:31:17,550 - minirag - INFO - Writing graph with 1176 nodes, 690 edges
+2025-05-15 14:31:17,623 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:31:17,625 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:31:17,625 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:31:17,685 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:31:39,737 - minirag - INFO - Inserting 25 vectors to entities
+2025-05-15 14:31:40,044 - minirag - INFO - Inserting 25 vectors to entities_name
+2025-05-15 14:31:40,069 - minirag - INFO - Inserting 10 vectors to relationships
+2025-05-15 14:31:40,344 - minirag - INFO - Writing graph with 1194 nodes, 700 edges
+2025-05-15 14:31:40,397 - minirag - INFO - [New Docs] inserting 6 docs
+2025-05-15 14:31:40,399 - minirag - INFO - [New Chunks] inserting 6 chunks
+2025-05-15 14:31:40,399 - minirag - INFO - Inserting 6 vectors to chunks
+2025-05-15 14:31:40,454 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:32:11,758 - minirag - INFO - Inserting 37 vectors to entities
+2025-05-15 14:32:12,235 - minirag - INFO - Inserting 37 vectors to entities_name
+2025-05-15 14:32:12,295 - minirag - INFO - Inserting 29 vectors to relationships
+2025-05-15 14:32:12,722 - minirag - INFO - Writing graph with 1222 nodes, 728 edges
+2025-05-15 14:32:12,813 - minirag - INFO - [New Docs] inserting 1 docs
+2025-05-15 14:32:12,814 - minirag - INFO - [New Chunks] inserting 1 chunks
+2025-05-15 14:32:12,814 - minirag - INFO - Inserting 1 vectors to chunks
+2025-05-15 14:32:12,848 - minirag - INFO - [Entity Extraction]...
+2025-05-15 14:32:25,808 - minirag - INFO - Inserting 5 vectors to entities
+2025-05-15 14:32:25,913 - minirag - INFO - Inserting 5 vectors to entities_name
+2025-05-15 14:32:25,947 - minirag - INFO - Inserting 4 vectors to relationships
+2025-05-15 14:32:26,298 - minirag - INFO - Writing graph with 1225 nodes, 732 edges
+2025-05-15 17:46:11,134 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/financebench_zh/seq@q25_b3_base_sum@q25_b3_base_index@naive@q25_b14_gen/rag_data
+2025-05-15 17:46:11,481 - minirag - INFO - Load KV llm_response_cache with 592 data
+2025-05-15 17:46:11,484 - minirag - INFO - Load KV full_docs with 291 data
+2025-05-15 17:46:11,486 - minirag - INFO - Load KV text_chunks with 292 data
+2025-05-15 17:46:11,523 - minirag - INFO - Loaded graph from resources/data/ablation_rag/financebench_zh/seq@q25_b3_base_sum@q25_b3_base_index@naive@q25_b14_gen/rag_data/graph_chunk_entity_relation.graphml with 1225 nodes, 732 edges
+2025-05-15 18:00:03,362 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/financebench_zh/seq@q25_b3_base_sum@q25_b3_base_index@ours@q25_b14_gen/rag_data
+2025-05-15 18:00:03,680 - minirag - INFO - Load KV llm_response_cache with 592 data
+2025-05-15 18:00:03,684 - minirag - INFO - Load KV full_docs with 291 data
+2025-05-15 18:00:03,686 - minirag - INFO - Load KV text_chunks with 292 data
+2025-05-15 18:00:03,723 - minirag - INFO - Loaded graph from resources/data/ablation_rag/financebench_zh/seq@q25_b3_base_sum@q25_b3_base_index@ours@q25_b14_gen/rag_data/graph_chunk_entity_relation.graphml with 1225 nodes, 732 edges
+2025-05-15 18:16:33,685 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/financebench_zh/seq@q25_b3_base_sum@q25_b3_base_index@lightrag@q25_b14_gen/rag_data
+2025-05-15 18:16:33,984 - minirag - INFO - Load KV llm_response_cache with 592 data
+2025-05-15 18:16:33,988 - minirag - INFO - Load KV full_docs with 291 data
+2025-05-15 18:16:33,990 - minirag - INFO - Load KV text_chunks with 292 data
+2025-05-15 18:16:34,026 - minirag - INFO - Loaded graph from resources/data/ablation_rag/financebench_zh/seq@q25_b3_base_sum@q25_b3_base_index@lightrag@q25_b14_gen/rag_data/graph_chunk_entity_relation.graphml with 1225 nodes, 732 edges
+2025-05-15 18:33:26,802 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/financebench_zh/seq@q25_b3_sft_sum@q25_b3_base_index@naive@q25_b3_base_gen/rag_data
+2025-05-15 18:33:27,174 - minirag - INFO - Load KV llm_response_cache with 585 data
+2025-05-15 18:33:27,178 - minirag - INFO - Load KV full_docs with 291 data
+2025-05-15 18:33:27,181 - minirag - INFO - Load KV text_chunks with 292 data
+2025-05-15 18:33:27,203 - minirag - INFO - Loaded graph from resources/data/ablation_rag/financebench_zh/seq@q25_b3_sft_sum@q25_b3_base_index@naive@q25_b3_base_gen/rag_data/graph_chunk_entity_relation.graphml with 686 nodes, 364 edges
+2025-05-15 18:36:24,051 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/financebench_zh/seq@q25_b3_sft_sum@q25_b3_base_index@ours@q25_b3_base_gen/rag_data
+2025-05-15 18:36:24,351 - minirag - INFO - Load KV llm_response_cache with 585 data
+2025-05-15 18:36:24,354 - minirag - INFO - Load KV full_docs with 291 data
+2025-05-15 18:36:24,357 - minirag - INFO - Load KV text_chunks with 292 data
+2025-05-15 18:36:24,377 - minirag - INFO - Loaded graph from resources/data/ablation_rag/financebench_zh/seq@q25_b3_sft_sum@q25_b3_base_index@ours@q25_b3_base_gen/rag_data/graph_chunk_entity_relation.graphml with 686 nodes, 364 edges
+2025-05-15 18:41:15,996 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/financebench_zh/seq@q25_b3_sft_sum@q25_b3_base_index@lightrag@q25_b3_base_gen/rag_data
+2025-05-15 18:41:16,279 - minirag - INFO - Load KV llm_response_cache with 585 data
+2025-05-15 18:41:16,281 - minirag - INFO - Load KV full_docs with 291 data
+2025-05-15 18:41:16,284 - minirag - INFO - Load KV text_chunks with 292 data
+2025-05-15 18:41:16,303 - minirag - INFO - Loaded graph from resources/data/ablation_rag/financebench_zh/seq@q25_b3_sft_sum@q25_b3_base_index@lightrag@q25_b3_base_gen/rag_data/graph_chunk_entity_relation.graphml with 686 nodes, 364 edges
+2025-05-15 18:44:40,547 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/financebench_zh/seq@q25_b3_sft_sum@q25_b3_base_index@naive@q25_b14_gen/rag_data
+2025-05-15 18:44:40,918 - minirag - INFO - Load KV llm_response_cache with 585 data
+2025-05-15 18:44:40,921 - minirag - INFO - Load KV full_docs with 291 data
+2025-05-15 18:44:40,923 - minirag - INFO - Load KV text_chunks with 292 data
+2025-05-15 18:44:40,943 - minirag - INFO - Loaded graph from resources/data/ablation_rag/financebench_zh/seq@q25_b3_sft_sum@q25_b3_base_index@naive@q25_b14_gen/rag_data/graph_chunk_entity_relation.graphml with 686 nodes, 364 edges
+2025-05-15 18:57:21,469 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/financebench_zh/seq@q25_b3_sft_sum@q25_b3_base_index@ours@q25_b14_gen/rag_data
+2025-05-15 18:57:21,835 - minirag - INFO - Load KV llm_response_cache with 585 data
+2025-05-15 18:57:21,838 - minirag - INFO - Load KV full_docs with 291 data
+2025-05-15 18:57:21,840 - minirag - INFO - Load KV text_chunks with 292 data
+2025-05-15 18:57:21,860 - minirag - INFO - Loaded graph from resources/data/ablation_rag/financebench_zh/seq@q25_b3_sft_sum@q25_b3_base_index@ours@q25_b14_gen/rag_data/graph_chunk_entity_relation.graphml with 686 nodes, 364 edges
+2025-05-15 19:12:57,548 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/financebench_zh/seq@q25_b3_sft_sum@q25_b3_base_index@lightrag@q25_b14_gen/rag_data
+2025-05-15 19:12:57,901 - minirag - INFO - Load KV llm_response_cache with 585 data
+2025-05-15 19:12:57,904 - minirag - INFO - Load KV full_docs with 291 data
+2025-05-15 19:12:57,906 - minirag - INFO - Load KV text_chunks with 292 data
+2025-05-15 19:12:57,926 - minirag - INFO - Loaded graph from resources/data/ablation_rag/financebench_zh/seq@q25_b3_sft_sum@q25_b3_base_index@lightrag@q25_b14_gen/rag_data/graph_chunk_entity_relation.graphml with 686 nodes, 364 edges

@@ -1,0 +1,2820 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="苹果公司">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">"苹果公司是描述中提到的一个科技公司，其产品和服务涉及捆绑服务和软件升级的权利分配。"&lt;SEP&gt;苹果公司是一家全球知名的科技公司，成立于1976年，总部位于加利福尼亚州库比蒂诺。它以研发、设计和制造iPhone、Mac电脑、iPad等产品而闻名。&lt;SEP&gt;苹果公司是一家知名的科技产品制造商，于2022年发布了第三季度财报。&lt;SEP&gt;苹果公司是全球知名的科技产品制造商，于2022年发布第三季度财报，财报内容可能涉及收入、利润、市场份额等关键指标。&lt;SEP&gt;苹果公司是全球知名的科技产品制造商，2020年年度股东大会的通知涉及其内部决策和股东权益。&lt;SEP&gt;苹果公司是全球知名的科技企业，尤其在中国市场表现突出，占据了其销售份额的显著部分。&lt;SEP&gt;苹果公司是知名科技企业，专注于智能手机、个人电脑和其他电子产品的研发和生产。&lt;SEP&gt;苹果公司是全球知名的科技公司，专注于开发和销售电子产品。&lt;SEP&gt;苹果公司是全球知名的科技公司，于2022年第三季度终止了根据2014年员工股票计划授予新奖励的权限。&lt;SEP&gt;苹果公司是全球知名的科技公司，其2022年10-K表格反映了其财务状况和运营情况。&lt;SEP&gt;苹果公司是全球知名的科技公司，专注于开发和销售电子产品，如iPhone、iPad和Mac等。&lt;SEP&gt;苹果公司是全球知名的科技公司，专注于开发和销售电子产品，如iPhone、iPad和Mac等。在2022财年第四季度，该公司发布了其财务报告，展示了公司的业绩表现和市场地位。&lt;SEP&gt;苹果公司是全球知名的科技公司，其2022年10-K表为其财务报告的一部分。&lt;SEP&gt;苹果公司是全球知名的科技产品制造商，在2022年第三季度报告了80.7亿美元的经营活动现金流。&lt;SEP&gt;苹果公司是全球知名的科技公司，专注于开发和销售电子产品和服务。&lt;SEP&gt;苹果公司是一家全球知名的科技公司，总部位于美国加利福尼亚州库比蒂诺，专注于设计、开发和销售消费电子产品，包括iPhone、Mac、iPad、Apple Watch和iPod等。&lt;SEP&gt;苹果公司是一家总部位于美国加利福尼亚州库比蒂诺的全球知名科技公司，专注于设计、开发和销售消费电子产品，包括iPhone、Mac、iPad、Apple Watch和iPod等。2022年10-K年报详细记录了公司的财务状况、运营情况及合规性等内容。&lt;SEP&gt;苹果公司是一家知名的科技公司，其截至2022年9月24日的三个月末合并资产负债表是关注的重点。&lt;SEP&gt;苹果公司是一家知名科技公司，其截至2022年9月24日的三个月末合并资产负债表是关注的重点。</data>
+  <data key="d2">chunk-1ee192b1a31ab2932960b81fa2fc4423&lt;SEP&gt;chunk-21f732a69eacbd85851570f1929c55e4&lt;SEP&gt;chunk-c36be8a84f79b604b4f4e89639d8af50&lt;SEP&gt;chunk-58880bd0c63e8e341d56c4d57d6debab&lt;SEP&gt;chunk-f8673aa1c7d6a3c586174880c92a6067&lt;SEP&gt;chunk-51833ed9bdd064853e7c9df9edf314e8&lt;SEP&gt;chunk-1bd3ff867a686711266253c50ef8dc52&lt;SEP&gt;chunk-aaf2ee3bd76ccb86085304c203272193&lt;SEP&gt;chunk-ba68011b15e2e30a931fc0da3fec05b5&lt;SEP&gt;chunk-451b44bc5cd49f81fe357ccda03dffa6&lt;SEP&gt;chunk-2fee7d50370839cb3de3c202a7667bed&lt;SEP&gt;chunk-439f32eab0b3ac8c6b2a922b4f31c816&lt;SEP&gt;chunk-d9baea0dc72b351001a219fe7b79fe66</data>
+</node>
+<node id="&quot;美国国家广播公司环球有限公司(NBCUNIVERSAL INTERNATIONAL HOLDINGS INC.)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"NBCUniversal International Holdings Inc. is an international media company that operates globally, managing legal risks across its diverse operations."|&gt;</data>
+  <data key="d2">chunk-86dbda931611e134f3e63c591f44159c</data>
+</node>
+<node id="&quot;辉瑞&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"辉瑞是一家大型制药公司，近期发生了一起可能的重大工业事故风险警告。"</data>
+  <data key="d2">chunk-74d039550e5a4668122f3231590719cb</data>
+</node>
+<node id="&quot;MANY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"MANY is a generic term referring to multiple entities."|&lt;SEP&gt;"MANY is a placeholder term used to indicate that certain entities were missed in the previous extraction."&lt;SEP&gt;"MANY refers to multiple entities or concepts that were previously missed in the previous extraction process."&lt;SEP&gt;"MANY refers to multiple entities that were missed in the last extraction."&lt;SEP&gt;"MANY refers to multiple entities that were previously missed or not identified."&lt;SEP&gt;"MANY is mentioned multiple times but does not represent a specific entity in the text."&lt;SEP&gt;"MANY refers to a general term used to describe various types of devices or items, possibly including wearable devices, home products, and accessories, but the specific context isn't clear without additional information."&lt;SEP&gt;"MANY is used as a placeholder for multiple entities that were missed in the previous extraction."&lt;SEP&gt;"MANY refers to a large number or quantity."&lt;SEP&gt;"MANY refers to a collection or multiple instances, emphasizing the plurality and multitude of entities present."&lt;SEP&gt;"MANY refers to multiple occurrences or entities, which were not fully identified in the previous extraction."&lt;SEP&gt;"MANY is a placeholder for multiple entities not clearly identified in the text."&lt;SEP&gt;"The word 'MANY' is used to emphasize the number of entities or occurrences."&lt;SEP&gt;"Many is a misspelling of 'Many,' indicating a plural noun or concept."&lt;SEP&gt;"Many is a misspelling of 'Many,' indicating a plural noun or concept.")</data>
+  <data key="d2">chunk-57b964f148d0deb36b07a51e073271dc&lt;SEP&gt;chunk-631bae7ed15878233ddb1c327962d1a2&lt;SEP&gt;chunk-adc750f2993d50636edda775d65743ea&lt;SEP&gt;chunk-58880bd0c63e8e341d56c4d57d6debab&lt;SEP&gt;chunk-74d039550e5a4668122f3231590719cb&lt;SEP&gt;chunk-d3cd291c0ffde694fcf387bf616b96a3&lt;SEP&gt;chunk-5eff067de295370871acd1bc868c346e&lt;SEP&gt;chunk-4ee1b92455862c89dab515c62d0a4163&lt;SEP&gt;chunk-70656e556378e88df90db77f56527675&lt;SEP&gt;chunk-56e22b9312bfa75261a6dd2a6eb27d5e&lt;SEP&gt;chunk-b8f5cc0fe341232c54e131b226164a52&lt;SEP&gt;chunk-cbb618fa7d6d6583388711549d8a6964&lt;SEP&gt;chunk-3f3daa35aecaa4b52f7cecc83e7731f3&lt;SEP&gt;chunk-d9baea0dc72b351001a219fe7b79fe66</data>
+</node>
+<node id="&quot;公司法&quot;">
+  <data key="d0">"LAW"</data>
+  <data key="d1">"公司法是关于公司治理和管理的重要法律文件。"</data>
+  <data key="d2">chunk-ce4715dbbf435baaa2d2a6ed9e6c6cf7</data>
+</node>
+<node id="&quot;选举&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Election is a specific event where company management members are chosen according to legal provisions."&lt;SEP&gt;"选举是指按照法律规定进行的公司管理层成员的选择过程。"</data>
+  <data key="d2">chunk-ce4715dbbf435baaa2d2a6ed9e6c6cf7</data>
+</node>
+<node id="&quot;章程修订&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Amendment of articles of association refers to adjustments and modifications of internal rules within a company."&lt;SEP&gt;"章程修订是指对公司内部规章制度的调整和修改。"</data>
+  <data key="d2">chunk-ce4715dbbf435baaa2d2a6ed9e6c6cf7</data>
+</node>
+<node id="&quot;《公司法》&quot;">
+  <data key="d0">"LAW"</data>
+  <data key="d1">"《公司法》 is a legal document governing company governance."</data>
+  <data key="d2">chunk-ce4715dbbf435baaa2d2a6ed9e6c6cf7</data>
+</node>
+<node id="&quot;重大工业事故风险&quot;">
+  <data key="d2">chunk-74d039550e5a4668122f3231590719cb</data>
+  <data key="d1">"辉瑞发布了一条关于潜在重大工业事故风险的警告。</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;ADD BELOW&quot;">
+  <data key="d2">chunk-74d039550e5a4668122f3231590719cb</data>
+  <data key="d1">"Entities were missed in the previous extraction, and this line indicates that these entities should be added."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;2022年到期的0.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2022 and a coupon rate of 0.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2023年到期的1.250%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2023 and a coupon rate of 1.250%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2024年到期的1.500%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2024 and a coupon rate of 1.500%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2025年到期的1.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2025 and a coupon rate of 1.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2026年到期的2.000%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2026 and a coupon rate of 2.000%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2027年到期的2.250%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2027 and a coupon rate of 2.250%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2028年到期的2.500%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2028 and a coupon rate of 2.500%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2029年到期的2.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2029 and a coupon rate of 2.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2030年到期的3.000%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2030 and a coupon rate of 3.000%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2031年到期的3.250%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2031 and a coupon rate of 3.250%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2032年到期的3.500%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2032 and a coupon rate of 3.500%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2033年到期的3.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2033 and a coupon rate of 3.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2034年到期的4.000%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2034 and a coupon rate of 4.000%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2035年到期的4.250%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2035 and a coupon rate of 4.250%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2036年到期的4.500%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2036 and a coupon rate of 4.500%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2037年到期的4.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2037 and a coupon rate of 4.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2038年到期的5.000%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2038 and a coupon rate of 5.000%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2039年到期的5.250%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2039 and a coupon rate of 5.250%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2040年到期的5.500%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2040 and a coupon rate of 5.500%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2041年到期的5.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2041 and a coupon rate of 5.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2042年到期的6.000%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2042 and a coupon rate of 6.000%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2043年到期的6.250%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2043 and a coupon rate of 6.250%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2044年到期的6.500%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2044 and a coupon rate of 6.500%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2045年到期的6.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2045 and a coupon rate of 6.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2046年到期的7.000%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2046 and a coupon rate of 7.000%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2047年到期的7.250%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2047 and a coupon rate of 7.250%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2048年到期的7.500%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2048 and a coupon rate of 7.500%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2049年到期的7.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2049 and a coupon rate of 7.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2050年到期的8.000%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2050 and a coupon rate of 8.000%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2051年到期的8.250%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2051 and a coupon rate of 8.250%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2052年到期的8.500%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2052 and a coupon rate of 8.500%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2053年到期的8.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2053 and a coupon rate of 8.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2054年到期的9.000%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2054 and a coupon rate of 9.000%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2055年到期的9.250%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2055 and a coupon rate of 9.250%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2056年到期的9.500%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2056 and a coupon rate of 9.500%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2057年到期的9.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2057 and a coupon rate of 9.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2058年到期的10.000%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2058 and a coupon rate of 10.000%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2059年到期的10.250%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2059 and a coupon rate of 10.250%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2060年到期的10.500%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2060 and a coupon rate of 10.500%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2061年到期的10.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2061 and a coupon rate of 10.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2062年到期的11.000%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2062 and a coupon rate of 11.000%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2063年到期的11.250%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2063 and a coupon rate of 11.250%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2064年到期的11.500%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2064 and a coupon rate of 11.500%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2065年到期的11.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2065 and a coupon rate of 11.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2066年到期的12.000%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2066 and a coupon rate of 12.000%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2067年到期的12.250%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2067 and a coupon rate of 12.250%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2068年到期的12.500%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2068 and a coupon rate of 12.500%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2069年到期的12.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2069 and a coupon rate of 12.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2070年到期的13.000%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2070 and a coupon rate of 13.000%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2071年到期的13.250%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2071 and a coupon rate of 13.250%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2072年到期的13.500%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2072 and a coupon rate of 13.500%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2073年到期的13.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2073 and a coupon rate of 13.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2074年到期的14.000%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2074 and a coupon rate of 14.000%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2075年到期的14.250%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2075 and a coupon rate of 14.250%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2076年到期的14.500%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2076 and a coupon rate of 14.500%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2077年到期的14.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2077 and a coupon rate of 14.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2078年到期的15.000%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2078 and a coupon rate of 15.000%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2079年到期的15.250%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2079 and a coupon rate of 15.250%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2080年到期的15.500%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2080 and a coupon rate of 15.500%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2081年到期的15.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2081 and a coupon rate of 15.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2082年到期的16.000%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2082 and a coupon rate of 16.000%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2083年到期的16.250%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2083 and a coupon rate of 16.250%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2084年到期的16.500%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2084 and a coupon rate of 16.500%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2085年到期的16.750%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2085 and a coupon rate of 16.750%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;2086年到期的17.000%票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A financial event with a maturity date of 2086 and a coupon rate of 17.000%."</data>
+  <data key="d2">chunk-85175aecc88c5bd2a4ab796eb875c123</data>
+</node>
+<node id="&quot;苹果公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Apple Inc. is a global technology company known for its annual reports, which detail its financial performance and strategic plans."&lt;SEP&gt;"Apple Inc., a multinational technology company founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in 1976, headquartered in Cupertino, California. In the third quarter of 2022 fiscal year, the company released its financial results."&lt;SEP&gt;"Apple Inc., a multinational technology company founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in 1976, headquartered in Cupertino, California."&lt;SEP&gt;"Apple Inc., a multinational technology company founded by Steve Jobs, Steven P. Jobs, and Ronald Wayne in 1976."&lt;SEP&gt;"Apple Inc., a multinational technology company founded in 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne. Known for its innovative products such as the iPhone, iPad, Mac computers, and smart home devices."&lt;SEP&gt;"苹果公司是全球知名的科技企业，专注于研发和销售电子产品。"&lt;SEP&gt;"苹果公司是一家知名的科技企业，专注于开发和销售一系列智能设备，包括iPhone等产品。"&lt;SEP&gt;"苹果公司 is a multinational technology company founded by Steve Jobs, Steven P. Jobs, and Ronald Wayne in 1976."&lt;SEP&gt;"苹果公司是一家全球知名的科技企业，主要从事智能手机、个人电脑、平板电脑及数字内容服务的开发和销售。"&lt;SEP&gt;"苹果公司是一家知名的科技公司，以其创新的产品和服务而闻名。"&lt;SEP&gt;"苹果公司是全球知名的科技公司，在2022财年获得了美国证券交易委员会（SEC）的无异议函，表明其财务报告符合监管要求。"&lt;SEP&gt;"苹果公司是全球知名的科技公司，其Q4财报显示净销售额同比增长8%至394亿美元。"&lt;SEP&gt;"苹果公司是全球知名的科技企业，负责App Store的运营和管理。"&lt;SEP&gt;"苹果公司是全球知名的科技企业，面临多种潜在的风险，包括自然灾害、恐怖袭击、敌对行为、网络安全攻击、劳资纠纷和公共卫生问题等。"&lt;SEP&gt;"苹果公司是全球知名的科技产品制造商，其2022年10-K年报详细展示了公司的财务状况和运营情况。"&lt;SEP&gt;"苹果公司是全球知名的科技公司，以其创新的产品系列而闻名。"&lt;SEP&gt;"苹果公司是一家知名的科技企业，于2022年发布了其财务年度报告。"&lt;SEP&gt;"苹果公司是一家知名的科技公司，其2019财年的财务报表被审计。"&lt;SEP&gt;"苹果公司是一家知名的科技公司。"&lt;SEP&gt;"苹果公司是一家科技巨头，其管理层正在评估不确定的税务立场是否会被维持，并考虑各种税务策略的利弊。"&lt;SEP&gt;"苹果公司是毕马威会计师事务所进行内部控制评估的对象。"&lt;SEP&gt;"苹果公司是全球知名的科技产品制造商，其季度财报反映了其在2022财年的财务状况。"&lt;SEP&gt;"苹果公司是全球知名的科技产品制造商，其年度报告详细披露了公司的财务状况、业务进展及未来战略规划。"&lt;SEP&gt;"苹果公司 is a multinational technology company founded in 1976, headquartered in Cupertino, California, known for its innovative products such as iPhones, Mac computers, iPads, and Apple Watches."&lt;SEP&gt;"苹果公司是全球知名的科技产品制造商，其2022财年的年报审计报告对其财务状况进行了详细披露。"&lt;SEP&gt;"苹果公司是全球知名的科技产品制造商，其子公司涵盖软件开发、硬件制造等多个领域。"&lt;SEP&gt;"苹果公司是一家从事科技产品开发与销售的大型企业，其股东权益合并报表反映了公司的财务状况。"&lt;SEP&gt;"苹果公司是一家知名的科技企业，其2014年员工股票计划旨在激励并留住关键人才。"&lt;SEP&gt;"苹果公司是一家知名的科技企业，发布了2023财年第一季度的财报。"&lt;SEP&gt;"苹果公司是全球知名的科技公司，其衍生金融工具公允价值在2022年9月24日引起了关注。"&lt;SEP&gt;"Apple Inc., a multinational technology company founded in 1976, known for its iconic products such as the iPhone, Mac, iPad, and Apple Watch, operating in various business sectors including software, hardware, and services."&lt;SEP&gt;"苹果公司是全球知名的科技产品制造商，其股票表现反映了其在市场上的表现和投资者信心。"&lt;SEP&gt;"苹果公司是全球知名的科技公司，专注于开发和销售电子产品，尤其是iPhone手机。"&lt;SEP&gt;"苹果公司是全球知名的科技产品制造商，其2022年第三季度报告详细披露了公司的财务状况和运营成果。"&lt;SEP&gt;"苹果公司是全球知名的科技公司，专注于研发、营销和销售消费电子产品、计算机软件和服务。"&lt;SEP&gt;"苹果公司是全球知名的科技公司，在2022年9月24日发布其截至该日期的财政年度报告。"&lt;SEP&gt;"苹果公司是全球知名的科技公司，其年度报告详细介绍了公司的财务状况、业务进展及未来战略规划。"</data>
+  <data key="d2">chunk-b542e08e61a881ad272c13e188fc9560&lt;SEP&gt;chunk-656afe38c556f31033eb7b49dcc43e8e&lt;SEP&gt;chunk-227b1a00a8b2ac8c9860450f71780803&lt;SEP&gt;chunk-2bccb92c2bc5704d4bf88347324b058a&lt;SEP&gt;chunk-d3cd291c0ffde694fcf387bf616b96a3&lt;SEP&gt;chunk-fcf98960fcae5d4198639cf48dee9147&lt;SEP&gt;chunk-eaf34aee77c4b200777b90eaee579e1c&lt;SEP&gt;chunk-1118fbf14bc85addeb429316f29db298&lt;SEP&gt;chunk-db7c6e198ea142a0fe533b9a8306326e&lt;SEP&gt;chunk-d59f6ad98f92f1f2f63d4cd6e95a0dca&lt;SEP&gt;chunk-f7ac58c022e378c22d4858de5cdf3966&lt;SEP&gt;chunk-297ad43f3fd463c0b551bea73376a271&lt;SEP&gt;chunk-78ea6ecac202d98fd9a2b441d5862167&lt;SEP&gt;chunk-ee540fe89080519f76aab977eae940bf&lt;SEP&gt;chunk-3ce06fb2a94afdf0e2ec33011b1612b3&lt;SEP&gt;chunk-46ef6cfa007be9062fe431d20773929b&lt;SEP&gt;chunk-aad2073b61b36a064e2a0014764016c8&lt;SEP&gt;chunk-1f6aac905530059b79f43b1c7fea3e0c&lt;SEP&gt;chunk-7d9a30007866c19af34c2e7e23e32fd7&lt;SEP&gt;chunk-1f15edadf5cee3399381abca9ce071b8&lt;SEP&gt;chunk-d8f07872d49932f040093dec530fae27&lt;SEP&gt;chunk-baec5348966510ab83c89e92d9ab0172&lt;SEP&gt;chunk-2edaa9e74b2ee1a4f3c21ca178fd0206&lt;SEP&gt;chunk-26df891bbea5c0b8c2b4d532ddfbb1df&lt;SEP&gt;chunk-710237266adb4b6c4ea0eee9eedc898f&lt;SEP&gt;chunk-03c183737e9aec134adc8ccbc37c7876&lt;SEP&gt;chunk-3a5e55bc51c5492f70668aa35febbef8&lt;SEP&gt;chunk-967058139a5d8e4af253a633571f46b1&lt;SEP&gt;chunk-eb092f1b43f8b2a25a6e768d17274085&lt;SEP&gt;chunk-130fa14e1b8d87eff4c41345d307326b&lt;SEP&gt;chunk-1d29f710fee778e925b2aa330380cc80&lt;SEP&gt;chunk-58c9c69076f10a605f589d7432d59cc5</data>
+</node>
+<node id="&quot;美国银行&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"American Bank is the issuer of the 2021 bond and sends the trust indenture amendments notice to bondholders."&lt;SEP&gt;"American Bank, issuing the 2021 bond, sends notice to bondholders about the trust indenture amendments."&lt;SEP&gt;"美国银行是负责管理衍生资产和负债公允价值的金融机构。"&lt;SEP&gt;"美国银行(BAC.US)是一家提供金融服务的公司，其股票在美国证券交易所上市。"&lt;SEP&gt;"美国银行是一家金融机构。"</data>
+  <data key="d2">chunk-85520050b236521534a07a5b4bfee28e&lt;SEP&gt;chunk-57b964f148d0deb36b07a51e073271dc&lt;SEP&gt;chunk-a1c12af64994ee5ac251015cc58826b6</data>
+</node>
+<node id="&quot;2021年债券&quot;">
+  <data key="d0">"BOND"</data>
+  <data key="d1">"The 2021 bond with a coupon rate of 5.375% is the subject of the trust indenture amendments notification."&lt;SEP&gt;"The 2021 bond with a coupon rate of 5.375%, due in 2021, is the subject of the trust indenture amendments notification."</data>
+  <data key="d2">chunk-85520050b236521534a07a5b4bfee28e</data>
+</node>
+<node id="&quot;债券持有人&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Bondholders are the recipients of the notification regarding the amendments to the trust indenture of the 2021 bond."&lt;SEP&gt;"Bondholders receive the trust indenture amendments notification related to the 2021 bond."</data>
+  <data key="d2">chunk-85520050b236521534a07a5b4bfee28e</data>
+</node>
+<node id="&quot;2021年1月14日&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The event is the date on which American Bank sends the trust indenture amendments notice to bondholders."</data>
+  <data key="d2">chunk-85520050b236521534a07a5b4bfee28e</data>
+</node>
+<node id="&quot;信托契据的修订通知&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The trust indenture amendments notice is the specific event involving the trust indenture and amendments."</data>
+  <data key="d2">chunk-85520050b236521534a07a5b4bfee28e</data>
+</node>
+<node id="&quot;2021年第一季度&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2021年第一季度指的是具体的年份和季度，用于标记公司的一份财务报告时间范围。"&lt;SEP&gt;"2021年第一季度指的是具体的年份和季度，用于标记公司的一份财务报告的时间范围。"&lt;SEP&gt;"2021年第一季度指的是百济神州公布的未经审计的财务业绩的时间点。"&lt;SEP&gt;"2021年第一季度指的是苹果公司发布的最新季度财务报告的时间点。"</data>
+  <data key="d2">chunk-dc442434c459bf3c51e4f785b674b4b3&lt;SEP&gt;chunk-3a5e55bc51c5492f70668aa35febbef8&lt;SEP&gt;chunk-a71e4ceecc267b20bae59a24469aebf0</data>
+</node>
+<node id="&quot;财报&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"财报代表了苹果公司在特定时间内的财务状况，包括收入、成本和利润等关键指标。"&lt;SEP&gt;"财报是苹果公司发布的年度报告的一部分，反映了其在2022财年第四季度的业绩表现。"&lt;SEP&gt;"财报是苹果公司发布的关于2023财年第一季度的财务报告。"</data>
+  <data key="d2">chunk-130fa14e1b8d87eff4c41345d307326b&lt;SEP&gt;chunk-eaf34aee77c4b200777b90eaee579e1c&lt;SEP&gt;chunk-3a5e55bc51c5492f70668aa35febbef8</data>
+</node>
+<node id="&quot;2022 10-K 表&quot;">
+  <data key="d0">"REPORT"</data>
+  <data key="d1">"2022 10-K 表是一个财务报告的一部分，用于展示公司在特定时间点的财务状况。"</data>
+  <data key="d2">chunk-d9005e4283699f7b900c6c9d03e14eb6</data>
+</node>
+<node id="&quot;LOCATION&quot;">
+  <data key="d0">LOCATION</data>
+  <data key="d1">"Location could refer to the geographical area where the company operates or the headquarters of the company."&lt;SEP&gt;"This is a placeholder for any locations mentioned in the text, but no specific location was provided in the input."&lt;SEP&gt;"location" is a placeholder as the text does not specify a particular location related to the 2022 年 10-K 表格."</data>
+  <data key="d2">chunk-983e7e648c19670b55d38295b3c48ae0&lt;SEP&gt;chunk-d9005e4283699f7b900c6c9d03e14eb6&lt;SEP&gt;chunk-669048ef8b3540e9fbd164669005cb23</data>
+</node>
+<node id="&quot;EVENT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Event could represent a specific financial event, such as a stock split or dividend payment, mentioned in the 10-K filing."</data>
+  <data key="d2">chunk-d9005e4283699f7b900c6c9d03e14eb6</data>
+</node>
+<node id="康菲石油公司">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">康菲石油公司 is the subject of the text, referring to a specific company.&lt;SEP&gt;康菲石油公司是一家从事石油和天然气勘探开发的企业。&lt;SEP&gt;康菲石油公司是一家从事石油和天然气勘探开发的企业。)&lt;|COMPLETE|&lt;SEP&gt;康菲石油公司是美国一家大型石油和天然气勘探开发企业。&lt;SEP&gt;康菲石油公司是报告第三季度财报的企业，财报内容涉及其债务、商业票据和回购协议等财务数据。</data>
+  <data key="d2">chunk-b3752490079ac682c349965caeb2e165&lt;SEP&gt;chunk-2bf4d98caea1ade9d048344291f7d441</data>
+</node>
+<node id="员工股票计划">
+  <data key="d0">EVENT</data>
+  <data key="d1">员工股票计划是指公司为激励员工而设立的一种股票奖励计划。</data>
+  <data key="d2">chunk-b3752490079ac682c349965caeb2e165</data>
+</node>
+<node id="限制性股票单位">
+  <data key="d0">EVENT</data>
+  <data key="d1">限制性股票单位是一种特殊的股权激励工具，受一定条件限制，不能立即出售或转让。</data>
+  <data key="d2">chunk-b3752490079ac682c349965caeb2e165</data>
+</node>
+<node id="2014年员工股票计划">
+  <data key="d0">EVENT</data>
+  <data key="d1">2014年的员工股票计划是指公司为了激励员工而设立的一种股票奖励计划。</data>
+  <data key="d2">chunk-b3752490079ac682c349965caeb2e165</data>
+</node>
+<node id="&quot;IFRS 9&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"IFRS 9 is a standard issued by the International Financial Reporting Standards Foundation, focusing on the accounting treatment for fair value hedges."</data>
+  <data key="d2">chunk-4d97bc3683448b6e4d82bae125b43d78</data>
+</node>
+<node id="&quot;公允价值套期保值&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"公允价值套期保值 refers to financial hedging strategies that utilize fair value measurements to manage risks related to changes in market prices."</data>
+  <data key="d2">chunk-4d97bc3683448b6e4d82bae125b43d78</data>
+</node>
+<node id="&quot;国际财务报告准则基金会&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"International Financial Reporting Standards Foundation, the organization responsible for issuing IFRS standards."</data>
+  <data key="d2">chunk-4d97bc3683448b6e4d82bae125b43d78</data>
+</node>
+<node id="&quot;公允价值&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"公允价值 represents the price at which an asset could be bought or sold in an orderly transaction between market participants at the measurement date."</data>
+  <data key="d2">chunk-4d97bc3683448b6e4d82bae125b43d78</data>
+</node>
+<node id="&quot;会计处理&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Accounting treatment involves the methods and procedures used to record and report transactions and events."&lt;SEP&gt;"会计处理 involves the methods and procedures used to record and report transactions and events."</data>
+  <data key="d2">chunk-4d97bc3683448b6e4d82bae125b43d78</data>
+</node>
+<node id="中国平安保险（集团）股份有限公司">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">中国平安保险（集团）股份有限公司是一家大型综合金融企业，负责编制和变更其财务报表格式。&lt;SEP&gt;中国平安保险（集团）股份有限公司是中国领先的大型综合金融企业，负责编制和变更其财务报表格式。</data>
+  <data key="d2">chunk-0c564a2a20720433d052b5c9a32530aa</data>
+</node>
+<node id="&quot;员工股票计划&quot;">
+  <data key="d2">chunk-b3752490079ac682c349965caeb2e165</data>
+  <data key="d1">"康菲石油公司通过实施员工股票计划来激励其员工，这表明公司重视员工的长期贡献并希望通过这种方式留住人才。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;康菲石油公司&quot;">
+  <data key="d2">chunk-b3752490079ac682c349965caeb2e165</data>
+  <data key="d1">"康菲石油公司通过实施员工股票计划来激励其员工，这表明公司重视员工的长期贡献并希望通过这种方式留住人才。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;2014年员工股票计划&quot;">
+  <data key="d2">chunk-03c183737e9aec134adc8ccbc37c7876&lt;SEP&gt;chunk-b3752490079ac682c349965caeb2e165</data>
+  <data key="d1">"2014年员工股票计划是苹果公司在当年推出的一项激励措施，旨在通过股权分配来提升员工士气和忠诚度。"&lt;SEP&gt;"康菲石油公司通过实施员工股票计划来激励其员工，这表明公司重视员工的长期贡献并希望通过这种方式留住人才。"</data>
+  <data key="d0">"EVENT"</data>
+</node>
+<node id="&quot;风风险提示&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"这是一个警示性声明，可能包含前瞻性陈述，即对未来事件的预测或期望，这些陈述受到多种因素的影响，可能不会准确实现。"</data>
+  <data key="d2">chunk-52cbf059d5acc4d73dd07675528166be</data>
+</node>
+<node id="&quot;前瞻性陈述&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"前瞻性陈述指的是对未来情况的预测或期望，这些陈述通常基于某些假设，并且可能会因各种因素而变化。"</data>
+  <data key="d2">chunk-52cbf059d5acc4d73dd07675528166be</data>
+</node>
+<node id="&quot;苹果&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Apple Inc., a multinational technology company based in California, USA."&lt;SEP&gt;"Apple Inc., a multinational technology company based in Cupertino, California, disclosed its 2022 operating lease fixed payments totaling $19 billion."&lt;SEP&gt;"Apple is a multinational technology company that released its 2020 fiscal year fourth quarter financial results, showcasing a revenue of $53.83 billion, marking a 11% increase compared to the previous year."|&gt;&lt;SEP&gt;"Apple, a multinational technology company, reported its 2020 fiscal year fourth quarter financial results, showcasing a revenue of $53.83 billion, marking a 11% increase compared to the previous year."|&gt;&lt;SEP&gt;"Apple is a multinational technology company known for its innovative products such as iPhones, iPads, Macs, and Apple Watches."&lt;SEP&gt;"苹果是一家科技公司，在2022年9月24日其公允价值经历了最大单日10亿美元的损失。"&lt;SEP&gt;"苹果是一家全球知名的科技公司，专注于开发和销售各种产品和服务，包括iPhone、iPad、Mac等。"</data>
+  <data key="d2">chunk-631bae7ed15878233ddb1c327962d1a2&lt;SEP&gt;chunk-2b0f78be555987fda9dc57413db7afe7&lt;SEP&gt;chunk-28371072458184747123d9250c8bde1d&lt;SEP&gt;chunk-0b4e463559166ec2636c9ea4ac1c144c&lt;SEP&gt;chunk-bd02a4ccf77cf7271c6da27f0688a7dd&lt;SEP&gt;chunk-7767d73ec8af0db26b50f30e495eadbc</data>
+</node>
+<node id="&quot;IPHONE&quot;">
+  <data key="d0">"PRODUCT"</data>
+  <data key="d1">"iPhone是苹果公司推出的一系列产品之一，基于其自主研发的操作系统iOS。"&lt;SEP&gt;"iPhone是苹果公司旗下的一款智能手机系列，该财报主要关注iPhone的销售情况。"</data>
+  <data key="d2">chunk-7d9a30007866c19af34c2e7e23e32fd7&lt;SEP&gt;chunk-eb092f1b43f8b2a25a6e768d17274085</data>
+</node>
+<node id="&quot;IOS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"iOS是苹果公司开发的操作系统，用于驱动iPhone等设备，支持各种应用程序和服务。"</data>
+  <data key="d2">chunk-eb092f1b43f8b2a25a6e768d17274085</data>
+</node>
+<node id="&quot;业务概览&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"业务概览提供了一个关于苹果公司的综合概述。"</data>
+  <data key="d2">chunk-710237266adb4b6c4ea0eee9eedc898f</data>
+</node>
+<node id="&quot;APPLECARE&quot;">
+  <data key="d0">"SERVICE"</data>
+  <data key="d1">"AppleCare is a service provided by Apple, offering support and assistance to users of Apple products."</data>
+  <data key="d2">chunk-967058139a5d8e4af253a633571f46b1</data>
+</node>
+<node id="&quot;云服务&quot;">
+  <data key="d0">"SERVICE"</data>
+  <data key="d1">"云服务 refers to cloud-based services offered by Apple, allowing users to access and use services via the internet."</data>
+  <data key="d2">chunk-967058139a5d8e4af253a633571f46b1</data>
+</node>
+<node id="诺基亚">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">诺基亚是全球知名的手机制造商，在市场和服务领域面临激烈的竞争压力。</data>
+  <data key="d2">chunk-4f8176d36153e55127e7fc03b4eaad9f</data>
+</node>
+<node id="GOOGLE">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Google is an American multinational technology company specializing in Internet-related services and products, including search, software, and hardware.&lt;SEP&gt;Google, a subsidiary of Alphabet Inc., and part of the broader financial report.</data>
+  <data key="d2">chunk-c41fcb21f22d2f258f9bc690ef491a2f&lt;SEP&gt;chunk-4f8176d36153e55127e7fc03b4eaad9f</data>
+</node>
+<node id="NEST LABS">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Nest Labs specializes in home automation technologies and was acquired by Google for $3.2 billion.</data>
+  <data key="d2">chunk-4f8176d36153e55127e7fc03b4eaad9f</data>
+</node>
+<node id="CALIFORNIA">
+  <data key="d0">LOCATION</data>
+  <data key="d1">California is a state located on the West Coast of the United States.</data>
+  <data key="d2">chunk-4f8176d36153e55127e7fc03b4eaad9f</data>
+</node>
+<node id="MOUNTAINS">
+  <data key="d0">LOCATION</data>
+  <data key="d1">Mountains is used as a generic term for geographical features, often referring to mountain ranges.</data>
+  <data key="d2">chunk-4f8176d36153e55127e7fc03b4eaad9f</data>
+</node>
+<node id="&quot;蒂姆·库克&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"蒂姆·库克是苹果公司的CEO兼CFO，负责公司管理和财务事务。"</data>
+  <data key="d2">chunk-227b1a00a8b2ac8c9860450f71780803</data>
+</node>
+<node id="&quot;MANY ENTITIES WERE MISSED IN THE LAST EXTRACTION.&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Many entities were overlooked in a previous extraction."|</data>
+  <data key="d2">chunk-227b1a00a8b2ac8c9860450f71780803</data>
+</node>
+<node id="&quot;SEC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"SEC is a federal agency in the United States responsible for regulating securities markets and protecting investors."&lt;SEP&gt;"SEC是美国证券交易委员会，负责监管上市公司的财务报告，苹果公司获得了SEC的无异议函，意味着其财务报告没有问题。"</data>
+  <data key="d2">chunk-297ad43f3fd463c0b551bea73376a271</data>
+</node>
+<node id="&quot;2022财年&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2022财年 refers to the financial year of Apple Inc., which typically runs from July 1, 2021, to June 30, 2022."&lt;SEP&gt;"2022财年指的是苹果公司财务年度的结束时间，这一年度财报通过了SEC的审核。"&lt;SEP&gt;"2022财年指的是苹果公司在2022年的财务年度。"&lt;SEP&gt;"2022财年指的是苹果公司2022年度的会计年度，期间发布了该财年的第四季度财报。"&lt;SEP&gt;"2022财年指的是苹果公司2021年7月1日至2022年6月30日期间的财政年度。"</data>
+  <data key="d2">chunk-2bccb92c2bc5704d4bf88347324b058a&lt;SEP&gt;chunk-297ad43f3fd463c0b551bea73376a271&lt;SEP&gt;chunk-130fa14e1b8d87eff4c41345d307326b&lt;SEP&gt;chunk-aad2073b61b36a064e2a0014764016c8</data>
+</node>
+<node id="&quot;APPLE INC.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Apple Inc. is a major technology company known for its innovative products and services, including iPhones, Macs, iPads, and Apple Watches."&lt;SEP&gt;"Apple Inc. is a multinational technology company headquartered in Cupertino, California, known for its products such as iPhones, Mac computers, iPads, and Apple Watches."&lt;SEP&gt;"Apple Inc. refers to the company that issued the annual report and the certification statement."</data>
+  <data key="d2">chunk-297ad43f3fd463c0b551bea73376a271&lt;SEP&gt;chunk-669048ef8b3540e9fbd164669005cb23&lt;SEP&gt;chunk-1e42d0429e7dd0ef9244bdd7fcde36c9</data>
+</node>
+<node id="&quot;无异议函&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"无异议函 means 'no objection letter' or 'unobjectionable letter,' indicating that Apple Inc.'s financial report met regulatory standards without any objections."</data>
+  <data key="d2">chunk-297ad43f3fd463c0b551bea73376a271</data>
+</node>
+<node id="&quot;该公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"该公司是被频繁恶意攻击和未经授权访问系统企图所困扰的组织。"</data>
+  <data key="d2">chunk-e06a499801bc0fe37bbe847fe3a0aa34</data>
+</node>
+<node id="&quot;恶意攻击&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"恶意攻击指的是公司面临的恶意攻击行为。"</data>
+  <data key="d2">chunk-e06a499801bc0fe37bbe847fe3a0aa34</data>
+</node>
+<node id="&quot;未经授权访问系统企图&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"未经授权访问系统企图指的是未经授权访问公司系统的行为。"</data>
+  <data key="d2">chunk-e06a499801bc0fe37bbe847fe3a0aa34</data>
+</node>
+<node id="&quot;美国证监会&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"美国证监会是负责监管财务报告的机构。"&lt;SEP&gt;"美国证监会是负责监管财务报告的机构，对甲骨文公司的年报进行了审查。"</data>
+  <data key="d2">chunk-ff5a1eea369b6bda45fac66fe2b1804d</data>
+</node>
+<node id="&quot;甲骨文公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"甲骨文公司是一家知名的科技公司，其年报受到监管机构的关注。"</data>
+  <data key="d2">chunk-ff5a1eea369b6bda45fac66fe2b1804d</data>
+</node>
+<node id="&quot;2019年年报&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2019年年报是指甲骨文公司在2019年的财务报告，被证监会审查的一部分。"</data>
+  <data key="d2">chunk-ff5a1eea369b6bda45fac66fe2b1804d</data>
+</node>
+<node id="&quot;阿里巴巴&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"阿里巴巴 is a Chinese e-commerce company."&lt;SEP&gt;"阿里巴巴是一家中国电子商务公司，其新业务策略和潜在的收购活动可能会影响其现有的主营业务。"&lt;SEP&gt;"阿里巴巴是一家中国知名的电子商务公司，近期宣布将回购价值最高达200亿美元的股票。"</data>
+  <data key="d2">chunk-821387a0961a571c96db887becb29a05&lt;SEP&gt;chunk-1af4720a80640e8dd0dc788cedae9d51</data>
+</node>
+<node id="&quot;新业务策略&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"New Business Strategy refers to the strategic planning adopted by Alibaba for expanding its business areas."&lt;SEP&gt;"新业务策略指的是阿里巴巴在扩展业务领域时所采取的战略规划。"</data>
+  <data key="d2">chunk-1af4720a80640e8dd0dc788cedae9d51</data>
+</node>
+<node id="&quot;收购&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Acquisition means Alibaba's behavior of buying other companies to expand its business scale."&lt;SEP&gt;"收购指的是阿里巴巴通过购买其他企业来扩大其业务规模的行为。"</data>
+  <data key="d2">chunk-1af4720a80640e8dd0dc788cedae9d51</data>
+</node>
+<node id="&quot;Q4&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Q4指的是第四季度，苹果公司在这一季度发布了财报。"</data>
+  <data key="d2">chunk-baec5348966510ab83c89e92d9ab0172</data>
+</node>
+<node id="&quot;净销售额&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"净销售额代表苹果公司在特定时间段内的销售收入总额，这里指的是一季度的净销售额增长了8%。"</data>
+  <data key="d2">chunk-baec5348966510ab83c89e92d9ab0172</data>
+</node>
+<node id="&quot;394亿美元&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"394亿美元表示苹果公司在Q4的净销售额达到了这个数字。"</data>
+  <data key="d2">chunk-baec5348966510ab83c89e92d9ab0172</data>
+</node>
+<node id="&quot;Q4财报&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Q4指的是第四季度，苹果公司在这一季度发布了财报。"</data>
+  <data key="d2">chunk-baec5348966510ab83c89e92d9ab0172</data>
+</node>
+<node id="&quot;百威英博&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"百威英博是一家国际知名的啤酒公司，其运营受到新冠肺炎疫情的影响，财务表现不确定。"</data>
+  <data key="d2">chunk-dcf09d6018f6084613575cda07ececc3</data>
+</node>
+<node id="&quot;新冠肺炎疫情&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"新冠肺炎疫情是指由新冠病毒引起的全球性公共卫生事件，对全球经济产生了深远影响。"</data>
+  <data key="d2">chunk-dcf09d6018f6084613575cda07ececc3</data>
+</node>
+<node id="&quot;公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Company is the subject of the 2019 Annual Report, summarizing its financial performance and operations."&lt;SEP&gt;"公司在此处特指百威英博，指的是百威英博在运营中的物理场所。"&lt;SEP&gt;"公司是指进行商业活动的企业或组织，此处指代发布年度报告的企业。"&lt;SEP&gt;"Company represents an organization or business entity that needs to prepare and submit an annual report for auditing purposes."&lt;SEP&gt;"Company represents an organization or business entity that needs to prepare and submit an audit report for financial review."&lt;SEP&gt;"公司指的是一个组织机构，负责开发或获得解决方案。"</data>
+  <data key="d2">chunk-de105c7a6214d68dd2ed213760fcc64b&lt;SEP&gt;chunk-e4d5317abb7eca89461152d9224dc631&lt;SEP&gt;chunk-3fbaa9ea748a5a40b9b388d07a044568&lt;SEP&gt;chunk-dcf09d6018f6084613575cda07ececc3</data>
+</node>
+<node id="&quot;运营&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"运营指的是公司日常的商业活动和管理过程，受新冠肺炎疫情影响而产生不确定性。"&lt;SEP&gt;"运营指的是组织或团体的日常管理和运作过程。"</data>
+  <data key="d2">chunk-417e67087d8c9509ac1254d320d55c82&lt;SEP&gt;chunk-dcf09d6018f6084613575cda07ececc3</data>
+</node>
+<node id="&quot;财务表现&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"财务表现指的是公司在特定时期内的经济状况和盈利能力，因新冠肺炎疫情而变得不确定。"</data>
+  <data key="d2">chunk-dcf09d6018f6084613575cda07ececc3</data>
+</node>
+<node id="&quot;MANY ENTITIES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Many entities refer to multiple items or concepts."&lt;SEP&gt;"Many entities refers to multiple items or things."&lt;SEP&gt;"This phrase indicates that multiple specific entities (e.g., companies, people, locations, etc.) were missed in the previous extraction."</data>
+  <data key="d2">chunk-bd02a4ccf77cf7271c6da27f0688a7dd&lt;SEP&gt;chunk-3fbaa9ea748a5a40b9b388d07a044568&lt;SEP&gt;chunk-dcf09d6018f6084613575cda07ececc3</data>
+</node>
+<node id="&quot;LAST EXTRACTION&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The last extraction is the previous step or phase in the process, which was not fully captured in the current context."&lt;SEP&gt;"This refers to the previous extraction process."&lt;SEP&gt;"last extraction refers to a previous process of extracting information."&lt;SEP&gt;"the previous extraction process is mentioned."&lt;SEP&gt;"last extraction refers to the previous process or analysis."</data>
+  <data key="d2">chunk-753dfd92605ca46b4766304a3af81c27&lt;SEP&gt;chunk-d3cd291c0ffde694fcf387bf616b96a3&lt;SEP&gt;chunk-70656e556378e88df90db77f56527675&lt;SEP&gt;chunk-3fbaa9ea748a5a40b9b388d07a044568&lt;SEP&gt;chunk-dcf09d6018f6084613575cda07ececc3</data>
+</node>
+<node id="&quot;ENTITIES&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Entities are the individual items or units within a larger collection or system."&lt;SEP&gt;"Entities are the plural form of 'entity', indicating multiple items or concepts."&lt;SEP&gt;"Entities refer to various items or concepts that were overlooked in the previous extraction."&lt;SEP&gt;"Entities is used as a general term for multiple items, such as 'entities' in this context."&lt;SEP&gt;"entities refer to multiple things or objects."&lt;SEP&gt;"Entities refer to various items or concepts that were not identified in the previous extraction."&lt;SEP&gt;"These are the main entities that were missed."&lt;SEP&gt;"Entities are the subject of the text, indicating the focus is on identifying multiple items or concepts."&lt;SEP&gt;"entities are the main focus of the discussion."&lt;SEP&gt;"Entities refer to the specific items or concepts discussed within the text."&lt;SEP&gt;"entities are mentioned in the context of a plural noun or concept."</data>
+  <data key="d2">chunk-753dfd92605ca46b4766304a3af81c27&lt;SEP&gt;chunk-631bae7ed15878233ddb1c327962d1a2&lt;SEP&gt;chunk-adc750f2993d50636edda775d65743ea&lt;SEP&gt;chunk-57b964f148d0deb36b07a51e073271dc&lt;SEP&gt;chunk-58880bd0c63e8e341d56c4d57d6debab&lt;SEP&gt;chunk-d3cd291c0ffde694fcf387bf616b96a3&lt;SEP&gt;chunk-5eff067de295370871acd1bc868c346e&lt;SEP&gt;chunk-a2b9d1fc6da0ca8d007d589d9578b086&lt;SEP&gt;chunk-4ee1b92455862c89dab515c62d0a4163&lt;SEP&gt;chunk-70656e556378e88df90db77f56527675&lt;SEP&gt;chunk-b8f5cc0fe341232c54e131b226164a52</data>
+</node>
+<node id="&quot;LAST&quot;">
+  <data key="d0">"ADJECTIVE"</data>
+  <data key="d1">"Last indicates the previous extraction phase that missed certain entities."&lt;SEP&gt;"Last suggests the most recent or concluding phase or action."&lt;SEP&gt;"The adjective 'last' implies that this is the most recent or prior occurrence."&lt;SEP&gt;"The term 'last' suggests the most recent instance or occurrence."&lt;SEP&gt;"The word 'last' describes the previous extraction."&lt;SEP&gt;"last is an adjective and does not represent a distinct entity."</data>
+  <data key="d2">chunk-57b964f148d0deb36b07a51e073271dc&lt;SEP&gt;chunk-631bae7ed15878233ddb1c327962d1a2&lt;SEP&gt;chunk-58880bd0c63e8e341d56c4d57d6debab&lt;SEP&gt;chunk-5eff067de295370871acd1bc868c346e&lt;SEP&gt;chunk-4ee1b92455862c89dab515c62d0a4163&lt;SEP&gt;chunk-b8f5cc0fe341232c54e131b226164a52</data>
+</node>
+<node id="&quot;EXTRACTION&quot;">
+  <data key="d0">"NOUN"</data>
+  <data key="d1">"An event refers to a specific occurrence or process, here referring to the previous identification of entities."&lt;SEP&gt;"Extraction implies the process of identifying and extracting specific information or data."&lt;SEP&gt;"Extraction is the process of identifying and categorizing entities within a text."&lt;SEP&gt;"Extraction refers to the process of identifying and extracting specific information or entities."&lt;SEP&gt;"Extraction refers to the process of identifying and extracting specific information or details."&lt;SEP&gt;"extraction is a misspelling or typo, likely meant to be 'extraction.'"</data>
+  <data key="d2">chunk-57b964f148d0deb36b07a51e073271dc&lt;SEP&gt;chunk-631bae7ed15878233ddb1c327962d1a2&lt;SEP&gt;chunk-58880bd0c63e8e341d56c4d57d6debab&lt;SEP&gt;chunk-5eff067de295370871acd1bc868c346e&lt;SEP&gt;chunk-4ee1b92455862c89dab515c62d0a4163&lt;SEP&gt;chunk-b8f5cc0fe341232c54e131b226164a52</data>
+</node>
+<node id="&quot;ADD&quot;">
+  <data key="d0">"VERB"</data>
+  <data key="d1">"Add implies the inclusion of new entities in the current extraction process."&lt;SEP&gt;"Add is an action verb indicating inclusion or incorporation."&lt;SEP&gt;"The verb 'add' suggests including additional entities."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163&lt;SEP&gt;chunk-a2b9d1fc6da0ca8d007d589d9578b086&lt;SEP&gt;chunk-631bae7ed15878233ddb1c327962d1a2</data>
+</node>
+<node id="&quot;NOW&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Now refers to the present time, indicating the start of adding new entities."</data>
+  <data key="d2">chunk-631bae7ed15878233ddb1c327962d1a2</data>
+</node>
+<node id="&quot;PREVIOUS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Previous suggests the entities identified in the earlier extraction phase."</data>
+  <data key="d2">chunk-631bae7ed15878233ddb1c327962d1a2</data>
+</node>
+<node id="&quot;美国运通&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"美国运通 (American Express) 是一家知名的国际金融服务公司，常涉及可能产生的索赔问题。"</data>
+  <data key="d2">chunk-cbb618fa7d6d6583388711549d8a6964</data>
+</node>
+<node id="&quot;2022年运营租赁固定付款&quot;">
+  <data key="d2">chunk-631bae7ed15878233ddb1c327962d1a2</data>
+  <data key="d1">"Apple Inc. disclosed its 2022 operating lease fixed payments, providing financial information about its business operations."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;可能产生的索赔&quot;">
+  <data key="d2">chunk-cbb618fa7d6d6583388711549d8a6964</data>
+  <data key="d1">"美国运通可能因业务活动而面临索赔的风险，这涉及到其服务范围内的潜在纠纷和争议。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;摩根大通&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Morgan Stanley, an American multinational investment bank and financial services company."|&gt;</data>
+  <data key="d2">chunk-e9b9eb4f4612e10549db2787f563c0ae</data>
+</node>
+<node id="&quot;自然灾害&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"苹果公司可能遭遇自然灾害的风险，需要采取相应的预防和应对措施。"</data>
+  <data key="d2">chunk-db7c6e198ea142a0fe533b9a8306326e</data>
+</node>
+<node id="&quot;恐怖袭击&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"苹果公司面临恐怖袭击的风险，需加强安全措施和应急预案。"</data>
+  <data key="d2">chunk-db7c6e198ea142a0fe533b9a8306326e</data>
+</node>
+<node id="&quot;敌对行为&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"苹果公司可能受到敌对行为的影响，需要提高警惕并制定应对策略。"</data>
+  <data key="d2">chunk-db7c6e198ea142a0fe533b9a8306326e</data>
+</node>
+<node id="&quot;网络安全攻击&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"苹果公司可能会遭受网络安全攻击，需要强化网络安全防护措施。"</data>
+  <data key="d2">chunk-db7c6e198ea142a0fe533b9a8306326e</data>
+</node>
+<node id="&quot;劳资纠纷&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"苹果公司可能面临劳资纠纷，需要通过协商和法律途径解决冲突。"</data>
+  <data key="d2">chunk-db7c6e198ea142a0fe533b9a8306326e</data>
+</node>
+<node id="&quot;公共卫生问题&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"苹果公司可能遭遇公共卫生问题，需要关注员工健康并采取相应措施。"</data>
+  <data key="d2">chunk-db7c6e198ea142a0fe533b9a8306326e</data>
+</node>
+<node id="&quot;美国财政部&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"美国财政部发布声明，涉及多笔不同期限和利率的票据。"&lt;SEP&gt;"美国财政部是提交关于2025年到期的美国国债提案的机构。"</data>
+  <data key="d2">chunk-1f8a9f813e1d8abc6b60f374ef8e3bea&lt;SEP&gt;chunk-f760a927471d308dad95865b668b7932</data>
+</node>
+<node id="&quot;美国参议院&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"美国参议院是接收并审议美国财政部关于2025年到期的美国国债提案的机构。"</data>
+  <data key="d2">chunk-1f8a9f813e1d8abc6b60f374ef8e3bea</data>
+</node>
+<node id="&quot;美国国债&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"美国国债是指由美国政府发行的债务工具，用于筹集资金。"</data>
+  <data key="d2">chunk-1f8a9f813e1d8abc6b60f374ef8e3bea</data>
+</node>
+<node id="&quot;TREASURY DEPARTMENT OF THE UNITED STATES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Treasury Department of the United States is the governmental body responsible for managing the country's finances, including issuing and managing Treasury Bonds."|</data>
+  <data key="d2">chunk-1f8a9f813e1d8abc6b60f374ef8e3bea</data>
+</node>
+<node id="&quot;APP STORE&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"App Store是苹果公司提供的一款应用程序商店，用于销售和分发各种应用程序。"</data>
+  <data key="d2">chunk-fcf98960fcae5d4198639cf48dee9147</data>
+</node>
+<node id="&quot;监管&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"监管指的是对App Store的运营进行审查和管理，确保其符合相关法律法规。"</data>
+  <data key="d2">chunk-fcf98960fcae5d4198639cf48dee9147</data>
+</node>
+<node id="&quot;调查&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"调查是指对App Store的操作和管理进行深入检查，以评估其合规性和效率。"</data>
+  <data key="d2">chunk-fcf98960fcae5d4198639cf48dee9147</data>
+</node>
+<node id="&quot;UNITED STATES SENATE&quot;">
+  <data key="d2">chunk-1f8a9f813e1d8abc6b60f374ef8e3bea</data>
+  <data key="d1">"The Treasury Department of the United States submitted a proposal to the United States Senate regarding US Treasury Bonds maturing in 2025."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="ALPHABET INC.">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Alphabet Inc., also known as Google parent company, released its third-quarter financial report.</data>
+  <data key="d2">chunk-c41fcb21f22d2f258f9bc690ef491a2f</data>
+</node>
+<node id="ALIBABA CLOUD">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Alibaba Cloud is the primary subject discussed in the text.</data>
+  <data key="d2">chunk-c41fcb21f22d2f258f9bc690ef491a2f</data>
+</node>
+<node id="QWEN">
+  <data key="d0">PERSON</data>
+  <data key="d1">Qwen is mentioned as the assistant providing the response.</data>
+  <data key="d2">chunk-c41fcb21f22d2f258f9bc690ef491a2f</data>
+</node>
+<node id="MANY ENTITIES">
+  <data key="d0">ORGANIZATION,PERSON,LOCATION,EVENT</data>
+  <data key="d1">The phrase "many entities" is used to refer to various types of subjects in the text.</data>
+  <data key="d2">chunk-c41fcb21f22d2f258f9bc690ef491a2f</data>
+</node>
+<node id="PREVIOUS EXTRACTION">
+  <data key="d0">ORGANIZATION,PERSON,EVENT</data>
+  <data key="d1">Refers to the entities previously identified and described.</data>
+  <data key="d2">chunk-c41fcb21f22d2f258f9bc690ef491a2f</data>
+</node>
+<node id="FINANCIAL REPORT">
+  <data key="d0">EVENT</data>
+  <data key="d1">Financial Report refers to the financial report context in the text.</data>
+  <data key="d2">chunk-c41fcb21f22d2f258f9bc690ef491a2f</data>
+</node>
+<node id="&quot;产品发货&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"产品发货是一个事件，通常在产品交付给客户时发生。"</data>
+  <data key="d2">chunk-b36372882b766592caad54cc2ba0df50</data>
+</node>
+<node id="&quot;产品&quot;">
+  <data key="d0">"PRODUCT"</data>
+  <data key="d1">"产品指的是被发送出去的商品或服务。"&lt;SEP&gt;"产品是业务风险关注的对象之一，可能面临各种风险。"</data>
+  <data key="d2">chunk-52456b2aaec40ae69d3f535de9b13192&lt;SEP&gt;chunk-b36372882b766592caad54cc2ba0df50</data>
+</node>
+<node id="&quot;客户&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"客户是接收产品发货的人。"</data>
+  <data key="d2">chunk-b36372882b766592caad54cc2ba0df50</data>
+</node>
+<node id="捆绑服务">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">"捆绑服务指的是苹果公司产品和服务中包含的额外服务，通常需要同时购买或订阅。"</data>
+  <data key="d2">chunk-f8673aa1c7d6a3c586174880c92a6067</data>
+</node>
+<node id="软件升级权利">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">"软件升级权利指的是用户在购买了苹果公司的软件产品后，享有免费更新到最新版本的权利。"</data>
+  <data key="d2">chunk-f8673aa1c7d6a3c586174880c92a6067</data>
+</node>
+<node id="&quot;2022 10-K 表格&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2022 10-K 表格 is a financial document filed by Apple Inc. with the U.S. Securities and Exchange Commission, providing detailed information about the company's financial performance and business operations."</data>
+  <data key="d2">chunk-669048ef8b3540e9fbd164669005cb23</data>
+</node>
+<node id="&quot;38&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"This is a placeholder for any locations mentioned in the text, but no specific location was provided in the input."</data>
+  <data key="d2">chunk-669048ef8b3540e9fbd164669005cb23</data>
+</node>
+<node id="&quot;ALPHABET INC.&quot;">
+  <data key="d2">chunk-c41fcb21f22d2f258f9bc690ef491a2f</data>
+  <data key="d1">"Alphabet Inc. released a financial report that includes information about its subsidiary, Google."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;GOOGLE&quot;">
+  <data key="d2">chunk-c41fcb21f22d2f258f9bc690ef491a2f</data>
+  <data key="d1">"Alphabet Inc. released a financial report that includes information about its subsidiary, Google."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;ALIBABA CLOUD&quot;">
+  <data key="d2">chunk-c41fcb21f22d2f258f9bc690ef491a2f</data>
+  <data key="d1">"Alibaba Cloud is the main subject, and Qwen provides the response."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;QWEN&quot;">
+  <data key="d2">chunk-c41fcb21f22d2f258f9bc690ef491a2f</data>
+  <data key="d1">"Alibaba Cloud is the main subject, and Qwen provides the response."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;PREVIOUS EXTRACTION&quot;">
+  <data key="d2">chunk-c41fcb21f22d2f258f9bc690ef491a2f</data>
+  <data key="d1">"The phrase 'many entities' refers to both the current entities and those previously extracted."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;EPIC GAMES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Epic Games is a company that has filed a lawsuit against itself."</data>
+  <data key="d2">chunk-b8f5cc0fe341232c54e131b226164a52</data>
+</node>
+<node id="&quot;中矿资源集团股份有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"中矿资源集团股份有限公司是一家中国矿业公司，专注于提供金属矿产资源解决方案。"</data>
+  <data key="d2">chunk-8e1507a78681047fac398ea8289fe010</data>
+</node>
+<node id="&quot;2022年度报告问询函&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"问询函是对中矿资源集团股份有限公司2022年度报告的审查和质询。"</data>
+  <data key="d2">chunk-8e1507a78681047fac398ea8289fe010</data>
+</node>
+<node id="&quot;2022年10-K年报&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2022年10-K年报是一份年度报告，记录了苹果公司在2022年的财务业绩和运营活动。"</data>
+  <data key="d2">chunk-1f6aac905530059b79f43b1c7fea3e0c</data>
+</node>
+<node id="&quot;2022年&quot;">
+  <data key="d0">"YEAR"</data>
+  <data key="d1">"2022年 refers to the year 2022, marking a specific time period in the annual calendar."&lt;SEP&gt;"2022年是苹果公司发布年报的时间点。"</data>
+  <data key="d2">chunk-1f6aac905530059b79f43b1c7fea3e0c&lt;SEP&gt;chunk-70656e556378e88df90db77f56527675</data>
+</node>
+<node id="&quot;10-K年报&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"10-K年报是一份重要的年度报告，记录了苹果公司的财务业绩和运营活动。"</data>
+  <data key="d2">chunk-1f6aac905530059b79f43b1c7fea3e0c</data>
+</node>
+<node id="&quot;财务状况&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"财务状况是指公司的财务健康状况和盈利情况。"</data>
+  <data key="d2">chunk-1f6aac905530059b79f43b1c7fea3e0c</data>
+</node>
+<node id="&quot;运营情况&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"运营情况指公司在日常运营中的表现和效率。"</data>
+  <data key="d2">chunk-1f6aac905530059b79f43b1c7fea3e0c</data>
+</node>
+<node id="&quot;可持续发展&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"可持续发展强调在满足当前需求的同时不损害未来世代满足其需求的能力。"</data>
+  <data key="d2">chunk-1f6aac905530059b79f43b1c7fea3e0c</data>
+</node>
+<node id="&quot;法律诉讼&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"法律诉讼通常涉及公司面临的法律挑战或纠纷。"</data>
+  <data key="d2">chunk-1f6aac905530059b79f43b1c7fea3e0c</data>
+</node>
+<node id="&quot;LUCA MAESTRI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Luca Maestri is a person associated with the annual report of Apple Inc., specifically as a signatory for the certification statement."&lt;SEP&gt;"Luca Maestri is a person mentioned in the context of an annual report certification statement."&lt;SEP&gt;"Luca Maestri is a person mentioned in the context of the annual report certification statement."&lt;SEP&gt;"Luca Maestri is a person."|</data>
+  <data key="d2">chunk-2252fa5bed7abea1a84d43cb2e1af699&lt;SEP&gt;chunk-1e42d0429e7dd0ef9244bdd7fcde36c9</data>
+</node>
+<node id="&quot;年度报告认证声明&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"年度报告认证声明" refers to a specific event or announcement related to an annual report certification."</data>
+  <data key="d2">chunk-2252fa5bed7abea1a84d43cb2e1af699</data>
+</node>
+<node id="&quot;2029年票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2029年票据是指特定年份发行的一种金融票据。"</data>
+  <data key="d2">chunk-adc750f2993d50636edda775d65743ea</data>
+</node>
+<node id="&quot;2031年票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2031年票据指的是特定发行日期的债券发行事件。"&lt;SEP&gt;"2031年票据是指另一个特定年份发行的一种金融票据。"&lt;SEP&gt;"2031年票据是美国财政部声明中的一个具体事件。"</data>
+  <data key="d2">chunk-adc750f2993d50636edda775d65743ea&lt;SEP&gt;chunk-8aba32c641a60f679cc79d80ce48d44e&lt;SEP&gt;chunk-f760a927471d308dad95865b668b7932</data>
+</node>
+<node id="&quot;利息支付安排&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"利息支付安排指的是关于票据利息支付的具体计划或规定。"</data>
+  <data key="d2">chunk-adc750f2993d50636edda775d65743ea</data>
+</node>
+<node id="&quot;WERE&quot;">
+  <data key="d0">"VERB"</data>
+  <data key="d1">"The verb 'were' indicates a past state or condition."&lt;SEP&gt;"Were is a verb used in the sentence structure without representing a specific entity."&lt;SEP&gt;"were is a past tense verb indicating past actions."&lt;SEP&gt;"The verb 'were' indicates a past state or occurrence."&lt;SEP&gt;"The verb 'were' is part of the sentence structure."&lt;SEP&gt;"were is a past tense verb and does not represent a distinct entity."</data>
+  <data key="d2">chunk-57b964f148d0deb36b07a51e073271dc&lt;SEP&gt;chunk-adc750f2993d50636edda775d65743ea&lt;SEP&gt;chunk-58880bd0c63e8e341d56c4d57d6debab&lt;SEP&gt;chunk-5eff067de295370871acd1bc868c346e&lt;SEP&gt;chunk-a2b9d1fc6da0ca8d007d589d9578b086&lt;SEP&gt;chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;MISSED&quot;">
+  <data key="d0">"VERB"</data>
+  <data key="d1">"Missed is a verb used in the sentence structure without representing a specific entity."&lt;SEP&gt;"missed is a past tense verb indicating failure to notice or include something."&lt;SEP&gt;"Missed suggests that certain entities or information were overlooked."&lt;SEP&gt;"The verb 'missed' implies failure to recognize or include certain elements."&lt;SEP&gt;"The verb 'missed' indicates that certain entities were not identified."&lt;SEP&gt;"missed is a past participle and does not represent a distinct entity."</data>
+  <data key="d2">chunk-57b964f148d0deb36b07a51e073271dc&lt;SEP&gt;chunk-adc750f2993d50636edda775d65743ea&lt;SEP&gt;chunk-58880bd0c63e8e341d56c4d57d6debab&lt;SEP&gt;chunk-5eff067de295370871acd1bc868c346e&lt;SEP&gt;chunk-a2b9d1fc6da0ca8d007d589d9578b086&lt;SEP&gt;chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;IN THE LAST EXTRACTION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"'in the last extraction' is a phrase indicating the previous processing step."&lt;SEP&gt;"last extraction refers to a previous analysis or processing step."&lt;SEP&gt;"Refers to the previous extraction process where entities were identified."</data>
+  <data key="d2">chunk-bd02a4ccf77cf7271c6da27f0688a7dd&lt;SEP&gt;chunk-adc750f2993d50636edda775d65743ea&lt;SEP&gt;chunk-a2b9d1fc6da0ca8d007d589d9578b086</data>
+</node>
+<node id="APPLE INC.">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">"Apple Inc. is a prominent technology company known for its innovation in consumer electronics, software, and services."&lt;SEP&gt;"Apple Inc. is a prominent technology company known for its innovative products such as iPhones, Macs, and iPads."</data>
+  <data key="d2">chunk-13769d45164a2933770e26b0f45477a5&lt;SEP&gt;chunk-983e7e648c19670b55d38295b3c48ae0</data>
+</node>
+<node id="&quot;2022 年 10-K 表格&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">"2022 年 10-K 表格" refers to a financial document required by U.S. Securities and Exchange Commission (SEC) for publicly traded companies, specifically detailing the financial condition and operating results of Apple Inc."</data>
+  <data key="d2">chunk-983e7e648c19670b55d38295b3c48ae0</data>
+</node>
+<node id="&quot;持有人&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"持有人是指在违约事件中承担法律责任的个人。"</data>
+  <data key="d2">chunk-5024cc83eda82fa6f3825b69871612a0</data>
+</node>
+<node id="&quot;产品系列&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"产品系列指的是苹果公司提供的各类产品集合。"</data>
+  <data key="d2">chunk-1d29f710fee778e925b2aa330380cc80</data>
+</node>
+<node id="&quot;可穿戴设备&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"可穿戴设备指的是用于个人佩戴的各种电子设备，如智能手表、手环等，它们通常具备监测健康、接收通知等功能。"</data>
+  <data key="d2">chunk-3f3daa35aecaa4b52f7cecc83e7731f3</data>
+</node>
+<node id="&quot;家庭&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"家庭是人们生活和居住的空间，这里的家庭可能特指与可穿戴设备相关的家用产品或服务。"</data>
+  <data key="d2">chunk-3f3daa35aecaa4b52f7cecc83e7731f3</data>
+</node>
+<node id="&quot;配件&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"配件通常是指与可穿戴设备配套使用的各种附件，如充电器、保护壳等。"</data>
+  <data key="d2">chunk-3f3daa35aecaa4b52f7cecc83e7731f3</data>
+</node>
+<node id="&quot;中行&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"中行 (China Exchanges) 发行了20亿美元的高级票据。"&lt;SEP&gt;"中行是中国的一家银行，其票据的未偿还本金总额在2026年为14亿欧元。"&lt;SEP&gt;"中行是一家银行组织，承诺向票据持有人支付额外金额，确保实际收到的净支付额与未扣除任何税费的情况下的支付额相同。"</data>
+  <data key="d2">chunk-62c7b8e89b75ccdd2e981b49c876c3ac&lt;SEP&gt;chunk-5eff067de295370871acd1bc868c346e&lt;SEP&gt;chunk-2158cfcdc629f53e6ab2fbb557396ed2</data>
+</node>
+<node id="&quot;2026年&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2026年指的是票据的未偿还本金总额计算的时间点。"</data>
+  <data key="d2">chunk-2158cfcdc629f53e6ab2fbb557396ed2</data>
+</node>
+<node id="&quot;未偿还本金&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"未偿还本金是指票据尚未偿还的部分金额。"</data>
+  <data key="d2">chunk-2158cfcdc629f53e6ab2fbb557396ed2</data>
+</node>
+<node id="&quot;欧元&quot;">
+  <data key="d0">"CURRENCY"</data>
+  <data key="d1">"欧元是票据未偿还本金总额的货币单位。"</data>
+  <data key="d2">chunk-2158cfcdc629f53e6ab2fbb557396ed2</data>
+</node>
+<node id="&quot;年报&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"年报是苹果公司财务年度结束时发布的年度财务报告。"</data>
+  <data key="d2">chunk-aad2073b61b36a064e2a0014764016c8</data>
+</node>
+<node id="&quot;安永华明会计师事务所&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"安永华明会计师事务所是负责审计苹果公司2019财年财务报表的专业机构。"</data>
+  <data key="d2">chunk-46ef6cfa007be9062fe431d20773929b</data>
+</node>
+<node id="&quot;2019财年&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2019财年是指苹果公司的财政年度，其财务报表被审计。"</data>
+  <data key="d2">chunk-46ef6cfa007be9062fe431d20773929b</data>
+</node>
+<node id="&quot;关键审计事项&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"关键审计事项"是一个审计术语，指的是需要特别关注的重要事项。"</data>
+  <data key="d2">chunk-bc292fb0e39df47464599aa535d4b72f</data>
+</node>
+<node id="&quot;管理层&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"管理层指公司的高层管理人员。"&lt;SEP&gt;"管理层负责评估苹果公司的税务立场并考虑各种可能的税务策略。"</data>
+  <data key="d2">chunk-58c9c69076f10a605f589d7432d59cc5</data>
+</node>
+<node id="&quot;税务立场&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"税务立场指的是在税务法规下企业如何报告和支付税款的决策。"&lt;SEP&gt;"税务立场是指公司在税务法规下如何报告和支付税款的决策。"</data>
+  <data key="d2">chunk-58c9c69076f10a605f589d7432d59cc5</data>
+</node>
+<node id="&quot;税务评估&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"管理层正在进行的税务评估旨在确定不确定的税务立场是否很可能被维持。"&lt;SEP&gt;"管理层正在进行的税务评估旨在确定不确定的税务立场是否很可能被维持及衡量各种税务立场的好处。"</data>
+  <data key="d2">chunk-58c9c69076f10a605f589d7432d59cc5</data>
+</node>
+<node id="&quot;毕马威会计师事务所&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"毕马威会计师事务所在财务报告内部控制有效性方面提供了专业意见。"</data>
+  <data key="d2">chunk-1f15edadf5cee3399381abca9ce071b8</data>
+</node>
+<node id="&quot;财务报告内部控制&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"财务报告内部控制是指确保财务报告准确无误的过程。"</data>
+  <data key="d2">chunk-1f15edadf5cee3399381abca9ce071b8</data>
+</node>
+<node id="&quot;所有重大方面&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"所有重大方面指的是内部控制评估涵盖的所有关键领域。"</data>
+  <data key="d2">chunk-1f15edadf5cee3399381abca9ce071b8</data>
+</node>
+<node id="&quot;有效&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"有效表示内部控制体系能够有效地防止重大错误的发生。"</data>
+  <data key="d2">chunk-1f15edadf5cee3399381abca9ce071b8</data>
+</node>
+<node id="&quot;2018年信托契约&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2018年信托契约"指的是一个特定年份的信托合同事件。"</data>
+  <data key="d2">chunk-a2b9d1fc6da0ca8d007d589d9578b086</data>
+</node>
+<node id="&quot;信托契约&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"信托契约是一个法律文件，用于管理资产分配和责任承担，通常涉及信托机构。"</data>
+  <data key="d2">chunk-a2b9d1fc6da0ca8d007d589d9578b086</data>
+</node>
+<node id="&quot;信托机构&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"信托机构是指提供信托服务的组织，负责管理和分配信托财产。"</data>
+  <data key="d2">chunk-a2b9d1fc6da0ca8d007d589d9578b086</data>
+</node>
+<node id="&quot;THEM&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"them refers to previously mentioned entities or things."</data>
+  <data key="d2">chunk-a2b9d1fc6da0ca8d007d589d9578b086</data>
+</node>
+<node id="&quot;BELOW&quot;">
+  <data key="d0">"PREPOSITION"</data>
+  <data key="d1">"The preposition 'below' indicates the position or context of the additional information."&lt;SEP&gt;"below is a positional indicator indicating the location in relation to the previous context."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163&lt;SEP&gt;chunk-a2b9d1fc6da0ca8d007d589d9578b086</data>
+</node>
+<node id="&quot;USING&quot;">
+  <data key="d0">"PREPOSITION"</data>
+  <data key="d1">"The preposition 'using' indicates the method of presentation."&lt;SEP&gt;"The preposition 'using' indicates the method of presenting the additional information."&lt;SEP&gt;"using is a present participle indicating the manner or method of doing something."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163&lt;SEP&gt;chunk-a2b9d1fc6da0ca8d007d589d9578b086</data>
+</node>
+<node id="&quot;THE SAME FORMAT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"the same format refers to the specific structure or pattern used in the previous context."</data>
+  <data key="d2">chunk-a2b9d1fc6da0ca8d007d589d9578b086</data>
+</node>
+<node id="&quot;票据&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"票据 is the financial instrument itself."&lt;SEP&gt;"票据是指金融工具，用于表示债权或债务。"</data>
+  <data key="d2">chunk-5f211f57bac8a7745e83693bc5d84b54&lt;SEP&gt;chunk-f760a927471d308dad95865b668b7932</data>
+</node>
+<node id="&quot;2022年票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2022年票据是美国财政部声明中的一个具体事件。"</data>
+  <data key="d2">chunk-f760a927471d308dad95865b668b7932</data>
+</node>
+<node id="&quot;2024年票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2024年票据是美国财政部声明中的一个具体事件。"</data>
+  <data key="d2">chunk-f760a927471d308dad95865b668b7932</data>
+</node>
+<node id="&quot;0.000% 2025年票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"0.000% 2025年票据是美国财政部声明中的一个具体事件。"</data>
+  <data key="d2">chunk-f760a927471d308dad95865b668b7932</data>
+</node>
+<node id="&quot;0.875% 2025年票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"0.875% 2025年票据指的是特定利率和发行日期的债券发行事件。"&lt;SEP&gt;"0.875% 2025年票据是美国财政部声明中的一个具体事件。"</data>
+  <data key="d2">chunk-f760a927471d308dad95865b668b7932&lt;SEP&gt;chunk-8aba32c641a60f679cc79d80ce48d44e</data>
+</node>
+<node id="&quot;2026年票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2026年票据是美国财政部声明中的一个具体事件。"</data>
+  <data key="d2">chunk-f760a927471d308dad95865b668b7932</data>
+</node>
+<node id="&quot;2027年票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2027年票据是一个时间相关的事件，涉及利率。"&lt;SEP&gt;"2027年票据是美国财政部声明中的一个具体事件。"</data>
+  <data key="d2">chunk-214d0226c64701090f5504d232345c84&lt;SEP&gt;chunk-f760a927471d308dad95865b668b7932</data>
+</node>
+<node id="&quot;1.375% 2029年票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"1.375% 2029年票据指的是特定利率和发行日期的债券发行事件。"&lt;SEP&gt;"1.375% 2029年票据是美国财政部声明中的一个具体事件。"&lt;SEP&gt;"1.375% 2029年票据是一个时间相关的事件，涉及利率。"</data>
+  <data key="d2">chunk-214d0226c64701090f5504d232345c84&lt;SEP&gt;chunk-f760a927471d308dad95865b668b7932&lt;SEP&gt;chunk-8aba32c641a60f679cc79d80ce48d44e</data>
+</node>
+<node id="&quot;声明&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"声明指的是美国财政部发布的正式公告。"</data>
+  <data key="d2">chunk-f760a927471d308dad95865b668b7932</data>
+</node>
+<node id="&quot;第四季度&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"第四季度指的是2022财年中的最后三个自然月，苹果公司在这一季度发布了财报。"</data>
+  <data key="d2">chunk-130fa14e1b8d87eff4c41345d307326b</data>
+</node>
+<node id="&quot;2025年票据&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2025年票据指的是特定日期的债券发行事件。"</data>
+  <data key="d2">chunk-8aba32c641a60f679cc79d80ce48d44e</data>
+</node>
+<node id="&quot;赎回条款&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"赎回条款指的是债券持有人有权在特定条件下提前收回投资本金的规定。"</data>
+  <data key="d2">chunk-8aba32c641a60f679cc79d80ce48d44e</data>
+</node>
+<node id="&quot;年度报告&quot;">
+  <data key="d2">chunk-2edaa9e74b2ee1a4f3c21ca178fd0206&lt;SEP&gt;chunk-f7ac58c022e378c22d4858de5cdf3966</data>
+  <data key="d1">"年度报告是苹果公司每年发布的重要文件，用于展示公司过去一年的表现和未来的计划。"&lt;SEP&gt;"年度报告详细记录了苹果公司在过去一年中的各项财务指标和业务活动，为投资者提供决策参考。"</data>
+  <data key="d0">"EVENT"</data>
+</node>
+<node id="&quot;2022年第一季度季度报告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2022年第一季度季度报告 is a report detailing the financial performance of an unspecified organization during the first quarter of 2022."|&lt;SEP&gt;"The report describes the financial performance of a company during the first quarter of 2022."</data>
+  <data key="d2">chunk-9ecc09197616dd2b3c35b5cb217186d2</data>
+</node>
+<node id="&quot;ORGANIZATION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An unspecified organization is referred to, likely a company or business entity."</data>
+  <data key="d2">chunk-9ecc09197616dd2b3c35b5cb217186d2</data>
+</node>
+<node id="&quot;PERSON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"No specific person is mentioned in the text."</data>
+  <data key="d2">chunk-9ecc09197616dd2b3c35b5cb217186d2</data>
+</node>
+<node id="&quot;A COMPANY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A Company is planning to acquire a part of B Company's business."</data>
+  <data key="d2">chunk-23fdd598d6d46b38110611b3ef4c5621</data>
+</node>
+<node id="&quot;B COMPANY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"B Company is being considered as the target of an acquisition by A Company."</data>
+  <data key="d2">chunk-23fdd598d6d46b38110611b3ef4c5621</data>
+</node>
+<node id="&quot;C COMPANY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"C Company is considering the sale of its stake in D Company."</data>
+  <data key="d2">chunk-23fdd598d6d46b38110611b3ef4c5621</data>
+</node>
+<node id="&quot;D COMPANY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"D Company is the company whose stake C Company is considering selling."</data>
+  <data key="d2">chunk-23fdd598d6d46b38110611b3ef4c5621</data>
+</node>
+<node id="&quot;年报审计报告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"年报审计报告是对苹果公司在2022财年财务状况进行审核和评估的正式文件。"</data>
+  <data key="d2">chunk-2bccb92c2bc5704d4bf88347324b058a</data>
+</node>
+<node id="&quot;&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"2020年1月15日是票据发行的时间点，而2026年是票据的到期时间。"&lt;SEP&gt;"No entities found"&lt;SEP&gt;"No entities found"</data>
+  <data key="d2">chunk-5f211f57bac8a7745e83693bc5d84b54&lt;SEP&gt;chunk-dbccc569f26e043ad236798bbaf0209d&lt;SEP&gt;chunk-1be8bbf7af7de1bbecac1c69fc1b3508</data>
+</node>
+<node id="&quot;汇率风险&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"汇率风险指的是由于货币汇率的变化导致的投资价值波动."</data>
+  <data key="d2">chunk-dbccc569f26e043ad236798bbaf0209d</data>
+</node>
+<node id="&quot;2022年9月24日&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A specific date mentioned in the text."&lt;SEP&gt;"这是一个特定日期，用于标识苹果公司发布的财务年度报告的时间点。"&lt;SEP&gt;"事件发生在2022年9月24日，具体指腾讯在该日期的某个财务报告或声明。"</data>
+  <data key="d2">chunk-3ce06fb2a94afdf0e2ec33011b1612b3&lt;SEP&gt;chunk-28371072458184747123d9250c8bde1d&lt;SEP&gt;chunk-88724f722d8b7bf87c36a12e04e1bb4f</data>
+</node>
+<node id="&quot;2021年9月25日&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Another specific date mentioned in the text."</data>
+  <data key="d2">chunk-28371072458184747123d9250c8bde1d</data>
+</node>
+<node id="&quot;未偿还衍生工具名义金额&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"The outstanding notional amount of derivative financial instruments, a financial term."</data>
+  <data key="d2">chunk-28371072458184747123d9250c8bde1d</data>
+</node>
+<node id="&quot;子公司的列表&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"子公司的列表可能包含具体的苹果公司各子公司在不同地理位置上的分布情况。"&lt;SEP&gt;"子公司的列表可能包括具体的苹果公司各子公司在不同地理位置上的分布情况。"</data>
+  <data key="d2">chunk-d8f07872d49932f040093dec530fae27</data>
+</node>
+<node id="&quot;无&quot;">
+  <data key="d2">chunk-28371072458184747123d9250c8bde1d</data>
+  <data key="d1">"没有明确的关系描述."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;1.25%票据&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"1.25%票据代表利率，是金融产品的一种表现形式。"</data>
+  <data key="d2">chunk-5f211f57bac8a7745e83693bc5d84b54</data>
+</node>
+<node id="&quot;2020年1月15日&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"2020年1月15日 is the issuance date of the financial instrument."</data>
+  <data key="d2">chunk-5f211f57bac8a7745e83693bc5d84b54</data>
+</node>
+<node id="&quot;2026&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"2026 is the maturity date of the financial instrument."</data>
+  <data key="d2">chunk-5f211f57bac8a7745e83693bc5d84b54</data>
+</node>
+<node id="&quot;1.25%&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"1.25% represents the coupon rate of the financial instrument."</data>
+  <data key="d2">chunk-5f211f57bac8a7745e83693bc5d84b54</data>
+</node>
+<node id="&quot;IN&quot;">
+  <data key="d0">"PREPOSITION"</data>
+  <data key="d1">"The preposition 'in' is used to indicate a context or setting."&lt;SEP&gt;"in is a preposition and does not represent a distinct entity."</data>
+  <data key="d2">chunk-58880bd0c63e8e341d56c4d57d6debab&lt;SEP&gt;chunk-5eff067de295370871acd1bc868c346e</data>
+</node>
+<node id="&quot;THE&quot;">
+  <data key="d0">"ARTICLE"</data>
+  <data key="d1">"The article 'the' is used to specify a particular instance or situation."&lt;SEP&gt;"The article 'the' is used to specify a particular instance or type."&lt;SEP&gt;"The article 'the' is used to specify the context of the entities."&lt;SEP&gt;"The article 'the' is used to specify the document being analyzed."&lt;SEP&gt;"The article 'the' is used to specify the inclusion of entities."&lt;SEP&gt;"The article 'the' is used to specify the previously mentioned format."&lt;SEP&gt;"The article 'the' is used to specify the state of the text."&lt;SEP&gt;"the is an article and does not represent a distinct entity."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163&lt;SEP&gt;chunk-58880bd0c63e8e341d56c4d57d6debab&lt;SEP&gt;chunk-5eff067de295370871acd1bc868c346e</data>
+</node>
+<node id="&quot;百济神州&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"百济神州是一家专注于创新生物制药的公司，专注于研发和商业化癌症治疗药物。"</data>
+  <data key="d2">chunk-a71e4ceecc267b20bae59a24469aebf0</data>
+</node>
+<node id="&quot;未经审计的财务业绩&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"未经审计的财务业绩是公司公布的重要财务报告，用于评估公司的经营状况和财务健康。"</data>
+  <data key="d2">chunk-a71e4ceecc267b20bae59a24469aebf0</data>
+</node>
+<node id="&quot;中国银行&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"中国银行是发行浮动利率票据的金融机构。"&lt;SEP&gt;"中国银行是发行浮动利率票据的金融机构，体现了其金融创新和市场响应能力。"</data>
+  <data key="d2">chunk-c80d212f390ac7a4a75fb2a3f6b53a7c</data>
+</node>
+<node id="&quot;发行&quot;">
+  <data key="d2">chunk-c80d212f390ac7a4a75fb2a3f6b53a7c</data>
+  <data key="d1">"中国银行发行了2016年和2018年的浮动利率票据，显示了其在金融市场上的活跃度和灵活性."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;2016年2月23日签署的官员证书&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">"An official certificate signed on February 23, 2016, involving various debt instruments issued by Apple Inc."</data>
+  <data key="d2">chunk-13769d45164a2933770e26b0f45477a5</data>
+</node>
+<node id="&quot;浮动利率票据&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">"Floating rate notes issued by Apple Inc., which are financial instruments with interest rates that adjust periodically based on market conditions."</data>
+  <data key="d2">chunk-13769d45164a2933770e26b0f45477a5</data>
+</node>
+<node id="&quot;1.300%票据&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">"A 1.300% note issued by Apple Inc., part of a series of global debt instruments."</data>
+  <data key="d2">chunk-13769d45164a2933770e26b0f45477a5</data>
+</node>
+<node id="&quot;1.700%票据&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">"A 1.700% note issued by Apple Inc., part of a series of global debt instruments."</data>
+  <data key="d2">chunk-13769d45164a2933770e26b0f45477a5</data>
+</node>
+<node id="&quot;2.250%票据&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">"A 2.250% note issued by Apple Inc., part of a series of global debt instruments."</data>
+  <data key="d2">chunk-13769d45164a2933770e26b0f45477a5</data>
+</node>
+<node id="&quot;2.850%票据&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">"A 2.850% note issued by Apple Inc., part of a series of global debt instruments."</data>
+  <data key="d2">chunk-13769d45164a2933770e26b0f45477a5</data>
+</node>
+<node id="&quot;3.250%票据&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">"A 3.250% note issued by Apple Inc., part of a series of global debt instruments."</data>
+  <data key="d2">chunk-13769d45164a2933770e26b0f45477a5</data>
+</node>
+<node id="&quot;4.500%票据&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">"A 4.500% note issued by Apple Inc., part of a series of global debt instruments."</data>
+  <data key="d2">chunk-13769d45164a2933770e26b0f45477a5</data>
+</node>
+<node id="&quot;4.650%票据&quot;">
+  <data key="d0">EVENT</data>
+  <data key="d1">"A 4.650% note issued by Apple Inc., part of a series of global debt instruments."</data>
+  <data key="d2">chunk-13769d45164a2933770e26b0f45477a5</data>
+</node>
+<node id="&quot;#&quot;||&quot;MISSING&quot;">
+  <data key="d0">"#"||"ENTITIES"</data>
+  <data key="d1">"#"||"description"&lt;SEP&gt;"#"||"were"</data>
+  <data key="d2">chunk-62c7b8e89b75ccdd2e981b49c876c3ac</data>
+</node>
+<node id="&quot;20亿美元高级票据&quot;">
+  <data key="d2">chunk-62c7b8e89b75ccdd2e981b49c876c3ac</data>
+  <data key="d1">"中行发行了20亿美元的高级票据，这是其财务策略的一部分。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;2022年第三季度报告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The report covers the financial performance and business activities of a company during the third quarter of 2022."</data>
+  <data key="d2">chunk-70656e556378e88df90db77f56527675</data>
+</node>
+<node id="&quot;第三季度&quot;">
+  <data key="d0">"PERIOD"</data>
+  <data key="d1">"Quarterly report refers to a document detailing a company’s financial and operational status over a three-month period."&lt;SEP&gt;"第三季度特指本报告所讨论的时间段。"</data>
+  <data key="d2">chunk-fa8c84ccb57410869eeab09e7aec6813&lt;SEP&gt;chunk-70656e556378e88df90db77f56527675</data>
+</node>
+<node id="&quot;ADD THEM BELOW&quot;">
+  <data key="d0">"INSTRUCTION"</data>
+  <data key="d1">"ADD THEM BELOW indicates the instruction to add additional entities or details."&lt;SEP&gt;"Indicates adding more entities."&lt;SEP&gt;"this phrase indicates an additional step or requirement."</data>
+  <data key="d2">chunk-d3cd291c0ffde694fcf387bf616b96a3&lt;SEP&gt;chunk-753dfd92605ca46b4766304a3af81c27&lt;SEP&gt;chunk-70656e556378e88df90db77f56527675</data>
+</node>
+<node id="&quot;USING THE SAME FORMAT&quot;">
+  <data key="d0">"INSTRUCTION"</data>
+  <data key="d1">"Specifies the format to use for the output."&lt;SEP&gt;"Using the same format refers to maintaining consistency in the format used for previous identifications."&lt;SEP&gt;"this phrase specifies the format to follow."</data>
+  <data key="d2">chunk-d3cd291c0ffde694fcf387bf616b96a3&lt;SEP&gt;chunk-753dfd92605ca46b4766304a3af81c27&lt;SEP&gt;chunk-70656e556378e88df90db77f56527675</data>
+</node>
+<node id="&quot;回购股票&quot;">
+  <data key="d2">chunk-821387a0961a571c96db887becb29a05</data>
+  <data key="d1">"阿里巴巴宣布将回购价值最高达200亿美元的股票."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;衍生资产&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"衍生资产是指通过金融工具产生的风险敞口，它们的价值依赖于基础资产的表现。"</data>
+  <data key="d2">chunk-57b964f148d0deb36b07a51e073271dc</data>
+</node>
+<node id="&quot;负债的公允价值&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"负债的公允价值是衡量公司或机构未清偿债务市场价值的概念，它反映了在特定时间点上，公司或机构愿意以合理价格出售其负债的意愿。"</data>
+  <data key="d2">chunk-57b964f148d0deb36b07a51e073271dc</data>
+</node>
+<node id="&quot;未经授权访问或泄露机密信息&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Unauthorized access or disclosure of confidential information can lead to severe consequences for the company."</data>
+  <data key="d2">chunk-7767d73ec8af0db26b50f30e495eadbc</data>
+</node>
+<node id="&quot;重大声誉、财务、法律和运营后果&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Severe consequences include damage to the company's reputation, financial stability, legal standing, and operational efficiency."</data>
+  <data key="d2">chunk-7767d73ec8af0db26b50f30e495eadbc</data>
+</node>
+<node id="&quot;重大声誉&quot;">
+  <data key="d2">chunk-7767d73ec8af0db26b50f30e495eadbc</data>
+  <data key="d1">"Access or disclosure of confidential information can significantly harm the company's reputation."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;财务&quot;">
+  <data key="d2">chunk-7767d73ec8af0db26b50f30e495eadbc</data>
+  <data key="d1">"Access or disclosure of confidential information can result in financial losses for the company."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;法律&quot;">
+  <data key="d2">chunk-7767d73ec8af0db26b50f30e495eadbc</data>
+  <data key="d1">"Access or disclosure of confidential information can lead to legal disputes and penalties for the company."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;APPLE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Apple is a tech company experiencing the maximum single-day loss in its public value."|</data>
+  <data key="d2">chunk-2b0f78be555987fda9dc57413db7afe7</data>
+</node>
+<node id="&quot;2022年3月25日&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"This is the date when the registration holder's last fiscal quarter ended."|&lt;SEP&gt;"This is the specific date mentioned."|</data>
+  <data key="d2">chunk-9c7af11f5039ba7ffe19bc57dd7cfdf7</data>
+</node>
+<node id="&quot;2023财年第一季度&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2023财年第一季度指的是苹果公司财务年度的一部分，通常是指公司业绩的一个关键时间点。"</data>
+  <data key="d2">chunk-eaf34aee77c4b200777b90eaee579e1c</data>
+</node>
+<node id="&quot;注释11&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"注释11 is a concept used to refer to a specific paragraph or piece of information."*</data>
+  <data key="d2">chunk-2e0d218197f70c1a5fe15e86831c40a9</data>
+</node>
+<node id="&quot;段落信息&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"段落信息 refers to a specific piece of text within a larger document or context."*</data>
+  <data key="d2">chunk-2e0d218197f70c1a5fe15e86831c40a9</data>
+</node>
+<node id="&quot;地理数据&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"地理数据 refers to geographical information included within the document."*</data>
+  <data key="d2">chunk-2e0d218197f70c1a5fe15e86831c40a9</data>
+</node>
+<node id="&quot;发行人官员证书&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"发行人官员证书是2016年3月24日发行的一种官方文件。"&lt;SEP&gt;"发行人官员证书是一种由某个组织发行的官方文件。"</data>
+  <data key="d2">chunk-40732b369c6034161f00977f4b1e6362</data>
+</node>
+<node id="&quot;2016年3月24日&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"这是一个日期，表示发行该证书的时间。"</data>
+  <data key="d2">chunk-40732b369c6034161f00977f4b1e6362</data>
+</node>
+<node id="&quot;股票表现&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"股票表现指的是苹果公司的股价变动情况，通常用于评估其财务健康状况和市场表现。"</data>
+  <data key="d2">chunk-26df891bbea5c0b8c2b4d532ddfbb1df</data>
+</node>
+<node id="&quot;2022年9月&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A specific month in the year 2022, marking a particular date within the calendar year."</data>
+  <data key="d2">chunk-b542e08e61a881ad272c13e188fc9560</data>
+</node>
+<node id="&quot;标普500指数&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"The S&amp;P 500 Index is a stock market index representing the performance of the largest and most publicly traded companies in the United States."</data>
+  <data key="d2">chunk-b542e08e61a881ad272c13e188fc9560</data>
+</node>
+<node id="&quot;标普信息技术指数&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"The S&amp;P Technology Select Sector SPDR Fund tracks the performance of the technology sector within the S&amp;P 500 Index."</data>
+  <data key="d2">chunk-b542e08e61a881ad272c13e188fc9560</data>
+</node>
+<node id="&quot;2019年年度报告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2019年年度报告 is the 2019 Annual Report, detailing the company's financial and operational status."&lt;SEP&gt;"2019年年度报告指的是某公司的年度财务报告，通常用于总结过去一年的经营成果和财务状况。"&lt;SEP&gt;"2019年年度报告指的是特定时间点发布的年度财务报告，用于展示企业或组织在一年内的经营成果。"</data>
+  <data key="d2">chunk-4eba50cb00b3157e6b388a55a8e0b63b&lt;SEP&gt;chunk-e4d5317abb7eca89461152d9224dc631</data>
+</node>
+<node id="&quot;营业收益&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"营业收益代表了公司在2019年通过主营业务获得的收入总额。"&lt;SEP&gt;"营业收益是年度报告中的关键指标，反映了企业在一年内通过主营业务获得的收入总额。"</data>
+  <data key="d2">chunk-4eba50cb00b3157e6b388a55a8e0b63b</data>
+</node>
+<node id="&quot;2022财年Q1&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2022财年Q1指的是苹果公司的2022财年的第一季度，通常对应的是当年的1月至3月期间。"</data>
+  <data key="d2">chunk-7d9a30007866c19af34c2e7e23e32fd7</data>
+</node>
+<node id="&quot;205.49亿美元&quot;">
+  <data key="d0">"AMOUNT"</data>
+  <data key="d1">"205.49亿美元代表了苹果公司在2022财年第一季度iPhone净销售额的金额。"</data>
+  <data key="d2">chunk-7d9a30007866c19af34c2e7e23e32fd7</data>
+</node>
+<node id="&quot;阿里巴巴集团&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"阿里巴巴集团是本季度实现净收入同比增长10%，达到255.5亿元人民币的中国知名科技企业。"</data>
+  <data key="d2">chunk-fa8c84ccb57410869eeab09e7aec6813</data>
+</node>
+<node id="&quot;10%&quot;">
+  <data key="d0">"PERCENTAGE"</data>
+  <data key="d1">"10%的增长率反映了阿里巴巴集团在本季度的强劲业绩表现。"</data>
+  <data key="d2">chunk-fa8c84ccb57410869eeab09e7aec6813</data>
+</node>
+<node id="&quot;255.5亿元人民币&quot;">
+  <data key="d0">"MONEY"</data>
+  <data key="d1">"本季度阿里巴巴集团实现净收入255.5亿元人民币，同比增长10%。"</data>
+  <data key="d2">chunk-fa8c84ccb57410869eeab09e7aec6813</data>
+</node>
+<node id="&quot;净收入&quot;">
+  <data key="d0">"FINANCIAL_METRIC"</data>
+  <data key="d1">"净收入是衡量阿里巴巴集团财务状况的关键指标。"</data>
+  <data key="d2">chunk-fa8c84ccb57410869eeab09e7aec6813</data>
+</node>
+<node id="&quot;BAC.US&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"BAC.US是美国银行的股票代码，代表其在纳斯达克证券市场的表现。"&lt;SEP&gt;"BAC.US是美国银行的股票代码，它代表美国银行在纳斯达克证券市场的表现。"</data>
+  <data key="d2">chunk-a1c12af64994ee5ac251015cc58826b6</data>
+</node>
+<node id="&quot;买入&quot;">
+  <data key="d0">"RECOMMENDATION"</data>
+  <data key="d1">"买入评级是指分析师推荐投资者购买该公司的股票。"</data>
+  <data key="d2">chunk-a1c12af64994ee5ac251015cc58826b6</data>
+</node>
+<node id="&quot;目标价17美元&quot;">
+  <data key="d0">"PRICE_TARGET"</data>
+  <data key="d1">"目标价17美元是分析师预测的未来股价目标值。"</data>
+  <data key="d2">chunk-a1c12af64994ee5ac251015cc58826b6</data>
+</node>
+<node id="&quot;2022年第三季度&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2022年第三季度是指苹果公司发布的财务报告的时间段。"</data>
+  <data key="d2">chunk-78ea6ecac202d98fd9a2b441d5862167</data>
+</node>
+<node id="&quot;预计递延收入&quot;">
+  <data key="d2">chunk-1118fbf14bc85addeb429316f29db298</data>
+  <data key="d1">"预计递延收入的64%将在不到一年的时间内实现，这反映了苹果公司的财务策略和市场预期。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;诺华制药&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"诺华制药是一家制药公司。"&lt;SEP&gt;"诺华制药是一家制药公司，其业务受到不利宏观经济条件的影响。"</data>
+  <data key="d2">chunk-c905a1bfafcd16e570c4c6dcb1473ca3</data>
+</node>
+<node id="&quot;不利的宏观经济条件&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"不利的宏观经济条件指的是经济环境恶化的情况，它对消费者信心和支出产生负面影响，同时影响诺华制药的产品和服务需求。"</data>
+  <data key="d2">chunk-c905a1bfafcd16e570c4c6dcb1473ca3</data>
+</node>
+<node id="&quot;消费者信心&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"消费者信心是指人们对未来经济状况的预期和信心水平。"</data>
+  <data key="d2">chunk-c905a1bfafcd16e570c4c6dcb1473ca3</data>
+</node>
+<node id="&quot;支出&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"支出是指个人或组织在一定时期内用于购买商品和服务的资金流出。"</data>
+  <data key="d2">chunk-c905a1bfafcd16e570c4c6dcb1473ca3</data>
+</node>
+<node id="&quot;公司产品和服务的需求&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"公司产品和服务的需求指的是企业在特定时间段内需要满足的客户需求量。"</data>
+  <data key="d2">chunk-c905a1bfafcd16e570c4c6dcb1473ca3</data>
+</node>
+<node id="&quot;财政年度&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"财政年度是一个时间段，标识了苹果公司发布报告的时间范围。"</data>
+  <data key="d2">chunk-3ce06fb2a94afdf0e2ec33011b1612b3</data>
+</node>
+<node id="&quot;风险因素 5&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"这是一个事件，涉及一个名为风险因素 5 的特定情况或情况描述。"</data>
+  <data key="d2">chunk-e87fd17f84591954dab127c5f55e6ee0</data>
+</node>
+<node id="&quot;风的风险因素 5&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"风的风险因素 5 是一个事件，提醒人们尽管取得了进展，但仍需努力减少其影响。"</data>
+  <data key="d2">chunk-e87fd17f84591954dab127c5f55e6ee0</data>
+</node>
+<node id="&quot;我们&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"我们是叙述者代称，代表全体人员。"</data>
+  <data key="d2">chunk-e87fd17f84591954dab127c5f55e6ee0</data>
+</node>
+<node id="&quot;进展&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"进展指的是已经取得的进步，用于对比当前的状态。"</data>
+  <data key="d2">chunk-e87fd17f84591954dab127c5f55e6ee0</data>
+</node>
+<node id="&quot;工作&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"工作指需要完成的任务或活动。"</data>
+  <data key="d2">chunk-e87fd17f84591954dab127c5f55e6ee0</data>
+</node>
+<node id="&quot;减少&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"减少表示减少某种影响或问题的程度。"</data>
+  <data key="d2">chunk-e87fd17f84591954dab127c5f55e6ee0</data>
+</node>
+<node id="&quot;影响&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"影响指的是风险因素带来的后果或影响。"</data>
+  <data key="d2">chunk-e87fd17f84591954dab127c5f55e6ee0</data>
+</node>
+<node id="&quot;2019年&quot;">
+  <data key="d0">"YEAR"</data>
+  <data key="d1">"2019年是年度报告的时间范围，表明这是针对特定时间点的财务总结。"</data>
+  <data key="d2">chunk-e4d5317abb7eca89461152d9224dc631</data>
+</node>
+<node id="&quot;诺基亚&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Nokia, a telecommunications equipment manufacturer based in Finland, disclosed regulatory documents."&lt;SEP&gt;"诺基亚是一家电信设备制造商，位于芬兰。"</data>
+  <data key="d2">chunk-868834fbec392e6ba85d51fb24150260</data>
+</node>
+<node id="&quot;监管披露文件&quot;">
+  <data key="d0">"DOCUMENT"</data>
+  <data key="d1">"这是关于诺基亚的监管披露文件。"</data>
+  <data key="d2">chunk-868834fbec392e6ba85d51fb24150260</data>
+</node>
+<node id="&quot;英文&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"英文是年度报告的语言之一，它帮助全球投资者更好地理解公司的财务数据和业务动态。"</data>
+  <data key="d2">chunk-f7ac58c022e378c22d4858de5cdf3966</data>
+</node>
+<node id="&quot;2018年年报审计报告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2018 Annual Report Audit Report is a document detailing the financial and operational performance of a company for the year 2018."&lt;SEP&gt;"The 2018 annual report audit report is a document detailing the financial and operational performance of a company for the year 2018."</data>
+  <data key="d2">chunk-de105c7a6214d68dd2ed213760fcc64b</data>
+</node>
+<node id="&quot;2018年&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2018 is the specific year mentioned in the context of the annual report audit report."</data>
+  <data key="d2">chunk-de105c7a6214d68dd2ed213760fcc64b</data>
+</node>
+<node id="&quot;审计&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Audit refers to the examination and evaluation of the financial statements of a company to ensure compliance with accounting standards and the accuracy of the information presented."</data>
+  <data key="d2">chunk-de105c7a6214d68dd2ed213760fcc64b</data>
+</node>
+<node id="&quot;审计报告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Audit report is the formal document prepared by auditors based on the audit process, providing insights into the financial health and compliance of a company."</data>
+  <data key="d2">chunk-de105c7a6214d68dd2ed213760fcc64b</data>
+</node>
+<node id="&quot;ANNUAL REPORT (FORM 10-K)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Annual Report (Form 10-K) is an official financial document filed by Apple Inc. with the SEC annually."</data>
+  <data key="d2">chunk-1e42d0429e7dd0ef9244bdd7fcde36c9</data>
+</node>
+<node id="&quot;7&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"7 is a reference number or identifier, likely referring to a specific event or document."</data>
+  <data key="d2">chunk-56e22b9312bfa75261a6dd2a6eb27d5e</data>
+</node>
+<node id="&quot;2031年&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2031年 refers to a specific year, possibly marking a historical event or the end of a period."</data>
+  <data key="d2">chunk-56e22b9312bfa75261a6dd2a6eb27d5e</data>
+</node>
+<node id="&quot;美国航空集团&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"American Airlines Group Inc., a major American airline holding company, provides insights into its financial performance for the first quarter of 2021."&lt;SEP&gt;"American Airlines Group is an important organization that provides a performance outlook for its first quarter of fiscal year 2021."&lt;SEP&gt;"美国航空集团是全球知名的航空公司，供应链中断风险对其运营产生影响。"</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163&lt;SEP&gt;chunk-f3c6392c0101fa79416d3a0c3e0d9c0a</data>
+</node>
+<node id="&quot;SAME&quot;">
+  <data key="d0">"ADJECTIVE"</data>
+  <data key="d1">"The adjective 'same' refers to the previously mentioned format."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;FORMAT&quot;">
+  <data key="d0">"NOUN"</data>
+  <data key="d1">"The noun 'format' refers to the structure or style used to present the entities."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;AS&quot;">
+  <data key="d0">"PREPOSITION"</data>
+  <data key="d1">"The preposition 'as' indicates similarity or equivalence."&lt;SEP&gt;"The preposition 'as' indicates the form or structure of the list."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;A&quot;">
+  <data key="d0">"ARTICLE"</data>
+  <data key="d1">"The article 'a' is used to introduce a specific instance."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;SINGLE&quot;">
+  <data key="d0">"ADJECTIVE"</data>
+  <data key="d1">"The adjective 'single' refers to a single instance."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;LIST&quot;">
+  <data key="d0">"NOUN"</data>
+  <data key="d1">"The noun 'list' refers to a collection of items."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;OF&quot;">
+  <data key="d0">"PREPOSITION"</data>
+  <data key="d1">"The preposition 'of' indicates association or possession."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;ALL&quot;">
+  <data key="d0">"PRONOUN"</data>
+  <data key="d1">"The pronoun 'all' refers to the entities mentioned before."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;THESE&quot;">
+  <data key="d0">"PRONOUN"</data>
+  <data key="d1">"The pronoun 'these' refers to the entities mentioned before."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;TYPES&quot;">
+  <data key="d0">"NOUN"</data>
+  <data key="d1">"The noun 'types' refers to categories or classifications."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;INCLUSION&quot;">
+  <data key="d0">"NOUN"</data>
+  <data key="d1">"The noun 'inclusion' refers to the act of adding entities."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;TEXT&quot;">
+  <data key="d0">"NOUN"</data>
+  <data key="d1">"The noun 'text' refers to the document or passage being analyzed."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;WITHIN&quot;">
+  <data key="d0">"PREPOSITION"</data>
+  <data key="d1">"The preposition 'within' indicates the context or scope of the entities."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;CONTEXT&quot;">
+  <data key="d0">"NOUN"</data>
+  <data key="d1">"The noun 'context' refers to the surrounding elements of the entities."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;THIS&quot;">
+  <data key="d0">"PRONOUN"</data>
+  <data key="d1">"The pronoun 'this' refers to the current context or situation."&lt;SEP&gt;"The pronoun 'this' refers to the current text."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;DOCUMENT&quot;">
+  <data key="d0">"NOUN"</data>
+  <data key="d1">"The noun 'document' refers to the written material being analyzed."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;BEING&quot;">
+  <data key="d0">"PARTICIPIAL PHRASE"</data>
+  <data key="d1">"The participial phrase 'being' modifies the subject 'text' and indicates the state of the text."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="&quot;ANALYZED&quot;">
+  <data key="d0">"PARTICIPLE"</data>
+  <data key="d1">"The participle 'analyzed' describes the state of the text."</data>
+  <data key="d2">chunk-4ee1b92455862c89dab515c62d0a4163</data>
+</node>
+<node id="MANY ENTITIES WERE MISSED">
+  <data key="d0">PERSON</data>
+  <data key="d1">Indicates that many entities were overlooked or not mentioned in the context.</data>
+  <data key="d2">chunk-2bf4d98caea1ade9d048344291f7d441</data>
+</node>
+<node id="ADD THEM BELOW USING THE SAME FORMAT">
+  <data key="d0">EVENT</data>
+  <data key="d1">Describes an action or process of adding more entities following the specified format.</data>
+  <data key="d2">chunk-2bf4d98caea1ade9d048344291f7d441</data>
+</node>
+<node id="阿里巴巴集团控股有限公司">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">阿里巴巴集团控股有限公司 is a major Chinese multinational corporation, headquartered in Hangzhou, Zhejiang province.</data>
+  <data key="d2">chunk-acee1e10a88ef71728a30eef67b38853</data>
+</node>
+<node id="2021年第三季度">
+  <data key="d0">EVENT</data>
+  <data key="d1">This marks the third quarter of the financial year 2021, during which the company released its quarterly performance announcement.</data>
+  <data key="d2">chunk-acee1e10a88ef71728a30eef67b38853</data>
+</node>
+<node id="业绩公告">
+  <data key="d0">EVENT</data>
+  <data key="d1">Performance announcement refers to the official release of financial results, strategies, and other important business information by a company.</data>
+  <data key="d2">chunk-acee1e10a88ef71728a30eef67b38853</data>
+</node>
+<node id="&quot;阿里巴巴集团控股有限公司&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"阿里巴巴集团控股有限公司 is a major Chinese multinational corporation, headquartered in Hangzhou, Zhejiang province."</data>
+  <data key="d2">chunk-acee1e10a88ef71728a30eef67b38853</data>
+</node>
+<node id="&quot;2021年第三季度&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"This marks the third quarter of the financial year 2021, during which the company released its quarterly performance announcement."</data>
+  <data key="d2">chunk-acee1e10a88ef71728a30eef67b38853</data>
+</node>
+<node id="&quot;业绩公告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Performance announcement refers to the official release of financial results, strategies, and other important business information by a company."</data>
+  <data key="d2">chunk-acee1e10a88ef71728a30eef67b38853</data>
+</node>
+<node id="&quot;SOURCE_ENTITY&quot;">
+  <data key="d2">chunk-1be8bbf7af7de1bbecac1c69fc1b3508</data>
+  <data key="d1">"relationship_description"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;TARGET_ENTITY&quot;">
+  <data key="d2">chunk-1be8bbf7af7de1bbecac1c69fc1b3508</data>
+  <data key="d1">"relationship_description"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;中芯国际&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"中芯国际是一家专注于集成电路制造的公司。"&lt;SEP&gt;"中芯国际是一家专注于集成电路制造的公司，其财务报告内部控制涉及一系列政策和程序。"</data>
+  <data key="d2">chunk-bb00405824de55a80e3e624eabb3f571</data>
+</node>
+<node id="&quot;财务报告&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"财务报告是公司对其财务状况进行的正式记录和分析，通常在特定时间段内发布。"&lt;SEP&gt;"财务报告是公司运营的重要组成部分，涉及内部控制政策和程序的实施。"</data>
+  <data key="d2">chunk-dc442434c459bf3c51e4f785b674b4b3&lt;SEP&gt;chunk-bb00405824de55a80e3e624eabb3f571</data>
+</node>
+<node id="&quot;内部控制&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"内部控制是指为了确保财务报告的真实性和可靠性而设立的一系列政策和程序。"</data>
+  <data key="d2">chunk-bb00405824de55a80e3e624eabb3f571</data>
+</node>
+<node id="&quot;公司财务报告内部控制&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"公司财务报告内部控制是公司运营中的一个事件，涉及一系列政策和程序。"</data>
+  <data key="d2">chunk-bb00405824de55a80e3e624eabb3f571</data>
+</node>
+<node id="&quot;以下政策和程序&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"这里指代的是具体的内部控制政策和程序。"</data>
+  <data key="d2">chunk-bb00405824de55a80e3e624eabb3f571</data>
+</node>
+<node id="&quot;特斯拉&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Tesla Inc., a leading electric vehicle manufacturer and clean energy company."|&gt;</data>
+  <data key="d2">chunk-83054f18a79304b8dce1c8992175bfdb</data>
+</node>
+<node id="&quot;2022年限制性股票单位（RSU）支付总额&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"2022年苹果公司向员工支付的限制性股票单位（RSU）的总额，反映了公司的财务状况和激励机制。"</data>
+  <data key="d2">chunk-bd02a4ccf77cf7271c6da27f0688a7dd</data>
+</node>
+<node id="&quot;WERE MISSED&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"This phrase indicates an event or occurrence related to the identification of entities."</data>
+  <data key="d2">chunk-bd02a4ccf77cf7271c6da27f0688a7dd</data>
+</node>
+<node id="&quot;2021财年第一季度&quot;">
+  <data key="d2">chunk-f3c6392c0101fa79416d3a0c3e0d9c0a</data>
+  <data key="d1">"American Airlines Group Inc. is providing a performance outlook for its first quarter of fiscal year 2021."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;新的股票回购计划&quot;">
+  <data key="d2">chunk-83054f18a79304b8dce1c8992175bfdb</data>
+  <data key="d1">"董事会批准了新的股票回购计划，显示了其对未来发展的信心和财务健康状况的乐观态度。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;董事会&quot;">
+  <data key="d2">chunk-83054f18a79304b8dce1c8992175bfdb</data>
+  <data key="d1">"董事会批准了新的股票回购计划，显示了其对未来发展的信心和财务健康状况的乐观态度。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;关于可比政府债券利率计算&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"This is a general concept or topic related to calculating comparable government bond interest rates."&lt;SEP&gt;"关于可比政府债券利率计算是一个关于计算政府债券利率的概念。"</data>
+  <data key="d2">chunk-a4048343a0701badade6e31cd487be01</data>
+</node>
+<node id="&quot;政府债券利率&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Government bond interest rate refers to the interest rate of government bonds, a financial instrument used for borrowing."&lt;SEP&gt;"政府债券利率是指政府债券的利率，是一种用于借贷的金融工具。"</data>
+  <data key="d2">chunk-a4048343a0701badade6e31cd487be01</data>
+</node>
+<node id="&quot;可比政府债券&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Comparable government bonds refer to government bonds with similar characteristics, used for comparison."</data>
+  <data key="d2">chunk-a4048343a0701badade6e31cd487be01</data>
+</node>
+<node id="&quot;政府&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"Government typically refers to governmental entities, such as governments at various levels."&lt;SEP&gt;"政府通常指的是各级政府等政府部门。"</data>
+  <data key="d2">chunk-a4048343a0701badade6e31cd487be01</data>
+</node>
+<node id="&quot;计算&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Calculate means to determine the value or amount by mathematical operation."&lt;SEP&gt;"计算意味着通过数学运算确定价值或金额。"</data>
+  <data key="d2">chunk-a4048343a0701badade6e31cd487be01</data>
+</node>
+<node id="&quot;政府债券&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"政府债券是指具有相似特征的政府债券，用于比较。"</data>
+  <data key="d2">chunk-a4048343a0701badade6e31cd487be01</data>
+</node>
+<node id="&quot;美国证券交易委员会&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"美国证券交易委员会是负责提出并征求公众意见关于《证券交易法》第14a-19条提案的机构。"</data>
+  <data key="d2">chunk-729ce345edf6de439d9c71bd5ce2a855</data>
+</node>
+<node id="&quot;公众&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"公众指的是对《证券交易法》第14a-19条提案提出意见的人群。"</data>
+  <data key="d2">chunk-729ce345edf6de439d9c71bd5ce2a855</data>
+</node>
+<node id="&quot;《证券交易法》第14A-19条提案&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"《证券交易法》第14a-19条提案是一项旨在规范证券交易行为的法律提案。"</data>
+  <data key="d2">chunk-729ce345edf6de439d9c71bd5ce2a855</data>
+</node>
+<node id="&quot;腾讯&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"腾讯是一家中国互联网科技公司，总部位于深圳，主要业务包括游戏、社交网络、云计算等。"</data>
+  <data key="d2">chunk-88724f722d8b7bf87c36a12e04e1bb4f</data>
+</node>
+<node id="&quot;总毛未确认税项利益金额&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"总毛未确认税项利益金额是一个财务术语，通常指的是公司在特定时间点未确认的税项收益总额。"</data>
+  <data key="d2">chunk-88724f722d8b7bf87c36a12e04e1bb4f</data>
+</node>
+<node id="&quot;168亿美元&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"168亿美元是一个货币数额，具体金额为168亿美元。"</data>
+  <data key="d2">chunk-88724f722d8b7bf87c36a12e04e1bb4f</data>
+</node>
+<node id="&quot;截至2022年9月24日&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"指的是具体的日期，即2022年9月24日。"</data>
+  <data key="d2">chunk-88724f722d8b7bf87c36a12e04e1bb4f</data>
+</node>
+<node id="&quot;NVDA.O&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"NVDA.O is a stock symbol representing NVIDIA Corporation, a company focused on developing graphics processing units and other computing technologies."</data>
+  <data key="d2">chunk-1296eaf90b88f727dd072cd9f2020a4c</data>
+</node>
+<node id="&quot;英伟达&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"英伟纳 is the name of NVIDIA Corporation, a technology company dedicated to graphics processing units and other computing technologies."&lt;SEP&gt;"英伟达 is the name of NVIDIA Corporation, a technology company dedicated to graphics processing units and other computing technologies."</data>
+  <data key="d2">chunk-1296eaf90b88f727dd072cd9f2020a4c</data>
+</node>
+<node id="&quot;第三方软件开发人员&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Third-party software developers refer to independent software developers who contribute to the development and support of NVIDIA's products."&lt;SEP&gt;"第三方软件开发人员 refers to independent software developers who contribute to the development and support of NVIDIA's products."</data>
+  <data key="d2">chunk-1296eaf90b88f727dd072cd9f2020a4c</data>
+</node>
+<node id="&quot;未来表现&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Future performance refers to the expected outcomes or results of NVIDIA's business operations, such as financial performance and market position."</data>
+  <data key="d2">chunk-1296eaf90b88f727dd072cd9f2020a4c</data>
+</node>
+<node id="&quot;金融工具&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"金融工具是指包括现金、现金等价物和可销售证券在内的各类金融资产。"</data>
+  <data key="d2">chunk-4efe28c62e654eed10f0d4189eee920f</data>
+</node>
+<node id="&quot;业务风险&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"业务风险指的是在产品和服务的推出和转换过程中可能遇到的风险。"</data>
+  <data key="d2">chunk-52456b2aaec40ae69d3f535de9b13192</data>
+</node>
+<node id="&quot;服务&quot;">
+  <data key="d0">"SERVICE"</data>
+  <data key="d1">"服务是业务风险关注的对象之一，可能面临各种风险。"</data>
+  <data key="d2">chunk-52456b2aaec40ae69d3f535de9b13192</data>
+</node>
+<node id="&quot;票据持有人&quot;">
+  <data key="d2">chunk-5eff067de295370871acd1bc868c346e</data>
+  <data key="d1">"中行向票据持有人支付额外金额，以确保实际收到的净支付额与未扣除任何税费的情况下的支付额相同。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;解决方案&quot;">
+  <data key="d2">chunk-3fbaa9ea748a5a40b9b388d07a044568</data>
+  <data key="d1">"公司试图开发或获得解决方案，但无法保证在合理成本下完成任务。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="苹果公司" target="捆绑服务">
+  <data key="d3">8.0</data>
+  <data key="d4">"苹果公司提供的产品和服务中包括捆绑服务。"</data>
+  <data key="d5">"product offering, bundled services"</data>
+  <data key="d6">chunk-f8673aa1c7d6a3c586174880c92a6067</data>
+</edge>
+<edge source="苹果公司" target="软件升级权利">
+  <data key="d3">7.0</data>
+  <data key="d4">"苹果公司向用户提供软件升级权利，允许他们免费获得软件的最新版本。"</data>
+  <data key="d5">"software updates, upgrade rights"</data>
+  <data key="d6">chunk-f8673aa1c7d6a3c586174880c92a6067</data>
+</edge>
+<edge source="&quot;辉瑞&quot;" target="&quot;重大工业事故风险&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"辉瑞发布了一条关于潜在重大工业事故风险的警告。</data>
+  <data key="d5">"工业事故风险警告"</data>
+  <data key="d6">chunk-74d039550e5a4668122f3231590719cb</data>
+</edge>
+<edge source="&quot;MANY&quot;" target="&quot;ADD BELOW&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Entities were missed in the previous extraction, and this line indicates that these entities should be added."</data>
+  <data key="d5">"missing entities, note"</data>
+  <data key="d6">chunk-74d039550e5a4668122f3231590719cb</data>
+</edge>
+<edge source="&quot;MANY&quot;" target="&quot;ENTITIES&quot;">
+  <data key="d3">20.0</data>
+  <data key="d4">"MANY entities were missed, thus ADD THEM BELOW is necessary to capture all identified entities."&lt;SEP&gt;"The term MANY was used to indicate that entities were missing in the previous extraction process."&lt;SEP&gt;"No specific relationship is identified between Many and entities in the given text."</data>
+  <data key="d5">"identification oversight, entity recognition"&lt;SEP&gt;"no relationship"&lt;SEP&gt;"omission, additional identification"</data>
+  <data key="d6">chunk-d3cd291c0ffde694fcf387bf616b96a3&lt;SEP&gt;chunk-631bae7ed15878233ddb1c327962d1a2&lt;SEP&gt;chunk-5eff067de295370871acd1bc868c346e</data>
+</edge>
+<edge source="&quot;MANY&quot;" target="&quot;LAST&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"MANY was missed in the last extraction, indicating a gap or oversight in previous processes."</data>
+  <data key="d5">"missed, oversight"</data>
+  <data key="d6">chunk-b8f5cc0fe341232c54e131b226164a52</data>
+</edge>
+<edge source="&quot;MANY&quot;" target="&quot;EXTRACTION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"MANY entities were missed during the extraction process."</data>
+  <data key="d5">"missed entities, extraction process"</data>
+  <data key="d6">chunk-b8f5cc0fe341232c54e131b226164a52</data>
+</edge>
+<edge source="&quot;MANY&quot;" target="&quot;MANY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"MANY entities are present and interact implicitly or explicitly within the context."</data>
+  <data key="d5">"implicit interactions, presence"</data>
+  <data key="d6">chunk-56e22b9312bfa75261a6dd2a6eb27d5e</data>
+</edge>
+<edge source="&quot;公司法&quot;" target="&quot;选举&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"选举是根据《公司法》的规定进行的，体现了法律在公司治理中的作用."</data>
+  <data key="d5">"法律框架下的行为，规范性"</data>
+  <data key="d6">chunk-ce4715dbbf435baaa2d2a6ed9e6c6cf7</data>
+</edge>
+<edge source="&quot;公司法&quot;" target="&quot;章程修订&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"章程修订遵循《公司法》的相关规定，反映了法律对组织内部治理结构的影响."</data>
+  <data key="d5">"法律指导下的变更，系统性"</data>
+  <data key="d6">chunk-ce4715dbbf435baaa2d2a6ed9e6c6cf7</data>
+</edge>
+<edge source="&quot;选举&quot;" target="&quot;《公司法》&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The election process is guided by legal provisions outlined in the Company Law."</data>
+  <data key="d5">"legal framework, governance"</data>
+  <data key="d6">chunk-ce4715dbbf435baaa2d2a6ed9e6c6cf7</data>
+</edge>
+<edge source="&quot;章程修订&quot;" target="&quot;《公司法》&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The amendment of articles of association follows legal guidelines specified in the Company Law."</data>
+  <data key="d5">"legal framework, governance"</data>
+  <data key="d6">chunk-ce4715dbbf435baaa2d2a6ed9e6c6cf7</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;财报&quot;">
+  <data key="d3">32.0</data>
+  <data key="d4">"苹果公司发布财报以展示其在2021年第一季度的经营成果，这对投资者和市场分析人士来说是一个重要的参考依据。"&lt;SEP&gt;"苹果公司的财报发布与其年度会计周期紧密相关，反映了其在该财年的情况."&lt;SEP&gt;"苹果公司发布财报来报告其2023财年第一季度的财务状况和业绩表现."</data>
+  <data key="d5">"financial reporting, fiscal year"&lt;SEP&gt;"financial reporting, market analysis"&lt;SEP&gt;"financial reporting, performance update"</data>
+  <data key="d6">chunk-130fa14e1b8d87eff4c41345d307326b&lt;SEP&gt;chunk-eaf34aee77c4b200777b90eaee579e1c&lt;SEP&gt;chunk-3a5e55bc51c5492f70668aa35febbef8</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;IPHONE&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"苹果公司基于其iOS操作系统开发了iPhone系列产品，展示了其在移动设备领域的创新和技术实力。"&lt;SEP&gt;"苹果公司是iPhone的生产者，iPhone是其产品系列的一部分."</data>
+  <data key="d5">"product development, operating system support"&lt;SEP&gt;"product, sales"</data>
+  <data key="d6">chunk-7d9a30007866c19af34c2e7e23e32fd7&lt;SEP&gt;chunk-eb092f1b43f8b2a25a6e768d17274085</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;业务概览&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"业务概览提供了一个关于苹果公司的综合概述。"&lt;SEP&gt;"苹果公司的业务概览提供了其主要产品和服务的概述，反映了公司在科技行业的地位和市场表现。"</data>
+  <data key="d5">"business overview, company overview"&lt;SEP&gt;"business overview, industry status"</data>
+  <data key="d6">chunk-710237266adb4b6c4ea0eee9eedc898f</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;蒂姆·库克&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"蒂姆·库克担任苹果公司的CEO和CFO，表明他对公司管理和财务事务负有重要责任."</data>
+  <data key="d5">"职位关联，管理职责"</data>
+  <data key="d6">chunk-227b1a00a8b2ac8c9860450f71780803</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;SEC&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"苹果公司获得了SEC的无异议函，表明其财务报告符合监管要求。"</data>
+  <data key="d5">"监管合规，财务透明"</data>
+  <data key="d6">chunk-297ad43f3fd463c0b551bea73376a271</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;Q4&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"苹果公司的财报反映了其在第四季度的业绩表现，包括净销售额的增长情况."</data>
+  <data key="d5">"业绩报告，财务数据"</data>
+  <data key="d6">chunk-baec5348966510ab83c89e92d9ab0172</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;Q4财报&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"苹果公司的财报反映了其在第四季度的业绩表现，包括净销售额的增长情况."</data>
+  <data key="d5">"业绩报告，财务数据"</data>
+  <data key="d6">chunk-baec5348966510ab83c89e92d9ab0172</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;自然灾害&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"苹果公司可能遭遇自然灾害的风险，需要采取相应的预防和应对措施."</data>
+  <data key="d5">"自然风险，预防措施"&lt;SEP&gt;"预防措施"</data>
+  <data key="d6">chunk-db7c6e198ea142a0fe533b9a8306326e</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;恐怖袭击&quot;">
+  <data key="d3">12.0</data>
+  <data key="d4">"苹果公司面临恐怖袭击的风险，需加强安全措施和应急预案."</data>
+  <data key="d5">"安全措施"&lt;SEP&gt;"恐怖威胁，安全措施"</data>
+  <data key="d6">chunk-db7c6e198ea142a0fe533b9a8306326e</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;敌对行为&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"苹果公司可能受到敌对行为的影响，需要提高警惕并制定应对策略."</data>
+  <data key="d5">"应对策略"&lt;SEP&gt;"敌对风险，应对策略"</data>
+  <data key="d6">chunk-db7c6e198ea142a0fe533b9a8306326e</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;网络安全攻击&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"苹果公司可能会遭受网络安全攻击，需要强化网络安全防护措施."</data>
+  <data key="d5">"网络威胁，防护措施"&lt;SEP&gt;"防护措施"</data>
+  <data key="d6">chunk-db7c6e198ea142a0fe533b9a8306326e</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;劳资纠纷&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"苹果公司可能面临劳资纠纷，需要通过协商和法律途径解决冲突."</data>
+  <data key="d5">"劳资关系，解决途径"&lt;SEP&gt;"协商和法律途径"</data>
+  <data key="d6">chunk-db7c6e198ea142a0fe533b9a8306326e</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;公共卫生问题&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"苹果公司可能遭遇公共卫生问题，需要关注员工健康并采取相应措施."</data>
+  <data key="d5">"公共卫生，应对措施"&lt;SEP&gt;"员工健康"</data>
+  <data key="d6">chunk-db7c6e198ea142a0fe533b9a8306326e</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;APP STORE&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"苹果公司对其运营的App Store进行监管和调查，以确保其合规性和高效性。"</data>
+  <data key="d5">"management, compliance check"</data>
+  <data key="d6">chunk-fcf98960fcae5d4198639cf48dee9147</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;2022年10-K年报&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"苹果公司发布了2022年10-K年报，该年报提供了关于公司财务状况和运营活动的重要信息."</data>
+  <data key="d5">"发布，披露财务信息"</data>
+  <data key="d6">chunk-1f6aac905530059b79f43b1c7fea3e0c</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;10-K年报&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"苹果公司发布了10-K年报，该年报详细列出了公司的财务状况、运营情况及合规性."</data>
+  <data key="d5">"发布，披露财务信息"</data>
+  <data key="d6">chunk-1f6aac905530059b79f43b1c7fea3e0c</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;财务状况&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"10-K年报详细列出了公司的财务状况."</data>
+  <data key="d5">"财务健康状况"</data>
+  <data key="d6">chunk-1f6aac905530059b79f43b1c7fea3e0c</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;运营情况&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"10-K年报详细列出了公司的运营情况."</data>
+  <data key="d5">"日常运营表现"</data>
+  <data key="d6">chunk-1f6aac905530059b79f43b1c7fea3e0c</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;可持续发展&quot;">
+  <data key="d3">12.0</data>
+  <data key="d4">"10-K年报强调了公司在可持续发展方面的努力."</data>
+  <data key="d5">"环保行动"</data>
+  <data key="d6">chunk-1f6aac905530059b79f43b1c7fea3e0c</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;法律诉讼&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"10-K年报提到了一些重要的法律诉讼."</data>
+  <data key="d5">"法律挑战"</data>
+  <data key="d6">chunk-1f6aac905530059b79f43b1c7fea3e0c</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;年报&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"苹果公司发布年报以详细说明其在2022财年的财务状况和业绩表现."</data>
+  <data key="d5">"financial reporting, financial performance"</data>
+  <data key="d6">chunk-aad2073b61b36a064e2a0014764016c8</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;安永华明会计师事务所&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"安永华明会计师事务所对苹果公司2019财年财务报表进行审计."</data>
+  <data key="d5">"professional service, financial reporting"</data>
+  <data key="d6">chunk-46ef6cfa007be9062fe431d20773929b</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;管理层&quot;">
+  <data key="d3">24.0</data>
+  <data key="d4">"管理层代表苹果公司进行税务评估和策略考量."</data>
+  <data key="d5">"领导与被领导关系"</data>
+  <data key="d6">chunk-58c9c69076f10a605f589d7432d59cc5</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;毕马威会计师事务所&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"毕马威会计师事务所对苹果公司的财务报告内部控制进行了全面评估，结果表明其在所有重大方面都是有效的。"</data>
+  <data key="d5">"评估结果，内部控制有效性"</data>
+  <data key="d6">chunk-1f15edadf5cee3399381abca9ce071b8</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;2022财年&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"苹果公司的财报发布与其年度会计周期紧密相关，反映了其在该财年的情况."</data>
+  <data key="d5">"financial reporting, fiscal year"</data>
+  <data key="d6">chunk-130fa14e1b8d87eff4c41345d307326b</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;年度报告&quot;">
+  <data key="d3">24.0</data>
+  <data key="d4">"Apple Inc. releases its annual report to disclose its financial performance and strategic direction, providing valuable information for investors."&lt;SEP&gt;"年度报告详细记录了苹果公司在过去一年中的各项财务指标和业务活动，为投资者提供决策参考。"&lt;SEP&gt;"苹果公司发布年度报告以公开其财务表现和战略方向，这对投资者了解公司至关重要。"</data>
+  <data key="d5">"financial disclosure, transparency"&lt;SEP&gt;"financial reporting, business overview"&lt;SEP&gt;"财务披露，透明度"</data>
+  <data key="d6">chunk-2edaa9e74b2ee1a4f3c21ca178fd0206&lt;SEP&gt;chunk-f7ac58c022e378c22d4858de5cdf3966</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;年报审计报告&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"苹果公司发布年报审计报告，以确保其财务数据的准确性和透明度."</data>
+  <data key="d5">"财务报告发布，审计监督"</data>
+  <data key="d6">chunk-2bccb92c2bc5704d4bf88347324b058a</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;2014年员工股票计划&quot;">
+  <data key="d3">24.0</data>
+  <data key="d4">"苹果公司推出了2014年员工股票计划，该计划与公司的长期战略和员工激励机制密切相关。&lt;SEP&gt;"苹果公司推出了2014年员工股票计划，该计划与公司的长期战略和员工激励机制密切相关。"</data>
+  <data key="d5">"激励机制，员工留存"</data>
+  <data key="d6">chunk-03c183737e9aec134adc8ccbc37c7876</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;2023财年第一季度&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"苹果公司发布财报是为了向公众报告其在2023财年第一季度的财务状况和业绩表现."</data>
+  <data key="d5">"financial reporting, performance update"</data>
+  <data key="d6">chunk-eaf34aee77c4b200777b90eaee579e1c</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;标普500指数&quot;">
+  <data key="d3">20.0</data>
+  <data key="d4">"The performance of Apple Inc. impacts the performance of the S&amp;P 500 Index."&lt;SEP&gt;"苹果公司的表现影响着标普500指数的表现."</data>
+  <data key="d5">"company performance, market index correlation"</data>
+  <data key="d6">chunk-b542e08e61a881ad272c13e188fc9560</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;标普信息技术指数&quot;">
+  <data key="d3">24.0</data>
+  <data key="d4">"The performance of Apple Inc. also impacts the performance of the S&amp;P Technology Select Sector SPDR Fund."&lt;SEP&gt;"苹果公司在信息技术领域的表现也影响着标普信息技术指数的表现."</data>
+  <data key="d5">"company performance, sector index correlation"&lt;SEP&gt;"sector performance, industry index correlation"</data>
+  <data key="d6">chunk-b542e08e61a881ad272c13e188fc9560</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;2022财年Q1&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"苹果公司在2022财年Q1发布了其财务报告，其中包括iPhone的销售数据."</data>
+  <data key="d5">"financial reporting, product sales"</data>
+  <data key="d6">chunk-7d9a30007866c19af34c2e7e23e32fd7</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;预计递延收入&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"预计递延收入的64%将在不到一年的时间内实现，这反映了苹果公司的财务策略和市场预期。"</data>
+  <data key="d5">"财务策略，市场预期"</data>
+  <data key="d6">chunk-1118fbf14bc85addeb429316f29db298</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;2022年第三季度&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"苹果公司在2022年第三季度发布了其财务报告，展示了公司在此期间的业绩表现。"</data>
+  <data key="d5">"financial reporting period"</data>
+  <data key="d6">chunk-78ea6ecac202d98fd9a2b441d5862167</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;2022年9月24日&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"苹果公司发布了其截至2022年9月24日的财政年度报告."</data>
+  <data key="d5">"report release, date"</data>
+  <data key="d6">chunk-3ce06fb2a94afdf0e2ec33011b1612b3</data>
+</edge>
+<edge source="&quot;苹果公司&quot;" target="&quot;财政年度&quot;">
+  <data key="d3">4.0</data>
+  <data key="d4">"苹果公司的财报涵盖了财政年度的时间段."</data>
+  <data key="d5">"financial period, company report"</data>
+  <data key="d6">chunk-3ce06fb2a94afdf0e2ec33011b1612b3</data>
+</edge>
+<edge source="&quot;美国银行&quot;" target="&quot;债券持有人&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"American Bank sends a notice to bondholders about the trust indenture amendments related to the 2021 bond."&lt;SEP&gt;"American Bank sends a trust indenture amendments notice to bondholders related to the 2021 bond."</data>
+  <data key="d5">"bondholder communication"&lt;SEP&gt;"notification, bondholder communication"</data>
+  <data key="d6">chunk-85520050b236521534a07a5b4bfee28e</data>
+</edge>
+<edge source="&quot;美国银行&quot;" target="&quot;衍生资产&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"美国银行管理衍生资产，体现了其在金融市场中的角色和影响力."</data>
+  <data key="d5">"financial management, market influence"</data>
+  <data key="d6">chunk-57b964f148d0deb36b07a51e073271dc</data>
+</edge>
+<edge source="&quot;美国银行&quot;" target="&quot;负债的公允价值&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"美国银行负责计算和管理负债的公允价值，确保财务报告的准确性."</data>
+  <data key="d5">"financial reporting, financial management"</data>
+  <data key="d6">chunk-57b964f148d0deb36b07a51e073271dc</data>
+</edge>
+<edge source="&quot;美国银行&quot;" target="&quot;买入&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"美国银行被维持了买入评级，这反映了分析师对其股票前景的乐观态度."</data>
+  <data key="d5">"stock_recommendation, analyst_opinion"</data>
+  <data key="d6">chunk-a1c12af64994ee5ac251015cc58826b6</data>
+</edge>
+<edge source="&quot;2021年第一季度&quot;" target="&quot;百济神州&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"百济神州在2021年第一季度公布了其未经审计的财务业绩，这是公司运营情况的一个重要指标."</data>
+  <data key="d5">"financial reporting, time reference"</data>
+  <data key="d6">chunk-a71e4ceecc267b20bae59a24469aebf0</data>
+</edge>
+<edge source="&quot;2021年第一季度&quot;" target="&quot;财务报告&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"2021年第一季度指的是具体的年份和季度，用于标记公司的一份财务报告的时间范围。"</data>
+  <data key="d5">"time reference"</data>
+  <data key="d6">chunk-dc442434c459bf3c51e4f785b674b4b3</data>
+</edge>
+<edge source="&quot;IFRS 9&quot;" target="&quot;公允价值套期保值&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"IFRS 9 provides specific guidance on how to account for fair value hedges in the context of public value-based hedging."</data>
+  <data key="d5">"guidance, application"</data>
+  <data key="d6">chunk-4d97bc3683448b6e4d82bae125b43d78</data>
+</edge>
+<edge source="&quot;公允价值套期保值&quot;" target="&quot;公允价值&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The concept of fair value is fundamental to understanding the accounting treatment for fair value hedges."</data>
+  <data key="d5">"underlying principle, foundational concept"</data>
+  <data key="d6">chunk-4d97bc3683448b6e4d82bae125b43d78</data>
+</edge>
+<edge source="&quot;员工股票计划&quot;" target="&quot;康菲石油公司&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"康菲石油公司通过实施员工股票计划来激励其员工，这表明公司重视员工的长期贡献并希望通过这种方式留住人才。"</data>
+  <data key="d5">"激励机制，员工留存"</data>
+  <data key="d6">chunk-b3752490079ac682c349965caeb2e165</data>
+</edge>
+<edge source="&quot;康菲石油公司&quot;" target="&quot;2014年员工股票计划&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"康菲石油公司通过实施员工股票计划来激励其员工，这表明公司重视员工的长期贡献并希望通过这种方式留住人才。"</data>
+  <data key="d5">"激励机制，员工留存"</data>
+  <data key="d6">chunk-b3752490079ac682c349965caeb2e165</data>
+</edge>
+<edge source="&quot;苹果&quot;" target="&quot;2022年运营租赁固定付款&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Apple Inc. disclosed its 2022 operating lease fixed payments, providing financial information about its business operations."</data>
+  <data key="d5">"financial disclosure, business reporting"</data>
+  <data key="d6">chunk-631bae7ed15878233ddb1c327962d1a2</data>
+</edge>
+<edge source="&quot;苹果&quot;" target="&quot;无&quot;">
+  <data key="d3">0.0</data>
+  <data key="d4">"没有明确的关系描述."</data>
+  <data key="d5">"无"</data>
+  <data key="d6">chunk-28371072458184747123d9250c8bde1d</data>
+</edge>
+<edge source="&quot;苹果&quot;" target="&quot;2022年限制性股票单位（RSU）支付总额&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"苹果在2022年实施了限制性股票单位（RSU）的支付计划."</data>
+  <data key="d5">"股票激励、财务报告"</data>
+  <data key="d6">chunk-bd02a4ccf77cf7271c6da27f0688a7dd</data>
+</edge>
+<edge source="&quot;APPLECARE&quot;" target="&quot;云服务&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"AppleCare is part of the broader range of cloud services offered by the Apple company."</data>
+  <data key="d5">"service integration, technological evolution"</data>
+  <data key="d6">chunk-967058139a5d8e4af253a633571f46b1</data>
+</edge>
+<edge source="GOOGLE" target="NEST LABS">
+  <data key="d3">8.0</data>
+  <data key="d4">Google acquired Nest Labs, a home automation company, for $3.2 billion.</data>
+  <data key="d5">acquisition, financial transaction</data>
+  <data key="d6">chunk-4f8176d36153e55127e7fc03b4eaad9f</data>
+</edge>
+<edge source="&quot;APPLE INC.&quot;" target="&quot;2022 10-K 表格&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Apple Inc. files the 2022 10-K 表格, which provides financial details about the company's performance and operations."</data>
+  <data key="d5">"financial disclosure, reporting"</data>
+  <data key="d6">chunk-669048ef8b3540e9fbd164669005cb23</data>
+</edge>
+<edge source="&quot;APPLE INC.&quot;" target="&quot;2022 年 10-K 表格&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Apple Inc. is required to submit the 2022 年 10-K 表格 to the SEC, ensuring transparency and accountability in its financial reporting."|&gt;"financial disclosure, regulatory compliance"</data>
+  <data key="d5">8</data>
+  <data key="d6">chunk-983e7e648c19670b55d38295b3c48ae0</data>
+</edge>
+<edge source="&quot;APPLE INC.&quot;" target="&quot;2016年2月23日签署的官员证书&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Apple Inc. issued various debt instruments in 2016, demonstrating its financial capability and commitment to debt management."</data>
+  <data key="d5">"financial issuance, certificate signing"</data>
+  <data key="d6">chunk-13769d45164a2933770e26b0f45477a5</data>
+</edge>
+<edge source="&quot;APPLE INC.&quot;" target="&quot;LUCA MAESTRI&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Luca Maestri, as a signatory, attests to the accuracy of the Annual Report (Form 10-K)."</data>
+  <data key="d5">"certification, attestation"</data>
+  <data key="d6">chunk-1e42d0429e7dd0ef9244bdd7fcde36c9</data>
+</edge>
+<edge source="&quot;该公司&quot;" target="&quot;恶意攻击&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"该公司经常遭受恶意攻击，表明它面临持续的安全威胁。"</data>
+  <data key="d5">"security threat"</data>
+  <data key="d6">chunk-e06a499801bc0fe37bbe847fe3a0aa34</data>
+</edge>
+<edge source="&quot;该公司&quot;" target="&quot;未经授权访问系统企图&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"该公司遭受未经授权访问系统企图，这进一步说明了其安全措施的必要性。"</data>
+  <data key="d5">"security breach"</data>
+  <data key="d6">chunk-e06a499801bc0fe37bbe847fe3a0aa34</data>
+</edge>
+<edge source="&quot;美国证监会&quot;" target="&quot;甲骨文公司&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"美国证监会对甲骨文公司2019年年报进行监管。"&lt;SEP&gt;"美国证监会对甲骨文公司2019年年报进行监管，体现了监管机构对大型科技公司财务透明度的要求。"</data>
+  <data key="d5">"financial oversight, regulatory compliance"</data>
+  <data key="d6">chunk-ff5a1eea369b6bda45fac66fe2b1804d</data>
+</edge>
+<edge source="&quot;阿里巴巴&quot;" target="&quot;新业务策略&quot;">
+  <data key="d3">20.0</data>
+  <data key="d4">"Alibaba invests in new business strategies, which may disrupt its current operations."&lt;SEP&gt;"阿里巴巴投资于新业务策略，这可能导致其现有业务受到干扰."</data>
+  <data key="d5">"investment, disruption"&lt;SEP&gt;"战略调整，潜在影响"</data>
+  <data key="d6">chunk-1af4720a80640e8dd0dc788cedae9d51</data>
+</edge>
+<edge source="&quot;阿里巴巴&quot;" target="&quot;收购&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Alibaba engages in acquisitions, which may further affect its current operations."&lt;SEP&gt;"阿里巴巴进行收购活动，这可能进一步影响其现有业务."</data>
+  <data key="d5">"acquisitions, disruption"&lt;SEP&gt;"并购行为，潜在影响"</data>
+  <data key="d6">chunk-1af4720a80640e8dd0dc788cedae9d51</data>
+</edge>
+<edge source="&quot;阿里巴巴&quot;" target="&quot;回购股票&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"阿里巴巴宣布将回购价值最高达200亿美元的股票."</data>
+  <data key="d5">"corporate action, financial decision"</data>
+  <data key="d6">chunk-821387a0961a571c96db887becb29a05</data>
+</edge>
+<edge source="&quot;百威英博&quot;" target="&quot;新冠肺炎疫情&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"新冠肺炎疫情对百威英博的运营和财务表现可能产生影响，这种影响目前尚不确定."</data>
+  <data key="d5">"impact, uncertainty"</data>
+  <data key="d6">chunk-dcf09d6018f6084613575cda07ececc3</data>
+</edge>
+<edge source="&quot;公司&quot;" target="&quot;2019年年度报告&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"公司发布了年度报告，详细总结了其在2019年的运营情况和财务表现."</data>
+  <data key="d5">"发布，总结"</data>
+  <data key="d6">chunk-e4d5317abb7eca89461152d9224dc631</data>
+</edge>
+<edge source="&quot;公司&quot;" target="&quot;审计报告&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The company prepares and submits an audit report to undergo an audit process, ensuring transparency and accountability."|&gt;"financial reporting, audit process"</data>
+  <data key="d5">8</data>
+  <data key="d6">chunk-de105c7a6214d68dd2ed213760fcc64b</data>
+</edge>
+<edge source="&quot;公司&quot;" target="&quot;2018年年报审计报告&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The company prepares and submits an audit report to undergo an audit process, ensuring transparency and accountability."|&gt;"financial reporting, audit process"</data>
+  <data key="d5">8</data>
+  <data key="d6">chunk-de105c7a6214d68dd2ed213760fcc64b</data>
+</edge>
+<edge source="&quot;公司&quot;" target="&quot;解决方案&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"公司试图开发或获得解决方案，但无法保证在合理成本下完成任务。"</data>
+  <data key="d5">"开发与获得，成本控制"</data>
+  <data key="d6">chunk-3fbaa9ea748a5a40b9b388d07a044568</data>
+</edge>
+<edge source="&quot;运营&quot;" target="&quot;运营&quot;">
+  <data key="d3">15.0</data>
+  <data key="d4">"The relationship between '运营' itself is self-referential."&lt;SEP&gt;"运营本身是一个概念，没有明确的关系描述."</data>
+  <data key="d5">"self-referential concept"&lt;SEP&gt;"self-referential relationship"</data>
+  <data key="d6">chunk-417e67087d8c9509ac1254d320d55c82</data>
+</edge>
+<edge source="&quot;运营&quot;" target="&quot;未经授权访问或泄露机密信息&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Access or disclosure of confidential information can disrupt the company's operations and cause delays."</data>
+  <data key="d5">"operational impact"</data>
+  <data key="d6">chunk-7767d73ec8af0db26b50f30e495eadbc</data>
+</edge>
+<edge source="&quot;MANY ENTITIES&quot;" target="&quot;LAST EXTRACTION&quot;">
+  <data key="d3">15.0</data>
+  <data key="d4">"The phrase 'Many entities' indicates that the current extraction should include more entities than the previous one."&lt;SEP&gt;"the previous extraction missed many entities."</data>
+  <data key="d5">"additional items, previous process"&lt;SEP&gt;"missed entities."</data>
+  <data key="d6">chunk-3fbaa9ea748a5a40b9b388d07a044568&lt;SEP&gt;chunk-dcf09d6018f6084613575cda07ececc3</data>
+</edge>
+<edge source="&quot;MANY ENTITIES&quot;" target="&quot;PREVIOUS EXTRACTION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The phrase 'many entities' refers to both the current entities and those previously extracted."</data>
+  <data key="d5">"catch-all term", "previous entities"</data>
+  <data key="d6">chunk-c41fcb21f22d2f258f9bc690ef491a2f</data>
+</edge>
+<edge source="&quot;MANY ENTITIES&quot;" target="&quot;WERE MISSED&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The phrase 'were missed' refers to the failure to identify certain entities within the 'MANY entities.'&lt;br&gt;The oversight led to the missing entities."</data>
+  <data key="d5">"entity identification, oversight"</data>
+  <data key="d6">chunk-bd02a4ccf77cf7271c6da27f0688a7dd</data>
+</edge>
+<edge source="&quot;LAST EXTRACTION&quot;" target="&quot;ENTITIES&quot;">
+  <data key="d3">17.0</data>
+  <data key="d4">"Entities were not fully captured in the last extraction, hence the need for ADD THEM BELOW."&lt;SEP&gt;"The entities discussed in the text refer to the entities that were missed in the previous extraction."</data>
+  <data key="d5">"incomplete identification, additional detail"&lt;SEP&gt;"reference, correction"</data>
+  <data key="d6">chunk-d3cd291c0ffde694fcf387bf616b96a3&lt;SEP&gt;chunk-753dfd92605ca46b4766304a3af81c27</data>
+</edge>
+<edge source="&quot;LAST EXTRACTION&quot;" target="&quot;ADD THEM BELOW&quot;">
+  <data key="d3">20.0</data>
+  <data key="d4">"The addition of entities is prompted by the need to correct the previous extraction."&lt;SEP&gt;"The last extraction was incomplete, therefore ADD THEM BELOW provides the missing information."</data>
+  <data key="d5">"correction, necessity"&lt;SEP&gt;"incomplete information, additional details"</data>
+  <data key="d6">chunk-d3cd291c0ffde694fcf387bf616b96a3&lt;SEP&gt;chunk-753dfd92605ca46b4766304a3af81c27</data>
+</edge>
+<edge source="&quot;ENTITIES&quot;" target="&quot;ADD&quot;">
+  <data key="d3">0.0</data>
+  <data key="d4">"Add indicates the inclusion of entities in the same format as the previous context."</data>
+  <data key="d5">"inclusion, same format"</data>
+  <data key="d6">chunk-a2b9d1fc6da0ca8d007d589d9578b086</data>
+</edge>
+<edge source="&quot;ENTITIES&quot;" target="&quot;WERE&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"MANY missed the extraction of relevant entities."&lt;SEP&gt;"Some entities were missed due to oversight or complexity in identification."</data>
+  <data key="d5">"omission, missing information"&lt;SEP&gt;"oversight, complexity"</data>
+  <data key="d6">chunk-57b964f148d0deb36b07a51e073271dc&lt;SEP&gt;chunk-58880bd0c63e8e341d56c4d57d6debab</data>
+</edge>
+<edge source="&quot;ENTITIES&quot;" target="&quot;ADD THEM BELOW&quot;">
+  <data key="d3">12.0</data>
+  <data key="d4">"The act of adding these entities is a direct consequence of the instruction."</data>
+  <data key="d5">"consequence, requirement"</data>
+  <data key="d6">chunk-753dfd92605ca46b4766304a3af81c27</data>
+</edge>
+<edge source="&quot;LAST&quot;" target="&quot;EXTRACTION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The phrase 'last extraction' referred to the earlier phase where certain entities were missed."</data>
+  <data key="d5">"phase reference, entity oversight"</data>
+  <data key="d6">chunk-631bae7ed15878233ddb1c327962d1a2</data>
+</edge>
+<edge source="&quot;EXTRACTION&quot;" target="&quot;ADD&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"The act of adding involves including new entities after identifying those that were missed in the previous phase."</data>
+  <data key="d5">"process flow, entity inclusion"</data>
+  <data key="d6">chunk-631bae7ed15878233ddb1c327962d1a2</data>
+</edge>
+<edge source="&quot;ADD&quot;" target="&quot;NOW&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The present time of adding new entities signifies the completion of the current extraction process."</data>
+  <data key="d5">"time reference, entity addition"</data>
+  <data key="d6">chunk-631bae7ed15878233ddb1c327962d1a2</data>
+</edge>
+<edge source="&quot;美国运通&quot;" target="&quot;可能产生的索赔&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"美国运通可能因业务活动而面临索赔的风险，这涉及到其服务范围内的潜在纠纷和争议。"</data>
+  <data key="d5">"service-related disputes, risk assessment"</data>
+  <data key="d6">chunk-cbb618fa7d6d6583388711549d8a6964</data>
+</edge>
+<edge source="&quot;美国财政部&quot;" target="&quot;美国参议院&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"美国财政部提交关于2025年到期的美国国债的提案，然后等待美国参议院的审议和决策."</data>
+  <data key="d5">"提案与审议，财政与立法的关系"</data>
+  <data key="d6">chunk-1f8a9f813e1d8abc6b60f374ef8e3bea</data>
+</edge>
+<edge source="&quot;TREASURY DEPARTMENT OF THE UNITED STATES&quot;" target="&quot;UNITED STATES SENATE&quot;">
+  <data key="d3">1.0</data>
+  <data key="d4">"The Treasury Department of the United States submitted a proposal to the United States Senate regarding US Treasury Bonds maturing in 2025."</data>
+  <data key="d5">"submission, proposal, legislative oversight"</data>
+  <data key="d6">chunk-1f8a9f813e1d8abc6b60f374ef8e3bea</data>
+</edge>
+<edge source="&quot;产品&quot;" target="&quot;服务&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"产品和服务的推出和转换涉及的风险可能会相互关联或影响彼此."</data>
+  <data key="d5">"相互关联,风险转移"</data>
+  <data key="d6">chunk-52456b2aaec40ae69d3f535de9b13192</data>
+</edge>
+<edge source="&quot;产品&quot;" target="&quot;业务风险&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"业务风险可能集中在产品推出和转换阶段，因为这是产品生命周期的关键阶段."</data>
+  <data key="d5">"风险集中,生命周期阶段"</data>
+  <data key="d6">chunk-52456b2aaec40ae69d3f535de9b13192</data>
+</edge>
+<edge source="&quot;ALPHABET INC.&quot;" target="&quot;GOOGLE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alphabet Inc. released a financial report that includes information about its subsidiary, Google."</data>
+  <data key="d5">"financial reporting, corporate structure"</data>
+  <data key="d6">chunk-c41fcb21f22d2f258f9bc690ef491a2f</data>
+</edge>
+<edge source="&quot;ALIBABA CLOUD&quot;" target="&quot;QWEN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Alibaba Cloud is the main subject, and Qwen provides the response."</data>
+  <data key="d5">"main subject", "response"</data>
+  <data key="d6">chunk-c41fcb21f22d2f258f9bc690ef491a2f</data>
+</edge>
+<edge source="&quot;EPIC GAMES&quot;" target="&quot;EPIC GAMES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Epic Games is the plaintiff and defendant in its own lawsuit."</data>
+  <data key="d5">"self-litigation, legal action"</data>
+  <data key="d6">chunk-b8f5cc0fe341232c54e131b226164a52</data>
+</edge>
+<edge source="&quot;中矿资源集团股份有限公司&quot;" target="&quot;2022年度报告问询函&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"公司需要对问询函中的问题进行回复，以澄清其财务和运营状况。</data>
+  <data key="d5">"财务透明度，合规性"</data>
+  <data key="d6">chunk-8e1507a78681047fac398ea8289fe010</data>
+</edge>
+<edge source="&quot;LUCA MAESTRI&quot;" target="&quot;年度报告认证声明&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Luca Maestri is linked to the annual report certification event."</data>
+  <data key="d5">"annual report certification, individual"</data>
+  <data key="d6">chunk-2252fa5bed7abea1a84d43cb2e1af699</data>
+</edge>
+<edge source="&quot;可穿戴设备&quot;" target="&quot;家庭&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"可穿戴设备可以作为家庭的一部分，提供便利的同时也涉及到家庭健康管理和日常生活的辅助。"</data>
+  <data key="d5">"技术集成，生活辅助"</data>
+  <data key="d6">chunk-3f3daa35aecaa4b52f7cecc83e7731f3</data>
+</edge>
+<edge source="&quot;可穿戴设备&quot;" target="&quot;配件&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"可穿戴设备的配件通常包括充电器、保护壳等，用于增强其功能和用户体验。&lt;SEP&gt;"配件是可穿戴设备的重要组成部分，二者共同服务于可穿戴设备的功能和用户体验。</data>
+  <data key="d5">"技术组件，相互依存"</data>
+  <data key="d6">chunk-3f3daa35aecaa4b52f7cecc83e7731f3</data>
+</edge>
+<edge source="&quot;中行&quot;" target="&quot;20亿美元高级票据&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"中行发行了20亿美元的高级票据，这是其财务策略的一部分。"</data>
+  <data key="d5">"financial strategy, financial instrument"</data>
+  <data key="d6">chunk-62c7b8e89b75ccdd2e981b49c876c3ac</data>
+</edge>
+<edge source="&quot;中行&quot;" target="&quot;票据持有人&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"中行向票据持有人支付额外金额，以确保实际收到的净支付额与未扣除任何税费的情况下的支付额相同。"</data>
+  <data key="d5">"payment agreement, tax compliance"</data>
+  <data key="d6">chunk-5eff067de295370871acd1bc868c346e</data>
+</edge>
+<edge source="&quot;信托契约&quot;" target="&quot;信托机构&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"信托契约是由信托机构制定和管理的法律文件，确保信托财产的安全和有效分配."</data>
+  <data key="d5">"法律文件管理，信托财产分配"</data>
+  <data key="d6">chunk-a2b9d1fc6da0ca8d007d589d9578b086</data>
+</edge>
+<edge source="&quot;2027年票据&quot;" target="&quot;1.375% 2029年票据&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"2027年票据和1.375% 2029年票据都涉及利率，但属于不同的时间点。"</data>
+  <data key="d5">"time-related, interest rate"</data>
+  <data key="d6">chunk-214d0226c64701090f5504d232345c84</data>
+</edge>
+<edge source="&quot;2022年第一季度季度报告&quot;" target="&quot;ORGANIZATION&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The report provides financial information related to the organization's performance during the specified period."</data>
+  <data key="d5">"financial performance, reporting"</data>
+  <data key="d6">chunk-9ecc09197616dd2b3c35b5cb217186d2</data>
+</edge>
+<edge source="&quot;A COMPANY&quot;" target="&quot;B COMPANY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"A Company plans to acquire B Company's business."</data>
+  <data key="d5">"acquisition"</data>
+  <data key="d6">chunk-23fdd598d6d46b38110611b3ef4c5621</data>
+</edge>
+<edge source="&quot;C COMPANY&quot;" target="&quot;D COMPANY&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"C Company is considering selling its stake in D Company."</data>
+  <data key="d5">"asset sale"</data>
+  <data key="d6">chunk-23fdd598d6d46b38110611b3ef4c5621</data>
+</edge>
+<edge source="&quot;无&quot;" target="&quot;无&quot;">
+  <data key="d3">0.0</data>
+  <data key="d4">"无"</data>
+  <data key="d5">"无"</data>
+  <data key="d6">chunk-c80d212f390ac7a4a75fb2a3f6b53a7c</data>
+</edge>
+<edge source="&quot;中国银行&quot;" target="&quot;发行&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"中国银行发行了2016年和2018年的浮动利率票据，显示了其在金融市场上的活跃度和灵活性."</data>
+  <data key="d5">"financial product release, market response"</data>
+  <data key="d6">chunk-c80d212f390ac7a4a75fb2a3f6b53a7c</data>
+</edge>
+<edge source="&quot;未经授权访问或泄露机密信息&quot;" target="&quot;重大声誉&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Access or disclosure of confidential information can significantly harm the company's reputation."</data>
+  <data key="d5">"reputation impact"</data>
+  <data key="d6">chunk-7767d73ec8af0db26b50f30e495eadbc</data>
+</edge>
+<edge source="&quot;未经授权访问或泄露机密信息&quot;" target="&quot;财务&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Access or disclosure of confidential information can result in financial losses for the company."</data>
+  <data key="d5">"financial impact"</data>
+  <data key="d6">chunk-7767d73ec8af0db26b50f30e495eadbc</data>
+</edge>
+<edge source="&quot;未经授权访问或泄露机密信息&quot;" target="&quot;法律&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Access or disclosure of confidential information can lead to legal disputes and penalties for the company."</data>
+  <data key="d5">"legal impact"</data>
+  <data key="d6">chunk-7767d73ec8af0db26b50f30e495eadbc</data>
+</edge>
+<edge source="&quot;注释11&quot;" target="&quot;段落信息&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"注释11 is used to refer to a specific segment of text containing geographic data."</data>
+  <data key="d5">"referencing, contextual information"</data>
+  <data key="d6">chunk-2e0d218197f70c1a5fe15e86831c40a9</data>
+</edge>
+<edge source="&quot;阿里巴巴集团&quot;" target="&quot;10%&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"阿里巴巴集团的净收入同比增长了10%."</data>
+  <data key="d5">"growth_rate, financial_growth"</data>
+  <data key="d6">chunk-fa8c84ccb57410869eeab09e7aec6813</data>
+</edge>
+<edge source="&quot;阿里巴巴集团&quot;" target="&quot;255.5亿元人民币&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"本季度阿里巴巴集团实现净收入255.5亿元人民币，同比增长10%."&lt;SEP&gt;"阿里巴巴集团在第三季度实现了255.5亿元人民币的净收入."</data>
+  <data key="d5">"financial_performance, revenue"</data>
+  <data key="d6">chunk-fa8c84ccb57410869eeab09e7aec6813</data>
+</edge>
+<edge source="&quot;诺华制药&quot;" target="&quot;不利的宏观经济条件&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"不利的宏观经济条件可能导致诺华制药面临消费者信心下降和支出减少的问题，进而影响其产品和服务的需求。"</data>
+  <data key="d5">"因果关系，经济环境影响企业"</data>
+  <data key="d6">chunk-c905a1bfafcd16e570c4c6dcb1473ca3</data>
+</edge>
+<edge source="&quot;风的风险因素 5&quot;" target="&quot;我们&quot;">
+  <data key="d3">1.0</data>
+  <data key="d4">"风的风险因素 5 是一个事件，提醒人们尽管取得了进展，但仍需努力减少其影响。"</data>
+  <data key="d5">"无直接关系"</data>
+  <data key="d6">chunk-e87fd17f84591954dab127c5f55e6ee0</data>
+</edge>
+<edge source="&quot;风的风险因素 5&quot;" target="&quot;进展&quot;">
+  <data key="d3">2.0</data>
+  <data key="d4">"风的风险因素 5 提醒我们，尽管我们已经取得了许多进展，但仍然有许多工作要做。"</data>
+  <data key="d5">"提醒，进展"</data>
+  <data key="d6">chunk-e87fd17f84591954dab127c5f55e6ee0</data>
+</edge>
+<edge source="&quot;风的风险因素 5&quot;" target="&quot;工作&quot;">
+  <data key="d3">3.0</data>
+  <data key="d4">"我们需要更加努力地工作来减少这些风险因素的影响。"</data>
+  <data key="d5">"减少，工作"</data>
+  <data key="d6">chunk-e87fd17f84591954dab127c5f55e6ee0</data>
+</edge>
+<edge source="&quot;我们&quot;" target="&quot;进展&quot;">
+  <data key="d3">4.0</data>
+  <data key="d4">"尽管我们已经取得了许多进展，但仍然有许多工作要做。"</data>
+  <data key="d5">"进展，工作"</data>
+  <data key="d6">chunk-e87fd17f84591954dab127c5f55e6ee0</data>
+</edge>
+<edge source="&quot;我们&quot;" target="&quot;工作&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"我们需要更加努力地工作来减少这些风险因素的影响。"</data>
+  <data key="d5">"工作"</data>
+  <data key="d6">chunk-e87fd17f84591954dab127c5f55e6ee0</data>
+</edge>
+<edge source="&quot;进展&quot;" target="&quot;影响&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"我们需要更加努力地工作来减少这些风险因素的影响。"</data>
+  <data key="d5">"减少，影响"</data>
+  <data key="d6">chunk-e87fd17f84591954dab127c5f55e6ee0</data>
+</edge>
+<edge source="&quot;7&quot;" target="&quot;2031年&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"7 is annotated or referenced in relation to the year 2031, indicating a temporal connection."</data>
+  <data key="d5">"annotation, temporal reference"</data>
+  <data key="d6">chunk-56e22b9312bfa75261a6dd2a6eb27d5e</data>
+</edge>
+<edge source="&quot;美国航空集团&quot;" target="&quot;2021财年第一季度&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"American Airlines Group Inc. is providing a performance outlook for its first quarter of fiscal year 2021."</data>
+  <data key="d5">"performance outlook, financial performance"</data>
+  <data key="d6">chunk-f3c6392c0101fa79416d3a0c3e0d9c0a</data>
+</edge>
+<edge source="MANY ENTITIES WERE MISSED" target="ADD THEM BELOW USING THE SAME FORMAT">
+  <data key="d3">7.0</data>
+  <data key="d4">Indicates that the missing entities should be added following the specified format.</data>
+  <data key="d5">addition, specification</data>
+  <data key="d6">chunk-2bf4d98caea1ade9d048344291f7d441</data>
+</edge>
+<edge source="&quot;阿里巴巴集团控股有限公司&quot;" target="&quot;业绩公告&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The company released the performance announcement to share its financial performance and strategic direction with stakeholders."</data>
+  <data key="d5">"financial disclosure, communication"</data>
+  <data key="d6">chunk-acee1e10a88ef71728a30eef67b38853</data>
+</edge>
+<edge source="&quot;SOURCE_ENTITY&quot;" target="&quot;TARGET_ENTITY&quot;">
+  <data key="d3">0.0</data>
+  <data key="d4">"relationship_description"</data>
+  <data key="d5">"relationship_keywords"</data>
+  <data key="d6">chunk-1be8bbf7af7de1bbecac1c69fc1b3508</data>
+</edge>
+<edge source="&quot;中芯国际&quot;" target="&quot;财务报告&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"公司的内部控制政策和程序直接影响财务报告的准确性和透明度."</data>
+  <data key="d5">"财务影响，政策执行"</data>
+  <data key="d6">chunk-bb00405824de55a80e3e624eabb3f571</data>
+</edge>
+<edge source="&quot;中芯国际&quot;" target="&quot;内部控制&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"内部控制政策和程序的实施有助于提高财务报告的质量和可信度."</data>
+  <data key="d5">"质量提升，政策落实"</data>
+  <data key="d6">chunk-bb00405824de55a80e3e624eabb3f571</data>
+</edge>
+<edge source="&quot;新的股票回购计划&quot;" target="&quot;董事会&quot;">
+  <data key="d3">1.0</data>
+  <data key="d4">"董事会批准了新的股票回购计划，显示了其对未来发展的信心和财务健康状况的乐观态度。"</data>
+  <data key="d5">"approval"</data>
+  <data key="d6">chunk-83054f18a79304b8dce1c8992175bfdb</data>
+</edge>
+<edge source="&quot;美国证券交易委员会&quot;" target="&quot;《证券交易法》第14A-19条提案&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"美国证券交易委员会向公众征求意见，以获取对该提案的看法和建议."</data>
+  <data key="d5">"公开征求意见，公众参与"</data>
+  <data key="d6">chunk-729ce345edf6de439d9c71bd5ce2a855</data>
+</edge>
+<edge source="&quot;NVDA.O&quot;" target="&quot;第三方软件开发人员&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Third-party software developers provide crucial support for NVDA.O's future performance by contributing to the development and maintenance of NVIDIA's products."</data>
+  <data key="d5">"support, future performance"</data>
+  <data key="d6">chunk-1296eaf90b88f727dd072cd9f2020a4c</data>
+</edge>
+<edge source="&quot;业务风险&quot;" target="&quot;服务&quot;">
+  <data key="d3">18.0</data>
+  <data key="d4">"业务风险可能也会影响服务的推出和转换，尤其是在服务与产品的关系中."</data>
+  <data key="d5">"风险影响,服务与产品关系"</data>
+  <data key="d6">chunk-52456b2aaec40ae69d3f535de9b13192</data>
+</edge>
+</graph></graphml>

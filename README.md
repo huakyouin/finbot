@@ -31,7 +31,7 @@ resources/open_models/Qwen2.5-3B-Instruct --served-model-name base \
 ``` 评审模型
 CUDA_VISIBLE_DEVICES=4,5,6,7 vllm serve \
 resources/open_models/Qwen2.5-14B-Instruct  --served-model-name judger  \
---max-model-len 5000 --max-num-seqs 20 --gpu-memory-utilization 0.6 --dtype auto --tensor-parallel-size 4 \
+--max-model-len 5000 --max-num-seqs 10 --gpu-memory-utilization 0.6 --dtype auto --tensor-parallel-size 4 \
 --port 12235 --trust-remote-code
 ```
 

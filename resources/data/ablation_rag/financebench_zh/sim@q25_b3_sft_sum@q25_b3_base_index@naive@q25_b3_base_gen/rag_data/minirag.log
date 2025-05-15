@@ -1,0 +1,25 @@
+2025-05-15 17:17:01,464 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/financebench_zh/sim@q25_b3_sft_sum@q25_b3_base_index@naive@q25_b3_base_gen/rag_data
+2025-05-15 17:17:01,784 - minirag - INFO - Load KV llm_response_cache with 272 data
+2025-05-15 17:17:01,786 - minirag - INFO - Load KV full_docs with 136 data
+2025-05-15 17:17:01,788 - minirag - INFO - Load KV text_chunks with 136 data
+2025-05-15 17:17:01,798 - minirag - INFO - Loaded graph from resources/data/ablation_rag/financebench_zh/sim@q25_b3_sft_sum@q25_b3_base_index@naive@q25_b3_base_gen/rag_data/graph_chunk_entity_relation.graphml with 399 nodes, 136 edges
+2025-05-15 17:28:28,831 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/financebench_zh/seq@q25_b3_base_sum@q25_b3_base_index@naive@q25_b3_base_gen/rag_data
+2025-05-15 17:28:29,114 - minirag - INFO - Load KV llm_response_cache with 592 data
+2025-05-15 17:28:29,117 - minirag - INFO - Load KV full_docs with 291 data
+2025-05-15 17:28:29,119 - minirag - INFO - Load KV text_chunks with 292 data
+2025-05-15 17:28:29,155 - minirag - INFO - Loaded graph from resources/data/ablation_rag/financebench_zh/seq@q25_b3_base_sum@q25_b3_base_index@naive@q25_b3_base_gen/rag_data/graph_chunk_entity_relation.graphml with 1225 nodes, 732 edges
+2025-05-15 17:30:58,800 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/financebench_zh/seq@q25_b3_base_sum@q25_b3_base_index@ours@q25_b3_base_gen/rag_data
+2025-05-15 17:30:59,152 - minirag - INFO - Load KV llm_response_cache with 592 data
+2025-05-15 17:30:59,154 - minirag - INFO - Load KV full_docs with 291 data
+2025-05-15 17:30:59,157 - minirag - INFO - Load KV text_chunks with 292 data
+2025-05-15 17:30:59,192 - minirag - INFO - Loaded graph from resources/data/ablation_rag/financebench_zh/seq@q25_b3_base_sum@q25_b3_base_index@ours@q25_b3_base_gen/rag_data/graph_chunk_entity_relation.graphml with 1225 nodes, 732 edges
+2025-05-15 17:34:30,306 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/financebench_zh/seq@q25_b3_base_sum@q25_b3_base_index@lightrag@q25_b3_base_gen/rag_data
+2025-05-15 17:34:30,681 - minirag - INFO - Load KV llm_response_cache with 592 data
+2025-05-15 17:34:30,683 - minirag - INFO - Load KV full_docs with 291 data
+2025-05-15 17:34:30,686 - minirag - INFO - Load KV text_chunks with 292 data
+2025-05-15 17:34:31,051 - minirag - INFO - Loaded graph from resources/data/ablation_rag/financebench_zh/seq@q25_b3_base_sum@q25_b3_base_index@lightrag@q25_b3_base_gen/rag_data/graph_chunk_entity_relation.graphml with 1225 nodes, 732 edges
+2025-05-15 17:38:14,400 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/financebench_zh/seq@q25_b3_base_sum@q25_b3_base_index@naive@q25_b14_gen/rag_data
+2025-05-15 17:38:14,766 - minirag - INFO - Load KV llm_response_cache with 592 data
+2025-05-15 17:38:14,769 - minirag - INFO - Load KV full_docs with 291 data
+2025-05-15 17:38:14,772 - minirag - INFO - Load KV text_chunks with 292 data
+2025-05-15 17:38:14,807 - minirag - INFO - Loaded graph from resources/data/ablation_rag/financebench_zh/seq@q25_b3_base_sum@q25_b3_base_index@naive@q25_b14_gen/rag_data/graph_chunk_entity_relation.graphml with 1225 nodes, 732 edges

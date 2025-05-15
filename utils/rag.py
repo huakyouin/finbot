@@ -1,4 +1,5 @@
 from minirag.operate import *
+from dataclasses import asdict
 
 ############## PROMPTS
 prompts = {}
@@ -393,6 +394,8 @@ async def retrieval(
 
     return entites_section_list, final_chunk_ids[:top_k['final']]
 
+
+
 ## naive方法
 async def naive_retrival_and_answer(
     query,
@@ -432,3 +435,26 @@ async def naive_retrival_and_answer(
         )
 
     return list(zip(chunks_ids,chunks_content)), response
+
+async def get_rag_answer(rag, query, chunk_mapper, top_k = {"entity": 1, "chunk":5, "final":5}):
+    if top_k.get("entity")==0: 
+        return await naive_retrival_and_answer(
+            query,chunks_vdb=rag.chunks_vdb,chunk_mapper=chunk_mapper,query_param=QueryParam(),global_config=asdict(rag)
+        )
+    type_kw,ent_kw = await get_keyword(query,rag.chunk_entity_relation_graph,asdict(rag))
+    recalled_entities, recalled_chunk_ids = await retrieval(
+        query,type_kw,ent_kw, 
+        rag.chunk_entity_relation_graph,rag.entity_name_vdb,rag.relationships_vdb,rag.chunks_vdb,
+        top_k= top_k
+    )
+    recalled_chunks = sorted(
+        [[c_id, chunk_mapper.get(c_id,"")] for c_id in recalled_chunk_ids],
+        key=lambda x: x[0]
+    )
+    sys_prompt = PROMPTS['answer_sys_prompt'].format(
+            entities_context=list_of_list_to_csv([["entity", "score", "description"]]+recalled_entities), 
+            text_units_context=list_of_list_to_csv([["id", "content"]]+recalled_chunks)
+        )
+    answer = await rag.llm_model_func(prompt=query, system_prompt=sys_prompt)
+    retrivals = dict(recalled_chunks) | {"entity-"+item[0]: item[2] for item in recalled_entities}
+    return retrivals, answer
