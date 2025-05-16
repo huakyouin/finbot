@@ -1,0 +1,5 @@
+2025-05-16 04:12:29,463 - minirag - INFO - Logger initialized for working directory: resources/data/ablation_rag/financebench_zh/sim@q25_b3_sft_sum@q25_b3_base_index@ours@q25_b3_base_gen/rag_data
+2025-05-16 04:12:30,440 - minirag - INFO - Load KV llm_response_cache with 272 data
+2025-05-16 04:12:30,442 - minirag - INFO - Load KV full_docs with 136 data
+2025-05-16 04:12:30,443 - minirag - INFO - Load KV text_chunks with 136 data
+2025-05-16 04:12:30,455 - minirag - INFO - Loaded graph from resources/data/ablation_rag/financebench_zh/sim@q25_b3_sft_sum@q25_b3_base_index@ours@q25_b3_base_gen/rag_data/graph_chunk_entity_relation.graphml with 399 nodes, 136 edges

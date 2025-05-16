@@ -15,25 +15,29 @@
 
 通过vllm server来启动大模型，在终端输入：
 
-``` 基座&摘要模型
-CUDA_VISIBLE_DEVICES=1 vllm serve \
-resources/open_models/Qwen2.5-3B-Instruct --served-model-name base \
---max-model-len 20000 --max-num-seqs 10 --dtype auto --gpu-memory-utilization 0.65 \
---port 12239 --trust-remote-code
+- 基座&摘要模型
 
-CUDA_VISIBLE_DEVICES=1 vllm serve \
-resources/open_models/Qwen2.5-3B-Instruct --served-model-name base \
---enable-lora --lora-modules lora=resources/ckpts/Qwen2.5-3B-Instruct/lora_adapter \
---max-model-len 20000 --max-num-seqs 10 --dtype auto --gpu-memory-utilization 0.65 \
---port 12239 --trust-remote-code
-```
+  ```bash
+  CUDA_VISIBLE_DEVICES=1 vllm serve \
+  resources/open_models/Qwen2.5-3B-Instruct --served-model-name base \
+  --max-model-len 20000 --max-num-seqs 10 --dtype auto --gpu-memory-utilization 0.65 \
+  --port 12239 --trust-remote-code
 
-``` 评审模型
-CUDA_VISIBLE_DEVICES=4,5,6,7 vllm serve \
-resources/open_models/Qwen2.5-14B-Instruct  --served-model-name judger  \
---max-model-len 5000 --max-num-seqs 10 --gpu-memory-utilization 0.6 --dtype auto --tensor-parallel-size 4 \
---port 12235 --trust-remote-code
-```
+  CUDA_VISIBLE_DEVICES=1 vllm serve \
+  resources/open_models/Qwen2.5-3B-Instruct --served-model-name base \
+  --enable-lora --lora-modules lora=resources/ckpts/Qwen2.5-3B-Instruct/lora_adapter \
+  --max-model-len 20000 --max-num-seqs 10 --dtype auto --gpu-memory-utilization 0.65 \
+  --port 12239 --trust-remote-code
+  ```
+
+- 评审模型
+
+  ```bash
+  CUDA_VISIBLE_DEVICES=4,5,6,7 vllm serve \
+  resources/open_models/Qwen2.5-14B-Instruct  --served-model-name judger  \
+  --max-model-len 5000 --max-num-seqs 10 --gpu-memory-utilization 0.6 --dtype auto --tensor-parallel-size 4 \
+  --port 12235 --trust-remote-code
+  ```
 
 ### 模型基座
 
