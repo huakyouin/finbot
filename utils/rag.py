@@ -268,6 +268,7 @@ prompts["answer_sys_prompt"] = """---Role---
 生成一个符合目标长度和格式的回答，回应用户的问题，总结输入数据表格中适合回答长度和格式的所有信息，并结合任何相关的常识。
 如果你不知道答案，只需说明。不要编造任何内容。
 不要包含没有提供支持证据的信息。
+忽视数据表中的无关信息。
 
 ---Data tables---
 
@@ -434,7 +435,7 @@ async def naive_retrival_and_answer(
             .strip()
         )
 
-    return list(zip(chunks_ids,chunks_content)), response
+    return [{cid: ctext} for cid, ctext in zip(chunks_ids, chunks_content)], response
 
 async def get_rag_answer(rag, query, chunk_mapper, top_k = {"entity": 1, "chunk":5, "final":5}):
     if top_k.get("entity")==0: 

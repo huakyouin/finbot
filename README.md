@@ -20,7 +20,7 @@
   ```bash
   CUDA_VISIBLE_DEVICES=1 vllm serve \
   resources/open_models/Qwen2.5-3B-Instruct --served-model-name base \
-  --max-model-len 20000 --max-num-seqs 10 --dtype auto --gpu-memory-utilization 0.65 \
+  --max-model-len 5000 --max-num-seqs 10 --dtype auto --gpu-memory-utilization 0.65 \
   --port 12239 --trust-remote-code
 
   CUDA_VISIBLE_DEVICES=1 vllm serve \
